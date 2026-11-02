@@ -53,7 +53,8 @@ def load_config(path: str) -> dict:
     return cfg
 
 
-USER_AGENT = "Mozilla/5.0 (compatible; daily-news-digest/1.0)"
+FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-flash-lite-latest")
+USER_AGENT ="Mozilla/5.0 (compatible; daily-news-digest/1.0)"
 MAX_DESC_CHARS = 600
 
 PROMPT = """You are preparing a morning news digest.
@@ -145,26 +146,35 @@ def summarize(items, model: str, language: str):
         for i, it in enumerate(items)
     ]
     prompt = PROMPT.format(language=language, articles=json.dumps(payload, ensure_ascii=False))
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    # Per-request timeout: a hung call previously stalled the job until GitHub's 6-hour kill.
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"],
+                          http_options=types.HttpOptions(timeout=180_000))
     config = types.GenerateContentConfig(
         response_mime_type="application/json",
         response_schema=list[Pick],
         temperature=0.2,
     )
 
+    # Gemini often returns 503 "high demand" for minutes at a time: back off for ~8 minutes
+    # in total, alternating with the lighter fallback model. If it still fails, the job
+    # exits and the next hourly scheduled run retries (no digest file exists yet).
+    models = [model, FALLBACK_MODEL] if FALLBACK_MODEL != model else [model]
+    waits = [0, 30, 60, 120, 240]
     last_exc = None
-    for attempt in range(3):
+    for attempt, wait in enumerate(waits):
+        time.sleep(wait)
+        m = models[attempt % len(models)]
         try:
-            resp = client.models.generate_content(model=model, contents=prompt, config=config)
+            resp = client.models.generate_content(model=m, contents=prompt, config=config)
             picks = resp.parsed
             if picks is None:
                 picks = [Pick(**p) for p in json.loads(resp.text)]
             break
         except Exception as exc:
             last_exc = exc
-            time.sleep(10 * (attempt + 1))
+            print(f"Gemini attempt {attempt + 1} ({m}) failed: {str(exc)[:160]}", file=sys.stderr)
     else:
-        raise RuntimeError(f"Gemini call failed after 3 attempts: {last_exc}")
+        raise RuntimeError(f"Gemini call failed after {len(waits)} attempts: {last_exc}")
 
     selected = []
     for p in picks:
