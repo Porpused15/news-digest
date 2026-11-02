@@ -17,6 +17,8 @@ const STORE = "newsdigest"
 
 const LANGUAGES = ["English", "French"]
 const LOOKBACKS = [24, 48, 72]
+const W = 0.92       // content width on the Settings tab (leaves side margins)
+const DLG_W = 0.82   // text field width inside dialogs (dialog has its own padding)
 
 class Main extends App
 {
@@ -51,7 +53,7 @@ class Main extends App
         this.btnRefresh = ui.addButton( row, "refresh", "icon", 0.2 )
         this.btnRefresh.setOnTouch( () => this.loadIndex() )
 
-        this.layDigest = ui.addLayout( lay, "linear", "scrolly,fillx", 1, 0.85 )
+        this.layDigest = ui.addLayout( lay, "linear", "scrolly,fillx,center", 1, 0.85 )
     }
 
     async loadIndex()
@@ -65,7 +67,7 @@ class Main extends App
         }
         if( !this.dates.length ) {
             this.layDigest.clear()
-            ui.addText( this.layDigest, "No digests yet. They appear here after the next morning run.", "body1,multiline", 1 )
+            ui.addText( this.layDigest, "No digests yet. They appear here after the next morning run.", "body1,multiline", W )
             return
         }
         this.selDate.setList( this.dates.map( fmtDate ) )
@@ -90,52 +92,54 @@ class Main extends App
         const lay = this.layDigest
         lay.clear()
         if( !d.outlets.length )
-            ui.addText( lay, "No relevant articles that day.", "body1", 1 )
+            ui.addText( lay, "No relevant articles that day.", "body1", W )
 
         for( const outlet of d.outlets ) {
-            ui.addText( lay, outlet.name, "h6", 1 )
-            const lst = ui.addList( lay, outlet.articles.map( a => [ a.title, a.summary ] ), "divider", 1 )
+            ui.addText( lay, outlet.name, "h6", W )
+            const lst = ui.addList( lay, outlet.articles.map( a => [ a.title, a.summary ] ), "divider", W )
             lst.setOnTouch( (title, body, icon, action, index) => app.OpenUrl( outlet.articles[ index ].link ) )
         }
 
         let footer = `${d.outlets.reduce( (n, o) => n + o.articles.length, 0 )} selected from ${d.scanned} articles scanned.`
         if( d.errors && d.errors.length )
             footer += "\nFeeds that failed:\n" + d.errors.join( "\n" )
-        ui.addText( lay, footer, "caption,multiline", 1 )
+        ui.addText( lay, footer, "caption,multiline", W )
     }
 
     // -------------------------------------------------------------- Settings tab
 
     buildSettingsTab( lay )
     {
-        const scr = ui.addLayout( lay, "linear", "scrolly,fillxy", 1, 1 )
-        scr.setChildMargins( 0.04, 0.012, 0.04, 0.012 )
+        // Children are W wide in a centred layout: gives side margins (setChildMargins
+        // didn't apply inside the scroll layout on device).
+        const scr = ui.addLayout( lay, "linear", "scrolly,fillxy,center", 1, 1 )
+        scr.setChildMargins( 0, 0.012, 0, 0.012 )
 
-        ui.addText( scr, "Delivery", "h6", 1 )
-        this.selHour = ui.addSelect( scr, range( 24 ).map( hourLabel ), "outlined", 1 )
+        ui.addText( scr, "Delivery", "h6", W )
+        this.selHour = ui.addSelect( scr, range( 24 ).map( hourLabel ), "outlined", W )
         this.selHour.label = "Send around"
-        this.selLang = ui.addSelect( scr, LANGUAGES, "outlined", 1 )
+        this.selLang = ui.addSelect( scr, LANGUAGES, "outlined", W )
         this.selLang.label = "Summary language"
-        this.selLook = ui.addSelect( scr, LOOKBACKS.map( h => h + " hours" ), "outlined", 1 )
+        this.selLook = ui.addSelect( scr, LOOKBACKS.map( h => h + " hours" ), "outlined", W )
         this.selLook.label = "Look back"
-        this.swEmail = ui.addSwitch( scr, "Send email", "primary", 1 )
+        this.swEmail = ui.addSwitch( scr, "Send email", "primary", W )
 
-        ui.addText( scr, "Sources", "h6", 1 )
-        this.lstSources = ui.addList( scr, [], "divider", 1 )
+        ui.addText( scr, "Sources", "h6", W )
+        this.lstSources = ui.addList( scr, [], "divider", W )
         this.lstSources.setOnTouch( (title) => this.openSource( title ) )
-        this.btnAdd = ui.addButton( scr, "Add source", "outlined", 1 )
+        this.btnAdd = ui.addButton( scr, "Add source", "outlined", W )
         this.btnAdd.setOnTouch( () => this.openSource( "" ) )
 
-        this.btnSave = ui.addButton( scr, "Save settings", "contained,primary", 1 )
+        this.btnSave = ui.addButton( scr, "Save settings", "contained,primary", W )
         this.btnSave.setOnTouch( () => this.saveConfig() )
-        this.btnSend = ui.addButton( scr, "Send digest now", "outlined,primary", 1 )
+        this.btnSend = ui.addButton( scr, "Send digest now", "outlined,primary", W )
         this.btnSend.setOnTouch( () => this.sendNow() )
 
-        ui.addText( scr, "GitHub access", "h6", 1 )
-        ui.addText( scr, "Needed to change settings. Reading digests works without it.", "body2,multiline", 1 )
-        this.tfdToken = ui.addTextField( scr, this.token(), "password,outlined", 1 )
+        ui.addText( scr, "GitHub access", "h6", W )
+        ui.addText( scr, "Needed to change settings. Reading digests works without it.", "body2,multiline", W )
+        this.tfdToken = ui.addTextField( scr, this.token(), "password,outlined", W )
         this.tfdToken.label = "GitHub token (paste here)"
-        this.txtToken = ui.addText( scr, "", "body2,multiline", 1 )
+        this.txtToken = ui.addText( scr, "", "body2,multiline", W )
         // Pasting saves automatically; checked once typing/pasting settles.
         this.tfdToken.setOnChange( () => {
             clearTimeout( this.tokenTimer )
@@ -241,9 +245,9 @@ class Main extends App
     {
         this.dlg = ui.addDialog( "Source", "", [ "Delete", "Done" ] )
         const lay = this.dlg.layout
-        this.tfdName = ui.addTextField( lay, "", "outlined", 1 )
+        this.tfdName = ui.addTextField( lay, "", "outlined", DLG_W )
         this.tfdName.label = "Name"
-        this.tfdUrls = ui.addTextField( lay, "", "outlined,multiline", 1 )
+        this.tfdUrls = ui.addTextField( lay, "", "outlined,multiline", DLG_W )
         this.tfdUrls.label = "Feed URLs (one per line)"
         this.tfdUrls.setRows( 3, 8 )
         this.dlg.setOnAction( (text) => this.sourceAction( text ) )
