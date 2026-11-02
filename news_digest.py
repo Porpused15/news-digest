@@ -157,12 +157,15 @@ def fetch_items(feeds: dict, lookback_hours: int):
                     continue
                 seen_links.add(link)
                 seen_titles.add(key_title)
+                desc = clean(e.get("summary", ""))
+                if desc.startswith(title):  # Google News repeats the headline as the "teaser"
+                    desc = ""
                 counts[outlet] += 1
                 items.append({
                     "outlet": outlet,
                     "title": title,
                     "link": link,
-                    "description": clean(e.get("summary", ""))[:MAX_DESC_CHARS],
+                    "description": desc[:MAX_DESC_CHARS],
                 })
     return items, errors, counts
 

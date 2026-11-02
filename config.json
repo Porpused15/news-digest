@@ -10,13 +10,17 @@
       "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/"
     ],
     "Toronto Star": [
-      "https://news.google.com/rss/search?q=site:thestar.com+when:1d&hl=en-CA&gl=CA&ceid=CA:en"
+      "https://www.thestar.com/search/?f=rss&t=article&c=politics*&l=50&s=start_time&sd=desc",
+      "https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc",
+      "https://www.thestar.com/search/?f=rss&t=article&c=news/gta*&l=50&s=start_time&sd=desc"
     ],
     "The Local": [
       "https://thelocal.to/feed/"
     ],
     "CTV News": [
-      "https://news.google.com/rss/search?q=site:ctvnews.ca+when:1d&hl=en-CA&gl=CA&ceid=CA:en"
+      "https://www.ctvnews.ca/arc/outboundfeeds/rss/category/toronto/",
+      "https://www.ctvnews.ca/arc/outboundfeeds/rss/category/politics/",
+      "https://www.ctvnews.ca/arc/outboundfeeds/rss/category/canada/"
     ],
     "CityNews": [
       "https://toronto.citynews.ca/feed/"
@@ -31,7 +35,8 @@
       "https://www.lapresse.ca/actualites/national/rss"
     ],
     "Radio-Canada": [
-      "https://news.google.com/rss/search?q=site:ici.radio-canada.ca+when:1d&hl=fr-CA&gl=CA&ceid=CA:fr"
+      "https://ici.radio-canada.ca/info/rss/politique/en-continu",
+      "https://ici.radio-canada.ca/info/rss/info/a-la-une"
     ]
   }
 }
