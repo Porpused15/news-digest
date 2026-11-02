@@ -46,6 +46,8 @@ def load_config(path: str) -> dict:
     with open(path, encoding="utf-8") as f:
         cfg = json.load(f)
     cfg.setdefault("summary_language", "English")
+    if isinstance(cfg["summary_language"], list):  # tolerate list values from older app builds
+        cfg["summary_language"] = (cfg["summary_language"] or ["English"])[0]
     cfg.setdefault("lookback_hours", 24)
     cfg.setdefault("email_enabled", True)
     if not cfg.get("feeds"):

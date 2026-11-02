@@ -12,7 +12,12 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 now = datetime.now(ZoneInfo("America/Toronto"))
-send_hour = int(json.loads(Path("config.json").read_text(encoding="utf-8")).get("send_hour", 6))
+try:
+    send_hour = int(json.loads(Path("config.json").read_text(encoding="utf-8")).get("send_hour", 6))
+except (TypeError, ValueError):
+    send_hour = 6
+if not 0 <= send_hour <= 23:
+    send_hour = 6
 already_done = Path(f"digests/{now:%Y-%m-%d}.json").exists()
 run = now.hour >= send_hour and not already_done
 

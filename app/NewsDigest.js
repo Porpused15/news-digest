@@ -206,9 +206,15 @@ class Main extends App
         if( !this.cfg ) return ui.showPopup( "Settings not loaded yet" )
         if( !this.token() ) return ui.showPopup( "Add a GitHub token first" )
 
-        this.cfg.send_hour = range( 24 ).map( hourLabel ).indexOf( this.selHour.value )
-        this.cfg.summary_language = this.selLang.value
-        this.cfg.lookback_hours = parseInt( this.selLook.value )
+        // On device, Select.value comes back as an array (["6:00 AM"]); take the item.
+        const hour = range( 24 ).map( hourLabel ).indexOf( selValue( this.selHour ) )
+        const lang = selValue( this.selLang )
+        const look = parseInt( selValue( this.selLook ) )
+        if( hour < 0 || !LANGUAGES.includes( lang ) || !LOOKBACKS.includes( look ) )
+            return ui.showPopup( "Couldn't read the settings fields; nothing was saved" )
+        this.cfg.send_hour = hour
+        this.cfg.summary_language = lang
+        this.cfg.lookback_hours = look
         this.cfg.email_enabled = !!this.swEmail.value
 
         const prd = ui.showProgressDialog( "Saving…" )
@@ -327,6 +333,12 @@ class Main extends App
 }
 
 // ------------------------------------------------------------------- Helpers
+
+function selValue( sel )
+{
+    const v = sel.value
+    return Array.isArray( v ) ? v[0] : v
+}
 
 function range( n ) { return Array.from( { length: n }, (_, i) => i ) }
 
