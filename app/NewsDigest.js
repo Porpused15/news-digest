@@ -7,6 +7,10 @@
 
 cfg.Portrait
 
+// The APK builder picks permissions by scanning for DroidScript calls and doesn't see
+// fetch(), so without this the built APK has no INTERNET permission ("Failed to fetch").
+_AddPermissions( "Network" )
+
 const OWNER = "Porpused15"
 const REPO = "news-digest"
 const BRANCH = "main"
