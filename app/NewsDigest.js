@@ -18,7 +18,6 @@ const STORE = "newsdigest"
 const LANGUAGES = ["English", "French"]
 const LOOKBACKS = [24, 48, 72]
 const W = 0.92       // content width on the Settings tab (leaves side margins)
-const DLG_W = 0.82   // text field width inside dialogs (dialog has its own padding)
 
 class Main extends App
 {
@@ -250,10 +249,12 @@ class Main extends App
     buildSourceDialog()
     {
         this.dlg = ui.addDialog( "Source", "", [ "Delete", "Done" ] )
+        // No width on dialog fields (as in the official dialog sample): the dialog's inner
+        // layout is wider than the visible dialog, so fractional widths overflow.
         const lay = this.dlg.layout
-        this.tfdName = ui.addTextField( lay, "", "outlined", DLG_W )
+        this.tfdName = ui.addTextField( lay, "", "outlined" )
         this.tfdName.label = "Name"
-        this.tfdUrls = ui.addTextField( lay, "", "outlined,multiline", DLG_W )
+        this.tfdUrls = ui.addTextField( lay, "", "outlined,multiline" )
         this.tfdUrls.label = "Feed URLs (one per line)"
         this.tfdUrls.setRows( 3, 8 )
         this.dlg.setOnAction( (text) => this.sourceAction( text ) )
