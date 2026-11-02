@@ -138,6 +138,11 @@ class Main extends App
         ui.addText( scr, "Needed to change settings. Reading digests works without it.", "body2,multiline", W )
         this.tfdToken = ui.addTextField( scr, this.token(), "password,outlined", W )
         this.tfdToken.label = "GitHub token (paste here)"
+        this.btnToken = ui.addButton( scr, "Save token", "contained,primary", W )
+        this.btnToken.setOnTouch( () => {
+            clearTimeout( this.tokenTimer )
+            this.tokenChanged( true )
+        } )
         this.txtToken = ui.addText( scr, "", "body2,multiline", W )
         // Pasting saves automatically; checked once typing/pasting settles.
         this.tfdToken.setOnChange( () => {
@@ -147,10 +152,10 @@ class Main extends App
         this.checkToken()
     }
 
-    tokenChanged()
+    tokenChanged( force )
     {
         const t = ( this.tfdToken.text || "" ).trim()
-        if( t == this.token() ) return
+        if( t == this.token() && !force ) return
         app.SaveText( "token", t, STORE )
         this.checkToken( true )
     }
