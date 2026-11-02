@@ -21,6 +21,7 @@ const STORE = "newsdigest"
 
 const LANGUAGES = ["English", "French"]
 const LOOKBACKS = [24, 48, 72]
+const THEMES = ["System", "Light", "Dark"]
 const W = 0.92       // content width on the Settings tab (leaves side margins)
 
 class Main extends App
@@ -30,6 +31,11 @@ class Main extends App
         this.cfg = null
         this.dates = []
         this.editing = null   // outlet name being edited, or "" when adding
+
+        this.applyTheme()
+        // "System" follows the phone's dark-mode setting, including changes while open.
+        if( window.matchMedia )
+            window.matchMedia( "(prefers-color-scheme: dark)" ).addEventListener?.( "change", () => this.applyTheme() )
 
         this.layMain = ui.addLayout( "main", "linear", "fillxy" )
         this.bar = ui.addAppBar( this.layMain, "News Digest", "primary", 1 )
@@ -118,6 +124,15 @@ class Main extends App
         const scr = ui.addLayout( lay, "linear", "scrolly,fillxy,center", 1, 1 )
         scr.setChildMargins( 0, 0.012, 0, 0.012 )
 
+        ui.addText( scr, "Appearance", "h6", W )
+        this.selTheme = ui.addSelect( scr, THEMES, "outlined", W )
+        this.selTheme.label = "Theme (this phone)"
+        this.selTheme.value = this.themePref()
+        this.selTheme.setOnChange( () => {
+            app.SaveText( "theme", selValue( this.selTheme ), STORE )
+            this.applyTheme()
+        } )
+
         ui.addText( scr, "Delivery", "h6", W )
         this.selHour = ui.addSelect( scr, range( 24 ).map( hourLabel ), "outlined", W )
         this.selHour.label = "Send around"
@@ -155,6 +170,20 @@ class Main extends App
             this.tokenTimer = setTimeout( () => this.tokenChanged(), 800 )
         } )
         this.checkToken()
+    }
+
+    themePref()
+    {
+        const t = app.LoadText( "theme", "System", STORE )
+        return THEMES.includes( t ) ? t : "System"
+    }
+
+    applyTheme()
+    {
+        const pref = this.themePref()
+        const dark = pref == "Dark" || ( pref == "System" && !!window.matchMedia &&
+                     window.matchMedia( "(prefers-color-scheme: dark)" ).matches )
+        if( !!ui.theme?.dark != dark ) ui.setTheme( dark ? "dark" : "light" )
     }
 
     tokenChanged( force )
