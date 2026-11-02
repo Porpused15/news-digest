@@ -1,8 +1,6 @@
 {
-  "send_hour": -1,
-  "summary_language": [
-    "English"
-  ],
+  "send_hour": 6,
+  "summary_language": "English",
   "lookback_hours": 24,
   "email_enabled": true,
   "feeds": {
