@@ -36,4 +36,4 @@ as that day's digest.
 2. Reading digests needs nothing. To change settings from the app, create a fine-grained token
    (GitHub -> Settings -> Developer settings -> Fine-grained tokens) with access to **only this
    repo** and permissions **Contents: Read and write** and **Actions: Read and write**, then paste
-   it in the app's Settings tab.
+   it into the app's Settings tab (it saves automatically and shows whether it works or has expired).

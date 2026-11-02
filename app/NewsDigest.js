@@ -133,14 +133,43 @@ class Main extends App
 
         ui.addText( scr, "GitHub access", "h6", 1 )
         ui.addText( scr, "Needed to change settings. Reading digests works without it.", "body2,multiline", 1 )
-        this.tfdToken = ui.addTextField( scr, app.LoadText( "token", "", STORE ), "password,outlined", 1 )
-        this.tfdToken.label = "GitHub token"
-        this.btnToken = ui.addButton( scr, "Save token", "outlined", 1 )
-        this.btnToken.setOnTouch( () => {
-            app.SaveText( "token", this.tfdToken.text.trim(), STORE )
-            ui.showPopup( "Token saved" )
-            this.loadConfig()
+        this.tfdToken = ui.addTextField( scr, this.token(), "password,outlined", 1 )
+        this.tfdToken.label = "GitHub token (paste here)"
+        this.txtToken = ui.addText( scr, "", "body2,multiline", 1 )
+        // Pasting saves automatically; checked once typing/pasting settles.
+        this.tfdToken.setOnChange( () => {
+            clearTimeout( this.tokenTimer )
+            this.tokenTimer = setTimeout( () => this.tokenChanged(), 800 )
         } )
+        this.checkToken()
+    }
+
+    tokenChanged()
+    {
+        const t = ( this.tfdToken.text || "" ).trim()
+        if( t == this.token() ) return
+        app.SaveText( "token", t, STORE )
+        this.checkToken( true )
+    }
+
+    async checkToken( changed )
+    {
+        const t = this.token()
+        if( !t ) {
+            this.txtToken.text = "No token saved. Paste one above to change settings."
+            return
+        }
+        this.txtToken.text = "Checking token…"
+        try {
+            await this.gh( "GET", "" )
+            this.txtToken.text = "✓ Token saved and working."
+            if( changed ) this.loadConfig()
+        }
+        catch( e ) {
+            this.txtToken.text = e.expired
+                ? "✗ Token expired or invalid. Create a new one on GitHub and paste it above."
+                : "Couldn't check the token (" + e.message + "). It's saved; try again when online."
+        }
     }
 
     async loadConfig()
@@ -273,7 +302,7 @@ class Main extends App
 
     async gh( method, path, body )
     {
-        const r = await fetch( API + path, {
+        const r = await fetch( path ? API + path : API.slice( 0, -1 ), {
             method,
             headers: {
                 "Accept": "application/vnd.github+json",
@@ -283,7 +312,10 @@ class Main extends App
             },
             body: body ? JSON.stringify( body ) : undefined
         } )
-        if( r.status == 401 ) throw new Error( "token rejected (expired or wrong?)" )
+        if( r.status == 401 ) {
+            if( this.txtToken ) this.txtToken.text = "✗ Token expired or invalid. Create a new one on GitHub and paste it above."
+            throw Object.assign( new Error( "token expired or invalid" ), { expired: true } )
+        }
         if( r.status == 403 || r.status == 404 ) throw new Error( "token lacks access to this repo (HTTP " + r.status + ")" )
         if( !r.ok ) throw new Error( "HTTP " + r.status + " " + ( await r.text() ).slice( 0, 120 ) )
         return r.status == 204 ? null : r.json()
