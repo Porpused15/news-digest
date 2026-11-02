@@ -94,7 +94,7 @@ Build a morning news briefing for a reader in Toronto who follows politics and p
 2. Group selected articles that report the same story (the same event, announcement or development), across outlets and languages. Each article belongs to at most one story.
 3. For each story give:
    - article_ids: the ids of its articles
-   - topic: the single best fit
+   - topic: the single best fit. Politics topics follow the level of government: Federal = Parliament, the federal government and parties, federal-provincial relations; Ontario = Queen's Park and the Ontario government; Toronto & GTA = municipal councils and mayors. Politics in other provinces goes under Federal politics only when it has national significance; otherwise leave it out. Jails, courts and corrections go under Justice & policing.
    - headline: a neutral headline in {language}, at most 15 words
    - summary: 2-3 sentences in {language}: what happened, then why it matters or what comes next, combining details from all of the story's articles
 4. Order stories from most to least significant for the public.
@@ -126,6 +126,7 @@ def entry_time(e) -> datetime | None:
 def fetch_items(feeds: dict, lookback_hours: int):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
     items, errors, seen_links, seen_titles = [], [], set(), set()
+    counts = {o: 0 for o in feeds}  # articles each outlet's feeds delivered in the window
 
     for outlet, urls in feeds.items():
         for url in urls:
@@ -156,13 +157,14 @@ def fetch_items(feeds: dict, lookback_hours: int):
                     continue
                 seen_links.add(link)
                 seen_titles.add(key_title)
+                counts[outlet] += 1
                 items.append({
                     "outlet": outlet,
                     "title": title,
                     "link": link,
                     "description": clean(e.get("summary", ""))[:MAX_DESC_CHARS],
                 })
-    return items, errors
+    return items, errors, counts
 
 
 def summarize(items, model: str, language: str):
@@ -178,25 +180,32 @@ def summarize(items, model: str, language: str):
     ]
     prompt = PROMPT.format(language=language, articles=json.dumps(payload, ensure_ascii=False))
     # Per-request timeout: a hung call previously stalled the job until GitHub's 6-hour kill.
+    # The SDK passes this to Google as the server deadline: at 4 minutes the main model
+    # hit 504 DEADLINE_EXCEEDED grouping ~330 articles, so allow 7.
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"],
-                          http_options=types.HttpOptions(timeout=240_000))
+                          http_options=types.HttpOptions(timeout=420_000))
     # Temperature left at the default (1.0): Google advises against lowering it for Gemini 3.
     config = types.GenerateContentConfig(
         response_mime_type="application/json",
         response_schema=list[Story],
     )
+    # Main model: medium thinking (Gemini 3 Flash defaults to high, which ran past the
+    # deadline). The fallback keeps its own default.
+    main_config = config.model_copy(update={
+        "thinking_config": types.ThinkingConfig(thinking_level=types.ThinkingLevel.MEDIUM)})
 
     # Gemini often returns 503 "high demand" for minutes at a time: back off for ~8 minutes
     # in total, alternating with the lighter fallback model. If it still fails, the job
     # exits and the next hourly scheduled run retries (no digest file exists yet).
     models = [model, FALLBACK_MODEL] if FALLBACK_MODEL != model else [model]
-    waits = [0, 30, 60, 120, 240]
+    waits = [0, 30, 60, 120]
     last_exc = None
     for attempt, wait in enumerate(waits):
         time.sleep(wait)
         m = models[attempt % len(models)]
         try:
-            resp = client.models.generate_content(model=m, contents=prompt, config=config)
+            resp = client.models.generate_content(model=m, contents=prompt,
+                                                  config=main_config if m == model else config)
             raw = resp.parsed
             if raw is None:
                 raw = [Story(**p) for p in json.loads(resp.text)]
@@ -242,7 +251,16 @@ def by_topic(stories):
     return [(t, g) for t, g in groups.items() if g]
 
 
-def render(feeds, stories, errors, total_scanned, date_str, group_by):
+def outlet_counts_line(feeds, stories, counts):
+    """'CBC News 45 (6 picked) · ...' in feed order."""
+    picked = {o: 0 for o in feeds}
+    for st in stories:
+        for a in st["articles"]:
+            picked[a["outlet"]] = picked.get(a["outlet"], 0) + 1
+    return " · ".join(f"{o} {counts.get(o, 0)} ({picked.get(o, 0)} picked)" for o in feeds)
+
+
+def render(feeds, stories, errors, total_scanned, date_str, group_by, counts):
     esc = html.escape
     h = [f"<h1 style='font-family:sans-serif'>News digest — {esc(date_str)}</h1>"]
     t = [f"News digest — {date_str}", ""]
@@ -276,8 +294,9 @@ def render(feeds, stories, errors, total_scanned, date_str, group_by):
 
     n_articles = sum(len(st["articles"]) for st in stories)
     footer = f"{len(stories)} stories ({n_articles} articles) selected from {total_scanned} scanned."
-    h.append(f"<hr><p style='color:#777;font-size:12px;font-family:sans-serif'>{footer}")
-    t += ["--", footer]
+    per = "In the feeds: " + outlet_counts_line(feeds, stories, counts)
+    h.append(f"<hr><p style='color:#777;font-size:12px;font-family:sans-serif'>{footer}<br>{esc(per)}")
+    t += ["--", footer, per]
     if errors:
         h.append("<br>Feeds that failed:<br>" + "<br>".join(esc(e) for e in errors))
         t += ["Feeds that failed:"] + errors
@@ -302,7 +321,7 @@ def send(subject, html_body, text_body):
         s.sendmail(msg["From"], to, msg.as_string())
 
 
-def save_json(feeds, stories, errors, total_scanned, now):
+def save_json(feeds, stories, errors, total_scanned, now, counts):
     """Write digests/<date>.json (format 2: stories) and refresh digests/index.json."""
     DIGEST_DIR.mkdir(exist_ok=True)
     date = now.strftime("%Y-%m-%d")
@@ -311,6 +330,7 @@ def save_json(feeds, stories, errors, total_scanned, now):
         "date": date,
         "generated_at": now.isoformat(timespec="seconds"),
         "scanned": total_scanned,
+        "scanned_by_outlet": {o: counts.get(o, 0) for o in feeds},
         "outlet_order": list(feeds),
         "topic_order": TOPICS,
         "stories": [
@@ -341,11 +361,11 @@ def main():
     date_str = now.strftime("%A, %B %d, %Y")
     feeds = cfg["feeds"]
 
-    items, errors = fetch_items(feeds, int(cfg["lookback_hours"]))
+    items, errors, counts = fetch_items(feeds, int(cfg["lookback_hours"]))
     print(f"Fetched {len(items)} items; {len(errors)} feed errors", file=sys.stderr)
     stories = summarize(items, model, cfg["summary_language"])
-    save_json(feeds, stories, errors, len(items), now)
-    html_body, text_body = render(feeds, stories, errors, len(items), date_str, cfg["email_group_by"])
+    save_json(feeds, stories, errors, len(items), now, counts)
+    html_body, text_body = render(feeds, stories, errors, len(items), date_str, cfg["email_group_by"], counts)
 
     if os.environ.get("DRY_RUN") == "1":
         with open("digest.html", "w", encoding="utf-8") as f:

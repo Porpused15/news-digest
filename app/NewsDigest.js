@@ -153,6 +153,12 @@ class Main extends App
 
         const n = d.stories.reduce( (n, s) => n + s.articles.length, 0 )
         let footer = `${d.stories.length} stories (${n} articles) selected from ${d.scanned} scanned.`
+        if( d.scanned_by_outlet ) {
+            const picked = {}
+            for( const s of d.stories ) for( const a of s.articles ) picked[ a.outlet ] = ( picked[ a.outlet ] || 0 ) + 1
+            footer += "\nIn the feeds:\n" + Object.entries( d.scanned_by_outlet )
+                .map( ([ o, c ]) => `${o}: ${c} (${picked[ o ] || 0} picked)` ).join( "\n" )
+        }
         if( d.errors && d.errors.length )
             footer += "\nFeeds that failed:\n" + d.errors.join( "\n" )
         ui.addText( lay, footer, "caption,multiline", W )

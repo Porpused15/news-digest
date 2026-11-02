@@ -17,7 +17,7 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 35  # 5 Gemini attempts x 4 min + backoff
+    timeout-minutes: 40  # 4 Gemini attempts x 7 min + backoff
     steps:
       - uses: actions/checkout@v4
 
