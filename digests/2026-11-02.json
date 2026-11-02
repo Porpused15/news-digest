@@ -1,14 +1,14 @@
 {
  "format": 2,
  "date": "2026-11-02",
- "generated_at": "2026-11-02T06:25:46-05:00",
- "scanned": 126,
+ "generated_at": "2026-11-02T06:33:21-05:00",
+ "scanned": 144,
  "scanned_by_outlet": {
-  "The Globe and Mail": 10,
-  "Toronto Star": 31,
+  "The Globe and Mail": 11,
+  "Toronto Star": 40,
   "The Local": 0,
-  "CTV News": 25,
-  "CityNews": 15,
+  "CTV News": 26,
+  "CityNews": 22,
   "CBC News": 16,
   "La Presse": 5,
   "Radio-Canada": 24
@@ -41,14 +41,9 @@
  "stories": [
   {
    "topic": "Economy & trade",
-   "headline": "Canada and the United States prepare to resume formal trade talks",
-   "summary": "Prime Minister Mark Carney and U.S. President Donald Trump held a positive conversation regarding future trade talks and the outlines of a possible new agreement. Formal negotiations are expected to resume in the coming days as both countries aim to address ongoing economic uncertainties and bilateral trade disputes.",
+   "headline": "Canada and U.S. Prepare to Resume Formal Trade Talks After Carney-Trump Call",
+   "summary": "Prime Minister Mark Carney and U.S. President Donald Trump held what both characterized as a constructive conversation on bilateral trade relations, signaling that formal negotiations could resume within days. Trump indicated the two countries possess the concept of a new agreement, with items like the Keystone XL pipeline discussed. The renewed discussions arrive as Ottawa prepares its upcoming federal budget amid lingering cross-border economic friction.",
    "articles": [
-    {
-     "outlet": "The Globe and Mail",
-     "title": "Carney seeks to boost trade and ties at Commonwealth meeting",
-     "link": "https://www.theglobeandmail.com/canada/article-mark-carney-at-commonwealth-meeting/"
-    },
     {
      "outlet": "The Globe and Mail",
      "title": "Carney had ‘good conversation’ with Trump on future of trade talks",
@@ -63,6 +58,11 @@
      "outlet": "Toronto Star",
      "title": "Trump says U.S., Canada have the 'concept of a very good deal'",
      "link": "https://www.thestar.com/politics/federal/carney-says-he-had-good-conversation-with-trump-about-trade-talks-to-continue/article_c87f77c3-1d53-5b56-ac7e-772c039c4f39.html"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Carney says he and Trump had ‘good conversation’ on stalled Canada-US trade talks",
+     "link": "https://toronto.citynews.ca/2026/11/01/carney-trump-good-conversation-stalled-trade-talks/"
     },
     {
      "outlet": "CBC News",
@@ -83,8 +83,8 @@
   },
   {
    "topic": "Federal politics",
-   "headline": "Prime Minister Mark Carney calls six federal by-elections for December",
-   "summary": "Prime Minister Mark Carney has announced that six federal by-elections will be held across Ontario, Quebec, and Saskatchewan on December 7. The vote will give the governing Liberals an opportunity to strengthen their thin majority in the House of Commons while providing the opposition with a key test of leadership.",
+   "headline": "Prime Minister Calls Six Federal Byelections in Three Provinces for December 7",
+   "summary": "Prime Minister Mark Carney has announced byelections for December 7 in six ridings across Ontario, Quebec, and Saskatchewan, including Scarborough North and Brantford. The contests provide the governing Liberals an opening to bolster their narrow majority, with former Desjardins head Guy Cormier confirmed as a candidate in Laurier—Sainte-Marie. The votes will also serve as a key test for Conservative Leader Pierre Poilievre following recent opposition challenges.",
    "articles": [
     {
      "outlet": "The Globe and Mail",
@@ -112,6 +112,11 @@
      "link": "https://www.ctvnews.ca/canada/article/pm-carney-announces-by-elections-in-ontario-quebec-saskatchewan/"
     },
     {
+     "outlet": "CityNews",
+     "title": "Federal byelections to be held in Ontario, Quebec and Saskatchewan on Dec. 7",
+     "link": "https://toronto.citynews.ca/2026/11/01/federal-byelections-to-be-held-in-ontario-quebec-and-saskatchewan-on-dec-7/"
+    },
+    {
      "outlet": "CBC News",
      "title": "Carney calls December byelections for 6 ridings in Ontario, Quebec and Saskatchewan",
      "link": "https://www.cbc.ca/news/politics/carney-byelections-saskatchewan-ontario-quebec-9.7404287?cmp=rss"
@@ -120,6 +125,11 @@
      "outlet": "La Presse",
      "title": "Politique fédérale | Tour d’horizon des six élections partielles à venir",
      "link": "https://www.lapresse.ca/actualites/politique/2026-11-01/politique-federale/tour-d-horizon-des-six-elections-partielles-a-venir.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "Élection partielle dans Laurier – Sainte-Marie | Les libéraux confirment la candidature de Guy Cormier",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-01/election-partielle-dans-laurier-sainte-marie/les-liberaux-confirment-la-candidature-de-guy-cormier.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
     },
     {
      "outlet": "Radio-Canada",
@@ -139,26 +149,31 @@
    ]
   },
   {
-   "topic": "Health",
-   "headline": "Healthcare challenges mount as professionals seek office and leave roles",
-   "summary": "An Alberta emergency physician and health care advocate is seeking a provincial political nomination in a conservative riding. Meanwhile, a medical oncologist in Brandon, Manitoba, announced his resignation due to a persistent lack of institutional support.",
+   "topic": "Federal politics",
+   "headline": "Federal Government to Unveil New Budget as Poilievre Sets Out Fiscal Demands",
+   "summary": "The federal government will table its next budget this week, featuring targeted affordability relief, business tax incentives, and capital investments in infrastructure and defence. Ahead of the presentation, Conservative Leader Pierre Poilievre demanded that Ottawa eliminate all federal diesel taxes until Canada Day. The budget will test the governing Liberals' economic management amid ongoing trade instability with the United States.",
    "articles": [
     {
-     "outlet": "The Globe and Mail",
-     "title": "Alberta emergency physician and health care advocate seeks NDP nomination",
-     "link": "https://www.theglobeandmail.com/canada/article-alberta-emergency-physician-and-health-care-advocate-seeks-ndp/"
+     "outlet": "CTV News",
+     "title": "Poilievre says Carney must keep fiscal promises in upcoming budget",
+     "link": "https://www.ctvnews.ca/canada/article/poilievre-says-carney-must-keep-fiscal-promises-in-upcoming-budget/"
     },
     {
      "outlet": "CBC News",
-     "title": "Medical oncologist based in Brandon, Man., says he's leaving his 'dream job' over lack of support",
-     "link": "https://www.cbc.ca/news/canada/manitoba/brandon-medical-oncologist-doctor-cancer-9.7403937?cmp=rss"
+     "title": "Canada's next budget to be unveiled this week amid U.S. trade war, economic uncertainty",
+     "link": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Pierre Poilievre présente ses demandes au gouvernement en vue du budget fédéral",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297408/poilievre-demandes-budget-conservateurs-taxes-diesel"
     }
    ]
   },
   {
    "topic": "Federal politics",
-   "headline": "Federal Liberals out-fundraise Conservatives in the third quarter",
-   "summary": "Elections Canada data reveals that the Liberal Party surpassed the Conservatives in fundraising by nearly $1 million during the third quarter of 2026. The financial figures prompted sharp exchanges between political leaders as parties ramp up preparations for upcoming electoral contests.",
+   "headline": "Federal Liberals Outraise Conservatives by Nearly $1 Million in Third Quarter",
+   "summary": "Official filings from Elections Canada show the federal Liberal Party collected nearly $1 million more in donations than the Conservatives during the third quarter of 2026. Conservative Leader Pierre Poilievre criticized the outcome, claiming the governing party leaned on corporate influence supported by public expenditures. The fundraising figures underscore a competitive landscape as both major parties prepare for a slate of winter byelections.",
    "articles": [
     {
      "outlet": "The Globe and Mail",
@@ -184,9 +199,19 @@
   },
   {
    "topic": "Federal politics",
-   "headline": "Prime Minister Carney travels to Antigua and Barbuda for Commonwealth meeting",
-   "summary": "Prime Minister Mark Carney is heading to the Commonwealth Heads of Government Meeting in Antigua and Barbuda to engage with international leaders and King Charles. The summit will focus heavily on boosting trade, attracting investment, and strengthening diplomatic ties among member states.",
+   "headline": "Carney Attends Commonwealth Summit to Diversify Trade and Strengthen International Ties",
+   "summary": "Prime Minister Mark Carney has traveled to Antigua and Barbuda to participate in the Commonwealth Heads of Government Meeting, where he will meet King Charles and foreign counterparts. Canadian officials are using the conference to seek new international trade and investment partnerships as an alternative to reliance on the United States. The diplomatic mission also comes amid renewed domestic scrutiny regarding ties between Ottawa and the monarchy.",
    "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Carney seeks to boost trade and ties at Commonwealth meeting",
+     "link": "https://www.theglobeandmail.com/canada/article-mark-carney-at-commonwealth-meeting/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Commonwealth meeting offers Carney a chance to boost diplomatic ties, experts say",
+     "link": "https://www.thestar.com/news/canada/commonwealth-meeting-offers-carney-a-chance-to-boost-diplomatic-ties-experts-say/article_b4a00d1d-efb1-5a8f-84ee-cbf98b9ed183.html"
+    },
     {
      "outlet": "CTV News",
      "title": "PM Carney heads to Commonwealth meeting in Antigua and Barbuda focused on trade, investment",
@@ -201,13 +226,18 @@
      "outlet": "CBC News",
      "title": "Commonwealth secretary-general pitches group as 'alternative' to U.S. trade",
      "link": "https://www.cbc.ca/news/politics/carney-commonwealth-heads-of-government-meeting-antigua-and-barbuda-9.7404765?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Mark Carney auprès du roi Charles III sur fond de fronde antimonarchiste à Québec",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297462/mark-carney-sommet-commonwealth-pspp-monarchie"
     }
    ]
   },
   {
-   "topic": "Ontario politics",
-   "headline": "Quebec premier accepts meeting with Prime Minister Carney following summit dispute",
-   "summary": "Quebec Premier Paul St-Pierre Plamondon has accepted an invitation to meet with Prime Minister Mark Carney following tensions at the recent Canada-European Union summit. The upcoming bilateral discussion comes as provincial and federal leaders navigate ongoing jurisdictional and diplomatic disagreements.",
+   "topic": "Federal politics",
+   "headline": "Quebec Premier Accepts Invitation to Meet Carney After Bilateral Summit Tensions",
+   "summary": "Quebec Premier Paul St-Pierre Plamondon has accepted an invitation to hold bilateral discussions with Prime Minister Mark Carney following disputes during the recent Canada-EU summit in Montreal. The premier had boycotted the Montreal gathering after federal officials refused to grant him formal speaking privileges, and he has requested the upcoming meeting take place in Quebec City. The dialogue aims to address federal-provincial strains prior to the upcoming Francophonie Summit.",
    "articles": [
     {
      "outlet": "Toronto Star",
@@ -232,119 +262,94 @@
    ]
   },
   {
-   "topic": "Other public interest",
-   "headline": "Western Canada and northern regions move to permanent daylight time",
-   "summary": "British Columbia, Alberta, Manitoba, northwestern Ontario, and the Northwest Territories have officially opted to stay on daylight time year-round. Parents and businesses in the affected regions are adjusting to the long-awaited change as the twice-annual clock adjustments end.",
+   "topic": "Justice & policing",
+   "headline": "Ontario Government Eliminates Minimum Space Rules for Adult Jail Cells",
+   "summary": "The Ontario government has modified the provincial Building Code to remove regulations requiring at least 4.7 square metres of sleeping area per person in provincial correctional facilities. Civil liberties organizations and prisoner advocacy groups condemned the decision, noting that it was implemented without public consultation and could exacerbate severe overcrowding. Advocates are urging the province to reverse the amendment and establish enforceable living standards for provincial detainees.",
    "articles": [
     {
-     "outlet": "Toronto Star",
-     "title": "Parents cheer, businesses brace as Western Canada ditches the time change",
-     "link": "https://www.thestar.com/news/canada/parents-cheer-businesses-brace-as-western-canada-ditches-the-time-change/article_043660ce-21f7-53f5-bbb7-de3891987906.html"
-    },
+     "outlet": "CBC News",
+     "title": "Ontario government criticized for removing minimum sleeping area rules in jails",
+     "link": "https://www.cbc.ca/news/canada/thunder-bay/ontario-jails-sleeping-area-requirements-9.7403068?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Education",
+   "headline": "Ontario Ministry Investigates Suspected Mass OSAP Application Fraud at Career Colleges",
+   "summary": "Court records filed by the Ontario government show that more than half of the student financial aid applications at two private career colleges originated from a single computer IP address. The Ministry of Colleges and Universities has placed the institutions under formal scrutiny to determine whether student loans were systematically claimed under false pretences. The probe highlights regulatory vulnerabilities in oversight mechanisms governing provincial financial assistance programs.",
+   "articles": [
+    {
+     "outlet": "CityNews",
+     "title": "Thousands of OSAP applications came from a single IP address, ministry alleges",
+     "link": "https://toronto.citynews.ca/2026/11/02/thousands-of-osap-applications-came-from-a-single-ip-address-ministry-alleges/"
+    }
+   ]
+  },
+  {
+   "topic": "Ontario politics",
+   "headline": "Ontario Proposes Stricter Measures to Shut Down Illicit Cannabis Dispensaries",
+   "summary": "The Ontario government has unveiled proposed legislative reforms designed to accelerate the closure of illegal brick-and-mortar cannabis shops operating across the province. Licensed retailers welcomed the announcement, noting that illicit sellers have continued to undercut regulated businesses nearly eight years after federal legalization. The proposed rules seek to give municipal and provincial law enforcement enhanced tools to seize illicit products and close down rogue storefronts.",
+   "articles": [
     {
      "outlet": "CTV News",
-     "title": "Parents cheer, businesses brace as Western Canada ditches the time change",
-     "link": "https://www.ctvnews.ca/canada/article/parents-cheer-businesses-brace-as-western-canada-ditches-the-time-change/"
-    },
-    {
-     "outlet": "CityNews",
-     "title": "Parents cheer, businesses brace as Western Canada ditches the time change",
-     "link": "https://toronto.citynews.ca/2026/11/02/parents-cheer-businesses-brace-as-western-canada-ditches-the-time-change/"
-    }
-   ]
-  },
-  {
-   "topic": "Economy & trade",
-   "headline": "Lockheed Martin acquires Nova Scotia-based undersea defence company",
-   "summary": "U.S. defence and aerospace giant Lockheed Martin has acquired Nova Scotia-based undersea warfare company Ultra Maritime for $3.45 billion. The major transaction highlights continued foreign investment and consolidation within Canada's defence sector.",
-   "articles": [
-    {
-     "outlet": "Toronto Star",
-     "title": "Defence giant Lockheed Martin acquires N.S.-based undersea warfare company",
-     "link": "https://www.thestar.com/news/canada/nova-scotia/defence-giant-lockheed-martin-acquires-n-s-based-undersea-warfare-company/article_e529ad5a-4130-5545-b517-f1b1a90e9042.html"
-    },
-    {
-     "outlet": "CityNews",
-     "title": "Defence giant Lockheed Martin acquires N.S.-based undersea warfare company",
-     "link": "https://toronto.citynews.ca/2026/11/01/defence-giant-lockheed-martin-acquires-n-s-based-undersea-warfare-company/"
-    }
-   ]
-  },
-  {
-   "topic": "Other public interest",
-   "headline": "Brian Mulroney satirical documentary wins top prize at Windsor film festival",
-   "summary": "A satirical documentary exploring a former prime minister's rise to power has taken home a major cash prize at the Windsor International Film Festival. The film has drawn significant attention from audiences and critics for its unique look at Canadian political history.",
-   "articles": [
-    {
-     "outlet": "Toronto Star",
-     "title": "Brian Mulroney doc takes home $25,000 prize at Windsor film fest",
-     "link": "https://www.thestar.com/entertainment/movies/brian-mulroney-doc-takes-home-25-000-prize-at-windsor-film-fest/article_f986fb27-8827-5bb0-bf9d-c8d1c51dcde3.html"
-    },
-    {
-     "outlet": "CityNews",
-     "title": "Brian Mulroney doc takes home $25,000 prize at Windsor film fest",
-     "link": "https://toronto.citynews.ca/2026/11/01/brian-mulroney-doc-takes-home-25000-prize-at-windsor-film-fest/"
-    }
-   ]
-  },
-  {
-   "topic": "Other public interest",
-   "headline": "Veteran named 2026 National Silver Cross Mother",
-   "summary": "A military veteran whose daughter tragically died during a training exercise in 2002 has been named the 2026 National Silver Cross Mother by the Royal Canadian Legion. She will represent Canadian mothers who have lost children in military service during upcoming remembrance ceremonies.",
-   "articles": [
-    {
-     "outlet": "Toronto Star",
-     "title": "Veteran who lost daughter in military training exercise named Silver Cross Mother",
-     "link": "https://www.thestar.com/news/canada/veteran-who-lost-daughter-in-military-training-exercise-named-silver-cross-mother/article_29a25004-4ea5-5f0d-8462-2ef7a742d413.html"
-    },
-    {
-     "outlet": "CTV News",
-     "title": "Veteran who lost daughter in training accident named National Silver Cross Mother",
-     "link": "https://www.ctvnews.ca/canada/article/her-daughter-died-in-training-too-now-canadas-silver-cross-mother-has-a-message-for-wainwright-families/"
-    },
-    {
-     "outlet": "CityNews",
-     "title": "Veteran who lost daughter in military training exercise named Silver Cross Mother",
-     "link": "https://toronto.citynews.ca/2026/11/01/veteran-who-lost-daughter-in-military-training-exercise-named-silver-cross-mother/"
+     "title": "Ontario is proposing a crackdown on illegal cannabis stores. Legal retailers say it is long overdue",
+     "link": "https://www.ctvnews.ca/toronto/article/ontario-is-proposing-a-crackdown-on-illegal-cannabis-stores-legal-retailers-say-it-is-long-overdue/"
     }
    ]
   },
   {
    "topic": "Justice & policing",
-   "headline": "Driver faces impaired driving charges after multi-vehicle crash in Toronto",
-   "summary": "Toronto police have laid impaired driving charges against a motorist following a multi-vehicle collision in the city's west end. Emergency services responded to the scene on Sunday morning to manage traffic and investigate the incident.",
+   "headline": "Police Watchdog Investigates Fare Evasion Arrest That Fractured Teenager's Arm",
+   "summary": "Ontario's Special Investigations Unit has launched an inquiry after a teenager sustained a broken arm during an arrest by Toronto police officers over suspected transit fare evasion. Several teenagers involved stated they had legitimately paid their fares before being aggressively targeted and arrested by officers. The incident has intensified public scrutiny concerning the role of police enforcement and the treatment of youth on the transit system.",
    "articles": [
     {
-     "outlet": "CTV News",
-     "title": "Woman charged with impaired driving following 3-vehicle crash in Toronto’s west end",
-     "link": "https://www.ctvnews.ca/toronto/article/woman-charged-with-impaired-driving-following-3-vehicle-crash-in-torontos-west-end/"
-    },
+     "outlet": "Toronto Star",
+     "title": "Police watchdog investigating after boy's arm fractured during arrest over suspected fare evasion: 'Miss, what did I do?'",
+     "link": "https://www.thestar.com/news/gta/police-watchdog-investigating-after-boy-s-arm-fractured-during-arrest-over-suspected-fare-evasion/article_8a7473a3-92d1-48d4-aa16-22b8d1d2bdab.html"
+    }
+   ]
+  },
+  {
+   "topic": "Ontario politics",
+   "headline": "Incoming Niagara Falls Mayor Requests Public Input on Provincial Casino Plans",
+   "summary": "The next mayor of Niagara Falls is urging the Ontario government to hold comprehensive public consultations before licensing up to three new casino operators in the city. Premier Doug Ford's administration is pursuing the gaming expansion to boost regional tourism and stimulate commercial investment. Local officials insist that area residents and municipal stakeholders must have an active voice in assessing the local impact of new gaming facilities.",
+   "articles": [
     {
-     "outlet": "CityNews",
-     "title": "Woman facing impaired driving charge in 3-vehicle crash near High Park",
-     "link": "https://toronto.citynews.ca/2026/11/01/woman-facing-impaired-driving-charge-in-3-vehicle-crash-in-etobicoke/"
+     "outlet": "The Globe and Mail",
+     "title": "Next mayor of Niagara Falls calls for community consultations on Ford’s casino plan",
+     "link": "https://www.theglobeandmail.com/canada/article-niagara-falls-next-mayor-consultations-doug-ford-casino-plan/"
     }
    ]
   },
   {
    "topic": "Justice & policing",
-   "headline": "Police investigate sewing needles found in Halloween candy across the GTA",
-   "summary": "Police authorities in Toronto and Durham Region are investigating after sewing needles and pins were discovered hidden inside Halloween treats. Parents have been urged to thoroughly inspect children's candy collected during trick-or-treating festivities.",
+   "headline": "Supreme Court Prepares for Fall Docket Led by Quebec Secularism Law Challenge",
+   "summary": "The Supreme Court of Canada is scheduled to address several high-profile appeals this November, led by an anticipated ruling concerning Quebec's secularism legislation. The pending decision will clarify the constitutional scope of the notwithstanding clause and delineate the legal protections afforded by the Charter of Rights and Freedoms. The court's judgments this term are expected to have enduring ramifications for human rights protections and provincial legislative authority.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Supreme Court of Canada set for busy November with major hearings, pending judgments ahead",
+     "link": "https://www.theglobeandmail.com/canada/article-supreme-court-busy-november-major-hearings-pending-judgments-ahead/"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Parks Canada Prepares Job Cuts and Reductions to Park Warden Detachments",
+   "summary": "Parks Canada plans to close at least 13 park warden detachments while eliminating hundreds of staff positions across the country as part of broader operational changes. In Prince Edward Island, more than half of the federal agency's local workforce faces employment uncertainty ahead of the planned reductions. Union representatives and environmental advocates warn that stretching fewer wardens over large areas will threaten wildlife protection and federal park operations.",
    "articles": [
     {
      "outlet": "CTV News",
-     "title": "Toronto police investigating after father discovers needles, pins inside five Halloween treats",
-     "link": "https://www.ctvnews.ca/toronto/article/toronto-police-investigating-after-father-discovers-needles-pins-inside-five-halloween-treats/"
+     "title": "‘Real people with real lives’: More than half of Parks Canada workers on P.E.I. face uncertainty",
+     "link": "https://www.ctvnews.ca/canada/article/union-says-over-half-of-peis-parks-canada-workforce-in-limbo-over-potential-job-losses/"
     },
     {
-     "outlet": "CityNews",
-     "title": "Sewing needles found in Halloween candy distributed in Oshawa, police say",
-     "link": "https://toronto.citynews.ca/2026/11/01/sewing-needles-found-in-halloween-candy-distributed-in-oshawa-police-say/"
+     "outlet": "Radio-Canada",
+     "title": "Parcs Canada supprimerait au moins 13 détachements de gardes de parc",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297447/coupures-parcs-canada-pertes-emplois"
     }
    ]
   }
  ],
- "errors": [
-  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/gta*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
- ]
+ "errors": []
 }
