@@ -23,7 +23,7 @@ All settings live in `config.json` (edited by the companion app, or by hand):
 
 - `send_hour`: hour of day, Toronto time (0-23). The workflow checks hourly and sends once a day
   at the first run at or after this hour.
-- `summary_language`, `lookback_hours`, `email_enabled`
+- `summary_language`, `lookback_hours`, `email_enabled`, `email_group_by` (`newspaper` or `topic`)
 - `feeds`: outlet name -> list of RSS URLs. Feeds that fail are listed in the email footer.
 
 Each run also saves `digests/<date>.json` (kept 90 days) and `digests/index.json`.

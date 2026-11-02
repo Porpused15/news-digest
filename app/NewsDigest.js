@@ -22,6 +22,7 @@ const STORE = "newsdigest"
 const LANGUAGES = ["English", "French"]
 const LOOKBACKS = [24, 48, 72]
 const THEMES = ["System", "Light", "Dark"]
+const GROUPINGS = ["Newspaper", "Topic"]
 const W = 0.92       // content width on the Settings tab (leaves side margins)
 
 class Main extends App
@@ -56,10 +57,20 @@ class Main extends App
         lay.setChildMargins( 0.02, 0.01, 0.02, 0.01 )
 
         const row = ui.addLayout( lay, "linear", "horizontal,vcenter,fillx" )
-        this.selDate = ui.addSelect( row, [], "outlined,small", 0.7 )
+        this.selDate = ui.addSelect( row, [], "outlined,small", 0.45 )
         this.selDate.label = "Date"
-        this.selDate.setOnChange( (value, index) => this.loadDigest( this.dates[ index ] ) )
-        this.btnRefresh = ui.addButton( row, "refresh", "icon", 0.2 )
+        this.selDate.setOnChange( () => {
+            const i = this.dates.map( fmtDate ).indexOf( selValue( this.selDate ) )
+            if( i >= 0 ) this.loadDigest( this.dates[ i ] )
+        } )
+        this.selGroup = ui.addSelect( row, GROUPINGS, "outlined,small", 0.38 )
+        this.selGroup.label = "Group by"
+        this.selGroup.value = this.groupPref()
+        this.selGroup.setOnChange( () => {
+            app.SaveText( "groupby", selValue( this.selGroup ), STORE )
+            if( this.digest ) this.renderDigest()
+        } )
+        this.btnRefresh = ui.addButton( row, "refresh", "icon", 0.13 )
         this.btnRefresh.setOnTouch( () => this.loadIndex() )
 
         this.layDigest = ui.addLayout( lay, "linear", "scrolly,fillx,center", 1, 0.85 )
@@ -97,22 +108,65 @@ class Main extends App
             return
         }
         prd.hide()
+        this.digest = normalizeDigest( d )
+        this.renderDigest()
+    }
 
+    groupPref()
+    {
+        const g = app.LoadText( "groupby", "Newspaper", STORE )
+        return GROUPINGS.includes( g ) ? g : "Newspaper"
+    }
+
+    renderDigest()
+    {
+        const d = this.digest
         const lay = this.layDigest
         lay.clear()
-        if( !d.outlets.length )
+        if( !d.stories.length )
             ui.addText( lay, "No relevant articles that day.", "body1", W )
 
-        for( const outlet of d.outlets ) {
-            ui.addText( lay, outlet.name, "h6", W )
-            const lst = ui.addList( lay, outlet.articles.map( a => [ a.title, a.summary ] ), "divider", W )
-            lst.setOnTouch( (title, body, icon, action, index) => app.OpenUrl( outlet.articles[ index ].link ) )
+        if( this.groupPref() == "Topic" ) {
+            for( const topic of d.topic_order ) {
+                const stories = d.stories.filter( s => s.topic == topic )
+                if( !stories.length ) continue
+                ui.addText( lay, topic, "h6", W )
+                const lst = ui.addList( lay, stories.map( s =>
+                    [ s.headline, s.articles.map( a => a.outlet ).filter( uniq ).join( " · " ) + " — " + s.summary ] ), "divider", W )
+                lst.setOnTouch( (title, body, icon, action, index) => this.openStory( stories[ index ] ) )
+            }
+        }
+        else {
+            for( const outlet of d.outlet_order ) {
+                // One entry per story per outlet, in significance order.
+                const items = []
+                for( const s of d.stories ) {
+                    const a = s.articles.find( a => a.outlet == outlet )
+                    if( a ) items.push( { a, s } )
+                }
+                if( !items.length ) continue
+                ui.addText( lay, outlet, "h6", W )
+                const lst = ui.addList( lay, items.map( x => [ x.a.title, x.s.summary ] ), "divider", W )
+                lst.setOnTouch( (title, body, icon, action, index) => app.OpenUrl( items[ index ].a.link ) )
+            }
         }
 
-        let footer = `${d.outlets.reduce( (n, o) => n + o.articles.length, 0 )} selected from ${d.scanned} articles scanned.`
+        const n = d.stories.reduce( (n, s) => n + s.articles.length, 0 )
+        let footer = `${d.stories.length} stories (${n} articles) selected from ${d.scanned} scanned.`
         if( d.errors && d.errors.length )
             footer += "\nFeeds that failed:\n" + d.errors.join( "\n" )
         ui.addText( lay, footer, "caption,multiline", W )
+    }
+
+    openStory( story )
+    {
+        const arts = story.articles
+        if( arts.length == 1 ) return app.OpenUrl( arts[0].link )
+        const names = arts.map( a => a.outlet + ": " + a.title )
+        ui.showActionSheet( "Read it in…", names, "", (text, index) => {
+            const i = typeof index == "number" ? index : names.indexOf( text )
+            if( i >= 0 && arts[ i ] ) app.OpenUrl( arts[ i ].link )
+        } )
     }
 
     // -------------------------------------------------------------- Settings tab
@@ -141,6 +195,8 @@ class Main extends App
         this.selLook = ui.addSelect( scr, LOOKBACKS.map( h => h + " hours" ), "outlined", W )
         this.selLook.label = "Look back"
         this.swEmail = ui.addSwitch( scr, "Send email", "primary", W )
+        this.selEmailGroup = ui.addSelect( scr, GROUPINGS, "outlined", W )
+        this.selEmailGroup.label = "Email grouped by"
 
         ui.addText( scr, "Sources", "h6", W )
         this.lstSources = ui.addList( scr, [], "divider", W )
@@ -230,6 +286,7 @@ class Main extends App
         this.selLang.value = c.summary_language || "English"
         this.selLook.value = ( c.lookback_hours || 24 ) + " hours"
         this.swEmail.value = c.email_enabled !== false
+        this.selEmailGroup.value = c.email_group_by == "topic" ? "Topic" : "Newspaper"
         this.showSources()
     }
 
@@ -248,12 +305,14 @@ class Main extends App
         const hour = range( 24 ).map( hourLabel ).indexOf( selValue( this.selHour ) )
         const lang = selValue( this.selLang )
         const look = parseInt( selValue( this.selLook ) )
-        if( hour < 0 || !LANGUAGES.includes( lang ) || !LOOKBACKS.includes( look ) )
+        const group = selValue( this.selEmailGroup )
+        if( hour < 0 || !LANGUAGES.includes( lang ) || !LOOKBACKS.includes( look ) || !GROUPINGS.includes( group ) )
             return ui.showPopup( "Couldn't read the settings fields; nothing was saved" )
         this.cfg.send_hour = hour
         this.cfg.summary_language = lang
         this.cfg.lookback_hours = look
         this.cfg.email_enabled = !!this.swEmail.value
+        this.cfg.email_group_by = group.toLowerCase()
 
         const prd = ui.showProgressDialog( "Saving…" )
         try {
@@ -373,6 +432,20 @@ class Main extends App
 }
 
 // ------------------------------------------------------------------- Helpers
+
+// Digests saved before stories/topics existed (format 1) are shown as one story per article.
+function normalizeDigest( d )
+{
+    if( d.stories ) return d
+    const stories = []
+    for( const o of d.outlets || [] )
+        for( const a of o.articles )
+            stories.push( { topic: "Uncategorized", headline: a.title, summary: a.summary,
+                            articles: [ { outlet: o.name, title: a.title, link: a.link } ] } )
+    return { ...d, stories, outlet_order: ( d.outlets || [] ).map( o => o.name ), topic_order: [ "Uncategorized" ] }
+}
+
+function uniq( v, i, arr ) { return arr.indexOf( v ) == i }
 
 function selValue( sel )
 {

@@ -34,6 +34,8 @@ from zoneinfo import ZoneInfo
 import feedparser
 from google import genai
 from google.genai import types
+from typing import Literal
+
 from pydantic import BaseModel
 
 
@@ -50,6 +52,8 @@ def load_config(path: str) -> dict:
         cfg["summary_language"] = (cfg["summary_language"] or ["English"])[0]
     cfg.setdefault("lookback_hours", 24)
     cfg.setdefault("email_enabled", True)
+    if cfg.get("email_group_by") not in ("newspaper", "topic"):
+        cfg["email_group_by"] = "newspaper"
     if not cfg.get("feeds"):
         raise SystemExit("config.json has no feeds")
     return cfg
@@ -59,28 +63,49 @@ FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-flash-lite-late
 USER_AGENT ="Mozilla/5.0 (compatible; daily-news-digest/1.0)"
 MAX_DESC_CHARS = 600
 
-PROMPT = """You are preparing a morning news digest.
+# Display order for the topic view. Gemini must pick one of these per story.
+TOPICS = [
+    "Federal politics",
+    "Ontario politics",
+    "Toronto & GTA politics",
+    "Economy & trade",
+    "Housing",
+    "Transit & transportation",
+    "Health",
+    "Education",
+    "Justice & policing",
+    "Environment & energy",
+    "Labour",
+    "Indigenous affairs",
+    "Other public interest",
+]
+Topic = Literal[tuple(TOPICS)]  # type: ignore[valid-type]
 
-Below is a JSON list of articles from Canadian news outlets published in the last day.
-Select ONLY articles about GTA (Greater Toronto Area), Ontario, or Canadian politics, or
-issues of public interest in those places (housing, transit, health care, education,
-labour, policing, justice, environment, economy, public policy, etc.).
-Exclude sports, entertainment, celebrity, lifestyle, weather-only, purely international
-stories with no Canadian angle, and sponsored content.
-
-For each selected article, write a 2-3 sentence factual summary in {language}, based only
-on the title and description given. Do not invent details that are not in the input.
-If the description is too thin for 2 sentences, write 1.
-
-Return the article "id" and your "summary" for each selected article.
-
-Articles:
+# Gemini 3 guidance (ai.google.dev Gemini 3 developer guide / prompting guide): data first,
+# instructions after it, negative constraints last, short and direct, default temperature.
+PROMPT = """Articles (JSON):
 {articles}
-"""
+
+The articles above (id, outlet, title, description) are the only source of information. Do not add facts from anywhere else.
+
+Build a morning news briefing for a reader in Toronto who follows politics and public affairs.
+
+1. Select articles about government, politics or public policy at the federal, Ontario or Toronto/GTA level, and issues of public interest in Ontario or Canada: public services (health care, transit, schools, housing), the economy and trade, courts and justice policy, policing as an institution, labour, the environment, Indigenous affairs, and accountability stories about public institutions.
+2. Group selected articles that report the same story (the same event, announcement or development), across outlets and languages. Each article belongs to at most one story.
+3. For each story give:
+   - article_ids: the ids of its articles
+   - topic: the single best fit
+   - headline: a neutral headline in {language}, at most 15 words
+   - summary: 2-3 sentences in {language}: what happened, then why it matters or what comes next, combining details from all of the story's articles
+4. Order stories from most to least significant for the public.
+
+Do not select: individual crimes, crashes, fires, missing persons or weather events unless the article is about a policy, a public institution or an official response; sports; entertainment, arts and celebrity; lifestyle and consumer tips; international news with no Canadian angle; sponsored content. Do not begin a summary with "This article" or name the outlet in it."""
 
 
-class Pick(BaseModel):
-    id: int
+class Story(BaseModel):
+    article_ids: list[int]
+    topic: Topic
+    headline: str
     summary: str
 
 
@@ -123,9 +148,9 @@ def fetch_items(feeds: dict, lookback_hours: int):
                     continue
                 link = e.get("link", "").strip()
                 title = clean(e.get("title", ""))
-                if "news.google.com" in url:
-                    # Google News appends " - Publisher" to titles
-                    title = re.sub(r"\s+-\s+[^-]+$", "", title)
+                if "news.google.com" in url and " - " in title:
+                    # Google News appends " - Publisher"; the name may contain hyphens
+                    title = title.rsplit(" - ", 1)[0]
                 key_title = (outlet, title.lower())
                 if not link or link in seen_links or key_title in seen_titles:
                     continue
@@ -141,6 +166,10 @@ def fetch_items(feeds: dict, lookback_hours: int):
 
 
 def summarize(items, model: str, language: str):
+    """Ask Gemini to select, group into stories, categorize and summarize.
+
+    Returns stories in significance order: {topic, headline, summary, articles: [item, ...]}.
+    """
     if not items:
         return []
     payload = [
@@ -150,11 +179,11 @@ def summarize(items, model: str, language: str):
     prompt = PROMPT.format(language=language, articles=json.dumps(payload, ensure_ascii=False))
     # Per-request timeout: a hung call previously stalled the job until GitHub's 6-hour kill.
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"],
-                          http_options=types.HttpOptions(timeout=180_000))
+                          http_options=types.HttpOptions(timeout=240_000))
+    # Temperature left at the default (1.0): Google advises against lowering it for Gemini 3.
     config = types.GenerateContentConfig(
         response_mime_type="application/json",
-        response_schema=list[Pick],
-        temperature=0.2,
+        response_schema=list[Story],
     )
 
     # Gemini often returns 503 "high demand" for minutes at a time: back off for ~8 minutes
@@ -168,9 +197,9 @@ def summarize(items, model: str, language: str):
         m = models[attempt % len(models)]
         try:
             resp = client.models.generate_content(model=m, contents=prompt, config=config)
-            picks = resp.parsed
-            if picks is None:
-                picks = [Pick(**p) for p in json.loads(resp.text)]
+            raw = resp.parsed
+            if raw is None:
+                raw = [Story(**p) for p in json.loads(resp.text)]
             break
         except Exception as exc:
             last_exc = exc
@@ -178,42 +207,79 @@ def summarize(items, model: str, language: str):
     else:
         raise RuntimeError(f"Gemini call failed after {len(waits)} attempts: {last_exc}")
 
-    selected = []
-    for p in picks:
-        if 0 <= p.id < len(items):
-            selected.append({**items[p.id], "summary": p.summary.strip()})
-    return selected
+    stories, used = [], set()
+    for st in raw:
+        ids = [i for i in dict.fromkeys(st.article_ids) if 0 <= i < len(items) and i not in used]
+        if not ids:
+            continue
+        used.update(ids)
+        stories.append({
+            "topic": st.topic if st.topic in TOPICS else "Other public interest",
+            "headline": st.headline.strip(),
+            "summary": st.summary.strip(),
+            "articles": [items[i] for i in ids],
+        })
+    return stories
 
 
-def render(feeds, selected, errors, total_scanned, date_str):
-    by_outlet = {o: [] for o in feeds}
-    for it in selected:
-        by_outlet.setdefault(it["outlet"], []).append(it)
+def by_newspaper(feeds, stories):
+    """[(outlet, [(article, story), ...])] in feed order; one article per story per outlet."""
+    groups = {o: [] for o in feeds}
+    for st in stories:
+        seen = set()
+        for a in st["articles"]:
+            if a["outlet"] not in seen:
+                seen.add(a["outlet"])
+                groups.setdefault(a["outlet"], []).append((a, st))
+    return [(o, g) for o, g in groups.items() if g]
 
-    h = [f"<h1 style='font-family:sans-serif'>News digest — {html.escape(date_str)}</h1>"]
+
+def by_topic(stories):
+    """[(topic, [story, ...])] in TOPICS order."""
+    groups = {t: [] for t in TOPICS}
+    for st in stories:
+        groups[st["topic"]].append(st)
+    return [(t, g) for t, g in groups.items() if g]
+
+
+def render(feeds, stories, errors, total_scanned, date_str, group_by):
+    esc = html.escape
+    h = [f"<h1 style='font-family:sans-serif'>News digest — {esc(date_str)}</h1>"]
     t = [f"News digest — {date_str}", ""]
-    if not selected:
+    if not stories:
         h.append("<p>No relevant articles found today.</p>")
         t.append("No relevant articles found today.")
-    for outlet, arts in by_outlet.items():
-        if not arts:
-            continue
-        h.append(f"<h2 style='font-family:sans-serif;border-bottom:1px solid #ccc'>{html.escape(outlet)}</h2><ul>")
-        t.append(f"== {outlet} ==")
-        for a in arts:
-            h.append(
-                f"<li style='margin-bottom:12px;font-family:sans-serif'>"
-                f"<a href='{html.escape(a['link'], quote=True)}'><b>{html.escape(a['title'])}</b></a><br>"
-                f"{html.escape(a['summary'])}</li>"
-            )
-            t += [a["title"], a["summary"], a["link"], ""]
-        h.append("</ul>")
 
-    footer = f"{len(selected)} selected from {total_scanned} articles scanned."
+    def section(name):
+        h.append(f"<h2 style='font-family:sans-serif;border-bottom:1px solid #ccc'>{esc(name)}</h2><ul>")
+        t.append(f"== {name} ==")
+
+    li = "<li style='margin-bottom:12px;font-family:sans-serif'>"
+    if group_by == "topic":
+        for topic, sts in by_topic(stories):
+            section(topic)
+            for st in sts:
+                links = " · ".join(f"<a href='{esc(a['link'], quote=True)}'>{esc(a['outlet'])}</a>"
+                                   for a in st["articles"])
+                h.append(f"{li}<b>{esc(st['headline'])}</b><br>{esc(st['summary'])}<br>"
+                         f"<span style='font-size:13px'>{links}</span></li>")
+                t += [st["headline"], st["summary"]] + [f"  {a['outlet']}: {a['link']}" for a in st["articles"]] + [""]
+            h.append("</ul>")
+    else:
+        for outlet, pairs in by_newspaper(feeds, stories):
+            section(outlet)
+            for a, st in pairs:
+                h.append(f"{li}<a href='{esc(a['link'], quote=True)}'><b>{esc(a['title'])}</b></a><br>"
+                         f"{esc(st['summary'])}</li>")
+                t += [a["title"], st["summary"], a["link"], ""]
+            h.append("</ul>")
+
+    n_articles = sum(len(st["articles"]) for st in stories)
+    footer = f"{len(stories)} stories ({n_articles} articles) selected from {total_scanned} scanned."
     h.append(f"<hr><p style='color:#777;font-size:12px;font-family:sans-serif'>{footer}")
     t += ["--", footer]
     if errors:
-        h.append("<br>Feeds that failed:<br>" + "<br>".join(html.escape(e) for e in errors))
+        h.append("<br>Feeds that failed:<br>" + "<br>".join(esc(e) for e in errors))
         t += ["Feeds that failed:"] + errors
     h.append("</p>")
     return "\n".join(h), "\n".join(t)
@@ -236,19 +302,23 @@ def send(subject, html_body, text_body):
         s.sendmail(msg["From"], to, msg.as_string())
 
 
-def save_json(feeds, selected, errors, total_scanned, now):
-    """Write digests/<date>.json (grouped by outlet) and refresh digests/index.json."""
+def save_json(feeds, stories, errors, total_scanned, now):
+    """Write digests/<date>.json (format 2: stories) and refresh digests/index.json."""
     DIGEST_DIR.mkdir(exist_ok=True)
     date = now.strftime("%Y-%m-%d")
-    by_outlet = {o: [] for o in feeds}
-    for it in selected:
-        by_outlet.setdefault(it["outlet"], []).append(
-            {"title": it["title"], "summary": it["summary"], "link": it["link"]})
     digest = {
+        "format": 2,
         "date": date,
         "generated_at": now.isoformat(timespec="seconds"),
         "scanned": total_scanned,
-        "outlets": [{"name": o, "articles": a} for o, a in by_outlet.items() if a],
+        "outlet_order": list(feeds),
+        "topic_order": TOPICS,
+        "stories": [
+            {"topic": st["topic"], "headline": st["headline"], "summary": st["summary"],
+             "articles": [{"outlet": a["outlet"], "title": a["title"], "link": a["link"]}
+                          for a in st["articles"]]}
+            for st in stories
+        ],
         "errors": errors,
     }
     (DIGEST_DIR / f"{date}.json").write_text(json.dumps(digest, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -273,9 +343,9 @@ def main():
 
     items, errors = fetch_items(feeds, int(cfg["lookback_hours"]))
     print(f"Fetched {len(items)} items; {len(errors)} feed errors", file=sys.stderr)
-    selected = summarize(items, model, cfg["summary_language"])
-    save_json(feeds, selected, errors, len(items), now)
-    html_body, text_body = render(feeds, selected, errors, len(items), date_str)
+    stories = summarize(items, model, cfg["summary_language"])
+    save_json(feeds, stories, errors, len(items), now)
+    html_body, text_body = render(feeds, stories, errors, len(items), date_str, cfg["email_group_by"])
 
     if os.environ.get("DRY_RUN") == "1":
         with open("digest.html", "w", encoding="utf-8") as f:
@@ -284,7 +354,7 @@ def main():
         return
     if cfg["email_enabled"]:
         send(f"News digest — {date_str}", html_body, text_body)
-        print(f"Sent: {len(selected)} articles", file=sys.stderr)
+        print(f"Sent: {len(stories)} stories", file=sys.stderr)
     else:
         print("Email disabled in config; saved JSON only", file=sys.stderr)
 

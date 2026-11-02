@@ -3,6 +3,7 @@
   "summary_language": "English",
   "lookback_hours": 24,
   "email_enabled": true,
+  "email_group_by": "newspaper",
   "feeds": {
     "The Globe and Mail": [
       "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/",
