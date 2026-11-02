@@ -23,7 +23,8 @@
       "https://www.ctvnews.ca/arc/outboundfeeds/rss/category/canada/"
     ],
     "CityNews": [
-      "https://toronto.citynews.ca/feed/"
+      "https://toronto.citynews.ca/feed/",
+      "https://toronto.citynews.ca/feed/?paged=2"
     ],
     "CBC News": [
       "https://www.cbc.ca/webfeed/rss/rss-canada",
