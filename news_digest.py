@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Daily Canadian news digest: RSS feeds -> Gemini (filter + summarize) -> email.
+"""Daily Canadian news digest: RSS feeds -> Gemini (filter + summarize) -> email + JSON.
+
+Settings (feeds, send hour, language, lookback, email on/off) live in config.json,
+which the companion app edits. Each run writes digests/<date>.json and digests/index.json.
 
 Env vars (required):
   GEMINI_API_KEY   Google AI Studio key
@@ -9,12 +12,11 @@ Env vars (required):
 
 Env vars (optional):
   GEMINI_MODEL     default "gemini-flash-latest"
+  CONFIG_PATH      default "config.json"
   SMTP_HOST        default "smtp.gmail.com"
   SMTP_PORT        default 465 (SSL)
   MAIL_FROM        default SMTP_USER
-  LOOKBACK_HOURS   default 24
-  SUMMARY_LANGUAGE default "English" (French sources get summarized into this)
-  DRY_RUN          "1" = write digest.html locally instead of sending
+  DRY_RUN          "1" = write digest.html locally instead of sending email
 """
 import html
 import json
@@ -26,6 +28,8 @@ import time
 from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import feedparser
 from google import genai
@@ -33,45 +37,21 @@ from google.genai import types
 from pydantic import BaseModel
 
 
-def gnews(site: str, lang: str = "en") -> str:
-    """Google News RSS fallback for outlets without a confirmed native feed."""
-    if lang == "fr":
-        return f"https://news.google.com/rss/search?q=site:{site}+when:1d&hl=fr-CA&gl=CA&ceid=CA:fr"
-    return f"https://news.google.com/rss/search?q=site:{site}+when:1d&hl=en-CA&gl=CA&ceid=CA:en"
+TZ = ZoneInfo("America/Toronto")
+DIGEST_DIR = Path("digests")
+KEEP_DAYS = 90
 
 
-# Outlet -> feed URLs. Order here = order in the email.
-# Feeds marked VERIFY were not confirmed; failures are listed in the email footer.
-FEEDS = {
-    "The Globe and Mail": [
-        "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/",    # VERIFY
-        "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/",  # VERIFY
-    ],
-    "Toronto Star": [
-        gnews("thestar.com"),  # swap for native thestar.com/search/?f=rss&... feeds once confirmed
-    ],
-    "The Local": [
-        "https://thelocal.to/feed/",
-    ],
-    "CTV News": [
-        gnews("ctvnews.ca"),
-    ],
-    "CityNews": [
-        "https://toronto.citynews.ca/feed/",
-    ],
-    "CBC News": [
-        "https://www.cbc.ca/webfeed/rss/rss-canada",
-        "https://www.cbc.ca/webfeed/rss/rss-politics",
-        "https://www.cbc.ca/webfeed/rss/rss-canada-toronto",
-    ],
-    "La Presse": [
-        "https://www.lapresse.ca/actualites/politique/rss",
-        "https://www.lapresse.ca/actualites/national/rss",
-    ],
-    "Radio-Canada": [
-        gnews("ici.radio-canada.ca", lang="fr"),
-    ],
-}
+def load_config(path: str) -> dict:
+    with open(path, encoding="utf-8") as f:
+        cfg = json.load(f)
+    cfg.setdefault("summary_language", "English")
+    cfg.setdefault("lookback_hours", 24)
+    cfg.setdefault("email_enabled", True)
+    if not cfg.get("feeds"):
+        raise SystemExit("config.json has no feeds")
+    return cfg
+
 
 USER_AGENT = "Mozilla/5.0 (compatible; daily-news-digest/1.0)"
 MAX_DESC_CHARS = 600
@@ -115,11 +95,11 @@ def entry_time(e) -> datetime | None:
     return None
 
 
-def fetch_items(lookback_hours: int):
+def fetch_items(feeds: dict, lookback_hours: int):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
     items, errors, seen_links, seen_titles = [], [], set(), set()
 
-    for outlet, urls in FEEDS.items():
+    for outlet, urls in feeds.items():
         for url in urls:
             try:
                 feed = feedparser.parse(url, agent=USER_AGENT)
@@ -193,10 +173,10 @@ def summarize(items, model: str, language: str):
     return selected
 
 
-def render(selected, errors, total_scanned, date_str):
-    by_outlet = {o: [] for o in FEEDS}
+def render(feeds, selected, errors, total_scanned, date_str):
+    by_outlet = {o: [] for o in feeds}
     for it in selected:
-        by_outlet[it["outlet"]].append(it)
+        by_outlet.setdefault(it["outlet"], []).append(it)
 
     h = [f"<h1 style='font-family:sans-serif'>News digest — {html.escape(date_str)}</h1>"]
     t = [f"News digest — {date_str}", ""]
@@ -244,24 +224,57 @@ def send(subject, html_body, text_body):
         s.sendmail(msg["From"], to, msg.as_string())
 
 
-def main():
-    lookback = int(os.environ.get("LOOKBACK_HOURS", "24"))
-    model = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
-    language = os.environ.get("SUMMARY_LANGUAGE", "English")
-    date_str = datetime.now().strftime("%A, %B %d, %Y")
+def save_json(feeds, selected, errors, total_scanned, now):
+    """Write digests/<date>.json (grouped by outlet) and refresh digests/index.json."""
+    DIGEST_DIR.mkdir(exist_ok=True)
+    date = now.strftime("%Y-%m-%d")
+    by_outlet = {o: [] for o in feeds}
+    for it in selected:
+        by_outlet.setdefault(it["outlet"], []).append(
+            {"title": it["title"], "summary": it["summary"], "link": it["link"]})
+    digest = {
+        "date": date,
+        "generated_at": now.isoformat(timespec="seconds"),
+        "scanned": total_scanned,
+        "outlets": [{"name": o, "articles": a} for o, a in by_outlet.items() if a],
+        "errors": errors,
+    }
+    (DIGEST_DIR / f"{date}.json").write_text(json.dumps(digest, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    items, errors = fetch_items(lookback)
+    cutoff = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
+    dates = []
+    for f in DIGEST_DIR.glob("????-??-??.json"):
+        if f.stem < cutoff:
+            f.unlink()
+        else:
+            dates.append(f.stem)
+    dates.sort(reverse=True)
+    (DIGEST_DIR / "index.json").write_text(json.dumps({"dates": dates}, indent=1), encoding="utf-8")
+
+
+def main():
+    cfg = load_config(os.environ.get("CONFIG_PATH", "config.json"))
+    model = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
+    now = datetime.now(TZ)
+    date_str = now.strftime("%A, %B %d, %Y")
+    feeds = cfg["feeds"]
+
+    items, errors = fetch_items(feeds, int(cfg["lookback_hours"]))
     print(f"Fetched {len(items)} items; {len(errors)} feed errors", file=sys.stderr)
-    selected = summarize(items, model, language)
-    html_body, text_body = render(selected, errors, len(items), date_str)
+    selected = summarize(items, model, cfg["summary_language"])
+    save_json(feeds, selected, errors, len(items), now)
+    html_body, text_body = render(feeds, selected, errors, len(items), date_str)
 
     if os.environ.get("DRY_RUN") == "1":
         with open("digest.html", "w", encoding="utf-8") as f:
             f.write(html_body)
         print(text_body)
         return
-    send(f"News digest — {date_str}", html_body, text_body)
-    print(f"Sent: {len(selected)} articles", file=sys.stderr)
+    if cfg["email_enabled"]:
+        send(f"News digest — {date_str}", html_body, text_body)
+        print(f"Sent: {len(selected)} articles", file=sys.stderr)
+    else:
+        print("Email disabled in config; saved JSON only", file=sys.stderr)
 
 
 if __name__ == "__main__":

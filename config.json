@@ -1,0 +1,36 @@
+{
+  "send_hour": 6,
+  "summary_language": "English",
+  "lookback_hours": 24,
+  "email_enabled": true,
+  "feeds": {
+    "The Globe and Mail": [
+      "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/",
+      "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/"
+    ],
+    "Toronto Star": [
+      "https://news.google.com/rss/search?q=site:thestar.com+when:1d&hl=en-CA&gl=CA&ceid=CA:en"
+    ],
+    "The Local": [
+      "https://thelocal.to/feed/"
+    ],
+    "CTV News": [
+      "https://news.google.com/rss/search?q=site:ctvnews.ca+when:1d&hl=en-CA&gl=CA&ceid=CA:en"
+    ],
+    "CityNews": [
+      "https://toronto.citynews.ca/feed/"
+    ],
+    "CBC News": [
+      "https://www.cbc.ca/webfeed/rss/rss-canada",
+      "https://www.cbc.ca/webfeed/rss/rss-politics",
+      "https://www.cbc.ca/webfeed/rss/rss-canada-toronto"
+    ],
+    "La Presse": [
+      "https://www.lapresse.ca/actualites/politique/rss",
+      "https://www.lapresse.ca/actualites/national/rss"
+    ],
+    "Radio-Canada": [
+      "https://news.google.com/rss/search?q=site:ici.radio-canada.ca+when:1d&hl=fr-CA&gl=CA&ceid=CA:fr"
+    ]
+  }
+}
