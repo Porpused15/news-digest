@@ -1,0 +1,23 @@
+name: Daily news digest
+
+on:
+  schedule:
+    # GitHub cron is UTC. 10:00 UTC = 6:00 Toronto during EDT (5:00 during EST).
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}  # "Run workflow" button for manual tests
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python news_digest.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
