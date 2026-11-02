@@ -144,6 +144,7 @@ class Main extends App
             this.tokenChanged( true )
         } )
         this.txtToken = ui.addText( scr, "", "body2,multiline", W )
+        this.txtToken.setMargins( 0, 0.012, 0, 0.1 )   // room below the last item when scrolled to the end
         // Pasting saves automatically; checked once typing/pasting settles.
         this.tfdToken.setOnChange( () => {
             clearTimeout( this.tokenTimer )
