@@ -123,6 +123,27 @@ def entry_time(e) -> datetime | None:
     return None
 
 
+HOST_GAP = 2.0      # seconds between requests to the same site (the Star returns 429 otherwise)
+_last_hit: dict[str, float] = {}
+
+
+def get_feed(url: str):
+    """feedparser.parse with per-host spacing and one retry on HTTP 429."""
+    from urllib.parse import urlsplit
+    host = urlsplit(url).netloc
+    for attempt in range(2):
+        wait = HOST_GAP - (time.monotonic() - _last_hit.get(host, 0))
+        if wait > 0:
+            time.sleep(wait)
+        feed = feedparser.parse(url, agent=USER_AGENT)
+        _last_hit[host] = time.monotonic()
+        if getattr(feed, "status", None) != 429 or attempt:
+            return feed
+        retry_after = (getattr(feed, "headers", {}) or {}).get("retry-after", "")
+        time.sleep(min(int(retry_after), 60) if retry_after.isdigit() else 15)
+    return feed
+
+
 def fetch_items(feeds: dict, lookback_hours: int):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
     items, errors, seen_links, seen_titles = [], [], set(), set()
@@ -131,7 +152,7 @@ def fetch_items(feeds: dict, lookback_hours: int):
     for outlet, urls in feeds.items():
         for url in urls:
             try:
-                feed = feedparser.parse(url, agent=USER_AGENT)
+                feed = get_feed(url)
             except Exception as exc:  # network-level failure
                 errors.append(f"{outlet}: {url} ({exc})")
                 continue
@@ -197,15 +218,13 @@ def summarize(items, model: str, language: str):
     main_config = config.model_copy(update={
         "thinking_config": types.ThinkingConfig(thinking_level=types.ThinkingLevel.MEDIUM)})
 
-    # Gemini often returns 503 "high demand" for minutes at a time: back off for ~8 minutes
-    # in total, alternating with the lighter fallback model. If it still fails, the job
-    # exits and the next hourly scheduled run retries (no digest file exists yet).
-    models = [model, FALLBACK_MODEL] if FALLBACK_MODEL != model else [model]
-    waits = [0, 30, 60, 120]
+    # Gemini often returns 503 "high demand" for minutes at a time. The main model gets two
+    # tries before the lighter fallback (whose picks are noticeably thinner), then one more.
+    # If all fail, the job exits and the next hourly scheduled run retries.
+    plan = [(model, 0), (model, 45), (FALLBACK_MODEL, 90), (model, 180)]
     last_exc = None
-    for attempt, wait in enumerate(waits):
+    for attempt, (m, wait) in enumerate(plan):
         time.sleep(wait)
-        m = models[attempt % len(models)]
         try:
             resp = client.models.generate_content(model=m, contents=prompt,
                                                   config=main_config if m == model else config)
@@ -217,7 +236,7 @@ def summarize(items, model: str, language: str):
             last_exc = exc
             print(f"Gemini attempt {attempt + 1} ({m}) failed: {str(exc)[:160]}", file=sys.stderr)
     else:
-        raise RuntimeError(f"Gemini call failed after {len(waits)} attempts: {last_exc}")
+        raise RuntimeError(f"Gemini call failed after {len(plan)} attempts: {last_exc}")
 
     stories, used = [], set()
     for st in raw:

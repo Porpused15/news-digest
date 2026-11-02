@@ -304,6 +304,7 @@ class Main extends App
 
     async saveConfig()
     {
+        if( this.saving ) return   // one tap was firing twice
         if( !this.cfg ) return ui.showPopup( "Settings not loaded yet" )
         if( !this.token() ) return ui.showPopup( "Add a GitHub token first" )
 
@@ -320,6 +321,7 @@ class Main extends App
         this.cfg.email_enabled = !!this.swEmail.value
         this.cfg.email_group_by = group.toLowerCase()
 
+        this.saving = true
         const prd = ui.showProgressDialog( "Saving…" )
         try {
             const { sha } = await this.getContents( "config.json" )
@@ -334,16 +336,21 @@ class Main extends App
             ui.showPopup( "Save failed: " + e.message )
         }
         prd.hide()
+        this.saving = false
     }
 
     async sendNow()
     {
+        // One tap was starting two runs (two emails). Ignore repeats for 30 s.
+        if( Date.now() - ( this.lastSend || 0 ) < 30000 ) return ui.showPopup( "Already started" )
         if( !this.token() ) return ui.showPopup( "Add a GitHub token first" )
+        this.lastSend = Date.now()
         try {
             await this.gh( "POST", `actions/workflows/${WORKFLOW}/dispatches`, { ref: BRANCH } )
             ui.showPopup( "Started. The email arrives in a few minutes." )
         }
         catch( e ) {
+            this.lastSend = 0
             ui.showPopup( "Couldn't start: " + e.message )
         }
     }
