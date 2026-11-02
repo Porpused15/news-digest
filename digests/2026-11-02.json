@@ -1,8 +1,18 @@
 {
  "format": 2,
  "date": "2026-11-02",
- "generated_at": "2026-11-02T06:14:14-05:00",
- "scanned": 328,
+ "generated_at": "2026-11-02T06:25:46-05:00",
+ "scanned": 126,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 10,
+  "Toronto Star": 31,
+  "The Local": 0,
+  "CTV News": 25,
+  "CityNews": 15,
+  "CBC News": 16,
+  "La Presse": 5,
+  "Radio-Canada": 24
+ },
  "outlet_order": [
   "The Globe and Mail",
   "Toronto Star",
@@ -31,9 +41,14 @@
  "stories": [
   {
    "topic": "Economy & trade",
-   "headline": "Canada and U.S. resume trade talks as leaders report progress",
-   "summary": "Prime Minister Mark Carney and U.S. President Donald Trump held discussions regarding the future of trade negotiations, with both leaders indicating optimism about reaching an agreement. Formal trade talks are expected to resume in the coming days as the two nations navigate ongoing economic and tariff uncertainties.",
+   "headline": "Canada and the United States prepare to resume formal trade talks",
+   "summary": "Prime Minister Mark Carney and U.S. President Donald Trump held a positive conversation regarding future trade talks and the outlines of a possible new agreement. Formal negotiations are expected to resume in the coming days as both countries aim to address ongoing economic uncertainties and bilateral trade disputes.",
    "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Carney seeks to boost trade and ties at Commonwealth meeting",
+     "link": "https://www.theglobeandmail.com/canada/article-mark-carney-at-commonwealth-meeting/"
+    },
     {
      "outlet": "The Globe and Mail",
      "title": "Carney had ‘good conversation’ with Trump on future of trade talks",
@@ -45,31 +60,31 @@
      "link": "https://www.theglobeandmail.com/politics/article-carney-trump-canada-us-trade-deal-negotiations/"
     },
     {
-     "outlet": "CTV News",
-     "title": "Trump says Canada-U.S. ‘very close’ to having a deal, following PM Carney saying they had a ‘good conversation’",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSUljM3NRREVtUWZkOTJReFNVTXJsMHhjSEFtbVJtU2NiM1lGUDk3cFlpdm5vb0FOakt5TkNIRUE5VmlwWGFkNlJwQ2ZsOG1qSVE5VUVsZTNxdGFGRDgxTUVweVoxUG0xWWZDSENVdHhJZ1VOd3Z4NXhkYV9Oazd1Z2YzUmxWaW1SSWRtQXVvdjJCQ3ZlcVpPYjFGa3JLclV0cm05M2NiUWVmR21PTEc1clVqVDdrX0JyRTh1SVc5ZU82TEFkSjVwQVJYdGUyRUkzVENTN1QyQzBzWDBycjNCbmpjNDc5MDNmWTRrWE9B?oc=5"
+     "outlet": "Toronto Star",
+     "title": "Trump says U.S., Canada have the 'concept of a very good deal'",
+     "link": "https://www.thestar.com/politics/federal/carney-says-he-had-good-conversation-with-trump-about-trade-talks-to-continue/article_c87f77c3-1d53-5b56-ac7e-772c039c4f39.html"
     },
     {
-     "outlet": "CTV News",
-     "title": "Trump claims ‘concept of a deal’ with Canada",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZUR5SVZBQTJoYThYeGxEVUVxWTBCNmhwZ09HaWg1MFA0UTB2d1JvQnhlNjFIaXE2b21sNWFuSjd6dmJ6czZ4QlM5eXZzUThIREtzaVVfeGtNQ2xpSUMxUkN3WDB6WDhiQkhlYlZoZlhvT2tQbnFkODluS2lJc0JDcVpVQmF2dURONzRr?oc=5"
-    },
-    {
-     "outlet": "CTV News",
-     "title": "‘Constructive’: PM Carney says he spoke with Trump on trade this morning",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM3h4V0x1VHkwSHRvMlBpX1pHbnNKSzRETGdkeEhuWFB3NlFYNjhQcmxkSWd3c3RZanh3RENTSHpMcFp0aDFUUWRyd0RoamE4cTFxY0oteXctbTk5UHl1Y1hqaGNJRFQ2angtSFBUWWJSWXp1RjBHR0tvSkhqeDVQQ1gzNlZycWJIanV4NXB5dy1Sb3J2MkxHUU1lSldka1ZDOVZWMTF1OXVIa2tXVF9Z?oc=5"
+     "outlet": "CBC News",
+     "title": "Carney has 'good conversation' with Trump on future of Canada-U.S. trade as midterms near",
+     "link": "https://www.cbc.ca/news/politics/carney-trump-conversation-midterms-9.7404845?cmp=rss"
     },
     {
      "outlet": "La Presse",
      "title": "Guerre commerciale | Mark Carney dit avoir eu une « bonne conversation » avec Donald Trump",
      "link": "https://www.lapresse.ca/actualites/politique/2026-11-01/guerre-commerciale/mark-carney-dit-avoir-eu-une-bonne-conversation-avec-donald-trump.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Guerre commerciale : Carney a eu une « bonne conversation » avec Trump",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297423/guerre-commerciale-trump-carney-etats-unis"
     }
    ]
   },
   {
    "topic": "Federal politics",
    "headline": "Prime Minister Mark Carney calls six federal by-elections for December",
-   "summary": "Prime Minister Mark Carney has scheduled six federal by-elections across Ontario, Quebec, and Saskatchewan for December 7. The upcoming votes provide the governing Liberals an opportunity to strengthen their thin majority in the House of Commons.",
+   "summary": "Prime Minister Mark Carney has announced that six federal by-elections will be held across Ontario, Quebec, and Saskatchewan on December 7. The vote will give the governing Liberals an opportunity to strengthen their thin majority in the House of Commons while providing the opposition with a key test of leadership.",
    "articles": [
     {
      "outlet": "The Globe and Mail",
@@ -78,23 +93,23 @@
     },
     {
      "outlet": "Toronto Star",
+     "title": "Byelections in Quebec, Ontario and Saskatchewan could increase Mark Carney's majority",
+     "link": "https://www.thestar.com/politics/political-opinion/byelections-in-quebec-ontario-and-saskatchewan-test-carney-s-majority/article_a06f9df6-1da3-44d5-9b74-c4a8f0f74c96.html"
+    },
+    {
+     "outlet": "Toronto Star",
      "title": "Mark Carney calls six federal byelections, including Scarborough North and in Brantford",
-     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNaTZiNE9MQUJGSkV5TWp5WU5SeFZRRlgtbG1VOHJ2dGU5ZlNSNWlYOFBPWnNyQWdMSzJmNjBPMVNDc2tObFNJd1A5VDl5Zlo2SFUwNjlnYU84Yml3aDdSRFlaY2dRdGhwZXp6N2J2WXViSml0SEVwT0VkR3ozdzVVaV9LcnVUcFVlTXl2RGVTc2dEc0toSDI5enRmMXZxdmxJcXhVclhUMXF5eWpUZktTRi1yVzJVaTNxbDlHVDlSMGhWLUstSzhZbUdaaF9pZkdGeXdfaXN3c2JWRndDSF90T2ZSMlBkNkhXaUpLMXc1WE5qTjRaY3ZjdGtaRkE1TFBia0p4M1hTRTBrRHZfb3Vn?oc=5"
+     "link": "https://www.thestar.com/politics/federal/mark-carney-calls-six-federal-byelections-including-ones-in-scarborough-north-and-brantford/article_e2a3e0a6-ca61-45bf-9932-0f5ff818919a.html"
     },
     {
      "outlet": "Toronto Star",
      "title": "Prime Minister Mark Carney calls six federal byelections for December",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMElYUkp6RG82alRReHpmMXhONFVaMk9SMkh1OE5KQVpvR29Yeno1djhTQWhtTktzNVF1OU1yWnVhR0lPd2h6MDJVQjN4MUU1dDBDUXlvdkdqTmpMWENiQmoyMkdLNnY0dzdVR0ZZYnJrc0YyczhPdmdRUTVYSUFhNGdKcENGVWMwcWdUOEFBd1RxT1o5VXFuLWFiR3FJUkYyNVZMSkZOVmpUYjBWSElpOHVqTUpIX0dxanJqMl91SUUzVGpUekJXcjBjMk9EeXhabFhSVWd4SHM5MXBxeW1ldnBFWWRRZjZPUkM0?oc=5"
+     "link": "https://www.thestar.com/news/canada/prime-minister-mark-carney-calls-six-federal-byelections-for-december/article_8e1baf2c-8c23-5851-88de-dd53fdf6bee6.html"
     },
     {
      "outlet": "CTV News",
-     "title": "Carney announces byelections happening in six ridings in December",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVUlUaGYtRlA5cld2X1hTZjhqeFZ6aVZoUWFHWjBiNEpUdUxwVUpaby1vVXVrMU9UVXJpRDVjMnMzY2lIOXRMQ1d4X0lQUUNBeUhVNzdLLTREYnViX04zZFdySEpJUTJ4RDcxRVZhYnhkYk15VlJMUkktRFVPZEVPbk54Ni14aUszbDB1cG54TmwxZ0NPbTg2TWczU25CbjljV2lvbXQ5dWdEUQ?oc=5"
-    },
-    {
-     "outlet": "CTV News",
-     "title": "Federal by-election called for Yorkton-Melville. Here’s when you can head to the polls.",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUy0yM2pfS2lmemdjT093c1lyOUZfbnJvVDIxamt3RmZ3MEJ1cklpQUxsX0pZWXV4OEptY2VENnRlRXZlelhpT3hRWFNUYmNTUEN5OS1uRi1HMTltbVBQeWRxem5qWlF4eDBoV0E1VWVEZkNOWHBYMlZINkVxWENpd05tTFBjUHRWNG11VHZGWjVBenk5Mm94LWdNSHB5d2xhMjlrVmVaREdoVU9qbkRSb1VjdTJfTm5rZG1QZFE1Qkc?oc=5"
+     "title": "PM Carney announces by-elections in Ontario, Quebec, Saskatchewan",
+     "link": "https://www.ctvnews.ca/canada/article/pm-carney-announces-by-elections-in-ontario-quebec-saskatchewan/"
     },
     {
      "outlet": "CBC News",
@@ -109,14 +124,41 @@
     {
      "outlet": "Radio-Canada",
      "title": "Élections partielles déclenchées dans 6 circonscriptions fédérales au pays",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYUJfUkpfaWVETEtZN0lvemNSYTRZN1pBUG5OcS1Va3UzN29FOVRCd3pmUW00UElDb2lvdkZNel9aUld5RERqZUtZSmV5ZS1YaVRZaDl6b1RXTmJhUERQak1qT3hWbGstb28yNFItQ3djWndheU1sVGNocnpCM2p3cm1TdVNsa2RrSEhucW5LTXJ6SGdNSUdrTXpyRkR3amRwY3hWX3RyNjNvVHotdVhvMnRGVEdnRXZ1ZEFPU2pHME9ieUU?oc=5"
+     "link": "https://ici.radio-canada.ca/info/videos/1-10799002/elections-partielles-declenchees-dans-6-circonscriptions-federales-au-pays"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Six élections partielles déclenchées au Canada",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10798764/six-elections-partielles-declenchees-au-canada"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Des élections partielles déclenchées dans six circonscriptions fédérales",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297401/elections-partielles-federal-canada-carney"
+    }
+   ]
+  },
+  {
+   "topic": "Health",
+   "headline": "Healthcare challenges mount as professionals seek office and leave roles",
+   "summary": "An Alberta emergency physician and health care advocate is seeking a provincial political nomination in a conservative riding. Meanwhile, a medical oncologist in Brandon, Manitoba, announced his resignation due to a persistent lack of institutional support.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Alberta emergency physician and health care advocate seeks NDP nomination",
+     "link": "https://www.theglobeandmail.com/canada/article-alberta-emergency-physician-and-health-care-advocate-seeks-ndp/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Medical oncologist based in Brandon, Man., says he's leaving his 'dream job' over lack of support",
+     "link": "https://www.cbc.ca/news/canada/manitoba/brandon-medical-oncologist-doctor-cancer-9.7403937?cmp=rss"
     }
    ]
   },
   {
    "topic": "Federal politics",
-   "headline": "Liberals outraise Conservatives by nearly $1 million in third quarter",
-   "summary": "Elections Canada data shows the Liberal Party surpassed the Conservatives in fundraising by nearly $1 million during the third quarter of 2026. The financial figures prompted sharp political clashes as Conservative Leader Pierre Poilievre criticized government spending practices.",
+   "headline": "Federal Liberals out-fundraise Conservatives in the third quarter",
+   "summary": "Elections Canada data reveals that the Liberal Party surpassed the Conservatives in fundraising by nearly $1 million during the third quarter of 2026. The financial figures prompted sharp exchanges between political leaders as parties ramp up preparations for upcoming electoral contests.",
    "articles": [
     {
      "outlet": "The Globe and Mail",
@@ -126,7 +168,12 @@
     {
      "outlet": "Toronto Star",
      "title": "Liberals out-fundraise Conservatives by almost $1M in third quarter of 2026",
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQekRHeWlrZkZrOGtDNU1WX2FHZTFrM3QybzZFV05tWmVMX2gxN2RQbkpYNXFhSVprZlpWaWFqcUZIdF81QlB1elFrdWxLdENjUWxsOGpMSjg2NGVDaEJPeGR0dXVfOHBrNk9RVFUzcmQzUGl0dnFETWZBWURyaTJPYWFFSzlSYXJQa2hRNnQ0RG9QWllza3p0ZFVPNUV0b2NpenFLeE1IVGxFYkNvZkVpOWIydUoyVTFmdWU4TEZtTm0wT1ByYlV1dHNRM3c3WFRudnBVYURkTjNseFlBTkhBcENCWUczTTlyaFZoY1NuS096QndzSWhHMA?oc=5"
+     "link": "https://www.thestar.com/politics/federal/liberals-out-fundraise-conservatives-by-almost-1m-in-third-quarter-of-2026/article_a493a696-96be-59c5-9aa3-233bcdb17e1d.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Liberals out-fundraise Conservatives by almost $1M in third quarter of 2026",
+     "link": "https://www.ctvnews.ca/canada/article/liberals-out-fundraise-conservatives-by-almost-1m-in-third-quarter-of-2026/"
     },
     {
      "outlet": "CityNews",
@@ -137,13 +184,18 @@
   },
   {
    "topic": "Federal politics",
-   "headline": "Prime Minister Carney attends Commonwealth meeting to boost trade and ties",
-   "summary": "Prime Minister Mark Carney is travelling to Antigua and Barbuda to participate in the biennial Commonwealth Heads of Government meeting. The gathering provides an opportunity to engage with King Charles and other international leaders to foster diplomatic cooperation and explore alternative trade partnerships.",
+   "headline": "Prime Minister Carney travels to Antigua and Barbuda for Commonwealth meeting",
+   "summary": "Prime Minister Mark Carney is heading to the Commonwealth Heads of Government Meeting in Antigua and Barbuda to engage with international leaders and King Charles. The summit will focus heavily on boosting trade, attracting investment, and strengthening diplomatic ties among member states.",
    "articles": [
     {
-     "outlet": "The Globe and Mail",
-     "title": "Carney seeks to boost trade and ties at Commonwealth meeting",
-     "link": "https://www.theglobeandmail.com/canada/article-mark-carney-at-commonwealth-meeting/"
+     "outlet": "CTV News",
+     "title": "PM Carney heads to Commonwealth meeting in Antigua and Barbuda focused on trade, investment",
+     "link": "https://www.ctvnews.ca/politics/article/pm-carney-heads-to-commonwealth-meeting-in-antigua-and-barbuda-focused-on-trade-investment/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Commonwealth meeting offers Carney a chance to boost diplomatic ties, experts say",
+     "link": "https://toronto.citynews.ca/2026/11/02/commonwealth-meeting-offers-carney-a-chance-to-boost-diplomatic-ties-experts-say/"
     },
     {
      "outlet": "CBC News",
@@ -153,48 +205,19 @@
    ]
   },
   {
-   "topic": "Federal politics",
-   "headline": "Pierre Poilievre outlines Conservative demands ahead of federal budget",
-   "summary": "Conservative Leader Pierre Poilievre has released a series of demands for the federal government ahead of the upcoming budget announcement, emphasizing calls to reduce wasteful spending. The push comes as Prime Minister Mark Carney's government prepares to table its new spending package amid ongoing economic uncertainties.",
-   "articles": [
-    {
-     "outlet": "Toronto Star",
-     "title": "Poilievre lays out demands ahead of budget, includes call to cut wasteful spending",
-     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQS2hNQ2dmTTBEY1RfUjZOU0JHdk5wM19ad01ZOEVZUkVmZEpEUDhnU3dDOGJqTHg5UEJFSWpCcUZ5U0NrT0ZMNWVQWm5CalVYTDM2R2pvZ3VTZEY3c2s5Ymc0VEh6VmZ5bzdadndQZkYwcXp0XzY5bWtJTm8yQ09YNWZvNUVicmd3LXRXT1U5WElSbnF3WHU2cjBGb0JBeUZmcjdTUlprY3dwWGx5NndoVEx5LVROTDROaDduWWtONnBWVVB0aUh5cHVtdHNJRWpYTmlUOTMtREVpR0VZNVh0b3hLajNTZkZoNTN2NUJndVlYTEU4RUE1QmNNSmJ1cWJBUkE?oc=5"
-    },
-    {
-     "outlet": "Radio-Canada",
-     "title": "Pierre Poilievre présente ses demandes au gouvernement en vue du budget fédéral",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbU5ITFN2Q0w2NDBUY2lKOVpFU200ZVJZdllFcDVwdk14djNJTVJlbENrZHBnQlFPRklaVHM1Wi1BSzdYY0NUVnJoTy0wRVE2a09LaFN0SVZ5V0U2MF9fVmNidVE2SEtDazlROC1DQUd1T1JhbnRXZ3BCQ05sd0VXdmd6X1BLbmZMa1BFSWJ6czdGUHE2eDFvZVhZX2tNQQ?oc=5"
-    }
-   ]
-  },
-  {
-   "topic": "Economy & trade",
-   "headline": "Federal government set to unveil new budget amid economic uncertainty",
-   "summary": "Prime Minister Mark Carney's upcoming budget will feature new affordability measures, business tax incentives, and infrastructure investments. Government sources indicate the financial plan is designed to navigate ongoing economic uncertainty and U.S. trade pressures.",
-   "articles": [
-    {
-     "outlet": "CBC News",
-     "title": "Canada's next budget to be unveiled this week amid U.S. trade war, economic uncertainty",
-     "link": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193?cmp=rss"
-    }
-   ]
-  },
-  {
    "topic": "Ontario politics",
-   "headline": "Quebec Premier accepts invitation for bilateral meeting with Mark Carney",
-   "summary": "Quebec Premier Paul St-Pierre Plamondon has agreed to meet with Prime Minister Mark Carney for bilateral talks following recent tensions between the provincial and federal governments. The upcoming discussion aims to address lingering policy friction as the two leaders prepare for the Francophonie Summit.",
+   "headline": "Quebec premier accepts meeting with Prime Minister Carney following summit dispute",
+   "summary": "Quebec Premier Paul St-Pierre Plamondon has accepted an invitation to meet with Prime Minister Mark Carney following tensions at the recent Canada-European Union summit. The upcoming bilateral discussion comes as provincial and federal leaders navigate ongoing jurisdictional and diplomatic disagreements.",
    "articles": [
     {
      "outlet": "Toronto Star",
      "title": "Paul St-Pierre Plamondon to meet with Mark Carney after Canada-EU summit tension",
-     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOSDE0UjhOR3pUTHVUd19oOV9yMjFOcy1HS2tpYk1DelRKSnE0dXpNeFdXU2VVeG0tejlWRi1NZ1BFel9rUzBJbnZkbXZoa195VEk2MTlpN19YQW1XZkV4TmQzbGhSbUdiWXlmNTVvNFY1Y1NHbUI0Mk5JV0J5enNOQXZxVjBjT1hraWs4QTVSX3FwMkM2ckt4YmtTdk5FbEREU2d2cG5vQ0ItVFNWM2NqNmRuUjRyblEtc0xtN3NocENIYTZYLU1FUDktVHY0UzZNdWFmOVZPRl9rcHZleXRDZU9MTFB2dUVZZi1UTG5QT2xXMjFwQlMxUEtXVTQwcFprSWlR?oc=5"
+     "link": "https://www.thestar.com/news/canada/quebec/paul-st-pierre-plamondon-to-meet-with-mark-carney-after-canada-eu-summit-tension/article_62fb8ac5-9eae-5897-9c30-5a1dd7c4b9aa.html"
     },
     {
      "outlet": "CTV News",
      "title": "Quebec premier agrees to meet Carney, asks for Quebec City venue",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTzRXeDVObWs5dnVaQ1pVaTdibzFUWUFjSXBVcEh0bVVLLWd0OXVEWENmU3RWbjhUNzlJZVVBMHNFazdKaEstWk40VUJSNW1GYW12dm5HUkZ0YVRlclVpT2hScVRUekNGeTBKTUgtMkY3MnBKQ09HU3M1OUNRWk5XME1VVmdKamtpQVFtQ1kyc05sZ3lGalBvWnNhczNKbVdBWGZFT2NrOU5KU0VJQ2p6MC1nc2ZJQWN5RlR5LW5PZDI?oc=5"
+     "link": "https://www.ctvnews.ca/montreal/article/quebecs-premier-accepts-carneys-invitation-to-meet-insists-on-quebec-city-location/"
     },
     {
      "outlet": "La Presse",
@@ -204,92 +227,124 @@
     {
      "outlet": "Radio-Canada",
      "title": "Paul St-Pierre Plamondon accepte une invitation à rencontrer Mark Carney",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUTF6RXl1dmtZZlh0RzNLTHNZeTBmVm1Zck9jVDdTdnFuTFZxb0FOcmZyUklYemZ1aTktTzJkRlhhbXgzRVRkUzZBdlZnZ21LOE8zY2RjMVphVWRfWkJYQ3o1a2QtS3F4ek12b3dvbGdWZnFqdU93bjJ5Mi1WUVlMRURsbzBTZUJuUllXS1hWUzMxeDFKTjk4?oc=5"
+     "link": "https://ici.radio-canada.ca/nouvelle/2297460/st-pierre-plamondon-invitation-rencontre-carney"
     }
    ]
   },
   {
-   "topic": "Ontario politics",
-   "headline": "Alberta emergency physician seeks NDP nomination in conservative riding",
-   "summary": "Dr. Paul Parks, an Alberta emergency physician and health care advocate, is seeking the NDP nomination in the reliably conservative riding of Cypress-Medicine Hat. The move sets the stage for a political battle as Alberta politics navigates ongoing debates over public service management.",
+   "topic": "Other public interest",
+   "headline": "Western Canada and northern regions move to permanent daylight time",
+   "summary": "British Columbia, Alberta, Manitoba, northwestern Ontario, and the Northwest Territories have officially opted to stay on daylight time year-round. Parents and businesses in the affected regions are adjusting to the long-awaited change as the twice-annual clock adjustments end.",
    "articles": [
-    {
-     "outlet": "The Globe and Mail",
-     "title": "Alberta emergency physician and health care advocate seeks NDP nomination",
-     "link": "https://www.theglobeandmail.com/canada/article-alberta-emergency-physician-and-health-care-advocate-seeks-ndp/"
-    },
     {
      "outlet": "Toronto Star",
-     "title": "Why Danielle Smith faces a battle over the ‘heart and soul’ of her party after the referendum",
-     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPSlY4NGZOTmszTEk4bnpUc0RVVHNtSjg2bGtudnRrRHEzeDJ3Q1JWU3pEaGItRlQ4MkljdnY4eEVPY3dFMzFMbTJWM3JJbjNuekNGQU8zN2tYNHVVcWU0Yl9HY2c5QnVrNExLSUN4czlDelR6c0w3bGtHRVlCZkktYm1KUERWX08zTnRhZ3VNZ1MydHZUdWE2VXIxVGlibEFOdE5Jem5INDJSc1NfcW83M3liX1kzMTdfMzAyWEhSNWRXQkJGTTBwYThuTFNELUhxa2RhNnVySXQzUk5aVHFtTFg5dzgwcHpobXRIWFM1cEMwaWZGeUtNOGIzOUk3NWxFdVJoeUJ2WkNMSER1ZkVRczZXQQ?oc=5"
-    }
-   ]
-  },
-  {
-   "topic": "Education",
-   "headline": "Thousands of OSAP applications traced to single IP address, province alleges",
-   "summary": "Ontario government documents filed in court allege that more than half of the student financial aid applications at two career colleges last year originated from a single IP address. The investigation puts the institutions under strict government microscope as officials probe potential fraud.",
-   "articles": [
-    {
-     "outlet": "CityNews",
-     "title": "Thousands of OSAP applications came from a single IP address, ministry alleges",
-     "link": "https://toronto.citynews.ca/2026/11/02/thousands-of-osap-applications-came-from-a-single-ip-address-ministry-alleges/"
-    }
-   ]
-  },
-  {
-   "topic": "Housing",
-   "headline": "Ontario criticized for removing minimum sleeping area rules in provincial jails",
-   "summary": "Criminal justice advocacy groups have condemned the Ontario government's decision to amend the provincial building code and remove minimum sleeping area requirements in adult correctional facilities. Critics argue the policy change was made without public consultation or adequate explanation.",
-   "articles": [
-    {
-     "outlet": "CBC News",
-     "title": "Ontario government criticized for removing minimum sleeping area rules in jails",
-     "link": "https://www.cbc.ca/news/canada/thunder-bay/ontario-jails-sleeping-area-requirements-9.7403068?cmp=rss"
-    }
-   ]
-  },
-  {
-   "topic": "Housing",
-   "headline": "New Toronto garden suite rules spark backyard privacy concerns among neighbours",
-   "summary": "Recent city planning rules allowing garden suites in Toronto have drawn criticism from local residents concerned about backyard privacy. Homeowners are calling for legislative changes to restrict such secondary structures to a single storey.",
-   "articles": [
-    {
-     "outlet": "CBC News",
-     "title": "Garden suite built under new Toronto city planning rules upsets neighbours",
-     "link": "https://www.cbc.ca/news/canada/toronto/garden-suites-city-planning-neighbours-9.7403101?cmp=rss"
-    }
-   ]
-  },
-  {
-   "topic": "Transit & transportation",
-   "headline": "Toronto Transit Commission implements service changes for infrastructure work",
-   "summary": "The Toronto Transit Commission has introduced several service adjustments across the city to accommodate ongoing infrastructure and restoration projects. Riders are advised to check updated schedules and plan their commutes accordingly.",
-   "articles": [
-    {
-     "outlet": "CBC News",
-     "title": "Some TTC service changes took effect Sunday. Here’s what you need to know",
-     "link": "https://www.cbc.ca/news/canada/toronto/ttc-service-changes-what-you-need-to-know-9.7404934?cmp=rss"
+     "title": "Parents cheer, businesses brace as Western Canada ditches the time change",
+     "link": "https://www.thestar.com/news/canada/parents-cheer-businesses-brace-as-western-canada-ditches-the-time-change/article_043660ce-21f7-53f5-bbb7-de3891987906.html"
     },
     {
      "outlet": "CTV News",
-     "title": "TTC adjustments to expect in November",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSTNJdGxfSTJ4VzVNbk85TnpRSjdGV0ZSbGxJZkRrTmlNNnhJU251MlBCSzNtbWpkcnhmS2hPbktlUmptMXAtd3hUZS1MM0FlTEZuZ1UwZDV0T3RTcTJXUUg1T0xHLUhJZGlscVBLU1ZTazNXQ0xrczhPMlFxVjMyQWFvOXFhYmc5N09md2kzbw?oc=5"
+     "title": "Parents cheer, businesses brace as Western Canada ditches the time change",
+     "link": "https://www.ctvnews.ca/canada/article/parents-cheer-businesses-brace-as-western-canada-ditches-the-time-change/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Parents cheer, businesses brace as Western Canada ditches the time change",
+     "link": "https://toronto.citynews.ca/2026/11/02/parents-cheer-businesses-brace-as-western-canada-ditches-the-time-change/"
     }
    ]
   },
   {
-   "topic": "Toronto & GTA politics",
-   "headline": "Fire destroys commercial building in Scarborough early Monday morning",
-   "summary": "A two-alarm fire heavily damaged a commercial building in Scarborough early Monday morning, drawing a rapid response from Toronto Fire Services. Crews battled the blaze near Sheppard Avenue and Brimley Road, causing temporary disruptions in the area.",
+   "topic": "Economy & trade",
+   "headline": "Lockheed Martin acquires Nova Scotia-based undersea defence company",
+   "summary": "U.S. defence and aerospace giant Lockheed Martin has acquired Nova Scotia-based undersea warfare company Ultra Maritime for $3.45 billion. The major transaction highlights continued foreign investment and consolidation within Canada's defence sector.",
    "articles": [
     {
+     "outlet": "Toronto Star",
+     "title": "Defence giant Lockheed Martin acquires N.S.-based undersea warfare company",
+     "link": "https://www.thestar.com/news/canada/nova-scotia/defence-giant-lockheed-martin-acquires-n-s-based-undersea-warfare-company/article_e529ad5a-4130-5545-b517-f1b1a90e9042.html"
+    },
+    {
      "outlet": "CityNews",
-     "title": "2-alarm overnight fire destroys commercial building in Scarborough",
-     "link": "https://toronto.citynews.ca/2026/11/02/fire-commercial-building-scarborough-sheppard-brimley/"
+     "title": "Defence giant Lockheed Martin acquires N.S.-based undersea warfare company",
+     "link": "https://toronto.citynews.ca/2026/11/01/defence-giant-lockheed-martin-acquires-n-s-based-undersea-warfare-company/"
+    }
+   ]
+  },
+  {
+   "topic": "Other public interest",
+   "headline": "Brian Mulroney satirical documentary wins top prize at Windsor film festival",
+   "summary": "A satirical documentary exploring a former prime minister's rise to power has taken home a major cash prize at the Windsor International Film Festival. The film has drawn significant attention from audiences and critics for its unique look at Canadian political history.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Brian Mulroney doc takes home $25,000 prize at Windsor film fest",
+     "link": "https://www.thestar.com/entertainment/movies/brian-mulroney-doc-takes-home-25-000-prize-at-windsor-film-fest/article_f986fb27-8827-5bb0-bf9d-c8d1c51dcde3.html"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Brian Mulroney doc takes home $25,000 prize at Windsor film fest",
+     "link": "https://toronto.citynews.ca/2026/11/01/brian-mulroney-doc-takes-home-25000-prize-at-windsor-film-fest/"
+    }
+   ]
+  },
+  {
+   "topic": "Other public interest",
+   "headline": "Veteran named 2026 National Silver Cross Mother",
+   "summary": "A military veteran whose daughter tragically died during a training exercise in 2002 has been named the 2026 National Silver Cross Mother by the Royal Canadian Legion. She will represent Canadian mothers who have lost children in military service during upcoming remembrance ceremonies.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Veteran who lost daughter in military training exercise named Silver Cross Mother",
+     "link": "https://www.thestar.com/news/canada/veteran-who-lost-daughter-in-military-training-exercise-named-silver-cross-mother/article_29a25004-4ea5-5f0d-8462-2ef7a742d413.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Veteran who lost daughter in training accident named National Silver Cross Mother",
+     "link": "https://www.ctvnews.ca/canada/article/her-daughter-died-in-training-too-now-canadas-silver-cross-mother-has-a-message-for-wainwright-families/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Veteran who lost daughter in military training exercise named Silver Cross Mother",
+     "link": "https://toronto.citynews.ca/2026/11/01/veteran-who-lost-daughter-in-military-training-exercise-named-silver-cross-mother/"
+    }
+   ]
+  },
+  {
+   "topic": "Justice & policing",
+   "headline": "Driver faces impaired driving charges after multi-vehicle crash in Toronto",
+   "summary": "Toronto police have laid impaired driving charges against a motorist following a multi-vehicle collision in the city's west end. Emergency services responded to the scene on Sunday morning to manage traffic and investigate the incident.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "Woman charged with impaired driving following 3-vehicle crash in Toronto’s west end",
+     "link": "https://www.ctvnews.ca/toronto/article/woman-charged-with-impaired-driving-following-3-vehicle-crash-in-torontos-west-end/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Woman facing impaired driving charge in 3-vehicle crash near High Park",
+     "link": "https://toronto.citynews.ca/2026/11/01/woman-facing-impaired-driving-charge-in-3-vehicle-crash-in-etobicoke/"
+    }
+   ]
+  },
+  {
+   "topic": "Justice & policing",
+   "headline": "Police investigate sewing needles found in Halloween candy across the GTA",
+   "summary": "Police authorities in Toronto and Durham Region are investigating after sewing needles and pins were discovered hidden inside Halloween treats. Parents have been urged to thoroughly inspect children's candy collected during trick-or-treating festivities.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "Toronto police investigating after father discovers needles, pins inside five Halloween treats",
+     "link": "https://www.ctvnews.ca/toronto/article/toronto-police-investigating-after-father-discovers-needles-pins-inside-five-halloween-treats/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Sewing needles found in Halloween candy distributed in Oshawa, police say",
+     "link": "https://toronto.citynews.ca/2026/11/01/sewing-needles-found-in-halloween-candy-distributed-in-oshawa-police-say/"
     }
    ]
   }
  ],
- "errors": []
+ "errors": [
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/gta*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
 }
