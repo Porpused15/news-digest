@@ -1,0 +1,496 @@
+{
+ "format": 2,
+ "date": "2026-11-03",
+ "generated_at": "2026-11-03T06:20:42-05:00",
+ "scanned": 230,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 23,
+  "Toronto Star": 51,
+  "The Local": 1,
+  "CTV News": 45,
+  "CityNews": 30,
+  "CBC News": 36,
+  "La Presse": 4,
+  "Radio-Canada": 40
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "Toronto Star",
+  "The Local",
+  "CTV News",
+  "CityNews",
+  "CBC News",
+  "La Presse",
+  "Radio-Canada"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "stories": [
+  {
+   "topic": "Economy & trade",
+   "headline": "Federal Budget to Include Small Business Tax Measures and New Growth Model",
+   "summary": "Finance Minister Francois-Philippe Champagne announced that the upcoming federal budget will introduce targeted tax measures and policies aimed at supporting small and medium-sized businesses and changing Canada's economic growth model. The budget will also detail major policy initiatives such as the Canada Strong Fund ahead of its release on Thursday.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Budget will include new tax measures for small businesses, Finance Minister says",
+     "link": "https://www.theglobeandmail.com/politics/article-federal-budget-new-tax-measures-for-small-businesses-finance-minister/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Ottawa targeting small business tax troubles in upcoming budget: Champagne",
+     "link": "https://www.thestar.com/business/personal-finance/federal-budget-is-about-changing-canada-s-growth-model-finance-minister-says/article_1f9bbe57-e963-5213-95f0-98fe05dadddc.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Champagne gives a preview of what to expect in federal budget",
+     "link": "https://www.ctvnews.ca/politics/article/federal-budget-is-about-changing-canadas-growth-model-finance-minister-says/"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Le budget vise à « changer le modèle de croissance du Canada », selon Champagne",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297606/budget-federal-2026-canada-gouvernement-carney"
+    }
+   ]
+  },
+  {
+   "topic": "Economy & trade",
+   "headline": "Canada and U.S. Discuss New Trade Deal as Officials Navigate Tariff Pressures",
+   "summary": "U.S. President Donald Trump stated that his administration has the concept of a new trade deal with Canada, prompting mixed reactions from Canadian officials and industry groups. While Ontario Premier Doug Ford urged Prime Minister Mark Carney not to rush into an agreement, industry leaders welcomed the ongoing high-level talks as a positive step for cross-border commerce.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Trump says U.S. and Canada have 'concept' of a new trade deal",
+     "link": "https://www.theglobeandmail.com/world/video-trump-says-us-and-canada-have-concept-of-a-new-trade-deal/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "'Screwed either way': Republican senator fights backlash over Trump tariffs in Maine",
+     "link": "https://www.thestar.com/news/canada/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/article_0079f21a-882f-53a0-850b-36daa49870ec.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Canada must hold out for 'the right deal' with Donald Trump, Doug Ford says",
+     "link": "https://www.thestar.com/politics/provincial/canada-must-hold-out-for-the-right-deal-with-donald-trump-doug-ford-says/article_484cee05-066b-491b-9949-bb0496c92e07.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Why Donald Trump's sudden push for the Keystone XL pipeline is actually a midterm stunt",
+     "link": "https://www.thestar.com/news/canada/donald-trump-covets-the-keystone-xl-pipeline-because-its-path-runs-through-key-u-s-midterm-election-races/article_45ee834d-d00b-4814-9eb9-fa93ab7aca61.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Progress on trade talks is ‘encouraging,’ says Canadian industry group",
+     "link": "https://www.ctvnews.ca/world/trumps-tariffs/article/progress-on-trade-talks-is-encouraging-says-canadian-industry-group/"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Élections de mi-mandat : les tarifs et le coût de la vie irritent des électeurs en Ohio",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10799958/elections-mi-mandat-tarifs-et-cout-vie-irritent-electeurs-en-ohio"
+    }
+   ]
+  },
+  {
+   "topic": "Justice & policing",
+   "headline": "Privacy Commissioner Urges Amendments to Federal Lawful Access Bill",
+   "summary": "Federal Privacy Commissioner Philippe Dufresne is calling on the Senate to amend the government's controversial lawful access legislation. The watchdog warns that the proposed rules would grant authorities overly broad access to private communications under new production orders without sufficient safeguards.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Privacy commissioner calls for new curbs on government's 'lawful access' bill",
+     "link": "https://www.thestar.com/politics/federal/privacy-commissioner-calls-for-new-curbs-on-government-s-lawful-access-bill/article_d2df1ab3-cd08-5149-9a34-aca46d75aea5.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Privacy commissioner calls for new curbs on government's 'lawful access' bill",
+     "link": "https://www.ctvnews.ca/politics/article/privacy-commissioner-calls-for-new-curbs-on-governments-lawful-access-bill/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Privacy commissioner calls for new curbs on government’s ‘lawful access’ bill",
+     "link": "https://toronto.citynews.ca/2026/11/02/privacy-commissioner-calls-for-new-curbs-on-governments-lawful-access-bill/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Privacy watchdog urges Senate to further amend Liberals' controversial lawful access bill",
+     "link": "https://www.cbc.ca/news/politics/senate-bill-c-22-lawful-access-9.7406213?cmp=rss"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "Obtention d’informations par les autorités | Le commissaire à la vie privée propose d’amender le projet de loi C-22 sur l’accès légal",
+     "link": "https://www.lapresse.ca/actualites/national/2026-11-02/obtention-d-informations-par-les-autorites/le-commissaire-a-la-vie-privee-propose-d-amender-le-projet-de-loi-c-22-sur-l-acces-legal.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=national"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Le commissaire à la vie privée propose de limiter le projet de loi sur l’accès légal",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297725/commissaire-vie-privee-acces-legal-informations"
+    }
+   ]
+  },
+  {
+   "topic": "Indigenous affairs",
+   "headline": "First Nations Launch Court Challenges Against Pacific Link Pipeline Designation",
+   "summary": "Several Indigenous groups in British Columbia have filed legal challenges arguing that Ottawa's decision to fast-track the Pacific Link pipeline as a project of national interest is unconstitutional and lacks adequate consultation. The court battles highlight ongoing tensions between federal resource development priorities and Indigenous rights.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "First Nations court challenges pile up against Pacific Link pipeline",
+     "link": "https://www.theglobeandmail.com/business/article-first-nations-court-challenges-pacific-link-pipeline/"
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "title": "B.C. First Nations challenge Ottawa’s decision to fast-track Pacific Link pipeline",
+     "link": "https://www.theglobeandmail.com/business/article-bc-first-nations-pacific-link-pipeline-challenge/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "First Nations challenge national interest designation for Alberta-B.C. pipeline",
+     "link": "https://www.cbc.ca/news/canada/british-columbia/statimc-chiefs-legal-challenge-pacific-link-designation-bc-9.7405913?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Neuf nations autochtones de la Colombie-Britannique contestent Pacific Link en cour",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297675/nations-autochtones-pacific-link-justice"
+    }
+   ]
+  },
+  {
+   "topic": "Health",
+   "headline": "Ontario Doctors Demand Centralized Specialist Referral Program to Cut Wait Times",
+   "summary": "The Ontario Medical Association is urging the province to implement a centralized intake program and eliminate reliance on outdated methods like fax machines for specialist referrals. Doctors warn that prolonged wait times are increasingly driving frustrated patients to seek out-of-network care or emergency departments.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Ontarians look to social media for medical specialists because of long waits, association says",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-medical-specialists-long-waits-social-media-referral-program/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Ontario doctors call for reform, central intake, on access to specialized care",
+     "link": "https://www.thestar.com/news/ontario/ontario-doctors-call-for-reform-central-intake-on-access-to-specialized-care/article_6ccf742d-1e25-577c-9b1b-ec85b7a0333c.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Ontario doctors call for reform, central intake, on access to specialized care",
+     "link": "https://www.ctvnews.ca/toronto/article/ontario-doctors-call-for-reform-central-intake-on-access-to-specialized-care/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Finding a specialist can take so long, some Ontario doctors are turning to social media: OMA",
+     "link": "https://www.cbc.ca/news/canada/toronto/doctors-call-for-reform-central-intake-9.7406009?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Education",
+   "headline": "OSAP Freeze Disrupts Paramedic Students and Private Career College Funding",
+   "summary": "A provincewide pause on student financial aid has severely impacted paramedic students in northern Ontario, leading many to drop out of programs aimed at boosting health-care staffing. The freeze follows ministry allegations that thousands of student aid applications originated from a single suspicious IP address at targeted career colleges.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "OSAP pause hits paramedic students bound to work in underserved areas",
+     "link": "https://www.thestar.com/news/ontario/osap-pause-hits-paramedic-students-bound-to-work-in-underserved-areas/article_2186c28f-69e9-5ec7-b952-3b33418e3ba2.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Thousands of OSAP applications came from a single IP address, ministry alleges",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/thousands-of-osap-applications-came-from-a-single-ip-address-ministry-alleges/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "OSAP pause hits paramedic students bound to work in underserved areas",
+     "link": "https://www.ctvnews.ca/canada/article/osap-pause-hits-paramedic-students-bound-to-work-in-underserved-areas/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "OSAP pause hits paramedic students bound to work in underserved areas",
+     "link": "https://toronto.citynews.ca/2026/11/03/osap-ontario-pause-paramedic-students/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Ministry alleges thousands of OSAP applications came from single IP address",
+     "link": "https://www.cbc.ca/news/canada/toronto/osap-ip-address-9.7405730?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Justice & policing",
+   "headline": "Montreal Police Fire Seven Officers Over Discriminatory and Racist Conduct",
+   "summary": "Montreal Police Chief Fady Dagher announced the administrative dismissal of seven officers following investigations into discriminatory and racist behaviour within the force. The firings are part of an ongoing effort by leadership to address systemic misconduct scandals within the municipal police service.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Montreal police fire seven officers after allegations of discriminatory, racist conduct",
+     "link": "https://www.theglobeandmail.com/canada/article-montreal-police-misconduct-discrimination/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Montreal police say seven officers fired over misconduct allegations",
+     "link": "https://www.thestar.com/news/canada/quebec/cp-newsalert-montreal-police-to-fire-seven-over-misconduct-allegations/article_76ca9936-7ce6-5a37-af14-a7de896f6780.html"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "7 Montreal police officers dismissed over racist, discriminatory conduct",
+     "link": "https://www.cbc.ca/news/canada/montreal/montreal-police-firing-spvm-9.7406135?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Allégations d’inconduite : le SPVM congédie 7 policiers",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297634/spvm-congediement-sept-policiers-racisme-itinerant-preuve"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Federal Focus Groups Reveal Low Public Awareness of Upcoming Budget and Deficit",
+   "summary": "Internal federal focus group reports indicate that Canadians are paying little attention to the state of public finances ahead of the upcoming budget release. The findings highlight a disconnect between government fiscal updates and public engagement with national economic policy.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Ottawa's focus groups report low awareness of federal deficit, budget updates",
+     "link": "https://www.thestar.com/politics/federal/ottawa-s-focus-groups-report-low-awareness-of-federal-deficit-budget-updates/article_c8e68bd4-783c-56f3-ad03-16ac24b2fc77.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Ottawa's focus groups report low awareness of federal deficit, budget updates",
+     "link": "https://www.ctvnews.ca/politics/article/ottawas-focus-groups-report-low-awareness-of-federal-deficit-budget-updates/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Ottawa’s focus groups report low awareness of federal deficit, budget updates",
+     "link": "https://toronto.citynews.ca/2026/11/03/ottawas-focus-groups-report-low-awareness-of-federal-deficit-budget-updates/"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Prime Minister Mark Carney Focuses on Trade at Commonwealth Summit in Antigua",
+   "summary": "Prime Minister Mark Carney traveled to Antigua and Barbuda to participate in the Commonwealth Heads of Government Meeting, where boosting international trade and investment are key priorities. The summit provides an opportunity for Canada to strengthen economic ties with member nations amidst shifting global trade dynamics.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Carney in Antigua for Commonwealth leaders meeting",
+     "link": "https://www.thestar.com/news/canada/carney-in-antigua-for-commonwealth-leaders-meeting/article_270bd852-2e80-5812-926a-88c2d4031fcc.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Carney in Antigua for Commonwealth leaders meeting",
+     "link": "https://www.ctvnews.ca/politics/article/carney-in-antigua-for-commonwealth-leaders-meeting/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "PM Carney heads to Commonwealth meeting in Antigua and Barbuda focused on trade, investment",
+     "link": "https://www.ctvnews.ca/politics/article/pm-carney-heads-to-commonwealth-meeting-in-antigua-and-barbuda-focused-on-trade-investment/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Carney in Antigua for Commonwealth leaders meeting",
+     "link": "https://toronto.citynews.ca/2026/11/03/carney-in-antigua-for-commonwealth-leaders-meeting/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "24 hours in Antigua: Mark Carney's priorities at this year's Commonwealth Summit",
+     "link": "https://www.cbc.ca/news/politics/mark-carney-commonwealth-summit-november-2026-9.7406728?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Justice & policing",
+   "headline": "Belleville Synagogue Leaders Call for Urgent Federal Security Funding",
+   "summary": "Members of the Belleville synagogue targeted in a September shooting are pressing the federal government for increased financial support for counter-radicalization and physical security measures. Survivors emphasize that heightened security remains essential as antisemitic incidents persist in the community.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Belleville synagogue members call for increased focus on counter-radicalization",
+     "link": "https://www.theglobeandmail.com/politics/article-belleville-synagogue-members-call-focus-counter-radicalization/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Belleville synagogue shooting was a 'wake-up call,' Ottawa warned",
+     "link": "https://www.thestar.com/politics/federal/belleville-synagogue-shooting-was-a-wake-up-call-ottawa-warned/article_ef3c4c0b-9ac4-40eb-abce-133f956aaae3.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Survivor of Belleville, Ont., synagogue shooting cites need for extensive security",
+     "link": "https://www.thestar.com/news/ontario/survivor-of-belleville-ont-synagogue-shooting-cites-need-for-extensive-security/article_b98363e2-15ec-5c8c-b761-cc53c560298c.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Survivor of Belleville, Ont., synagogue shooting cites need for extensive security",
+     "link": "https://www.ctvnews.ca/ottawa/article/survivor-of-belleville-ont-synagogue-shooting-cites-need-for-extensive-security/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Survivor of Belleville, Ont., synagogue shooting cites need for extensive security",
+     "link": "https://toronto.citynews.ca/2026/11/02/survivor-of-belleville-synagogue-shooting-cites-need-for-extensive-security/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Members of Belleville, Ont., synagogue targeted by gunman call for more security funding",
+     "link": "https://www.cbc.ca/news/canada/ottawa/members-of-belleville-synagogue-targeted-by-gunman-call-for-more-security-funding-9.7405917?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Stephen Harper Releases Memoir Discussing Political Rivalries and 2012 Job Offer to Mark Carney",
+   "summary": "Former prime minister Stephen Harper has published a new memoir reflecting on his decade in power, addressing past political relationships and disputing historical claims. The book notably reveals that Harper offered Mark Carney a role in his Conservative government in 2012.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Stephen Harper's new memoir revisits Mark Carney rivalry, Pierre Poilievre and a day of fear on the Hill",
+     "link": "https://www.thestar.com/politics/federal/harper-s-new-memoir-revisits-carney-rivalry-poilievre-and-a-day-of-fear-on-the-hill/article_f6445d76-8eed-4c9c-b58d-88680ab9591e.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "In new memoir, Harper says he offered Carney a job — but not finance minister",
+     "link": "https://www.thestar.com/news/canada/in-new-memoir-harper-says-he-offered-carney-a-job-but-not-finance-minister/article_f01bfe3b-d5a3-5fea-b2fe-fb2347b659f2.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "In new memoir, Harper says he offered Carney a job — but not finance minister",
+     "link": "https://www.ctvnews.ca/canada/article/in-new-memoir-harper-says-he-offered-carney-a-job-but-not-finance-minister/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "In new memoir, Harper says he offered Carney a job — but not finance minister",
+     "link": "https://toronto.citynews.ca/2026/11/03/in-new-memoir-harper-says-he-offered-carney-a-job-but-not-finance-minister/"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Prime Minister Mark Carney Calls Six Federal By-Elections for December",
+   "summary": "Prime Minister Mark Carney has scheduled six federal by-elections across Quebec, Ontario, and Saskatchewan for December 7. The upcoming votes will serve as an early electoral test for the federal parties in key ridings.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "Prime Minister Mark Carney calls six federal byelections for December",
+     "link": "https://www.ctvnews.ca/canada/article/prime-minister-mark-carney-calls-six-federal-byelections-for-december/"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Mark Carney déclenche six élections partielles",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10799522/mark-carney-declenche-six-elections-partielles"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Six élections partielles déclenchées au Canada",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10798764/six-elections-partielles-declenchees-au-canada"
+    }
+   ]
+  },
+  {
+   "topic": "Ontario politics",
+   "headline": "Proposed Alberta Electoral Boundary Changes Face Legal Challenge and Political Pushback",
+   "summary": "An advisory panel's proposed map for Alberta's electoral boundaries has drawn sharp criticism and promises of legal challenges from opposition leaders who argue the changes favor the governing party. The plan reorganizes several urban and rural ridings, shifting thousands of voters.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "New Alberta electoral map proposes vast changes to urban ridings",
+     "link": "https://www.theglobeandmail.com/canada/alberta/article-justice-minister-rejects-request-postpone-election-drop-electoral-map/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Conservatives will 'wait and see' whether party can hold a safe Ontario seat in byelection",
+     "link": "https://www.thestar.com/politics/federal/conservatives-will-wait-and-see-whether-party-can-hold-a-safe-ontario-seat-in-byelection/article_6f4a0c61-732b-4b73-b42c-f086ed919edb.html"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "New Alberta riding plan shifts thousands of Calgary, Lethbridge voters into rural-urban districts",
+     "link": "https://www.cbc.ca/news/canada/calgary/alberta-panel-legislature-advisory-panel-brian-o-ferrall-9.7406294?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Un redécoupage de la carte électorale contesté en Alberta",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297700/alberta-carte-electorale-contestation"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Ottawa Defends Planned Extradition Treaty Talks with United Arab Emirates",
+   "summary": "The federal government is defending its decision to pursue extradition treaty negotiations with the United Arab Emirates despite heavy criticism from civil society organizations. Critics point to the UAE's human rights record as a primary concern for entering formal judicial cooperation.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Ottawa defends extradition treaty talks with UAE as civil society groups sound alarm",
+     "link": "https://www.thestar.com/news/canada/ottawa-defends-extradition-treaty-talks-with-uae-as-civil-society-group-sounds-alarm/article_6e840c51-4ce6-5047-af9d-5a062028f3dc.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Ottawa defends extradition treaty talks with UAE as civil society group sounds alarm",
+     "link": "https://www.ctvnews.ca/politics/article/ottawa-defends-extradition-treaty-talks-with-uae-as-civil-society-group-sounds-alarm/"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "Un possible traité d’extradition du Canada avec les Émirats arabes unis inquiète",
+     "link": "https://www.lapresse.ca/actualites/national/2026-11-02/un-possible-traite-d-extradition-du-canada-avec-les-emirats-arabes-unis-inquiete.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=national"
+    }
+   ]
+  },
+  {
+   "topic": "Toronto & GTA politics",
+   "headline": "Toronto Experiences Unseasonably Warm Fall Weather with Temperatures Reaching 20 C",
+   "summary": "The Greater Toronto Area is experiencing an extended period of unseasonably warm weather, with daytime temperatures climbing to 20 degrees Celsius. Meteorologists note that the mild conditions break historical seasonal norms for this time of year.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Toronto's Nov. 3 forecast: Chance of showers",
+     "link": "https://www.thestar.com/news/gta/torontos-nov-3-forecast-chance-of-showers/article_4cd880b3-4396-5f93-8770-1cca617aa730.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Toronto temperatures expected to hit 20 C this week after breaking record last month",
+     "link": "https://www.thestar.com/news/gta/toronto-temperatures-expected-to-hit-20-c-this-week-after-breaking-record-last-month/article_8325befc-df56-5c6c-a8a2-a7b07e16190b.html"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Toronto temperatures expected to hit 20 C this week after breaking October record",
+     "link": "https://toronto.citynews.ca/2026/11/02/toronto-temperatures-expected-to-hit-20-c-this-week-after-breaking-october-record/"
+    }
+   ]
+  },
+  {
+   "topic": "Toronto & GTA politics",
+   "headline": "Toronto Officials to Review Crowd Management Following Massive Halloween Turnout",
+   "summary": "Toronto Mayor Olivia Chow and local business improvement associations are planning a comprehensive review of the annual Church Street Halloween event after an estimated 50,000 attendees raised serious concerns over overcrowding and public safety. Organizers aim to implement better crowd-control measures for future street festivals in the village.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Mayor, police look to improve Halloween on Church festivities after 50,000 attend",
+     "link": "https://www.thestar.com/news/gta/mayor-police-look-to-improve-halloween-on-church-festivities-after-50k-attend/article_cbea4375-d716-41ee-9175-5a0fcc36e7ce.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Mayor calls for review into Church Street Halloween festivities after an estimated 50K people show up",
+     "link": "https://www.ctvnews.ca/toronto/article/mayor-police-to-review-church-street-halloween-festivities-following-overcrowding-concerns/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Concerns raised over excessive crowding, safety at Toronto Halloween on Church Street event",
+     "link": "https://toronto.citynews.ca/2026/11/02/halloween-on-church-street-toronto-2026/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "A Halloween festival drew thousands to Church-Wellesley Village. Some advocates say safety was a concern",
+     "link": "https://www.cbc.ca/news/canada/toronto/toronto-halloween-church-street-crowds-9.7406156?cmp=rss"
+    }
+   ]
+  }
+ ],
+ "errors": []
+}
