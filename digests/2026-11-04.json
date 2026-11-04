@@ -1,0 +1,385 @@
+{
+ "format": 2,
+ "date": "2026-11-04",
+ "generated_at": "2026-11-04T06:21:56-05:00",
+ "scanned": 237,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 25,
+  "Toronto Star": 58,
+  "The Local": 0,
+  "CTV News": 39,
+  "CityNews": 30,
+  "CBC News": 35,
+  "La Presse": 9,
+  "Radio-Canada": 41
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "Toronto Star",
+  "The Local",
+  "CTV News",
+  "CityNews",
+  "CBC News",
+  "La Presse",
+  "Radio-Canada"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "stories": [
+  {
+   "topic": "Economy & trade",
+   "headline": "Prime Minister Carney says more intense trade talks have begun with the United States",
+   "summary": "Prime Minister Mark Carney stated that more intensive trade negotiations with the United States have officially begun following a recent phone call with President Donald Trump. Carney noted that the U.S. is currently asking for less and offering more in revitalized talks, signaling progress on contentious issues such as trade restrictions. Industry groups have welcomed the development as encouraging news for Canadian exporters.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Intense trade negotiations have begun, the U.S. is 'asking for less' and 'offering more,' Carney says",
+     "link": "https://www.thestar.com/politics/federal/more-intense-u-s-trade-negotiations-have-started-carney-says/article_fa037b29-591f-58e0-92d2-16beb1d23c71.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Progress on trade talks is ‘encouraging,’ says Canadian industry group",
+     "link": "https://www.ctvnews.ca/world/trumps-tariffs/article/progress-on-trade-talks-is-encouraging-says-canadian-industry-group/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "More intense U.S. trade negotiations have started, Carney says",
+     "link": "https://toronto.citynews.ca/2026/11/03/more-intense-u-s-trade-negotiations-have-started-carney-says/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Carney says U.S. 'asking less and offering more' with 'more intense' trade talks underway",
+     "link": "https://www.cbc.ca/news/politics/carney-trump-trade-deal-progress-9.7407273?cmp=rss"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "Guerre commerciale | Des négociations « plus intensives » s’amorcent avec les États-Unis, dit Mark Carney",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-03/guerre-commerciale/des-negociations-plus-intensives-s-amorcent-avec-les-etats-unis-dit-mark-carney.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Democrats win control of the U.S. House and Senate in midterm elections",
+   "summary": "Democratic candidates secured majorities in both the U.S. House and Senate during the midterm elections, delivering a decisive rebuke to the second administration of President Donald Trump. Voters expressed deep frustration over high prices, government corruption, and foreign conflicts, leading to historic gains for Democrats. The shift in congressional control is expected to significantly impact U.S.-Canada relations and trade negotiations.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "U.S. voters in key states question Trump's attacks on Canada at midterm polls",
+     "link": "https://www.theglobeandmail.com/canada/video-us-voters-in-key-states-question-trumps-attacks-on-canada-at-midterm/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Blue wave crashes over American politics in midterm that rebukes Trump policies",
+     "link": "https://www.thestar.com/news/canada/blue-wave-crashes-over-american-politics-in-midterm-that-rebukes-trump-policies/article_6d9214eb-3bf7-5da1-8cca-b9338ece6248.html"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Democrats deliver a stunning rout in Texas to retake power for the first time in decades",
+     "link": "https://toronto.citynews.ca/2026/11/04/democrats-deliver-a-stunning-rout-in-texas-to-retake-power-for-the-first-time-in-decades/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Democrat Hakeem Jeffries poised to make history as the first Black speaker of the House",
+     "link": "https://toronto.citynews.ca/2026/11/04/democrat-hakeem-jeffries-poised-to-make-history-as-the-first-black-speaker-of-the-house/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Democrats win U.S. Senate, ending Republican dominance by harnessing voters’ frustration with Trump",
+     "link": "https://toronto.citynews.ca/2026/11/04/democrats-win-u-s-senate-ending-republican-dominance-by-harnessing-voters-frustration-with-trump/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Democrats win the U.S. House and Senate as voters deliver a strong rebuke to Trump and Republicans",
+     "link": "https://toronto.citynews.ca/2026/11/03/democrats-to-take-control-of-the-u-s-house-of-representatives-u-s-news-sources-project/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Key Senate races to watch in the U.S. midterms",
+     "link": "https://toronto.citynews.ca/2026/11/03/key-senate-races-u-s-midterms/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "U.S. midterms: Democrats take control of Congress as voters hand Trump major loss",
+     "link": "https://www.cbc.ca/news/world/livestory/us-midterm-election-results-live-updates-2026-9.7403367?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Donald Trump a perdu ses élections de mi-mandat",
+     "link": "https://ici.radio-canada.ca/en-bref/1-10800995/donald-trump-a-perdu-ses-elections-mi-mandat"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Portés par une vague bleue, les démocrates remportent la majorité au Sénat et à la Chambre",
+     "link": "https://ici.radio-canada.ca/nouvelle/2298102/trump-elections-mi-mandat-vague-democrate"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Élections de mi-mandat : une gifle pour Donald Trump et son parti",
+     "link": "https://ici.radio-canada.ca/nouvelle/2298141/elections-mi-mandat-etats-unis-trump-analyse"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Alberta Premier Danielle Smith defends proposed electoral map changes",
+   "summary": "Alberta Premier Danielle Smith defended the province's proposed electoral boundary changes against allegations of gerrymandering from the opposition NDP. The premier stated that the new urban-rural hybrid riding maps are reasonable and provide better representation for voters. The government is preparing a legal defense should the opposition proceed with a legal challenge.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Smith defends Alberta electoral map against gerrymandering allegations",
+     "link": "https://www.theglobeandmail.com/canada/alberta/article-danielle-smith-alberta-electoral-map-gerrymandering-allegations/"
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Smith defends proposed Alberta riding redraw despite NDP accusations of gerrymandering",
+     "link": "https://www.theglobeandmail.com/canada/alberta/article-smith-alberta-election-map-ndp-gerrymandering/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "The give and take (and partisan wrangling) in Alberta's urban-rural hybrid riding maps",
+     "link": "https://www.cbc.ca/news/canada/calgary/analysis-alberta-riding-boundaries-oferrall-naheed-nenshi-danielle-smith-9.7407907?cmp=rss"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Alberta to lawyer up if NDP challenges electoral boundary report: Smith",
+     "link": "https://www.cbc.ca/news/canada/calgary/alberta-premier-danielle-smith-ndp-boundary-report-keith-archer-9.7407430?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Prime Minister Carney says Russia will not be allowed at the World Juniors in Alberta",
+   "summary": "Prime Minister Mark Carney announced that Russian and Belarusian athletes will not be permitted to compete in the upcoming world junior hockey championship in Alberta. The decision comes amid ongoing boycotts from several European hockey federations over the war in Ukraine. Carney emphasized that the athletes will remain barred from representing their countries in Canada while the conflict continues.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Carney says Russian team won't be allowed at Alberta's world junior hockey tournament",
+     "link": "https://www.thestar.com/sports/hockey/world-juniors/boycott-against-russian-reinstatement-leaves-questions-on-impact-on-world-juniors/article_fd647b9f-eeda-57b9-8ef3-51a246f80fd8.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Canada's prime minister says Russia not allowed at world juniors after 6 countries threaten boycott",
+     "link": "https://www.thestar.com/sports/hockey/world-juniors/norway-joins-finland-in-boycotting-hockey-world-championship-games-against-russia/article_1c28e92f-7a7f-5bd2-89d2-32ffdb503aba.html"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Carney says Russia will not be allowed to compete at world juniors in Alberta",
+     "link": "https://toronto.citynews.ca/2026/11/03/boycott-russian-reinstatement-world-juniors-alberta/"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Mondial de hockey junior : la Russie ne sera pas admise, tranche Mark Carney",
+     "link": "https://ici.radio-canada.ca/sports/2297991/mondial-junior-hockey-mark-carney-russie"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Former bank employee found guilty after viewing Prime Minister Carney's data",
+   "summary": "A former Royal Bank of Canada employee was convicted on three criminal charges for opening fraudulent accounts and accessing the personal banking information of Prime Minister Mark Carney. The incident highlights vulnerabilities in financial data security and insider access. The court ruling concludes the prosecution of the former worker.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Ex-bank worker found guilty after viewing Carney's data, opening fraudulent accounts",
+     "link": "https://www.thestar.com/politics/federal/ex-bank-worker-found-guilty-after-viewing-carney-s-data-opening-fraudulent-accounts/article_556d6878-de96-543e-96dc-46a063792893.html"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Ex-bank worker found guilty after viewing Carney’s data, opening fraudulent accounts",
+     "link": "https://toronto.citynews.ca/2026/11/04/ex-bank-worker-found-guilty-after-viewing-carneys-data-opening-fraudulent-accounts/"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Elections Canada chief warns about artificial intelligence influencing voters",
+   "summary": "Elections Canada is raising concerns about the growing influence of artificial intelligence on the democratic process and voter information. The warning comes as the country prepares for upcoming federal byelections and looks at the lessons from American midterms. Officials stress that AI-driven misinformation poses a serious challenge to securing accurate information for voters.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Elections chief issues warning about AI's influence on voters",
+     "link": "https://www.thestar.com/news/canada/elections-chief-issues-warning-about-ai-s-influence-on-voters/article_80b608ea-767d-5606-af38-29ddacee4057.html"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "AI is making it harder for voters to get accurate information: Elections Canada chief",
+     "link": "https://www.cbc.ca/news/politics/elections-canada-artificial-intelligence-9.7407854?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Indigenous affairs",
+   "headline": "AFN chief says Carney and Kinew are the only leaders discussing abolishing Indian Act",
+   "summary": "The national chief of the Assembly of First Nations noted that Prime Minister Mark Carney and Manitoba Premier Wab Kinew were the only leaders to discuss abolishing the Indian Act during a landmark meeting. The discussions mark a rare high-level political engagement on dismantling the foundational legislation governing Indigenous affairs. First Nations leaders continue to press for systemic reform in federal-provincial relations.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "AFN chief says no one besides Carney, Kinew talked about abolishing Indian Act",
+     "link": "https://www.thestar.com/politics/federal/afn-chief-says-no-one-besides-carney-kinew-talked-about-abolishing-indian-act/article_1cbaffda-9357-507c-acbf-338ece09e64d.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "AFN chief says no one besides Carney, Kinew talked about abolishing Indian Act",
+     "link": "https://www.ctvnews.ca/canada/article/afn-chief-says-no-one-besides-carney-kinew-talked-about-abolishing-indian-act/"
+    }
+   ]
+  },
+  {
+   "topic": "Other public interest",
+   "headline": "UN relief head praises Canada's humanitarian aid and calls for global accountability",
+   "summary": "United Nations global head of humanitarian issues Tom Fletcher praised Canada as a humanitarian superpower for its ongoing advocacy and funding. During a visit to Ottawa, Fletcher urged greater international accountability for the wars driving suffering and civilian casualties in regions like Gaza, Ukraine, and Sudan. Canada's contributions continue to be recognized as vital for supporting the world's most vulnerable populations.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Canada’s aid efforts make it ‘humanitarian superpower,’ UN’s relief head says",
+     "link": "https://www.theglobeandmail.com/canada/article-un-relief-canada-aid-efforts-humanitarian-superpower/"
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Canada’s aid efforts make country ‘humanitarian superpower,’ says UN’s relief head",
+     "link": "https://www.theglobeandmail.com/canada/video-canadas-aid-efforts-make-country-humanitarian-superpower-says-uns/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Head of UN relief praises Canada, calls for accountability in Gaza, Ukraine, Sudan",
+     "link": "https://www.thestar.com/politics/federal/head-of-un-relief-praises-canada-calls-for-accountability-in-gaza-ukraine-sudan/article_de1fe2f3-e1e5-5697-95e3-21cebd372a73.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Head of UN relief praises Canada, calls for accountability in Gaza, Ukraine, Sudan",
+     "link": "https://www.ctvnews.ca/canada/article/head-of-un-relief-praises-canada-calls-for-accountability-in-gaza-ukraine-sudan/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Head of UN relief praises Canada, calls for accountability in Gaza, Ukraine, Sudan",
+     "link": "https://toronto.citynews.ca/2026/11/03/head-of-un-relief-praises-canada-calls-for-accountability-in-gaza-ukraine-sudan/"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Conservatives urge ethics commissioner to investigate Carney and Telesat CEO friendship",
+   "summary": "Federal Conservatives have formally asked the ethics commissioner to examine the relationship between Prime Minister Mark Carney and the CEO of Telesat Corporation. The inquiry request follows the federal government's awarding of a multi-billion-dollar military satellite contract to the company. The opposition argues the connection warrants a conflict of interest review.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "Conservatives urge ethics commissioner to probe Carney’s Telesat connections",
+     "link": "https://www.ctvnews.ca/politics/article/conservatives-urge-ethics-commissioner-to-probe-carneys-telesat-connections/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Conservatives call for probe of friendship between Carney and Telesat CEO",
+     "link": "https://www.cbc.ca/news/politics/telesat-ceo-prime-minister-mark-carney-conservatives-9.7407474?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Ontario politics",
+   "headline": "Alberta tables bill to end tuition caps and enforce post-secondary neutrality",
+   "summary": "The Alberta government introduced legislation that would eliminate the cap on tuition hikes and require post-secondary institutions to remain neutral on political issues. Universities will be compelled to uphold freedom of expression while facing potential consequences for expressing ideological positions. The bill has sparked debate over the future governance and funding of post-secondary education.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Alberta tables bill to end tuition hike cap, bar schools from expressing ideological positions",
+     "link": "https://www.theglobeandmail.com/canada/article-alberta-bill-end-tuition-hike-cap-bar-schools-ideological-positions/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "New Alberta bill would compel ‘neutrality’ for post-secondary institutions on political issues",
+     "link": "https://www.cbc.ca/news/canada/edmonton/alberta-bill-38-neutrality-9.7407929?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Ontario politics",
+   "headline": "Ontario minister backtracks on releasing career college OSAP audit",
+   "summary": "Ontario's colleges and universities minister announced that the government will not release a government-commissioned audit examining student financial aid usage and potential fraud at private career colleges. The reversal follows earlier statements suggesting parts of the independent report might be made public. Critics have accused the provincial government of ignoring financial aid fraud within the sector.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Minister backtracks on whether OSAP audit will be made public as Ford government accused of ignoring fraud",
+     "link": "https://www.thestar.com/politics/minister-backtracks-on-whether-osap-audit-will-be-made-public-as-ford-government-accused-of-ignoring-fraud/article_b5cae55b-01c6-4d42-977d-b931e3e7e253.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Ontario won't make career college OSAP audit public, minister says",
+     "link": "https://www.thestar.com/news/ontario/ontario-won-t-make-career-college-osap-audit-public-minister-says/article_f92cb1d8-2843-5c52-826f-0c49baf54bbe.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Ontario won’t make career college OSAP audit public, minister says",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/ontario-wont-make-career-college-osap-audit-public-minister-says/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Ontario won’t make career college OSAP audit public, minister says",
+     "link": "https://toronto.citynews.ca/2026/11/03/ontario-wont-make-career-college-osap-audit-public-minister-says/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Ontario won't make career college OSAP audit public, minister says",
+     "link": "https://www.cbc.ca/news/canada/toronto/ont-osap-audit-9.7407689?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Education",
+   "headline": "Ontario's OSAP pause disrupts paramedic students in underserved areas",
+   "summary": "A provincewide pause on student financial aid has severely impacted paramedic students enrolled at a northern Ontario career college. More than 40 students approved for a signature program aimed at boosting health care staffing have been forced to drop out. The funding freeze has raised concerns over staffing shortages in underserved regional health sectors.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Ontario’s OSAP pause hits paramedic students",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-osap-pause-extends-to-health-education-grant/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "OSAP pause hits paramedic students bound to work in underserved areas",
+     "link": "https://www.ctvnews.ca/canada/article/osap-pause-hits-paramedic-students-bound-to-work-in-underserved-areas/"
+    }
+   ]
+  },
+  {
+   "topic": "Justice & policing",
+   "headline": "Montreal police brotherhood to contest dismissal of seven officers for misconduct",
+   "summary": "The Montreal police brotherhood announced it will legally challenge the decision to fire seven officers over allegations of discriminatory and racist conduct. Police Chief Fady Dagher issued the dismissals following months of scrutiny regarding systemic bias within the force. The union argues that the manner of the firings raises fundamental questions of law.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Montreal police to fire seven members of the force",
+     "link": "https://www.theglobeandmail.com/canada/video-montreal-police-to-fire-seven-members-of-the-force/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Montreal police union promises action after seven officers fired",
+     "link": "https://www.thestar.com/news/canada/quebec/montreal-police-union-promises-action-after-seven-officers-fired/article_e949d2c2-58ab-5bde-a478-06b3ddc54e4c.html"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Montreal police brotherhood to contest SPVM decision to fire 7 officers for misconduct",
+     "link": "https://www.cbc.ca/news/canada/montreal/spvm-brotherhood-police-9.7407879?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "La Fraternité des policiers de Montréal conteste le congédiement de 7 de ses membres",
+     "link": "https://ici.radio-canada.ca/nouvelle/2297932/fraternite-policiers-conteste-congediement-administratif-spvm"
+    }
+   ]
+  }
+ ],
+ "errors": []
+}
