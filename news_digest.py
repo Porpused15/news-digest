@@ -11,7 +11,13 @@ Env vars (required):
   MAIL_TO          recipient(s), comma-separated
 
 Env vars (optional):
-  GEMINI_MODEL     default "gemini-flash-latest"
+  GEMINI_MODEL     main model (defaults below depend on backend)
+  GEMINI_FALLBACK_MODEL  lighter model tried after two main-model failures
+
+Backend: Vertex AI when GOOGLE_GENAI_USE_VERTEXAI=true (project, location and service
+account credentials come from GOOGLE_CLOUD_PROJECT / GOOGLE_CLOUD_LOCATION /
+GOOGLE_APPLICATION_CREDENTIALS, as exported by google-github-actions/auth); otherwise the
+Gemini API (AI Studio) with GEMINI_API_KEY.
   CONFIG_PATH      default "config.json"
   SMTP_HOST        default "smtp.gmail.com"
   SMTP_PORT        default 465 (SSL)
@@ -59,7 +65,11 @@ def load_config(path: str) -> dict:
     return cfg
 
 
-FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-flash-lite-latest")
+VERTEX = os.environ.get("GOOGLE_GENAI_USE_VERTEXAI", "").lower() == "true"
+# Vertex serves pinned model versions; AI Studio keeps the floating aliases.
+MAIN_MODEL = os.environ.get("GEMINI_MODEL") or ("gemini-3.5-flash" if VERTEX else "gemini-flash-latest")
+FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL") or (
+    "gemini-3.5-flash-lite" if VERTEX else "gemini-flash-lite-latest")
 USER_AGENT ="Mozilla/5.0 (compatible; daily-news-digest/1.0)"
 MAX_DESC_CHARS = 600
 
@@ -123,7 +133,7 @@ def entry_time(e) -> datetime | None:
     return None
 
 
-HOST_GAP = 2.0      # seconds between requests to the same site (the Star returns 429 otherwise)
+HOST_GAP = 5.0      # seconds between requests to the same site (the Star returned 429 even at 2 s)
 _last_hit: dict[str, float] = {}
 
 
@@ -206,8 +216,9 @@ def summarize(items, model: str, language: str):
     # Per-request timeout: a hung call previously stalled the job until GitHub's 6-hour kill.
     # The SDK passes this to Google as the server deadline: at 4 minutes the main model
     # hit 504 DEADLINE_EXCEEDED grouping ~330 articles, so allow 7.
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"],
-                          http_options=types.HttpOptions(timeout=420_000))
+    http = types.HttpOptions(timeout=420_000)
+    client = (genai.Client(http_options=http) if VERTEX  # project/location/creds from env
+              else genai.Client(api_key=os.environ["GEMINI_API_KEY"], http_options=http))
     # Temperature left at the default (1.0): Google advises against lowering it for Gemini 3.
     config = types.GenerateContentConfig(
         response_mime_type="application/json",
@@ -231,6 +242,8 @@ def summarize(items, model: str, language: str):
             raw = resp.parsed
             if raw is None:
                 raw = [Story(**p) for p in json.loads(resp.text)]
+            print(f"Gemini answered: {m} via {'Vertex AI' if VERTEX else 'Gemini API'} "
+                  f"(attempt {attempt + 1})", file=sys.stderr)
             break
         except Exception as exc:
             last_exc = exc
@@ -378,7 +391,7 @@ def save_json(feeds, stories, errors, total_scanned, now, counts):
 
 def main():
     cfg = load_config(os.environ.get("CONFIG_PATH", "config.json"))
-    model = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
+    model = MAIN_MODEL
     now = datetime.now(TZ)
     date_str = now.strftime("%A, %B %d, %Y")
     feeds = cfg["feeds"]

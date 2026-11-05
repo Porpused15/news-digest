@@ -10,12 +10,22 @@ Add these repo secrets (Settings → Secrets and variables → Actions):
 
 | Secret | Value |
 |---|---|
-| `GEMINI_API_KEY` | Key from Google AI Studio |
+| `GCP_SA_KEY` | Vertex AI service account key (JSON, one line) |
+| `GEMINI_API_KEY` | Key from Google AI Studio (used only without `GCP_SA_KEY`) |
 | `SMTP_USER` | Sending Gmail address (dedicated account) |
 | `SMTP_PASS` | Gmail App Password for that account (needs 2-step verification) |
 | `MAIL_TO` | Recipient address(es), comma-separated |
 
 Test with Actions → Daily news digest → Run workflow.
+
+## Gemini backend
+
+- **Vertex AI** (used when the `GCP_SA_KEY` secret exists): service account JSON key with the
+  *Vertex AI User* role, Vertex AI API enabled on its project. Location `global`.
+- **Gemini API / AI Studio** otherwise, with `GEMINI_API_KEY`.
+- Models can be overridden with repository **variables** `GEMINI_MODEL` and
+  `GEMINI_FALLBACK_MODEL` (defaults on Vertex: `gemini-3.5-flash`, `gemini-3.5-flash-lite`).
+  The run log says which model answered.
 
 ## Settings
 

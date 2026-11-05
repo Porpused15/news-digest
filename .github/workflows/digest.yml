@@ -17,6 +17,9 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
+    env:
+      # Vertex AI when the GCP_SA_KEY secret exists, else the Gemini API key (AI Studio).
+      USE_VERTEX: ${{ secrets.GCP_SA_KEY != '' }}
     timeout-minutes: 40  # 4 Gemini attempts x 7 min + backoff
     steps:
       - uses: actions/checkout@v4
@@ -36,10 +39,19 @@ jobs:
       - if: steps.go.outputs.run == 'true'
         run: pip install -r requirements.txt
 
+      - if: steps.go.outputs.run == 'true' && env.USE_VERTEX == 'true'
+        uses: google-github-actions/auth@v3
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
       - if: steps.go.outputs.run == 'true'
         run: python news_digest.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_GENAI_USE_VERTEXAI: ${{ env.USE_VERTEX }}
+          GOOGLE_CLOUD_LOCATION: global
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_FALLBACK_MODEL: ${{ vars.GEMINI_FALLBACK_MODEL }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
