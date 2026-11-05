@@ -1,0 +1,504 @@
+{
+ "format": 2,
+ "date": "2026-11-05",
+ "generated_at": "2026-11-05T12:20:51-05:00",
+ "scanned": 221,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 23,
+  "Toronto Star": 30,
+  "The Local": 0,
+  "CTV News": 44,
+  "CityNews": 29,
+  "CBC News": 41,
+  "La Presse": 9,
+  "Radio-Canada": 45
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "Toronto Star",
+  "The Local",
+  "CTV News",
+  "CityNews",
+  "CBC News",
+  "La Presse",
+  "Radio-Canada"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "stories": [
+  {
+   "topic": "Federal politics",
+   "headline": "Federal Government Prepares to Table 2026 Budget Focusing on Affordability",
+   "summary": "Finance Minister François-Philippe Champagne is set to table the Liberal government's second budget under Prime Minister Mark Carney. The spending plan is expected to prioritize cost-of-living relief, a $36-billion business tax break, and updated immigration targets. Ottawa aims to position the economy against global volatility while navigating an ongoing trade war.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Budget will focus on affordability, cultural sovereignty, Champagne says",
+     "link": "https://www.theglobeandmail.com/politics/article-budget-will-focus-on-affordability-cultural-sovereignty-champagne-says/"
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Politics Insider: Federal budget to focus on affordability",
+     "link": "https://www.theglobeandmail.com/politics/article-politics-insider-federal-budget-to-focus-on-affordability/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Federal budget live: Finance minister to table government's spending plan, updated immigration numbers",
+     "link": "https://www.thestar.com/politics/federal/federal-budget-2026-live-updates/article_212ef27a-51b3-44b6-89ec-ed0b520678e5.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Today's politicians ignore affordability at their peril",
+     "link": "https://www.thestar.com/politics/political-opinion/today-s-politicians-ignore-affordability-at-their-peril/article_7ac3da34-b89b-4844-9cc9-aa2fd0345ed5.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Help with cost of living expected to be Mark Carney's top priority in federal budget",
+     "link": "https://www.thestar.com/politics/federal/help-with-cost-of-living-expected-to-be-mark-carney-s-top-priority-in-federal-budget/article_fcdc0ccf-8f96-460b-a333-2c6024b42c6e.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Here's what you need to know as the Liberals prepare to table Budget 2026",
+     "link": "https://www.thestar.com/business/personal-finance/here-s-what-you-need-to-know-as-the-liberals-prepare-to-table-budget-2026/article_42d286c1-8603-5076-9b10-a4ab0a1160ba.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Here’s what you need to know as the Liberals table Budget 2026",
+     "link": "https://www.ctvnews.ca/politics/article/heres-what-you-need-to-know-as-the-liberals-table-budget-2026/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Budget 2026 is about giving Canada a 'strong footing': Champagne",
+     "link": "https://www.ctvnews.ca/politics/article/budget-2026-is-about-giving-canada-a-strong-footing-champagne/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Here’s what you need to know as the Liberals prepare to table Budget 2026",
+     "link": "https://toronto.citynews.ca/2026/11/05/heres-what-you-need-to-know-as-the-liberals-prepare-to-table-budget-2026/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "What to watch for as Carney introduces his 2nd federal budget",
+     "link": "https://www.cbc.ca/news/politics/carney-second-federal-budget-lookahead-9.7409464?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Cinq choses à surveiller dans le budget fédéral",
+     "link": "https://ici.radio-canada.ca/info/long-format/2298242/mark-carney-budget-champagne-dette"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Budget : le ministre Champagne est « très conscient » des impacts du coût de la vie",
+     "link": "https://ici.radio-canada.ca/nouvelle/2298244/champagne-fabrication-chaussure-budget-federal-2026"
+    }
+   ]
+  },
+  {
+   "topic": "Economy & trade",
+   "headline": "Canadian Leaders and Industry Weigh Potential Tariff Relief Following U.S. Midterms",
+   "summary": "The U.S. Democratic Party swept both chambers of Congress in midterm elections, prompting Canadian political leaders and aluminum producers to express optimism for relief from cross-border tariffs. While Ontario Premier Doug Ford and other provincial premiers welcomed the outcome as a rebuke of President Donald Trump's trade agenda, federal officials remain cautious and emphasize that plans to diversify trade will persist. Cross-border trade negotiations continue as the Trump administration retains executive authority over trade measures.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Canadian reaction to the Democrats' big miderm election win",
+     "link": "https://www.theglobeandmail.com/canada/video-canadian-reaction-to-the-democrats-big-miderm-election-win/"
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "title": "U.S. midterm results raise hopes of tariff relief for Canada’s aluminum sector",
+     "link": "https://www.theglobeandmail.com/business/article-aluminum-sector-us-midterm-trump-tariff/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Here's how the U.S. midterm election results could affect Canada",
+     "link": "https://www.thestar.com/news/canada/here-s-how-the-u-s-midterm-election-results-could-affect-canada/article_13d0a035-2501-5c93-9faa-5ff8f5272940.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "U.S. midterm results spark joy among Canadians but trust in America remains shaky",
+     "link": "https://www.thestar.com/news/canada/u-s-midterm-results-spark-joy-among-canadians-but-trust-in-america-remains-shaky/article_73e9dbbf-a4e5-52dc-8645-e27e657b4a9a.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Carney government officials don't expect big change to trade talks after dramatic U.S. elections",
+     "link": "https://www.thestar.com/politics/carney-government-officials-don-t-expect-big-change-to-trade-talks-after-dramatic-u-s-elections/article_af472624-142b-40dc-8b9c-4dd80a0aff92.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Alberta Premier Smith says U.S. midterms 'vindication' of her approach to tariffs",
+     "link": "https://www.thestar.com/news/canada/alberta-premier-smith-says-u-s-midterm-results-vindicate-her-approach-to-tariffs/article_9fe2887a-a8ad-51dc-86ab-563063da4443.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "U.S. voters 'showed what they thought about President Trump,' Doug Ford says",
+     "link": "https://www.thestar.com/politics/provincial/u-s-voters-showed-what-they-thought-about-president-trump-doug-ford-says/article_0a1e58de-9b01-4cf4-ac76-052503ab8d76.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Manitoba premier calls for end of U.S. tariffs after Trump rebuked in midterms",
+     "link": "https://www.thestar.com/news/canada/manitoba-premier-calls-for-end-of-u-s-tariffs-after-trump-rebuked-in-midterms/article_2be07da0-315c-5971-9478-d08fc39b25e4.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "QuickQuotes: Canadian leaders react to Democratic majority win in U.S. Congress",
+     "link": "https://www.thestar.com/news/canada/quickquotes-canadian-leaders-react-to-democratic-majority-win-in-u-s-congress/article_95bf0f39-927b-5054-bc60-96a2a8cb293d.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Doug Ford says he was ‘doing cartwheels’ after Trump’s party suffered major losses in U.S. midterms",
+     "link": "https://www.ctvnews.ca/toronto/article/couldnt-be-happier-doug-ford-says-trump-has-to-look-in-mirror-after-midterm-results/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Carney government publicly cautious, privately buoyed by U.S. midterm results",
+     "link": "https://www.ctvnews.ca/politics/article/ottawa-publicly-cautious-privately-buoyed-by-us-midterm-results/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Trump’s Republicans lost the House and Senate in midterm elections. What could it mean for Canada?",
+     "link": "https://www.ctvnews.ca/politics/article/trumps-republicans-lost-the-house-and-senate-in-midterm-elections-what-could-it-mean-for-canada/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "LeBlanc says U.S. midterm results won't change Ottawa's plans to diversify trade",
+     "link": "https://www.ctvnews.ca/politics/article/leblanc-says-us-midterm-results-wont-change-ottawas-plans-to-diversify-trade/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "U.S. midterm results spark joy among Canadians but trust in America remains shaky",
+     "link": "https://www.ctvnews.ca/canada/article/us-midterm-results-spark-joy-among-canadians-but-trust-in-america-remains-shaky/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "U.S. election results could mark a turning point for Canadian aluminum",
+     "link": "https://www.ctvnews.ca/world/trumps-tariffs/article/canadian-aluminum-industry-sees-hope-for-tariff-relief-after-us-midterm-elections/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "U.S. midterm results spark joy among Canadians but trust in America remains shaky",
+     "link": "https://toronto.citynews.ca/2026/11/05/u-s-midterm-results-spark-joy-among-canadians-but-trust-in-america-remains-shaky/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Here’s how the U.S. midterm election results could affect Canada",
+     "link": "https://toronto.citynews.ca/2026/11/05/heres-how-the-u-s-midterm-election-results-could-affect-canada/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "U.S. midterms are a 'vindication' of Alberta's approach to tariffs, says Premier Smith",
+     "link": "https://www.cbc.ca/news/canada/edmonton/us-cda-midterms-alta-9.7410234?cmp=rss"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Senior Democratic congressman says party 'going to put an end' to Trump's tariffs",
+     "link": "https://www.cbc.ca/news/politics/trump-midterms-democrats-victory-carney-trade-9.7408838?cmp=rss"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "After U.S. midterms, Quebec premier sets sight on 'diplomatic offensive' south of the border",
+     "link": "https://www.cbc.ca/news/canada/montreal/pspp-to-launch-diplomatic-offensive-south-of-the-border-9.7409119?cmp=rss"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Ford 'happy as punch' about U.S. midterm results",
+     "link": "https://www.cbc.ca/news/canada/toronto/ford-reaction-u-s-midterms-9.7409100?cmp=rss"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "Élections de mi-mandat | Les résultats ne changeront pas la vision à long terme du gouvernement, dit Carney",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-05/elections-de-mi-mandat/les-resultats-ne-changeront-pas-la-vision-a-long-terme-du-gouvernement-dit-carney.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "Élections de mi-mandat | Des Canadiens applaudissent la victoire des démocrates",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-05/elections-de-mi-mandat/des-canadiens-applaudissent-la-victoire-des-democrates.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "À la frontière du Maine, des citoyens se disent satisfaits de la victoire démocrate",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10802152/a-frontiere-maine-citoyens-se-disent-satisfaits-victoire-democrate"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Guerre commerciale : prudence à Ottawa",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10802043/guerre-commerciale-prudence-a-ottawa"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Victoire démocrate aux élections de mi-mandat : quel effet sur le Canada ?",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10801985/victoire-democrate-aux-elections-mi-mandat-quel-effet-sur-canada"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Élections de mi-mandat : Cornwall espère plus de prévisibilité",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10801984/elections-mi-mandat-cornwall-espere-plus-previsibilite"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Élections de mi-mandat : quel impact sur les négociations avec Donald Trump ?",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10801936/elections-mi-mandat-quel-impact-sur-negociations-avec-donald-trump"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Élections de mi-mandat : Ottawa en position de force de négocier avec Washington ?",
+     "link": "https://ici.radio-canada.ca/info/videos/1-10801932/elections-mi-mandat-ottawa-en-position-force-negocier-avec-washington"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "51e État : les républicains s’excusent en privé, selon l’ex-délégué du Québec à Washington",
+     "link": "https://ici.radio-canada.ca/nouvelle/2298199/51e-etat-canada-etats-unis"
+    }
+   ]
+  },
+  {
+   "topic": "Toronto & GTA politics",
+   "headline": "Doug Ford Rejects New Long-Term Funding Deal for Toronto Budget Shortfall",
+   "summary": "Ontario Premier Doug Ford has ruled out negotiating a \"New Deal 2.0\" to resolve the City of Toronto's projected $1.12-billion budget deficit. While dismissing a formal long-term financial agreement with Mayor Olivia Chow, Ford indicated Queen's Park remains open to providing some provincial funding earmarked for public safety.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "With Toronto facing a $1.12-billion budget shortfall, Doug Ford rules out a 'new deal' 2.0",
+     "link": "https://www.thestar.com/news/gta/no-new-deal-for-toronto-after-olivia-chow-s-reelection-doug-ford-says/article_77c12f60-8936-41dc-9cf5-d7e68d9e73c2.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Toronto wants a new deal with the province. Doug Ford says the answer is ‘no’",
+     "link": "https://www.ctvnews.ca/toronto/article/doug-ford-says-theres-no-20-new-deal-for-toronto/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "'There's no 2.0': Ford dismisses Toronto's bid for new funding agreement",
+     "link": "https://www.cbc.ca/news/canada/toronto/doug-ford-toronto-new-deal-rejection-9.7409036?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Ontario politics",
+   "headline": "Ontario Liberal Leadership Candidates Spar Over Taxes in Final Debate",
+   "summary": "Candidates for the Ontario Liberal Party leadership made their final pitches to members ahead of voting, framing themselves as the solution to Premier Doug Ford's government. Contenders Navdeep Bains and Stephanie Bowman pledged tax freezes, while competitors Lee Fairclough and Dylan Marando advocated for broader tax reform.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Liberal leadership hopefuls touch on taxes in last debate before voting begins",
+     "link": "https://www.thestar.com/politics/provincial/liberal-leadership-hopefuls-touch-on-taxes-in-last-debate-before-voting-begins/article_cff2fe07-c03e-49f3-b0cf-cae1f1291609.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Liberal leadership hopefuls talk taxes, affordability and Doug Ford in final debate",
+     "link": "https://www.thestar.com/news/ontario/liberal-leadership-hopefuls-talk-taxes-affordability-and-doug-ford-in-final-debate/article_585cce2c-9e54-59f0-b25b-2d14834ff910.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Ontario Liberal leadership hopefuls talk taxes, affordability and Doug Ford in final debate",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/ontario-liberal-leadership-hopefuls-talk-taxes-affordability-and-doug-ford-in-final-debate/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Ontario Liberal leadership hopefuls talk taxes, affordability and Doug Ford in final debate",
+     "link": "https://toronto.citynews.ca/2026/11/04/ontario-liberal-leadership-hopefuls-talk-taxes-affordability-and-doug-ford-in-final-debate/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Liberal leadership hopefuls talk taxes, affordability and Doug Ford in final debate",
+     "link": "https://www.cbc.ca/news/canada/toronto/ont-liberal-leadership-9.7410117?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Health",
+   "headline": "Court Certifies Class Action Over COVID-19 Negligence at Downsview Long-Term Care",
+   "summary": "The Ontario Superior Court has certified a class-action lawsuit against Downsview Long-Term Care Centre and its parent company, Gem Health Care Group. The lawsuit alleges that gross negligence in the home's response to the COVID-19 pandemic led to lethal outbreaks and hundreds of resident deaths. The defendants consented to the class action certification.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "COVID class action certified over alleged negligence at Toronto long-term care home",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-toronto-long-term-care-home-covid-class-action/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Court certifies class action alleging negligence at LTC home led to COVID-19 deaths",
+     "link": "https://www.ctvnews.ca/toronto/article/court-certifies-class-action-alleging-negligence-at-ltc-home-led-to-covid-19-deaths/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Court certifies class action alleging negligence at LTC home led to COVID-19 deaths",
+     "link": "https://toronto.citynews.ca/2026/11/05/toronto-long-term-care-covid-19-negligence/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Ontario court certifies class action against Toronto long-term care home for negligence, COVID-19 deaths",
+     "link": "https://www.cbc.ca/news/canada/toronto/class-action-downsview-long-term-care-gem-healthcare-9.7410212?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Health",
+   "headline": "Ontario Doctors Demand Apology Over Ministry Letters Questioning Days Worked",
+   "summary": "The Ontario Medical Association and family physicians are demanding an apology after the provincial health ministry sent letters questioning doctors for working high numbers of days and seeing excessive patient volumes. Physicians criticized the communications as intimidating amidst existing doctor shortages, while the Ministry of Health maintained the notices did not allege improper billing.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "This family doctor wants an apology after he says that he got an ‘intimidating’ letter for working too much",
+     "link": "https://www.ctvnews.ca/toronto/article/this-family-doctor-wants-an-apology-after-he-says-that-he-got-an-intimidating-letter-for-working-too-much/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Ontario doctors demand apology from province for letters flagging high number of days worked, patients seen",
+     "link": "https://www.cbc.ca/news/canada/toronto/medical-association-apology-ontario-high-volume-billings-letter-doctors-9.7410462?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Education",
+   "headline": "Ontario to Expedite OSAP Review for Low-Risk Private Career Colleges",
+   "summary": "Premier Doug Ford announced that third-party auditors reviewing student financial aid will prioritize clearing low-risk private career colleges to unfreeze their access to funding. All Ontario career colleges currently face an OSAP funding freeze following an investigation into potential aid fraud. The province has not yet provided a definitive timeline for when the audits will conclude.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Doug Ford says auditors told to fast-track private colleges that are low-risk in OSAP fraud probe",
+     "link": "https://www.thestar.com/politics/provincial/doug-ford-says-auditors-told-to-fast-track-private-colleges-that-are-low-risk-in-osap-fraud-probe/article_4c28f68f-6e00-4e75-857e-16346c7f0f68.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Ford says OSAP auditors will clear low-risk career colleges first; no timeline given",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/ford-says-osap-auditors-will-clear-low-risk-career-colleges-first-no-timeline-given/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Ford says OSAP auditors will prioritize low-risk career colleges to unfreeze funding, but no timeline given",
+     "link": "https://www.cbc.ca/news/canada/toronto/ont-osap-9.7409324?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Ontario politics",
+   "headline": "Doug Ford Signals Openness to Ending Seasonal Time Changes With Regional Alignment",
+   "summary": "Premier Doug Ford stated that Ontario is open to permanently ending seasonal time changes if neighbouring Quebec and adjacent eastern U.S. jurisdictions agree to make the shift. Moving to permanent daylight time would require coordinated regional legislation, though critics note it could result in darker winter mornings.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Ontario ‘all in’ on ending seasonal time changes if eastern U.S. agrees, Ford says",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-ontario-end-seasonal-time-change-daylight-saving-quebec-new-york/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Will Ontario end seasonal time changes? Ford says he's 'easy going'",
+     "link": "https://www.thestar.com/news/ontario/will-ontario-end-seasonal-time-changes-ford-says-he-s-easy-going/article_750a0ddb-49f6-530c-b646-5730942dbbfd.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Doug Ford weighs in on calls for Ontario to scrap seasonal time changes. Here is what he said",
+     "link": "https://www.ctvnews.ca/toronto/article/ford-very-open-to-the-idea-of-scrapping-seasonal-time-changes-across-the-province/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Will Ontario end seasonal time changes? Ford says he's 'all in' — with conditions",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-time-change-9.7409350?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Economy & trade",
+   "headline": "Canada and China Extend Trade Agreement on Agricultural Goods and Metals",
+   "summary": "Ottawa and Beijing have agreed to extend tariff-free access for Canadian agricultural exports, including canola, lobster, and crab, until late 2028. In exchange, Canada will maintain market access for Chinese steel and aluminum shipments. The two-year extension aligns with federal objectives to significantly expand Canadian exports to the Chinese market.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "China-Canada trade agreement extended to late 2028",
+     "link": "https://www.ctvnews.ca/world/trumps-tariffs/article/beijing-ottawa-agree-to-extend-deal-on-canola-chinese-steel-access-to-late-2028/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "China extends tariff relief for Canadian canola, lobster and crab",
+     "link": "https://www.cbc.ca/news/politics/china-extends-tariff-relief-seafood-canola-9.7409066?cmp=rss"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "La Chine et le Canada prolongent jusqu’à la fin de 2028 l’accord sur le canola et l’acier",
+     "link": "https://ici.radio-canada.ca/nouvelle/2298258/prolongation-accord-chine-canola-acier"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "National Watchdog Warns Canadian Military Online Surveillance Poses Privacy Risks",
+   "summary": "A report from Canada's national intelligence watchdog warns that Canadian Armed Forces policies fail to adequately address privacy risks when conducting online surveillance. The review found that current military rules do not sufficiently govern the collection of domestic information on Canadian citizens gathered through internet searches.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Spy watchdog flags privacy risk from military's online intelligence activities",
+     "link": "https://www.thestar.com/politics/federal/spy-watchdog-flags-privacy-risk-from-military-s-online-intelligence-activities/article_5957dd2b-9f1e-5a39-b5af-18cef5f9aeb5.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Spy watchdog flags privacy risk from military's online intelligence activities",
+     "link": "https://www.ctvnews.ca/politics/article/spy-watchdog-flags-privacy-risk-from-militarys-online-intelligence-activities/"
+    }
+   ]
+  },
+  {
+   "topic": "Labour",
+   "headline": "Early Childhood Educators Protest Ontario Wage Freeze at Queen's Park",
+   "summary": "Early childhood educators gathered at the Ontario legislature to protest a provincial memo freezing their wage floor and eliminating a scheduled one-dollar hourly wage increase for 2027. Workers criticized the Ford government's compensation cap as detrimental to child-care staffing, while parent fees remain capped under provincial agreements.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "title": "Early childhood educators call out Ontario over wage freeze, while child care capped at $22 until 2027",
+     "link": "https://www.cbc.ca/news/canada/toronto/early-childhood-educators-queens-park-wage-freeze-9.7409208?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Labour",
+   "headline": "Amazon GTA Workers Launch Union Organizing Campaign With Unifor",
+   "summary": "Amazon warehouse employees in the Greater Toronto Area launched a unionization campaign at a rally in Scarborough in partnership with Unifor. The organizing drive seeks to unionize workers across multiple regional fulfillment centres to improve workplace representation.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "title": "Amazon workers in Toronto area launch organizing drive with help of Unifor",
+     "link": "https://www.cbc.ca/news/canada/toronto/amazon-organizing-drive-gta-unifor-9.7410060?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Indigenous affairs",
+   "headline": "Mikisew Cree Nation Challenges Pacific Link Pipeline in Federal Court",
+   "summary": "The Mikisew Cree Nation has filed a legal challenge in Federal Court against the federal government's Pacific Link pipeline project. The Indigenous community contends that Ottawa failed to fulfill its legal obligation to consult them before approving the infrastructure development.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "title": "Le projet d’oléoduc Pacific Link contesté en Cour fédérale par la Nation crie Mikisew",
+     "link": "https://ici.radio-canada.ca/nouvelle/2298316/mikisew-cour-federale-oleoduc-pacific-link"
+    }
+   ]
+  },
+  {
+   "topic": "Housing",
+   "headline": "Majority of GTA Residents Support Relocating Encampments to Facilities",
+   "summary": "A new poll indicates that more than 80 per cent of residents across Toronto and the Greater Toronto Area support moving individuals from public encampments to supervised support facilities. A large majority endorsed relocation even if such measures infringed on individuals' legal rights.",
+   "articles": [
+    {
+     "outlet": "CityNews",
+     "title": "Poll finds majority in Toronto, GTA want people moved from encampments to support facilities",
+     "link": "https://toronto.citynews.ca/2026/11/05/poll-toronto-gta-want-people-moved-from-encampments-to-support-facilities/"
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
