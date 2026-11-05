@@ -14,7 +14,8 @@ Env vars (optional):
   GEMINI_MODEL     main model (defaults below depend on backend)
   GEMINI_FALLBACK_MODEL  lighter model tried after two main-model failures
 
-Backend: Vertex AI when GOOGLE_GENAI_USE_VERTEXAI=true (project, location and service
+Backend: Gemini Enterprise Agent Platform (formerly Vertex AI) when
+GOOGLE_GENAI_USE_ENTERPRISE=true (project, location and service
 account credentials come from GOOGLE_CLOUD_PROJECT / GOOGLE_CLOUD_LOCATION /
 GOOGLE_APPLICATION_CREDENTIALS, as exported by google-github-actions/auth); otherwise the
 Gemini API (AI Studio) with GEMINI_API_KEY.
@@ -65,11 +66,12 @@ def load_config(path: str) -> dict:
     return cfg
 
 
-VERTEX = os.environ.get("GOOGLE_GENAI_USE_VERTEXAI", "").lower() == "true"
-# Vertex serves pinned model versions; AI Studio keeps the floating aliases.
-MAIN_MODEL = os.environ.get("GEMINI_MODEL") or ("gemini-3.5-flash" if VERTEX else "gemini-flash-latest")
+# Gemini Enterprise Agent Platform (formerly Vertex AI). The SDK reads the same variable.
+ENTERPRISE = os.environ.get("GOOGLE_GENAI_USE_ENTERPRISE", "").lower() == "true"
+# The platform serves pinned model versions; AI Studio keeps the floating aliases.
+MAIN_MODEL = os.environ.get("GEMINI_MODEL") or ("gemini-3.5-flash" if ENTERPRISE else "gemini-flash-latest")
 FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL") or (
-    "gemini-3.5-flash-lite" if VERTEX else "gemini-flash-lite-latest")
+    "gemini-3.5-flash-lite" if ENTERPRISE else "gemini-flash-lite-latest")
 USER_AGENT ="Mozilla/5.0 (compatible; daily-news-digest/1.0)"
 MAX_DESC_CHARS = 600
 
@@ -217,7 +219,7 @@ def summarize(items, model: str, language: str):
     # The SDK passes this to Google as the server deadline: at 4 minutes the main model
     # hit 504 DEADLINE_EXCEEDED grouping ~330 articles, so allow 7.
     http = types.HttpOptions(timeout=420_000)
-    client = (genai.Client(http_options=http) if VERTEX  # project/location/creds from env
+    client = (genai.Client(http_options=http) if ENTERPRISE  # project/location/creds from env
               else genai.Client(api_key=os.environ["GEMINI_API_KEY"], http_options=http))
     # Temperature left at the default (1.0): Google advises against lowering it for Gemini 3.
     config = types.GenerateContentConfig(
@@ -242,7 +244,7 @@ def summarize(items, model: str, language: str):
             raw = resp.parsed
             if raw is None:
                 raw = [Story(**p) for p in json.loads(resp.text)]
-            print(f"Gemini answered: {m} via {'Vertex AI' if VERTEX else 'Gemini API'} "
+            print(f"Gemini answered: {m} via {'Agent Platform' if ENTERPRISE else 'Gemini API'} "
                   f"(attempt {attempt + 1})", file=sys.stderr)
             break
         except Exception as exc:
