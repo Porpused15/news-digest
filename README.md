@@ -25,7 +25,7 @@ Test with Actions → Daily news digest → Run workflow.
   `aiplatform.googleapis.com` enabled on its project. Location `global`.
 - **Gemini API / AI Studio** otherwise, with `GEMINI_API_KEY`.
 - Models can be overridden with repository **variables** `GEMINI_MODEL` and
-  `GEMINI_FALLBACK_MODEL` (defaults on Agent Platform: `gemini-3.5-flash`, `gemini-3.5-flash-lite`).
+  `GEMINI_FALLBACK_MODEL` (defaults on Agent Platform: `gemini-3.8-flash`, fallback `gemini-3.5-flash`).
   The run log says which model answered.
 
 ## Settings

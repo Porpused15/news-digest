@@ -69,9 +69,10 @@ def load_config(path: str) -> dict:
 # Gemini Enterprise Agent Platform (formerly Vertex AI). The SDK reads the same variable.
 ENTERPRISE = os.environ.get("GOOGLE_GENAI_USE_ENTERPRISE", "").lower() == "true"
 # The platform serves pinned model versions; AI Studio keeps the floating aliases.
-MAIN_MODEL = os.environ.get("GEMINI_MODEL") or ("gemini-3.5-flash" if ENTERPRISE else "gemini-flash-latest")
+# Both confirmed answering on the project's global endpoint (2026-11-05).
+MAIN_MODEL = os.environ.get("GEMINI_MODEL") or ("gemini-3.8-flash" if ENTERPRISE else "gemini-flash-latest")
 FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL") or (
-    "gemini-3.5-flash-lite" if ENTERPRISE else "gemini-flash-lite-latest")
+    "gemini-3.5-flash" if ENTERPRISE else "gemini-flash-lite-latest")
 USER_AGENT ="Mozilla/5.0 (compatible; daily-news-digest/1.0)"
 MAX_DESC_CHARS = 600
 
