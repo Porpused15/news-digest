@@ -108,7 +108,7 @@ class Main extends App
             return
         }
         prd.hide()
-        this.digest = normalizeDigest( d )
+        this.digest = d
         this.renderDigest()
     }
 
@@ -246,6 +246,9 @@ class Main extends App
         const dark = pref == "Dark" || ( pref == "System" && !!window.matchMedia &&
                      window.matchMedia( "(prefers-color-scheme: dark)" ).matches )
         if( !!ui.theme?.dark != dark ) ui.setTheme( dark ? "dark" : "light" )
+        // Material 3 baseline primary/secondary (light vs dark tones).
+        ui.setThemeColor( dark ? "#D0BCFF" : "#6750A4", dark ? "#CCC2DC" : "#625B71" )
+        addM3Look()
     }
 
     tokenChanged( force )
@@ -446,16 +449,24 @@ class Main extends App
 
 // ------------------------------------------------------------------- Helpers
 
-// Digests saved before stories/topics existed (format 1) are shown as one story per article.
-function normalizeDigest( d )
+// Cosmetic Material 3 look over DroidScript's MUI (Material 2) components: sentence-case
+// text, pill buttons, 28px dialogs, flat surface-coloured app bar. Hybrid "ui" has no API
+// for these (only setThemeColor and per-control cornerRadius), so it's one CSS block.
+function addM3Look()
 {
-    if( d.stories ) return d
-    const stories = []
-    for( const o of d.outlets || [] )
-        for( const a of o.articles )
-            stories.push( { topic: "Uncategorized", headline: a.title, summary: a.summary,
-                            articles: [ { outlet: o.name, title: a.title, link: a.link } ] } )
-    return { ...d, stories, outlet_order: ( d.outlets || [] ).map( o => o.name ), topic_order: [ "Uncategorized" ] }
+    if( document.getElementById( "m3-look" ) ) return
+    const css = document.createElement( "style" )
+    css.id = "m3-look"
+    css.textContent = `
+        .MuiButton-root, .MuiTab-root { text-transform: none; letter-spacing: 0.1px; }
+        .MuiButton-root { border-radius: 20px; min-height: 40px; padding-left: 24px; padding-right: 24px; }
+        .MuiButton-contained { box-shadow: none; }
+        .MuiDialog-paper { border-radius: 28px; }
+        .MuiAppBar-root { background-color: transparent; color: inherit; box-shadow: none; }
+        .MuiTabs-indicator { height: 3px; border-radius: 3px 3px 0 0; }
+        .MuiOutlinedInput-root { border-radius: 4px; }
+    `
+    document.head.appendChild( css )
 }
 
 function uniq( v, i, arr ) { return arr.indexOf( v ) == i }
