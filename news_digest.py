@@ -108,7 +108,7 @@ Build a morning news briefing for a reader in Toronto who follows politics and p
 3. For each story give:
    - article_ids: the ids of its articles
    - topic: the single best fit. Politics topics follow the level of government: Federal = Parliament, the federal government and parties, federal-provincial relations; Ontario = Queen's Park and the Ontario government; Toronto & GTA = municipal councils and mayors. Politics in other provinces goes under Federal politics only when it has national significance; otherwise leave it out. Jails, courts and corrections go under Justice & policing.
-   - headline: a neutral headline in {language}, at most 15 words
+   - headline: a neutral headline in {language}, at most 15 words, in sentence case (capitalize only the first word and proper nouns)
    - summary: 2-3 sentences in {language}: what happened, then why it matters or what comes next, combining details from all of the story's articles
 4. Order stories from most to least significant for the public.
 
