@@ -1,0 +1,387 @@
+{
+ "format": 2,
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15T15:39:26-05:00",
+ "scanned": 147,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 7,
+  "Toronto Star": 21,
+  "The Local": 0,
+  "CTV News": 31,
+  "CityNews": 28,
+  "CBC News": 17,
+  "La Presse": 6,
+  "Radio-Canada": 37
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "Toronto Star",
+  "The Local",
+  "CTV News",
+  "CityNews",
+  "CBC News",
+  "La Presse",
+  "Radio-Canada"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "stories": [
+  {
+   "topic": "Environment & energy",
+   "headline": "Federal Memo Warns Freshwater Supply Challenges Threaten Canada's Long-Term Security",
+   "summary": "An internal federal government memo warns that mounting pressures on freshwater supplies from climate change, pollution, and rising demand threaten Canada's long-term security and prosperity. Government analysts emphasize that while future demand will grow, it remains unclear whether the country possesses adequate long-term water security. The document highlights the need for coordinated policy action to safeguard vital water resources across provinces and territories.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Growing freshwater challenges threaten Canada’s long-term security, federal memo warns",
+     "link": "https://www.theglobeandmail.com/canada/article-growing-freshwater-challenges-threaten-canadas-long-term-security/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Freshwater supply challenges threaten Canada's security, internal federal memo says",
+     "link": "https://www.thestar.com/politics/federal/freshwater-supply-challenges-threaten-canada-s-security-internal-federal-memo-says/article_c88faf80-54c8-5530-b895-955633471ee8.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Freshwater supply challenges threaten Canada's security, internal federal memo says",
+     "link": "https://www.ctvnews.ca/canada/article/freshwater-supply-challenges-threaten-canadas-security-internal-federal-memo-says/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Freshwater supply challenges threaten Canada’s security, internal federal memo says",
+     "link": "https://toronto.citynews.ca/2026/11/15/freshwater-supply-challenges-threaten-canadas-security-internal-federal-memo-says/"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "L’approvisionnement en eau douce pourrait menacer la sécurité du Canada",
+     "link": "https://www.lapresse.ca/actualites/national/2026-11-15/l-approvisionnement-en-eau-douce-pourrait-menacer-la-securite-du-canada.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=national"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "La pénurie d’eau douce pourrait menacer la sécurité du Canada",
+     "link": "https://ici.radio-canada.ca/article/info/2300804/approvisionnement-eau-douce-risque-securite-canada"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Green Party of Canada Elects Former MP Mike Morrice as Leader",
+   "summary": "The Green Party of Canada has elected former Member of Parliament Mike Morrice as its new leader after he ran as the sole candidate in the leadership race. Morrice pledged to revitalize the party with a focus on affordability while confronting major oil and gas producers. His uncontested victory follows the departure of long-time leader Elizabeth May and the withdrawal of his only challenger earlier this autumn.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Green Party elects former MP Mike Morrice to lead party",
+     "link": "https://www.theglobeandmail.com/politics/article-green-party-leader-mike-morrice/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Greens elect former MP Mike Morrice, the sole candidate, to lead party",
+     "link": "https://www.thestar.com/politics/federal/greens-elect-former-mp-mike-morrice-the-sole-candidate-to-lead-party/article_f18b573d-36ec-5961-8dd6-ec6db32dbb9c.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Greens elect former MP Mike Morrice, the sole candidate, to lead party",
+     "link": "https://www.ctvnews.ca/canada/article/greens-elect-former-mp-mike-morrice-the-sole-candidate-to-lead-party/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Greens elect former MP Mike Morrice, the sole candidate, to lead party",
+     "link": "https://toronto.citynews.ca/2026/11/15/greens-elect-former-mp-mike-morrice-the-sole-candidate-to-lead-party/"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "L’ancien député fédéral Mike Morrice est élu chef du Parti vert",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-15/l-ancien-depute-federal-mike-morrice-est-elu-chef-du-parti-vert.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Seul candidat en lice, Mike Morrice remporte la chefferie du Parti vert du Canada",
+     "link": "https://ici.radio-canada.ca/article/info/2300772/chef-parti-vert-mike-morrice"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Prime Minister Carney and Quebec Premier Hold Constructive Bilateral Meeting in Cambodia",
+   "summary": "Prime Minister Mark Carney and Quebec Premier Paul St-Pierre Plamondon held their first bilateral meeting on the sidelines of the Francophonie summit in Cambodia, describing their discussions as constructive and cordial. The leaders discussed economic relations, cross-border trade, and federal backing for Quebec's efforts to address homelessness, agreeing to improve ongoing communication. Despite the diplomatic thaw, Plamondon maintained that Quebec will continue to pursue its own direct outreach to the United States.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Quebec premier stands firm on U.S. outreach after first meeting with Carney",
+     "link": "https://www.theglobeandmail.com/politics/article-quebec-premier-stands-firm-on-us-outreach-after-first-meeting-with/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Mark Carney defuses tensions with Quebec premier before facing Xi, Putin and Trump at APEC",
+     "link": "https://www.thestar.com/news/analysis/mark-carney-defuses-tensions-with-quebec-premier-before-facing-xi-putin-and-trump-at-apec/article_542059a7-b82f-44b9-ba50-e429245c2213.html"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Carney, Quebec premier discuss U.S. trade, homelessness at first meeting in Cambodia",
+     "link": "https://www.cbc.ca/news/canada/montreal/paul-st-pierre-plamondon-mark-carney-sommet-de-la-francophonie-9.7422688?cmp=rss"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "La Presse au Cambodge | La glace est brisée entre Carney et St-Pierre Plamondon",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-15/la-presse-au-cambodge/la-glace-est-brisee-entre-carney-et-st-pierre-plamondon.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Rencontre Carney-PSPP au Cambodge : « Ça s’est bien passé, c’était sympathique »",
+     "link": "https://ici.radio-canada.ca/article/info/2300781/rencontre-quebec-ottawa-cambodge-carney-pspp"
+    }
+   ]
+  },
+  {
+   "topic": "Transit & transportation",
+   "headline": "Fallout from U.S. Air Traffic Ground Stop Disrupts Canadian Flights",
+   "summary": "Canadian airlines and airports spent the weekend managing flight cancellations, extensive delays, and millions in projected disruption costs following a nationwide ground stop ordered by U.S. aviation regulators. While carriers worked to normalize schedules, consumer advocates reminded travellers of their compensation rights under Canadian passenger regulations. Aviation experts noted that structural differences in Canada's air traffic system make a similar nationwide shutdown far less likely to happen domestically.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Latest travel disruption could cost Canadian airlines millions, expert says",
+     "link": "https://www.theglobeandmail.com/canada/article-us-faa-ground-stop-could-cost-canadian-airlines-millions/"
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Canadian travellers face delays, cancellations as airlines recover from U.S. ground stop",
+     "link": "https://www.theglobeandmail.com/canada/article-canadian-travellers-face-delays-cancellations-us-faa-ground-stop/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Flight ground stop in Canada, like the FAA's on Friday, unlikely: aviation expert",
+     "link": "https://www.thestar.com/news/canada/flight-ground-stop-in-canada-like-the-faa-s-on-friday-unlikely-aviation-expert/article_d6e0a6ff-bc7c-5aaa-9806-9d1f304ffd96.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "What Canadians should know about their air passenger rights amid U.S. travel chaos",
+     "link": "https://www.thestar.com/news/canada/what-canadians-should-know-about-their-air-passenger-rights-amid-u-s-travel-chaos/article_b0f2ec6b-a001-55c1-9b9e-ab724cc34182.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Flight ground stop in Canada, like the FAA's on Friday, unlikely: aviation expert",
+     "link": "https://www.ctvnews.ca/canada/article/flight-ground-stop-in-canada-like-the-faas-on-friday-unlikely-aviation-expert/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Airport in Gander, N.L., was ready to receive diverted passengers in U.S. flight stop",
+     "link": "https://www.ctvnews.ca/canada/article/newfoundland-local-airport-was-ready-to-receive-diverted-passengers-in-us-flight-stop/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "‘It’s crazy’: Travellers, airlines report busy day at airports after U.S. flight stop",
+     "link": "https://www.ctvnews.ca/canada/article/its-crazy-travellers-airlines-report-busy-day-at-airports-after-us-flight-stop/"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Reprise du trafic aérien aux É.-U., mais des répercussions à Montréal et au Canada",
+     "link": "https://ici.radio-canada.ca/article/info/2300731/aeroport-canada-etats-unis-reprise-vols"
+    }
+   ]
+  },
+  {
+   "topic": "Economy & trade",
+   "headline": "Prime Minister Carney Promotes Trade and Investment at Asian Summits",
+   "summary": "Prime Minister Mark Carney concluded a visit to the Philippines for the ASEAN summit and travelled to Cambodia for the Francophonie summit to advocate for Canadian economic interests. Carney pitched Canada as an attractive foreign investment destination and pushed to secure broader trade access across the Asia-Pacific region. The diplomatic tour comes as the federal government seeks to diversify trading partnerships ahead of major multilateral summits.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "PM Carney takes his investment pitch to Francophonie summit in Cambodia",
+     "link": "https://www.thestar.com/news/canada/quebec/pm-carney-in-cambodia-for-francophonie-summit-will-meet-quebec-premier-plamondon/article_9cc49735-2d9a-51e7-99e8-dbdad6c3f96f.html"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Carney caps off ASEAN summit with focus on trade deals, heads to Francophonie",
+     "link": "https://www.thestar.com/business/carney-to-cap-off-asean-summit-with-focus-on-trade-deals-ahead-of-francophonie/article_e4e58541-6d4c-55b6-b2a0-b8cdfae12770.html"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "PM Carney takes his investment pitch to Francophonie summit in Cambodia",
+     "link": "https://toronto.citynews.ca/2026/11/15/pm-carney-in-cambodia-for-francophonie-summit-will-meet-quebec-premier-plamondon/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Carney caps off ASEAN summit with focus on trade deals, heads to Francophonie",
+     "link": "https://toronto.citynews.ca/2026/11/14/carney-to-cap-off-asean-summit-with-focus-on-trade-deals-ahead-of-francophonie/"
+    }
+   ]
+  },
+  {
+   "topic": "Environment & energy",
+   "headline": "Canada Pledges over $500 Million to International Rainforest Protection Fund",
+   "summary": "The federal government has pledged up to $560 million over four years to support a tropical rainforest protection fund co-led by Brazil and Norway. The announcement was made during Prime Minister Mark Carney's international travel, aimed at reinforcing Canada's global environmental commitments. The funding pledge comes as critics continue to scrutinize Canada's progress toward international emissions targets and the prime minister's absence from climate negotiations.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "Forest fund announcement follows Carney’s absence from COP talks",
+     "link": "https://www.ctvnews.ca/politics/article/carney-unveils-forest-pledge-after-skipping-two-cop-summits/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Carney pledges $560M to Brazil-led fund to protect rainforests",
+     "link": "https://www.cbc.ca/news/politics/carney-pledge-brazil-led-tropical-forest-fund-9.7422859?cmp=rss"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "Sommet en Asie du Sud-Est | Mark Carney annonce 540 millions pour protéger les forêts tropicales humides",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-14/sommet-en-asie-du-sud-est/mark-carney-annonce-540-millions-pour-proteger-les-forets-tropicales-humides.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique"
+    }
+   ]
+  },
+  {
+   "topic": "Other public interest",
+   "headline": "Fifth Canadian Armed Forces Member Dies Following CFB Wainwright Fire",
+   "summary": "Private William Douglas Dal Bianco has died in hospital in Ontario, becoming the fifth soldier to succumb to injuries sustained in an October 17 fire at Canadian Forces Base Wainwright in Alberta. The Department of National Defence confirmed the fatality nearly a month after the blaze occurred during military training operations. An investigation remains ongoing into the causes and safety protocols surrounding one of Canada's deadliest domestic training incidents in recent years.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "title": "Fifth soldier dies from injuries after October fire at CFB Wainwright",
+     "link": "https://www.theglobeandmail.com/canada/article-fifth-soldier-dead-cfb-wainwright-fire-october/"
+    },
+    {
+     "outlet": "Toronto Star",
+     "title": "Military says fifth Canadian soldier has died after fire in Wainwright",
+     "link": "https://www.thestar.com/news/canada/alberta/cp-newsalert-caf-says-fifth-canadian-soldier-has-died-after-fire-in-wainwright/article_d2f28f50-9e0c-55bd-9ebe-21f853f51660.html"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Military says fifth Canadian soldier has died after fire in Wainwright",
+     "link": "https://toronto.citynews.ca/2026/11/14/caf-says-fifth-canadian-soldier-has-died-after-fire-in-wainwright/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "Fifth soldier dead from injuries suffered in CFB Wainwright fire, officials say",
+     "link": "https://www.cbc.ca/news/canada/edmonton/fifth-soldier-dies-cfb-wainwright-fire-9.7422365?cmp=rss"
+    },
+    {
+     "outlet": "La Presse",
+     "title": "Incendie sur une base militaire en Alberta | Un cinquième soldat succombe à ses blessures",
+     "link": "https://www.lapresse.ca/actualites/national/2026-11-14/incendie-sur-une-base-militaire-en-alberta/un-cinquieme-soldat-succombe-a-ses-blessures.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=national"
+    },
+    {
+     "outlet": "Radio-Canada",
+     "title": "Incendie à la base de Wainwright : un cinquième militaire décède",
+     "link": "https://ici.radio-canada.ca/article/info/2300727/wainright-soldat-decede-blessure"
+    }
+   ]
+  },
+  {
+   "topic": "Federal politics",
+   "headline": "Federal Report Finds Most Crown-Owned Heritage Buildings in Disrepair",
+   "summary": "A federal government report indicates that only 45 per cent of Crown-owned heritage buildings across Canada are currently in fair or better condition. The findings point to widespread deferred maintenance and deteriorating infrastructure across the federal public real estate portfolio. The assessment raises ongoing questions regarding federal stewardship and the public investments required to preserve historic government properties.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
+     "link": "https://www.thestar.com/news/canada/less-than-half-of-crown-owned-heritage-buildings-in-fair-or-better-condition/article_31e75d75-abba-5d83-a006-4de57490167a.html"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Less than half of Crown-owned heritage buildings are in fair or better condition",
+     "link": "https://www.ctvnews.ca/canada/article/less-than-half-of-crown-owned-heritage-buildings-are-in-fair-or-better-condition/"
+    },
+    {
+     "outlet": "CityNews",
+     "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
+     "link": "https://toronto.citynews.ca/2026/11/15/less-than-half-of-crown-owned-heritage-buildings-in-fair-or-better-condition/"
+    }
+   ]
+  },
+  {
+   "topic": "Justice & policing",
+   "headline": "Canadian Travellers Launch Legal Action Over Airport Bag-Tag Drug Smuggling Scheme",
+   "summary": "More than two dozen Canadians wrongfully accused of international drug smuggling are taking legal action after corrupt airport workers swapped their baggage tags with drug-laden luggage at Toronto Pearson International Airport. The victims claim that airlines and authorities dismissed their complaints despite documented instances of the tag-switching scheme operating inside major transit hubs. The case has intensified demands for stronger systemic oversight and stricter security measures in airport baggage handling.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "After years of bag tag switching, one man says he has the fix",
+     "link": "https://www.ctvnews.ca/canada/article/what-can-canadians-do-to-protect-themselves-from-bag-tag-switching/"
+    },
+    {
+     "outlet": "CTV News",
+     "title": "Pearson bag tag victims say they were ignored. Now they’re fighting back",
+     "link": "https://www.ctvnews.ca/canada/article/whos-responsible-pearson-tag-switching-victims-sue-across-the-system/"
+    }
+   ]
+  },
+  {
+   "topic": "Labour",
+   "headline": "Largest Federal Public Service Union to Vote on Strike Mandate",
+   "summary": "Members of Canada's largest federal public service union are set to cast ballots on a strike mandate as contract negotiations with the government stall. Information sessions and voting will run through late January across departments nationwide. A successful strike mandate would significantly increase pressure on the federal treasury board and create potential disruptions for public services.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "title": "Le plus gros syndicat de fonctionnaires fédéraux se prononcera sur un mandat de grève",
+     "link": "https://ici.radio-canada.ca/article/info/2300805/fonction-publique-syndicat-afpc-vote-greve"
+    }
+   ]
+  },
+  {
+   "topic": "Transit & transportation",
+   "headline": "Toronto Transit Commission Begins Annual Winter Ban on E-Bikes and E-Scooters",
+   "summary": "The Toronto Transit Commission has implemented its annual seasonal ban on e-bikes and e-scooters across all transit vehicles and properties. The restriction is enforced from mid-November through April to prevent fire and safety hazards associated with lithium-ion batteries during cold and wet conditions. Transit users who rely on personal electric mobility devices are being advised to adjust their winter travel routines accordingly.",
+   "articles": [
+    {
+     "outlet": "CityNews",
+     "title": "E-bikes, e-scooters now banned on TTC until next April",
+     "link": "https://toronto.citynews.ca/2026/11/15/e-bikes-e-scooters-now-banned-on-ttc-until-next-april/"
+    },
+    {
+     "outlet": "CBC News",
+     "title": "TTC reminds customers yearly e-bike prohibition kicks in Nov. 15",
+     "link": "https://www.cbc.ca/news/canada/toronto/yearly-e-bike-ban-ttc-9.7422387?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Ontario politics",
+   "headline": "Ontario Liberals Near Conclusion of Third Leadership Race in Six Years",
+   "summary": "The Ontario Liberal Party is approaching the conclusion of its third leadership contest in six years amid member concerns over leadership fatigue. Delegates and party members are weighing their choices carefully after the rapid collapse of previous leadership teams following election defeats. The incoming leader will face the challenging task of rebuilding party finances, constituency associations, and voter support ahead of the next provincial campaign.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "title": "Ontario Liberals confront 'leadership fatigue' as third race in six years draws to a close",
+     "link": "https://www.thestar.com/politics/provincial/ontario-liberals-confront-leadership-fatigue-as-third-race-in-six-years-draws-to-a-close/article_bc324d23-4696-4579-b5b0-8c452a4298e5.html"
+    }
+   ]
+  },
+  {
+   "topic": "Housing",
+   "headline": "Toronto Builders and Homeowners Urge City to Ease Laneway Suite Rules",
+   "summary": "Homeowners and residential builders are urging the City of Toronto to reduce bureaucratic red tape to accelerate the construction of laneway and garden suites. While municipal records show growing interest in secondary suites, industry proponents argue that rigid municipal regulations continue to restrict potential housing stock. Advocates contend that simplifying the approval process is essential to adding gentle density during the city's housing shortage.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "title": "Homeowners, builder, call on city to make laneway and garden suites easier to build in Toronto",
+     "link": "https://www.cbc.ca/news/canada/toronto/homeowners-builder-ask-city-to-make-laneway-builds-easier-9.7419752?cmp=rss"
+    }
+   ]
+  },
+  {
+   "topic": "Health",
+   "headline": "Pfizer Withdraws Key Hormone Therapy Drug from Canadian Market",
+   "summary": "Pfizer is removing its hormone replacement therapy drug Premarin from the Canadian market, leaving patients with only one remaining alternative treatment. Physicians warn that the surviving alternative is not covered by Ontario's provincial drug plan, creating sudden out-of-pocket costs for women managing menopause symptoms. Healthcare professionals are urging provincial authorities to update public drug formularies to prevent care disruptions.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "title": "Pfizer pulls hormone therapy drug from Canada, leaving only one option that’s not covered in Ontario",
+     "link": "https://www.ctvnews.ca/toronto/article/pfizer-pulls-hormone-therapy-drug-from-canada-leaving-only-one-option-thats-not-covered-in-ontario/"
+    }
+   ]
+  }
+ ],
+ "errors": []
+}
