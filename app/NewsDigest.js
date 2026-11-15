@@ -22,7 +22,7 @@ const STORE = "newsdigest"
 const LANGUAGES = ["English", "French"]
 const LOOKBACKS = [24, 48, 72]
 const THEMES = ["System", "Light", "Dark"]
-const GROUPINGS = ["Newspaper", "Topic"]
+const GROUPINGS = ["Level", "Newspaper", "Topic"]
 const W = 0.92       // content width on the Settings tab (leaves side margins)
 
 class Main extends App
@@ -114,8 +114,8 @@ class Main extends App
 
     groupPref()
     {
-        const g = app.LoadText( "groupby", "Newspaper", STORE )
-        return GROUPINGS.includes( g ) ? g : "Newspaper"
+        const g = app.LoadText( "groupby", "Level", STORE )
+        return GROUPINGS.includes( g ) ? g : "Level"
     }
 
     renderDigest()
@@ -126,7 +126,25 @@ class Main extends App
         if( !d.stories.length )
             ui.addText( lay, "No relevant articles that day.", "body1", W )
 
-        if( this.groupPref() == "Topic" ) {
+        // Digests saved before levels existed (format 2) fall back to the topic view.
+        const group = this.groupPref() == "Level" && !d.level_order ? "Topic" : this.groupPref()
+        if( group == "Level" ) {
+            // Level of coverage first, then each story: headline, one summary, and its articles
+            // (title, then outlet · author and, when there are several, how each differs).
+            for( const level of d.level_order ) {
+                const stories = d.stories.filter( s => s.level == level )
+                if( !stories.length ) continue
+                ui.addText( lay, level, "h6", W )
+                for( const s of stories ) {
+                    ui.addText( lay, s.headline, "subtitle1,bold,multiline", W )
+                    ui.addText( lay, s.summary, "body2,multiline", W )
+                    const lst = ui.addList( lay, s.articles.map( a =>
+                        [ a.title, byline( a ) + ( a.angle ? " — " + a.angle : "" ) ] ), "", W )
+                    lst.setOnTouch( (title, body, icon, action, index) => app.OpenUrl( s.articles[ index ].link ) )
+                }
+            }
+        }
+        else if( group == "Topic" ) {
             for( const topic of d.topic_order ) {
                 const stories = d.stories.filter( s => s.topic == topic )
                 if( !stories.length ) continue
@@ -146,7 +164,8 @@ class Main extends App
                 }
                 if( !items.length ) continue
                 ui.addText( lay, outlet, "h6", W )
-                const lst = ui.addList( lay, items.map( x => [ x.a.title, x.s.summary ] ), "divider", W )
+                const lst = ui.addList( lay, items.map( x =>
+                    [ x.a.title, ( x.a.author ? x.a.author + " — " : "" ) + x.s.summary ] ), "divider", W )
                 lst.setOnTouch( (title, body, icon, action, index) => app.OpenUrl( items[ index ].a.link ) )
             }
         }
@@ -295,7 +314,7 @@ class Main extends App
         this.selLang.value = c.summary_language || "English"
         this.selLook.value = ( c.lookback_hours || 24 ) + " hours"
         this.swEmail.value = c.email_enabled !== false
-        this.selEmailGroup.value = c.email_group_by == "topic" ? "Topic" : "Newspaper"
+        this.selEmailGroup.value = { topic: "Topic", newspaper: "Newspaper" }[ c.email_group_by ] || "Level"
         this.showSources()
     }
 
@@ -470,6 +489,14 @@ function addM3Look()
 }
 
 function uniq( v, i, arr ) { return arr.indexOf( v ) == i }
+
+// "Outlet · Author (also in X, Y)", as in the email.
+function byline( a )
+{
+    let s = a.outlet + ( a.author ? " · " + a.author : "" )
+    if( a.also_in && a.also_in.length ) s += " (also in " + a.also_in.join( ", " ) + ")"
+    return s
+}
 
 function selValue( sel )
 {

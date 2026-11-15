@@ -59,8 +59,8 @@ def load_config(path: str) -> dict:
         cfg["summary_language"] = (cfg["summary_language"] or ["English"])[0]
     cfg.setdefault("lookback_hours", 24)
     cfg.setdefault("email_enabled", True)
-    if cfg.get("email_group_by") not in ("newspaper", "topic"):
-        cfg["email_group_by"] = "newspaper"
+    if cfg.get("email_group_by") not in GROUPINGS:
+        cfg["email_group_by"] = "level"
     if not cfg.get("feeds"):
         raise SystemExit("config.json has no feeds")
     return cfg
@@ -75,6 +75,12 @@ FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL") or (
     "gemini-3.5-flash" if ENTERPRISE else "gemini-flash-lite-latest")
 USER_AGENT ="Mozilla/5.0 (compatible; daily-news-digest/1.0)"
 MAX_DESC_CHARS = 600
+
+GROUPINGS = ("level", "newspaper", "topic")
+
+# Level of coverage, in display order. Gemini must pick one per story.
+LEVELS = ["International", "National", "Ontario", "Greater Toronto Area"]
+Level = Literal[tuple(LEVELS)]  # type: ignore[valid-type]
 
 # Display order for the topic view. Gemini must pick one of these per story.
 TOPICS = [
@@ -99,33 +105,57 @@ Topic = Literal[tuple(TOPICS)]  # type: ignore[valid-type]
 PROMPT = """Articles (JSON):
 {articles}
 
-The articles above (id, outlet, title, description) are the only source of information. Do not add facts from anywhere else.
+The articles above (id, outlet, author, title, description) are the only source of information. Do not add facts from anywhere else.
 
 Build a morning news briefing for a reader in Toronto who follows politics and public affairs.
 
-1. Select articles about government, politics or public policy at the federal, Ontario or Toronto/GTA level, and issues of public interest in Ontario or Canada: public services (health care, transit, schools, housing), the economy and trade, courts and justice policy, policing as an institution, labour, the environment, Indigenous affairs, and accountability stories about public institutions.
-2. Group selected articles that report the same story (the same event, announcement or development), across outlets and languages. Each article belongs to at most one story.
+1. Select articles about government, politics or public policy at the federal, Ontario or Toronto/GTA level, and issues of public interest in Ontario or Canada: public services (health care, transit, schools, housing), the economy and trade, courts and justice policy, policing as an institution, labour, the environment, Indigenous affairs, accountability stories about public institutions, and Canada's dealings with other countries.
+2. Group selected articles about the same story or the same specific issue (for example, a bill and the reactions to it) under one story, across outlets and languages. Each article belongs to at most one story. If two articles are essentially the same report (for example, the same wire story), include only one of them.
 3. For each story give:
    - article_ids: the ids of its articles
+   - level: International = Canada's relations with other countries (trade, diplomacy, defence, summits) or international events that directly involve Canada or Canadians; National = federal politics and national issues; Ontario = provincial politics and Ontario-wide issues; Greater Toronto Area = municipal politics and local issues in Toronto and the GTA
    - topic: the single best fit. Politics topics follow the level of government: Federal = Parliament, the federal government and parties, federal-provincial relations; Ontario = Queen's Park and the Ontario government; Toronto & GTA = municipal councils and mayors. Politics in other provinces goes under Federal politics only when it has national significance; otherwise leave it out. Jails, courts and corrections go under Justice & policing.
    - headline: a neutral headline in {language}, at most 15 words, in sentence case (capitalize only the first word and proper nouns)
    - summary: 2-3 sentences in {language}: what happened, then why it matters or what comes next, combining details from all of the story's articles
+   - notes: when the story has more than one article, one short phrase in {language} per article (by id) saying what that article adds or how it differs from the others (its angle, focus or new detail); an empty list when the story has one article
 4. Order stories from most to least significant for the public.
 
-Do not select: individual crimes, crashes, fires, missing persons or weather events unless the article is about a policy, a public institution or an official response; sports; entertainment, arts and celebrity; lifestyle and consumer tips; international news with no Canadian angle; sponsored content. Do not begin a summary with "This article" or name the outlet in it."""
+Do not select: local news (municipal politics or local issues) from outside the Greater Toronto Area, such as Ottawa, Hamilton, London, Waterloo Region or Sudbury, unless it has provincial or national significance; shootings, assaults, driving accidents, fires or other incidents unless they matter beyond the community where they happened or the article is about a policy, a public institution or an official response; missing persons and weather events on the same terms; international news with no Canadian angle; sports; entertainment, arts and celebrity; lifestyle and consumer tips; sponsored content. Do not begin a summary or note with "This article" or name the outlet in it."""
+
+
+class Note(BaseModel):
+    id: int
+    angle: str
 
 
 class Story(BaseModel):
     article_ids: list[int]
+    level: Level
     topic: Topic
     headline: str
     summary: str
+    notes: list[Note]
 
 
 def clean(text: str) -> str:
     text = re.sub(r"<[^>]+>", " ", text or "")
     text = html.unescape(text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def clean_author(raw: str) -> str:
+    """'jane@x.com (Jane Doe)' -> 'Jane Doe'; drops bare emails and a leading 'By'."""
+    a = clean(raw)
+    m = re.search(r"\(([^)]+)\)", a)
+    if m and "@" in a:
+        a = m.group(1)
+    a = re.sub(r"\S+@\S+", "", a)
+    a = re.sub(r"^by\s+", "", a, flags=re.I)
+    return re.sub(r"\s+", " ", a).strip(" ,;")
+
+
+def title_key(title: str) -> str:
+    return " ".join(re.findall(r"\w+", title.lower()))
 
 
 def entry_time(e) -> datetime | None:
@@ -159,7 +189,7 @@ def get_feed(url: str):
 
 def fetch_items(feeds: dict, lookback_hours: int):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
-    items, errors, seen_links, seen_titles = [], [], set(), set()
+    items, errors, seen_links, seen_titles = [], [], set(), {}
     counts = {o: 0 for o in feeds}  # articles each outlet's feeds delivered in the window
 
     for outlet, urls in feeds.items():
@@ -186,20 +216,29 @@ def fetch_items(feeds: dict, lookback_hours: int):
                 if "news.google.com" in url and " - " in title:
                     # Google News appends " - Publisher"; the name may contain hyphens
                     title = title.rsplit(" - ", 1)[0]
-                key_title = (outlet, title.lower())
-                if not link or link in seen_links or key_title in seen_titles:
+                if not link or link in seen_links:
                     continue
                 seen_links.add(link)
-                seen_titles.add(key_title)
+                counts[outlet] += 1
+                # Same headline already seen = same report (often one wire story run by
+                # several outlets): keep the first copy and note where else it ran.
+                key = title_key(title)
+                if key in seen_titles and len(key.split()) >= 4:
+                    first = items[seen_titles[key]]
+                    if outlet != first["outlet"] and outlet not in first["also_in"]:
+                        first["also_in"].append(outlet)
+                    continue
                 desc = clean(e.get("summary", ""))
                 if desc.startswith(title):  # Google News repeats the headline as the "teaser"
                     desc = ""
-                counts[outlet] += 1
+                seen_titles[key] = len(items)
                 items.append({
                     "outlet": outlet,
+                    "author": clean_author(e.get("author", "")),
                     "title": title,
                     "link": link,
                     "description": desc[:MAX_DESC_CHARS],
+                    "also_in": [],
                 })
     return items, errors, counts
 
@@ -212,7 +251,8 @@ def summarize(items, model: str, language: str):
     if not items:
         return []
     payload = [
-        {"id": i, "outlet": it["outlet"], "title": it["title"], "description": it["description"]}
+        {"id": i, "outlet": it["outlet"], "author": it["author"], "title": it["title"],
+         "description": it["description"]}
         for i, it in enumerate(items)
     ]
     prompt = PROMPT.format(language=language, articles=json.dumps(payload, ensure_ascii=False))
@@ -260,12 +300,16 @@ def summarize(items, model: str, language: str):
         if not ids:
             continue
         used.update(ids)
+        angles = {n.id: n.angle.strip() for n in st.notes} if len(ids) > 1 else {}
         stories.append({
+            "level": st.level if st.level in LEVELS else "National",
             "topic": st.topic if st.topic in TOPICS else "Other public interest",
             "headline": st.headline.strip(),
             "summary": st.summary.strip(),
-            "articles": [items[i] for i in ids],
+            "articles": [dict(items[i], angle=angles.get(i, "")) for i in ids],
         })
+    # Level first (international -> GTA); Gemini's significance order within each level.
+    stories.sort(key=lambda st: LEVELS.index(st["level"]))
     return stories
 
 
@@ -279,6 +323,23 @@ def by_newspaper(feeds, stories):
                 seen.add(a["outlet"])
                 groups.setdefault(a["outlet"], []).append((a, st))
     return [(o, g) for o, g in groups.items() if g]
+
+
+def by_level(stories):
+    """[(level, [story, ...])] in LEVELS order."""
+    groups = {lv: [] for lv in LEVELS}
+    for st in stories:
+        groups[st["level"]].append(st)
+    return [(lv, g) for lv, g in groups.items() if g]
+
+
+def byline(a):
+    """'Outlet · Author' (also lists other outlets that ran the same report)."""
+    parts = [a["outlet"]] + ([a["author"]] if a.get("author") else [])
+    s = " · ".join(parts)
+    if a.get("also_in"):
+        s += f" (also in {', '.join(a['also_in'])})"
+    return s
 
 
 def by_topic(stories):
@@ -311,7 +372,27 @@ def render(feeds, stories, errors, total_scanned, date_str, group_by, counts):
         t.append(f"== {name} ==")
 
     li = "<li style='margin-bottom:12px;font-family:sans-serif'>"
-    if group_by == "topic":
+    small = "<span style='font-size:13px;color:#555'>"
+
+    def article_lines(st):
+        """HTML + text lines: title link, outlet · author, and (if several) how it differs."""
+        hs, ts = [], []
+        for a in st["articles"]:
+            angle = f"<br><i>{esc(a['angle'])}</i>" if a.get("angle") else ""
+            hs.append(f"<li><a href='{esc(a['link'], quote=True)}'>{esc(a['title'])}</a> "
+                      f"{small}— {esc(byline(a))}{angle}</span></li>")
+            ts += [f"  • {a['title']} — {byline(a)}"] + ([f"    {a['angle']}"] if a.get("angle") else []) + [f"    {a['link']}"]
+        return "<ul style='margin-top:4px'>" + "".join(hs) + "</ul>", ts
+
+    if group_by == "level":
+        for level, sts in by_level(stories):
+            section(level)
+            for st in sts:
+                arts_h, arts_t = article_lines(st)
+                h.append(f"{li}<b>{esc(st['headline'])}</b><br>{esc(st['summary'])}{arts_h}</li>")
+                t += [st["headline"], st["summary"]] + arts_t + [""]
+            h.append("</ul>")
+    elif group_by == "topic":
         for topic, sts in by_topic(stories):
             section(topic)
             for st in sts:
@@ -325,9 +406,9 @@ def render(feeds, stories, errors, total_scanned, date_str, group_by, counts):
         for outlet, pairs in by_newspaper(feeds, stories):
             section(outlet)
             for a, st in pairs:
-                h.append(f"{li}<a href='{esc(a['link'], quote=True)}'><b>{esc(a['title'])}</b></a><br>"
-                         f"{esc(st['summary'])}</li>")
-                t += [a["title"], st["summary"], a["link"], ""]
+                h.append(f"{li}<a href='{esc(a['link'], quote=True)}'><b>{esc(a['title'])}</b></a> "
+                         f"{small}— {esc(byline(a))}</span><br>{esc(st['summary'])}</li>")
+                t += [f"{a['title']} — {byline(a)}", st["summary"], a["link"], ""]
             h.append("</ul>")
 
     n_articles = sum(len(st["articles"]) for st in stories)
@@ -360,20 +441,23 @@ def send(subject, html_body, text_body):
 
 
 def save_json(feeds, stories, errors, total_scanned, now, counts):
-    """Write digests/<date>.json (format 2: stories) and refresh digests/index.json."""
+    """Write digests/<date>.json (format 3: stories with level, authors, angles) and refresh index."""
     DIGEST_DIR.mkdir(exist_ok=True)
     date = now.strftime("%Y-%m-%d")
     digest = {
-        "format": 2,
+        "format": 3,
         "date": date,
         "generated_at": now.isoformat(timespec="seconds"),
         "scanned": total_scanned,
         "scanned_by_outlet": {o: counts.get(o, 0) for o in feeds},
         "outlet_order": list(feeds),
         "topic_order": TOPICS,
+        "level_order": LEVELS,
         "stories": [
-            {"topic": st["topic"], "headline": st["headline"], "summary": st["summary"],
-             "articles": [{"outlet": a["outlet"], "title": a["title"], "link": a["link"]}
+            {"level": st["level"], "topic": st["topic"], "headline": st["headline"],
+             "summary": st["summary"],
+             "articles": [{"outlet": a["outlet"], "author": a["author"], "title": a["title"],
+                           "link": a["link"], "angle": a["angle"], "also_in": a["also_in"]}
                           for a in st["articles"]]}
             for st in stories
         ],
