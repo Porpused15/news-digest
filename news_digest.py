@@ -105,7 +105,7 @@ Topic = Literal[tuple(TOPICS)]  # type: ignore[valid-type]
 PROMPT = """Articles (JSON):
 {articles}
 
-The articles above (id, outlet, author, title, description) are the only source of information. Do not add facts from anywhere else.
+The articles above (id, outlet, author, title, description) are the only source of information. Do not add facts from anywhere else. Some articles have only a title and no description: use nothing beyond what the title states.
 
 Build a morning news briefing for a reader in Toronto who follows politics and public affairs.
 
@@ -228,9 +228,9 @@ def fetch_items(feeds: dict, lookback_hours: int):
                     if outlet != first["outlet"] and outlet not in first["also_in"]:
                         first["also_in"].append(outlet)
                     continue
-                desc = clean(e.get("summary", ""))
-                if desc.startswith(title):  # Google News repeats the headline as the "teaser"
-                    desc = ""
+                # Google News "descriptions" are only the headline again (sometimes with
+                # punctuation differences), never a teaser: treat its items as title-only.
+                desc = "" if "news.google.com" in url else clean(e.get("summary", ""))
                 seen_titles[key] = len(items)
                 items.append({
                     "outlet": outlet,

@@ -9,6 +9,9 @@
       "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/",
       "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/"
     ],
+    "National Post": [
+      "https://news.google.com/rss/search?q=site%3Anationalpost.com%20when%3A1d&hl=en-CA&gl=CA&ceid=CA:en"
+    ],
     "CBC News": [
       "https://www.cbc.ca/webfeed/rss/rss-canada",
       "https://www.cbc.ca/webfeed/rss/rss-politics",
@@ -42,8 +45,14 @@
     "Hamilton Spectator": [
       "https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc"
     ],
+    "London Free Press": [
+      "https://news.google.com/rss/search?q=site%3Alfpress.com%20when%3A1d&hl=en-CA&gl=CA&ceid=CA:en"
+    ],
     "Waterloo Region Record": [
       "https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc"
+    ],
+    "Sudbury Star": [
+      "https://news.google.com/rss/search?q=site%3Athesudburystar.com%20when%3A1d&hl=en-CA&gl=CA&ceid=CA:en"
     ],
     "Toronto Star": [
       "https://www.thestar.com/search/?f=rss&t=article&c=politics*&l=50&s=start_time&sd=desc",
@@ -65,6 +74,15 @@
     ],
     "NBC News": [
       "https://feeds.nbcnews.com/nbcnews/public/world"
+    ],
+    "Reuters": [
+      "https://news.google.com/rss/search?q=site%3Areuters.com%20Canada%20when%3A1d&hl=en-CA&gl=CA&ceid=CA:en"
+    ],
+    "Associated Press": [
+      "https://news.google.com/rss/search?q=site%3Aapnews.com%20Canada%20when%3A1d&hl=en-CA&gl=CA&ceid=CA:en"
+    ],
+    "CNN": [
+      "https://news.google.com/rss/search?q=site%3Acnn.com%20Canada%20when%3A1d&hl=en-CA&gl=CA&ceid=CA:en"
     ]
   }
 }
