@@ -67,7 +67,7 @@ class Main extends App
         this.selGroup.label = "Group by"
         this.selGroup.value = this.groupPref()
         this.selGroup.setOnChange( () => {
-            app.SaveText( "groupby", selValue( this.selGroup ), STORE )
+            app.SaveText( "groupby_v3", selValue( this.selGroup ), STORE )
             if( this.digest ) this.renderDigest()
         } )
         this.btnRefresh = ui.addButton( row, "refresh", "icon", 0.13 )
@@ -114,7 +114,8 @@ class Main extends App
 
     groupPref()
     {
-        const g = app.LoadText( "groupby", "Level", STORE )
+        // New key with the Level view: an older saved choice shouldn't hide the new default.
+        const g = app.LoadText( "groupby_v3", "Level", STORE )
         return GROUPINGS.includes( g ) ? g : "Level"
     }
 
@@ -150,7 +151,7 @@ class Main extends App
                 if( !stories.length ) continue
                 ui.addText( lay, topic, "h6", W )
                 const lst = ui.addList( lay, stories.map( s =>
-                    [ s.headline, s.articles.map( a => a.outlet ).filter( uniq ).join( " · " ) + " — " + s.summary ] ), "divider", W )
+                    [ s.headline, s.articles.flatMap( outletsOf ).filter( uniq ).join( " · " ) + " — " + s.summary ] ), "divider", W )
                 lst.setOnTouch( (title, body, icon, action, index) => this.openStory( stories[ index ] ) )
             }
         }
@@ -159,7 +160,7 @@ class Main extends App
                 // One entry per story per outlet, in significance order.
                 const items = []
                 for( const s of d.stories ) {
-                    const a = s.articles.find( a => a.outlet == outlet )
+                    const a = s.articles.find( a => outletsOf( a ).includes( outlet ) )
                     if( a ) items.push( { a, s } )
                 }
                 if( !items.length ) continue
@@ -174,7 +175,8 @@ class Main extends App
         let footer = `${d.stories.length} stories (${n} articles) selected from ${d.scanned} scanned.`
         if( d.scanned_by_outlet ) {
             const picked = {}
-            for( const s of d.stories ) for( const a of s.articles ) picked[ a.outlet ] = ( picked[ a.outlet ] || 0 ) + 1
+            for( const s of d.stories ) for( const a of s.articles )
+                for( const o of outletsOf( a ) ) picked[ o ] = ( picked[ o ] || 0 ) + 1
             footer += "\nIn the feeds:\n" + Object.entries( d.scanned_by_outlet )
                 .map( ([ o, c ]) => `${o}: ${c} (${picked[ o ] || 0} picked)` ).join( "\n" )
         }
@@ -489,6 +491,9 @@ function addM3Look()
 }
 
 function uniq( v, i, arr ) { return arr.indexOf( v ) == i }
+
+// A merged wire copy counts for every outlet that ran it.
+function outletsOf( a ) { return [ a.outlet ].concat( a.also_in || [] ) }
 
 // "Outlet · Author (also in X, Y)", as in the email.
 function byline( a )

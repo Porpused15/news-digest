@@ -314,14 +314,16 @@ def summarize(items, model: str, language: str):
 
 
 def by_newspaper(feeds, stories):
-    """[(outlet, [(article, story), ...])] in feed order; one article per story per outlet."""
+    """[(outlet, [(article, story), ...])] in feed order; one article per story per outlet.
+    A merged wire copy is listed under every outlet that ran it (outlet + also_in)."""
     groups = {o: [] for o in feeds}
     for st in stories:
         seen = set()
         for a in st["articles"]:
-            if a["outlet"] not in seen:
-                seen.add(a["outlet"])
-                groups.setdefault(a["outlet"], []).append((a, st))
+            for o in [a["outlet"]] + a.get("also_in", []):
+                if o not in seen:
+                    seen.add(o)
+                    groups.setdefault(o, []).append((a, st))
     return [(o, g) for o, g in groups.items() if g]
 
 
@@ -355,7 +357,8 @@ def outlet_counts_line(feeds, stories, counts):
     picked = {o: 0 for o in feeds}
     for st in stories:
         for a in st["articles"]:
-            picked[a["outlet"]] = picked.get(a["outlet"], 0) + 1
+            for o in [a["outlet"]] + a.get("also_in", []):
+                picked[o] = picked.get(o, 0) + 1
     return " · ".join(f"{o} {counts.get(o, 0)} ({picked.get(o, 0)} picked)" for o in feeds)
 
 
