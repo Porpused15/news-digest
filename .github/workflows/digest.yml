@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write  # to commit digests/
+  id-token: write  # GitHub OIDC token for Google Workload Identity Federation (no stored key)
 
 concurrency:
   group: digest
@@ -17,10 +18,6 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    env:
-      # Gemini Enterprise Agent Platform (formerly Vertex AI) when the GCP_SA_KEY secret
-      # exists, else the Gemini API key (AI Studio).
-      USE_ENTERPRISE: ${{ secrets.GCP_SA_KEY != '' }}
     timeout-minutes: 40  # 4 Gemini attempts x 7 min + backoff
     steps:
       - uses: actions/checkout@v4
@@ -40,16 +37,20 @@ jobs:
       - if: steps.go.outputs.run == 'true'
         run: pip install -r requirements.txt
 
-      - if: steps.go.outputs.run == 'true' && env.USE_ENTERPRISE == 'true'
+      # Keyless login to Gemini Enterprise Agent Platform (formerly Vertex AI): GitHub's OIDC
+      # token is exchanged for the news-digest service account (roles/aiplatform.user).
+      # Only this repo may use the provider (attribute condition on assertion.repository).
+      - if: steps.go.outputs.run == 'true'
         uses: google-github-actions/auth@v3
         with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
+          project_id: gen-lang-client-0549571945
+          workload_identity_provider: projects/820875145577/locations/global/workloadIdentityPools/github/providers/news-digest
+          service_account: news-digest@gen-lang-client-0549571945.iam.gserviceaccount.com
 
       - if: steps.go.outputs.run == 'true'
         run: python news_digest.py
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GOOGLE_GENAI_USE_ENTERPRISE: ${{ env.USE_ENTERPRISE }}
+          GOOGLE_GENAI_USE_ENTERPRISE: "true"
           GOOGLE_CLOUD_LOCATION: global
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_FALLBACK_MODEL: ${{ vars.GEMINI_FALLBACK_MODEL }}

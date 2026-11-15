@@ -10,8 +10,6 @@ Add these repo secrets (Settings → Secrets and variables → Actions):
 
 | Secret | Value |
 |---|---|
-| `GCP_SA_KEY` | Agent Platform service account key (JSON, one line) |
-| `GEMINI_API_KEY` | Key from Google AI Studio (used only without `GCP_SA_KEY`) |
 | `SMTP_USER` | Sending Gmail address (dedicated account) |
 | `SMTP_PASS` | Gmail App Password for that account (needs 2-step verification) |
 | `MAIL_TO` | Recipient address(es), comma-separated |
@@ -20,10 +18,11 @@ Test with Actions → Daily news digest → Run workflow.
 
 ## Gemini backend
 
-- **Gemini Enterprise Agent Platform** (formerly Vertex AI; used when the `GCP_SA_KEY` secret
-  exists): service account JSON key with role `roles/aiplatform.user`, API
-  `aiplatform.googleapis.com` enabled on its project. Location `global`.
-- **Gemini API / AI Studio** otherwise, with `GEMINI_API_KEY`.
+- **Gemini Enterprise Agent Platform** (formerly Vertex AI), location `global`. GitHub logs in
+  keylessly via Workload Identity Federation (pool `github`, provider `news-digest`, restricted
+  to this repo) as service account `news-digest@...` with role `roles/aiplatform.user`.
+- The script can also use the Gemini API (AI Studio) with `GEMINI_API_KEY` when
+  `GOOGLE_GENAI_USE_ENTERPRISE` isn't `true` (not used by the workflow).
 - Models can be overridden with repository **variables** `GEMINI_MODEL` and
   `GEMINI_FALLBACK_MODEL` (defaults on Agent Platform: `gemini-3.8-flash`, fallback `gemini-3.5-flash`).
   The run log says which model answered.
