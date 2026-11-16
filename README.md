@@ -29,7 +29,10 @@ Test with Actions → Daily news digest → Run workflow.
 
 ## Settings
 
-All settings live in `config.json` (edited by the companion app, or by hand):
+All settings live in `config.json` in the separate public repo
+[news-digest-config](https://github.com/Porpused15/news-digest-config), which the workflow
+checks out at the start of each run. The companion app's token only has access to that repo,
+so it can change settings but not this code (which runs with the email and Google secrets).
 
 - `send_hour`: hour of day, Toronto time (0-23). The workflow checks hourly and sends once a day
   at the first run at or after this hour.
@@ -43,7 +46,9 @@ as that day's digest.
 ## Companion app (DroidScript)
 
 1. In DroidScript, create a new **Hybrid** app and replace its code with `app/NewsDigest.js`.
-2. Reading digests needs nothing. To change settings from the app, create a fine-grained token
-   (GitHub -> Settings -> Developer settings -> Fine-grained tokens) with access to **only this
-   repo** and permissions **Contents: Read and write** and **Actions: Read and write**, then paste
-   it into the app's Settings tab (it saves automatically and shows whether it works or has expired).
+2. Reading digests needs nothing. To change settings or use "Send digest now", create a
+   fine-grained token (GitHub -> Settings -> Developer settings -> Fine-grained tokens) with access
+   to **only `news-digest-config`** and permissions **Contents: Read and write** and **Actions:
+   Read and write**, then paste it into the app's Settings tab. Don't give it access to this repo.
+   "Send digest now" runs a relay workflow in `news-digest-config`, which starts this repo's
+   digest workflow with its own Actions-only token (see that repo's README).

@@ -1,9 +1,10 @@
 // News Digest companion — DroidScript Hybrid app (Material UI "ui" components).
 // Create a new Hybrid app in DroidScript and replace its code with this file.
 //
-// Reading digests needs nothing (the repo is public).
-// Changing settings / "Send now" needs a fine-grained GitHub token for this repo only,
-// with permissions: Contents = Read and write, Actions = Read and write.
+// Reading digests needs nothing (both repos are public).
+// Changing settings / "Send now" needs a fine-grained GitHub token for the settings repo
+// (news-digest-config) ONLY, with Contents = Read and write, Actions = Read and write.
+// It deliberately has no access to news-digest, whose code runs with the digest's secrets.
 
 cfg.Portrait
 
@@ -12,11 +13,13 @@ cfg.Portrait
 _AddPermissions( "Network" )
 
 const OWNER = "Porpused15"
-const REPO = "news-digest"
 const BRANCH = "main"
-const WORKFLOW = "digest.yml"
-const RAW = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/`
-const API = `https://api.github.com/repos/${OWNER}/${REPO}/`
+// Digests: read-only from the public main repo, no token.
+const RAW = `https://raw.githubusercontent.com/${OWNER}/news-digest/${BRANCH}/`
+// Settings and "Send now": the separate settings repo, the only one the app's token can reach.
+const CFG_RAW = `https://raw.githubusercontent.com/${OWNER}/news-digest-config/${BRANCH}/`
+const API = `https://api.github.com/repos/${OWNER}/news-digest-config/`
+const WORKFLOW = "send-now.yml"   // relay that starts the digest run in news-digest
 const STORE = "newsdigest"
 
 const LANGUAGES = ["English", "French"]
@@ -305,7 +308,7 @@ class Main extends App
         try {
             // With a token, read through the API (always current); otherwise the public file.
             this.cfg = this.token() ? (await this.getContents( "config.json" )).data
-                                    : await this.getRaw( "config.json" )
+                                    : await this.getRaw( "config.json", CFG_RAW )
         }
         catch( e ) {
             ui.showPopup( "Couldn't load settings: " + e.message )
@@ -433,9 +436,9 @@ class Main extends App
 
     token() { return ( app.LoadText( "token", "", STORE ) || "" ).trim() }
 
-    async getRaw( path )
+    async getRaw( path, base = RAW )
     {
-        const r = await fetch( RAW + path + "?t=" + Date.now(), { cache: "no-store" } )
+        const r = await fetch( base + path + "?t=" + Date.now(), { cache: "no-store" } )
         if( !r.ok ) throw new Error( "HTTP " + r.status )
         return r.json()
     }
@@ -462,7 +465,7 @@ class Main extends App
             if( this.txtToken ) this.txtToken.text = "✗ Token expired or invalid. Create a new one on GitHub and paste it above."
             throw Object.assign( new Error( "token expired or invalid" ), { expired: true } )
         }
-        if( r.status == 403 || r.status == 404 ) throw new Error( "token lacks access to this repo (HTTP " + r.status + ")" )
+        if( r.status == 403 || r.status == 404 ) throw new Error( "token lacks access to news-digest-config (HTTP " + r.status + ")" )
         if( !r.ok ) throw new Error( "HTTP " + r.status + " " + ( await r.text() ).slice( 0, 120 ) )
         return r.status == 204 ? null : r.json()
     }

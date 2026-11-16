@@ -19,8 +19,17 @@ jobs:
   digest:
     runs-on: ubuntu-latest
     timeout-minutes: 40  # 4 Gemini attempts x 7 min + backoff
+    env:
+      # Settings live in a separate public repo so the app's token can't reach this code.
+      CONFIG_PATH: settings/config.json
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: Porpused15/news-digest-config
+          path: settings
+          persist-credentials: false
 
       - id: gate
         if: github.event_name == 'schedule'

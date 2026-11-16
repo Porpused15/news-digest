@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Daily Canadian news digest: RSS feeds -> Gemini (filter + summarize) -> email + JSON.
 
-Settings (feeds, send hour, language, lookback, email on/off) live in config.json,
+Settings (feeds, send hour, language, lookback, email on/off) live in config.json in the
+separate Porpused15/news-digest-config repo (checked out to settings/ by the workflow),
 which the companion app edits. Each run writes digests/<date>.json and digests/index.json.
 
 Env vars (required):

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Hourly gate for the scheduled workflow (stdlib only, runs before installing deps).
 
-Runs the digest at the first scheduled run at or after config.json's send_hour
+Runs the digest at the first scheduled run at or after the config's send_hour
 (Toronto time), once per day. Handles daylight-saving changes and late or skipped
 GitHub cron runs. Prints run=true/false to $GITHUB_OUTPUT.
 """
@@ -13,7 +13,8 @@ from zoneinfo import ZoneInfo
 
 now = datetime.now(ZoneInfo("America/Toronto"))
 try:
-    send_hour = int(json.loads(Path("config.json").read_text(encoding="utf-8")).get("send_hour", 6))
+    cfg_path = Path(os.environ.get("CONFIG_PATH", "config.json"))
+    send_hour = int(json.loads(cfg_path.read_text(encoding="utf-8")).get("send_hour", 6))
 except (TypeError, ValueError):
     send_hour = 6
 if not 0 <= send_hour <= 23:
