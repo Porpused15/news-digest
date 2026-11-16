@@ -1,0 +1,621 @@
+{
+ "format": 3,
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16T06:25:07-05:00",
+ "scanned": 378,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 10,
+  "National Post": 16,
+  "CBC News": 19,
+  "CTV News": 30,
+  "The Hub": 6,
+  "La Presse": 5,
+  "Radio-Canada": 33,
+  "The Trillium": 1,
+  "TVO": 0,
+  "Ottawa Citizen": 4,
+  "Hamilton Spectator": 0,
+  "London Free Press": 7,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 7,
+  "Toronto Star": 19,
+  "CityNews": 27,
+  "The Local": 0,
+  "BBC": 8,
+  "The Guardian": 2,
+  "NBC News": 0,
+  "Reuters": 93,
+  "Associated Press": 100,
+  "CNN": 5
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "Carney travels to China for APEC summit, floating Chinese auto investment amid US trade talks",
+   "summary": "Prime Minister Mark Carney is heading to China to meet with President Xi Jinping on the sidelines of the APEC summit in Shenzhen to deepen bilateral trade and economic ties. Ahead of the meeting, Carney indicated that Canada could look to Chinese automakers if trade negotiations with the United States fail to preserve an integrated North American market, though he reaffirmed his preference for a continental approach. The diplomatic visit comes as Canadian exports to China have jumped nearly 40 per cent over the past year.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Steven Chase",
+     "title": "China offers alternative for Canada’s auto sector if U.S no longer wants an integrated market, Carney says",
+     "link": "https://www.theglobeandmail.com/politics/article-carney-to-discuss-chinese-investment-in-canadas-auto-sector-with-xi/",
+     "angle": "Focuses on Carney's statement that China provides an alternative auto market if the U.S. rejects integration",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Racy Rafique",
+     "title": "Carney sets out to deepen ties with China. Has the threat landscape changed?",
+     "link": "https://www.cbc.ca/news/politics/carney-china-deepen-ties-risk-9.7422895?cmp=rss",
+     "angle": "Examines whether the security threat landscape has shifted as Canada seeks deeper Chinese economic ties",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Carney heads to China to meet with President Xi, leaders from across Pacific Rim",
+     "link": "https://www.ctvnews.ca/politics/article/carney-heads-to-china-to-meet-with-president-xi-leaders-from-across-pacific-rim/",
+     "angle": "Reports on Carney's departure for China to meet with Xi and Pacific Rim leaders",
+     "also_in": [
+      "Toronto Star",
+      "CityNews"
+     ]
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Antoine Trépanier",
+     "title": "La Presse en Chine | Mark Carney et Xi Jinping, pour la deuxième fois",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-16/la-presse-en-chine/mark-carney-et-xi-jinping-pour-la-deuxieme-fois.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Covers the bilateral meeting planned in Shenzhen with Canada's second-largest trading partner",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Catherine Morrison The Canadian Press",
+     "title": "Canada's exports to China up almost 40 per cent since last year",
+     "link": "https://www.thestar.com/news/canada/canada-s-exports-to-china-up-almost-40-per-cent-since-last-year/article_e67dbb59-a904-5f79-a0d0-6e390db0130e.html",
+     "angle": "Highlights trade figures showing Canadian exports to China rose almost 40 per cent since last year",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "The Associated Press",
+     "title": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
+     "link": "https://www.thestar.com/news/world/asia/carney-says-canada-could-turn-to-chinese-automakers-if-trump-trade-talks-fail/article_7d0c30dc-7d8d-5cc6-a69f-fe6534ec4119.html",
+     "angle": "Emphasizes Carney's insistence from Manila that any U.S. trade deal must preserve a viable Canadian auto industry",
+     "also_in": [
+      "CityNews",
+      "Associated Press"
+     ]
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Tonda MacCharles",
+     "title": "Mark Carney sets terms for Chinese auto investment as he heads to Asia-Pacific summit in China",
+     "link": "https://www.thestar.com/news/analysis/mark-carney-defuses-tensions-with-quebec-premier-before-facing-xi-putin-and-trump-at-apec/article_542059a7-b82f-44b9-ba50-e429245c2213.html",
+     "angle": "Details how the terms of foreign automotive investment depend on the outcome of talks with Washington",
+     "also_in": []
+    },
+    {
+     "outlet": "The Guardian",
+     "author": "Associated Press",
+     "title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+     "link": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks",
+     "angle": "Highlights Carney's stance that Canada will move forward either way regarding automotive trade",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "International",
+   "topic": "Federal politics",
+   "headline": "Canada and international allies urge Israel to permit critical winter aid into Gaza",
+   "summary": "Canada, Australia, the United Kingdom, and Italy issued a joint diplomatic statement demanding that Israel grant immediate and unimpeded humanitarian access into Gaza. The coalition expressed urgent alarm that 150,000 emergency tents and other vital life-saving supplies remain blocked at border checkpoints ahead of winter. Calling the deepening humanitarian crisis entirely reversible, the four nations called for an end to border restrictions.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Gaza : Ottawa et trois pays exigent un accès humanitaire « sans entrave » et « immédiat »",
+     "link": "https://ici.radio-canada.ca/article/info/2300870/gaza-aide-humanitaire-canada-declaration-israel",
+     "angle": "Details the joint statement calling for unimpeded entry for 150,000 relief tents and essential goods",
+     "also_in": []
+    },
+    {
+     "outlet": "The Guardian",
+     "author": "Krishani Dhanji",
+     "title": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
+     "link": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
+     "angle": "Highlights the multinational coordination among Canada, Britain, Australia, and Italy facing winter conditions",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Mark Carney and Quebec Premier St-Pierre Plamondon hold first meeting at Francophonie summit",
+   "summary": "Prime Minister Mark Carney met with Quebec Premier Paul St-Pierre Plamondon for the first time during the Francophonie summit in Cambodia. Discussions centered on provincial outreach to the United States, bilateral trade, federal assistance for tackling homelessness, and an upcoming 2027 economic summit in Quebec. Both leaders described the meeting as constructive, agreeing to establish direct communication lines despite lingering jurisdictional tensions over foreign outreach.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Steven Chase",
+     "title": "Quebec Premier stands firm on U.S. outreach after first meeting with Carney",
+     "link": "https://www.theglobeandmail.com/politics/article-quebec-premier-stands-firm-on-us-outreach-after-first-meeting-with/",
+     "angle": "Emphasizes the Quebec premier standing firm on U.S. outreach while agreeing to better federal communication",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Jacqueline Newsome",
+     "title": "Carney, Quebec premier discuss U.S. trade, homelessness at first meeting in Cambodia",
+     "link": "https://www.cbc.ca/news/canada/montreal/paul-st-pierre-plamondon-mark-carney-sommet-de-la-francophonie-9.7422688?cmp=rss",
+     "angle": "Details federal support for Quebec's fight against homelessness and plans for a 2027 economic summit",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Robin Della Corte",
+     "title": "Quebec premier says meeting with Mark Carney was ‘pleasant’",
+     "link": "https://www.ctvnews.ca/montreal/article/quebec-premier-says-meeting-with-mark-carney-was-pleasant/",
+     "angle": "Highlights the premier's assessment that the Cambodia meeting was pleasant and productive",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Antoine Trépanier",
+     "title": "La Presse au Cambodge | La glace est brisée entre Carney et St-Pierre Plamondon",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-15/la-presse-au-cambodge/la-glace-est-brisee-entre-carney-et-st-pierre-plamondon.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Focuses on the thaw in previously tense relations between Ottawa and Quebec",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Que retenir de la rencontre entre Carney et PSPP au Cambodge?",
+     "link": "https://ici.radio-canada.ca/en-bref/90-17876/pspp-carney-rencontre-cambodge-quebec-canada",
+     "angle": "Provides analysis on key takeaways from the bilateral discussions abroad",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Rencontre Carney-PSPP au Cambodge : « Ça s’est bien passé, c’était sympathique »",
+     "link": "https://ici.radio-canada.ca/article/info/2300781/rencontre-quebec-ottawa-cambodge-carney-pspp",
+     "angle": "Notes the friendly tone of the discussions covering the economy, homelessness, and sports",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Environment & energy",
+   "headline": "Internal federal memo warns mounting freshwater shortages threaten Canada's long-term security",
+   "summary": "An internal federal government memo warns that growing pressures on Canada's freshwater supply pose a serious threat to the country's long-term security and economic prosperity. The document cites climate change, pollution, and rising demand as primary factors straining water resources across jurisdictions. Officials stress that failing to manage these escalating supply challenges leaves uncertainty over Canada's future water security.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Jim Bronskill",
+     "title": "Growing freshwater challenges threaten Canada’s long-term security, federal memo warns",
+     "link": "https://www.theglobeandmail.com/canada/article-growing-freshwater-challenges-threaten-canadas-long-term-security/",
+     "angle": "Outlines drivers of water pressure, including climate change, pollution, and expanding industrial and public demand",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Freshwater supply challenges threaten Canada's security, internal federal memo says",
+     "link": "https://www.ctvnews.ca/canada/article/freshwater-supply-challenges-threaten-canadas-security-internal-federal-memo-says/",
+     "angle": "Emphasizes the specific warnings in the memo regarding risks to long-term national security and prosperity",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Jim Bronskill",
+     "title": "L’approvisionnement en eau douce pourrait menacer la sécurité du Canada",
+     "link": "https://www.lapresse.ca/actualites/national/2026-11-15/l-approvisionnement-en-eau-douce-pourrait-menacer-la-securite-du-canada.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=national",
+     "angle": "Details the internal findings on water supply vulnerabilities across Canadian regions",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "La pénurie d’eau douce pourrait menacer la sécurité du Canada",
+     "link": "https://ici.radio-canada.ca/article/info/2300804/approvisionnement-eau-douce-risque-securite-canada",
+     "angle": "Underlines the uncertainty over whether Canada has adequate safeguards for future water security",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Labour",
+   "headline": "Border agency demotes dozens of officers medically unable to carry sidearms",
+   "summary": "The Canada Border Services Agency has notified 63 frontline officers that they are being reassigned to lower-paying positions due to medical conditions preventing them from carrying duty firearms. The demotions follow an enforcement of mandatory sidearm requirements for armed border personnel, regardless of individual medical accommodations. The move has drawn scrutiny from affected staff and labour representatives over the agency's duty to accommodate injured or disabled workers.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Daniel Leblanc",
+     "title": "CBSA demoting border officers who permanently lost ability to use sidearm",
+     "link": "https://www.cbc.ca/news/politics/cbsa-firearm-accommodation-medical-union-9.7421365?cmp=rss",
+     "angle": "Reports on the agency's notification to 63 staff about mandatory salary and title reductions",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Port d’arme à feu obligatoire : des agents frontaliers se font rétrograder",
+     "link": "https://ici.radio-canada.ca/article/info/2300358/asfc-agent-frontalier-arme-salaire-accommodement",
+     "angle": "Focuses on the conflict between mandatory firearm carrying rules and medical accommodation rights",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Labour",
+   "headline": "Canada's largest federal public service union to hold nationwide strike votes",
+   "summary": "The Public Service Alliance of Canada, the federal government's largest public sector union, is launching information sessions and strike authorization votes that will run through January 22. While labour observers note an actual walkout is not guaranteed, the strike mandate votes significantly raise the likelihood of widespread disruption across federal departments. The escalating dispute centers on ongoing bargaining impasses over wages, workplace conditions, and return-to-office directives.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Le plus gros syndicat de fonctionnaires fédéraux se prononcera sur un mandat de grève",
+     "link": "https://ici.radio-canada.ca/article/info/2300805/fonction-publique-syndicat-afpc-vote-greve",
+     "angle": "Announces the scheduling of information meetings and strike mandate voting through late January",
+     "also_in": []
+    },
+    {
+     "outlet": "Ottawa Citizen",
+     "author": "Alex Robinson",
+     "title": "Will there be another public service strike?",
+     "link": "https://ottawacitizen.com/public-service/public-service-strike-psac",
+     "angle": "Analyzes the practical likelihood of another major federal public service strike",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Federal Green Party elects former MP Mike Morrice as new leader",
+   "summary": "The Green Party of Canada has chosen former parliamentarian Mike Morrice as its new leader following an uncontested leadership race. Morrice declared that the party will concentrate on lowering the cost of living while confronting major oil and gas corporations. His election marks a rebuilding phase for the federal Greens as they attempt to regain parliamentary influence and voter traction.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Nick Murray",
+     "title": "Green Party elects former MP Mike Morrice to lead party",
+     "link": "https://www.theglobeandmail.com/politics/article-green-party-leader-mike-morrice/",
+     "angle": "Focuses on Morrice's priorities of affordability and challenging oil and gas companies",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Greens elect former MP Mike Morrice, the sole candidate, to lead party",
+     "link": "https://www.ctvnews.ca/canada/article/greens-elect-former-mp-mike-morrice-the-sole-candidate-to-lead-party/",
+     "angle": "Highlights that Morrice ran as the sole candidate in the federal leadership contest",
+     "also_in": [
+      "Toronto Star",
+      "CityNews"
+     ]
+    },
+    {
+     "outlet": "La Presse",
+     "author": "",
+     "title": "L’ancien député fédéral Mike Morrice est élu chef du Parti vert",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-15/l-ancien-depute-federal-mike-morrice-est-elu-chef-du-parti-vert.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Confirms the former MP's formal ascension to the head of the national party",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Environment & energy",
+   "headline": "Canada faces criticism at COP31 over fossil fuel transition and Alberta methane rules",
+   "summary": "Canada's environmental delegation at the COP31 climate summit in Turkey is facing intense pushback over its refusal to present a definitive roadmap for phasing out fossil fuels. While federal officials sought to present the country as a global frontrunner in curbing methane emissions, policy experts argue that federal credibility is undercut by Alberta's lag in adopting equivalent provincial regulations. The divide highlights enduring intergovernmental friction over the speed of national decarbonization.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Alexandra Mae Jones",
+     "title": "Canada presented itself as a global leader in methane reductions at COP31. But is Alberta holding it back?",
+     "link": "https://www.cbc.ca/news/climate/canada-alberta-methane-emissions-cop31-9.7419482?cmp=rss",
+     "angle": "Examines whether Alberta's regulatory delays prevent Canada from being a legitimate methane reduction leader",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Katie Griffin",
+     "title": "‘Canada has a credibility problem’ as COP31 looks to implement climate solutions, says critic",
+     "link": "https://www.ctvnews.ca/politics/article/canada-has-a-credibility-problem-as-cop31-looks-to-implement-climate-solutions-says-critic/",
+     "angle": "Emphasizes claims by critics that Canada suffers from a credibility gap at the COP31 summit",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "COP31 : pas de feuille de route du Canada pour la transition hors des énergies fossiles",
+     "link": "https://ici.radio-canada.ca/article/info/2300733/cop31-canada-transition-energies-fossiles-critiques",
+     "angle": "Focuses on Ottawa's refusal at the conference to commit to a formal fossil fuel phase-out schedule",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Meta pledges to defy federal orders if proposed lawful-access bill weakens encryption",
+   "summary": "Meta has announced it will reject any Canadian government directive that would compel the company to undermine encryption protocols on its platforms, as Parliament resumes debate on the Strong Borders Act. The federal government's proposed lawful-access legislation seeks powers to mandate electronic service providers modify systems to grant authorities access to digital communications. The clash underscores escalating tension between federal national security initiatives and major tech companies over privacy protections.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Marie Woolf",
+     "title": "Meta says it would refuse government order if it forced company to weaken encryption",
+     "link": "https://www.theglobeandmail.com/politics/article-meta-would-refuse-government-order-if-forced-weaken-encryption/",
+     "angle": "Reports on Meta's declared intention to refuse orders that force it to weaken encryption under planned legislation",
+     "also_in": []
+    },
+    {
+     "outlet": "The Hub",
+     "author": "The Hub Staff",
+     "title": "Parliament Today: Strong Borders Act returns for second reading debate",
+     "link": "https://thehub.ca/2026/11/16/parliament-today-strong-borders-act-returns-for-second-reading-debate/",
+     "angle": "Notes Parliament's agenda as debate resumes on second reading for the Strong Borders Act",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Ottawa plans up to 200,000 permanent residency spots for Hong Kong and Ukrainian nationals",
+   "summary": "A new federal immigration initiative aims to fast-track permanent residency approvals for up to 200,000 Hong Kong and Ukrainian nationals currently living in Canada. The program offers long-awaited clarity to thousands of temporary residents who have faced lengthy processing backlogs after fleeing conflict and political instability. The measure represents a targeted adjustment to federal immigration targets to transition established temporary residents into permanent status.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Kamil Karamali",
+     "title": "Canada plans up to 200,000 extra permanent residence spaces. Here’s who could benefit",
+     "link": "https://www.ctvnews.ca/canada/article/canada-plans-up-to-200000-extra-permanent-residence-spaces-heres-who-could-benefit/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Environment & energy",
+   "headline": "Ontario legislation proposes expanding garbage incineration for energy amid landfill capacity crunch",
+   "summary": "The Ford government has introduced sweeping legislation that could facilitate burning more waste across Ontario to generate electricity and alleviate shrinking landfill space. Proponents argue incineration addresses an imminent disposal crisis, but environmental critics warn the policy will degrade air quality and undercut waste diversion initiatives. The bill sets up an impending debate at Queen's Park over provincial waste management and emission targets.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Shawn Jeffords",
+     "title": "Provincial bill could pave the way for more trash incineration to make energy",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-burning-garbage-incinerators-9.7421081?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Health",
+   "headline": "Pfizer withdraws hormone therapy drug from Canada, raising coverage concerns in Ontario",
+   "summary": "Pfizer has removed its hormone replacement therapy Premarin from the Canadian market, eliminating the primary government-funded treatment for certain menopause symptoms. Medical professionals warn that the remaining alternative cream is not currently covered under Ontario's public drug program, creating significant out-of-pocket costs for patients. Advocates are calling on provincial health authorities to urgently update the provincial formulary to ensure accessible care.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Alex Arsenych",
+     "title": "Pfizer pulls hormone therapy drug from Canada, leaving only one option that’s not covered in Ontario",
+     "link": "https://www.ctvnews.ca/toronto/article/pfizer-pulls-hormone-therapy-drug-from-canada-leaving-only-one-option-thats-not-covered-in-ontario/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Government insiders question Premier Ford's push to overhaul Niagara Falls casinos",
+   "summary": "Internal pushback has emerged around Premier Doug Ford's plan to overhaul casino operations in Niagara Falls, with sources close to the premier expressing deep skepticism over the project. While Ford maintains that existing revenue and operational models are unacceptable, insiders have privately criticized his continued focus on the gaming file. The disagreement exposes rare friction over provincial commercial and gaming priorities.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Moira Welsh",
+     "title": "Insiders on Doug Ford's Niagara Falls casino dream: 'Everyone knows it's a dumb idea'",
+     "link": "https://www.thestar.com/politics/provincial/insiders-on-doug-ford-s-niagara-falls-casino-scheme-everyone-knows-it-s-a-dumb-idea/article_f2a3a9ee-2980-4bcb-b71b-a4c16afe1190.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Justice & policing",
+   "headline": "Appeal by former top RCMP official Cameron Ortis asserts secrecy hindered defence",
+   "summary": "Former senior RCMP intelligence official Cameron Ortis is appealing his conviction at the Ontario Court of Appeal, arguing that stringent state secrecy laws severely restricted his legal defence. Ortis's counsel claims that strict limitations on disclosing sensitive intelligence material impaired his constitutional right to make full answer and defence during trial. The appeal hearing, scheduled for February, will test the balance between national security confidentiality and fair trial rights in Canadian courts.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "David Ebner",
+     "title": "Secrecy in case of former top RCMP official curtailed defence, appeal asserts",
+     "link": "https://www.theglobeandmail.com/canada/article-secrecy-in-case-of-former-top-rcmp-official-curtailed-defence-appeal/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Ontario's appointment of regional 'strong chairs' triggers backlash from GTA mayors",
+   "summary": "Tensions are mounting between local municipal leaders and Queen's Park following the Ontario government's appointment of eight regional chairs vested with powers to override municipal councils. Several mayors across the Greater Toronto Area are pushing back, arguing the centralized authority undermines local democratic governance and municipal autonomy. The dispute threatens to strain regional cooperation over housing, transit, and infrastructure planning.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Alyshah Hasham",
+     "title": "Why Doug Ford’s ‘strong chairs’ have some Toronto-area mayors spoiling for a fight",
+     "link": "https://www.thestar.com/news/gta/why-doug-ford-s-strong-chairs-have-some-toronto-area-mayors-spoiling-for-a-fight/article_fac60b43-b609-4a90-839d-94fef6cf2b88.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Canadian travellers launch legal action after falling victim to Pearson airport luggage tag switching",
+   "summary": "More than two dozen Canadian travellers falsely accused of international drug smuggling are taking legal action, alleging corrupt airport workers switched their checked luggage tags onto bags filled with narcotics. Victims say their complaints were dismissed by authorities after illicit shipments were routed under their names at Toronto Pearson International Airport. A proposed fix has emerged as plaintiffs seek accountability from airport operators and security agencies.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Jack Hauen, Avery Haines",
+     "title": "After years of bag tag switching, one man says he has the fix",
+     "link": "https://www.ctvnews.ca/canada/article/what-can-canadians-do-to-protect-themselves-from-bag-tag-switching/",
+     "angle": "Investigates the mechanics of the baggage-switching scheme and an advocate's proposed solution",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Jack Hauen, Avery Haines",
+     "title": "Pearson bag tag victims say they were ignored. Now they’re fighting back",
+     "link": "https://www.ctvnews.ca/canada/article/whos-responsible-pearson-tag-switching-victims-sue-across-the-system/",
+     "angle": "Focuses on Pearson victims hiring a personal injury lawyer after claims they were ignored by officials",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Toronto Police investigate alleged assault of Falun Gong protesters outside Chinese consulate",
+   "summary": "Toronto Police have launched an investigation into a video showing an alleged assault against two Falun Gong demonstrators outside the Chinese consulate in Toronto. The incident, where an assailant allegedly claimed the site was Chinese territory, has triggered renewed demands from advocacy groups for the federal government to confront Beijing. Community leaders are urging Prime Minister Mark Carney to raise the issue of transnational repression during his diplomatic engagements in China.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Judy Trinh",
+     "title": "‘This is Chinese territory’: Toronto Police investigate alleged assault outside Chinese Consulate",
+     "link": "https://www.ctvnews.ca/canada/article/police-investigating-video-that-shows-alleged-assault-outside-chinese-consulate-in-toronto/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Transit & transportation",
+   "headline": "TTC implements winter ban on e-bikes and e-scooters to prevent battery fires",
+   "summary": "The Toronto Transit Commission has enacted its seasonal ban prohibiting e-bikes and e-scooters from all transit vehicles and properties until April 15. The annual policy is designed to reduce the risk of transit fires stemming from volatile lithium-ion batteries during cold weather conditions. Transit authorities are advising commuters who rely on micromobility devices to plan alternative travel arrangements throughout the winter season.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Joanna Lavoie",
+     "title": "E-bikes, e-scooters banned on the TTC until April 15",
+     "link": "https://www.ctvnews.ca/toronto/article/winter-e-bike-e-scooter-ban-now-in-effect-on-the-ttc/",
+     "angle": "Details the effective dates of the winter transit restriction running through mid-April",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Jake Ross",
+     "title": "TTC winter e-bike ban starts today",
+     "link": "https://www.thestar.com/news/gta/ttc-winter-e-bike-ban-starts-today/article_f34cd72a-455f-45d5-9a80-4fb522bd078b.html",
+     "angle": "Emphasizes the safety rationale concerning lithium-ion battery fire hazards",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "John Marchesan",
+     "title": "E-bikes, e-scooters now banned on TTC until next April",
+     "link": "https://toronto.citynews.ca/2026/11/15/e-bikes-e-scooters-now-banned-on-ttc-until-next-april/",
+     "angle": "Confirms the enforcement of the seasonal ban across all TTC vehicles and station properties",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Economy & trade",
+   "headline": "Defence contractor Roshel acquires idle Stellantis assembly plant in Brampton",
+   "summary": "Canadian defence manufacturer Roshel has purchased an idle automotive assembly plant in Brampton, Ontario, from Stellantis to expand its military vehicle manufacturing capacity. The facility, which has sat unused for several years, will be repurposed to help Roshel meet surging domestic and international defence procurement orders. The acquisition provides a significant economic boost to Peel Region's industrial manufacturing sector.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Defence contractor Roshel looking to build capacity, meet demand with plant purchase",
+     "link": "https://www.ctvnews.ca/canada/article/defence-contractor-roshel-looking-to-build-capacity-meet-demand-with-plant-purchase/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Two construction workers killed after being struck by out-of-control vehicle in Pickering",
+   "summary": "Durham Regional Police report that two construction workers were killed when an out-of-control Tesla struck them at a work site in Pickering, east of Toronto. Emergency crews responded to the scene, but both victims succumbed to their injuries. Investigators are probing the cause of the collision, including vehicle mechanics and driver actions, while provincial workplace safety authorities review construction site safety protocols.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "The Canadian Press",
+     "title": "Two people dead after crash involving out-of-control Tesla: Durham police",
+     "link": "https://www.thestar.com/news/gta/two-people-dead-after-crash-involving-out-of-control-tesla-durham-police/article_5cf94800-183b-5618-8d96-30ca8b798070.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
