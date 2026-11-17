@@ -1,0 +1,519 @@
+{
+ "format": 3,
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17T06:20:56-05:00",
+ "scanned": 502,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 14,
+  "National Post": 17,
+  "CBC News": 35,
+  "CTV News": 35,
+  "The Hub": 10,
+  "La Presse": 10,
+  "Radio-Canada": 63,
+  "The Trillium": 4,
+  "TVO": 0,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 0,
+  "London Free Press": 24,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 10,
+  "Toronto Star": 34,
+  "CityNews": 30,
+  "The Local": 0,
+  "BBC": 13,
+  "The Guardian": 0,
+  "NBC News": 4,
+  "Reuters": 92,
+  "Associated Press": 100,
+  "CNN": 15
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "Canada and China expand trade pacts and ease tariffs during Carney's visit",
+   "summary": "Prime Minister Mark Carney and Chinese President Xi Jinping agreed to expand bilateral trade and reduce tariffs, easing Chinese barriers on Canadian pork and seafood in exchange for extended relief on Chinese steel and aluminum. Carney also indicated that Canada could consider Chinese electric vehicle investment if trade negotiations with the United States sour. The bilateral agreements mark a strategic effort by Ottawa to diversify trade partnerships amid growing American protectionism.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Steven Chase",
+     "title": "China rolls back tariffs on Canadian pork, seafood in new trade deal with Ottawa",
+     "link": "https://www.theglobeandmail.com/politics/article-canada-china-trade-deal-1116/",
+     "angle": "Focuses on tariff relief for Canadian pork and seafood alongside eased restrictions on Chinese steel and aluminum",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Canada and China announce new trade measures and cultural partnerships on Carney's 1st day in Shenzhen",
+     "link": "https://www.cbc.ca/news/politics/canada-china-carney-xi-9.7424608?cmp=rss",
+     "angle": "Highlights new cultural and educational partnerships and increased direct flights between Canada and China",
+     "also_in": []
+    },
+    {
+     "outlet": "The Hub",
+     "author": "The Hub Staff",
+     "title": "Carney ties Chinese auto investment to outcome of U.S. tariff talks",
+     "link": "https://thehub.ca/2026/11/17/carney-ties-chinese-auto-investment-to-outcome-of-u-s-tariff-talks/",
+     "angle": "Reports on Carney tying potential Chinese auto sector investment to the outcome of U.S. tariff negotiations",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Tonda MacCharles",
+     "title": "Mark Carney, Xi Jinping deepen China ties with $400-million trade deal",
+     "link": "https://www.thestar.com/politics/federal/carney-xi-deepen-china-ties-with-400m-trade-deal/article_1479e592-3122-43bf-b500-eea0010a261c.html",
+     "angle": "Details the roughly $400-million trade package and notes the extension of tariff relief on steel and aluminum to 2028",
+     "also_in": []
+    },
+    {
+     "outlet": "Associated Press",
+     "author": "",
+     "title": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTR5N1M3UjBmMW5oTkdUWERHYUFPWFFNU3lHeEVyUlo0VE1KLU5hVXIxMGkxSE5ySlZjdjJWcEZhd1JrYnhvWDFNTFUybU5IRWY1SE55RHU2ZWdOQnY2ejBPLWpscTFCb2dUNDc4SE9iUHFmTUlpMzdsWWNTYlh3emhsTlM3SXljbWxEZVNNWXJwUE9TQjFYVE1GMzRXZw?oc=5",
+     "angle": "Emphasizes Carney's explicit warning that Canada may turn to Chinese automakers if U.S. talks stall",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Tech firms threaten service pullouts as Ottawa faces pushback on lawful-access bill",
+   "summary": "Major technology companies including Meta and Signal are urging the federal government to amend its proposed lawful-access legislation, warning they could withdraw encrypted services such as WhatsApp from Canada if compelled to undermine encryption. Legal experts also caution that provisions allowing police to compel metadata retention could face constitutional challenges under the Charter of Rights and Freedoms. The pressure mounts as civil liberties groups and parliamentary committees examine the potential impact on public digital privacy.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Marie Woolf",
+     "title": "Tech companies make last-ditch bid to get Ottawa to amend its lawful-access bill",
+     "link": "https://www.theglobeandmail.com/politics/article-tech-companies-bid-to-get-ottawa-to-amend-its-lawful-access-bill/",
+     "angle": "Covers joint pushback from Meta and Signal warning of potential removal of encrypted services",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Meta could pull WhatsApp from Canada if bill requires undermining encryption",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUTRnM3l0N0s0YWhxc2lhM1JxQkxTSUxaQkdYRG9HUzBhWllFeW90Zi1FcUQtWmhCWXhPX29WaFBoVFZVY3VibFFMTHM3NDdBMlJsTUY0RWdVMnM1c1hmOWhtX0VNRDJQVk5teHl5QVl2Mmh5MEtjVkY4TGM2dlFtMXdVaHpKaFhGN1Y5b09pcTVUR1Y2ZGI5cmxxeWdyTER6b09OeDg5SUtJUHFoeGpTQ0dZaWExbndJRHlXQUkyeF81X0U?oc=5",
+     "angle": "Focuses specifically on Meta's threat to withdraw WhatsApp from the Canadian market",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Liberals' 'lawful access' bill vulnerable to constitutional challenge: professor",
+     "link": "https://www.ctvnews.ca/politics/article/liberals-lawful-access-bill-vulnerable-to-constitutional-challenge-professor/",
+     "angle": "Highlights an analysis by a law professor warning that metadata retention clauses render the bill vulnerable to constitutional challenge",
+     "also_in": [
+      "Toronto Star",
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Senior staff leave Pierre Poilievre's office as B.C. Conservatives recruit talent",
+   "summary": "Five staff members in the office of Conservative Leader Pierre Poilievre, including his deputy chief of staff and senior communications aides, are stepping down from their positions. Multiple departing advisers are moving west to join the newly formed provincial administration of the B.C. Conservatives. The sudden departures create significant personnel gaps in federal strategy and communications ahead of upcoming parliamentary tests.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Stephanie Levitz",
+     "title": "Two senior Poilievre staffers decamp to BC Conservatives",
+     "link": "https://www.theglobeandmail.com/politics/article-two-senior-poilievre-staffers-decamp-to-bc-conservatives/",
+     "angle": "Notes two aides' statements that their moves reflect personal choices to return home rather than loss of confidence",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Kate McKenna",
+     "title": "Exodus in Poilievre's office as 5 staffers plan departures",
+     "link": "https://www.cbc.ca/news/politics/olo-poilievre-staff-exodus-9.7423944?cmp=rss",
+     "angle": "Details the five planned resignations and the resulting policy and communications vacancies",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Spencer Van Dyk, Vassy Kapelos, Marieke Walsh",
+     "title": "Staff exodus hits Poilievre’s office as new B.C. Conservative government goes on hiring spree",
+     "link": "https://www.ctvnews.ca/politics/article/staff-exodus-hits-poilievres-office-as-new-bc-conservative-government-goes-on-hiring-spree/",
+     "angle": "Explores the broader hiring spree by the new B.C. provincial government drawing away federal staffers",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Economy & trade",
+   "headline": "Canadian inflation remains flat at 3.1 per cent in October",
+   "summary": "Statistics Canada reported that the national annual inflation rate held steady at 3.1 per cent in October, with gasoline prices persisting as a major upward driver. In light of the flat headline figure, financial economists widely anticipate that the Bank of Canada will keep its key interest rate unchanged at its upcoming December meeting. The inflation data provides monetary policymakers with space to assess economic trends without an immediate need for policy adjustments.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Brett Bundale",
+     "title": "Canadian inflation holds steady at 3.1% in October, with gas still a key driver",
+     "link": "https://www.theglobeandmail.com/canada/article-canadian-inflation-expected-to-have-ticked-up-to-32-in-october/",
+     "angle": "Highlights the persistent impact of gasoline prices and raises questions around upcoming central bank decisions",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Jeff Lagerquist",
+     "title": "Bank of Canada likely to hold interest rates steady in December after flat inflation data: economists",
+     "link": "https://www.cbc.ca/news/business/cpi-inflation-october-9.7423293?cmp=rss",
+     "angle": "Focuses on the consensus among economists that interest rates will be held steady in December",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Economy & trade",
+   "headline": "Bank of Canada begins succession planning as Tiff Macklem plans 2027 departure",
+   "summary": "Bank of Canada Governor Tiff Macklem announced that he will not seek a second term when his current seven-year mandate expires on June 2, 2027. The central bank has begun an early search process to evaluate potential internal and external contenders for the leadership post. The transition will determine the future direction of Canadian monetary policy as the bank navigates post-inflation economic challenges.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Jeff Lagerquist",
+     "title": "Bank of Canada governor Tiff Macklem to step down in 2027",
+     "link": "https://www.cbc.ca/news/business/tiff-macklem-step-down-9.7423501?cmp=rss",
+     "angle": "Confirms Macklem's planned departure date at the end of his seven-year term",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Who will be the next Bank of Canada governor? These are some contenders",
+     "link": "https://www.ctvnews.ca/politics/article/who-will-be-the-next-bank-of-canada-governor-these-are-some-contenders/",
+     "angle": "Examines the roster of early contenders and the profile sought for the next governor",
+     "also_in": [
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "House of Commons unanimously passes David's Law to expand youth addiction treatment",
+   "summary": "Members of Parliament voted unanimously to pass David's Law, named in honour of the late son of Conservative MP Luc Berthold who lost his life following struggles with substance use. The legislation shifts federal emphasis toward diversion and treatment programs for youth facing drug dependence before criminal justice sanctions apply. The rare all-party accord reflects shared parliamentary urgency over addressing youth addiction.",
+   "articles": [
+    {
+     "outlet": "La Presse",
+     "author": "Mylène Crête",
+     "title": "Problèmes de dépendance chez les jeunes | La Loi pour les amis de David adoptée à l’unanimité",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-16/problemes-de-dependance-chez-les-jeunes/la-loi-pour-les-amis-de-david-adoptee-a-l-unanimite.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Highlights the emotional debate and personal dedication of the bill to Luc Berthold's late son",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Dépendance aux drogues : la loi en hommage au fils de Luc Berthold adoptée à l’unanimité",
+     "link": "https://ici.radio-canada.ca/article/info/2301056/luc-berthold-loi-amis-david-drogues",
+     "angle": "Outlines the statutory focus on expanding medical and rehabilitation treatment over criminal prosecution",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario English Catholic teachers vote overwhelmingly in favour of strike mandate",
+   "summary": "Members of the Ontario English Catholic Teachers' Association voted 98 per cent in favour of a strike mandate across the province, representing 45,000 educators. The union stated the result reflects deep frustration with stalled contract negotiations, while Education Minister Paul Calandra framed the strong mandate as an encouraging sign that teachers want to reach a deal. Formal collective bargaining sessions between the provincial government and the union are set to resume next week.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Alina Snisarenko",
+     "title": "Ontario Catholic school teachers vote in favour of strike mandate: union",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-catholic-school-teachers-vote-strike-9.7423848?cmp=rss",
+     "angle": "Reports the union's announcement of a 98 per cent strike mandate among 45,000 Catholic teachers",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Tina Yazdani",
+     "title": "Ontario Catholic teachers deliver 98 per cent strike mandate, education minister says he’s ‘encouraged’",
+     "link": "https://www.thetrillium.ca/insider-news/education-and-training/ontario-catholic-teachers-deliver-98-per-cent-strike-mandate-education-minister-says-hes-encouraged-13022913",
+     "angle": "Highlights the education minister's reaction interpreting the vote as a sign of eagerness to settle a contract",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Kristin Rushowy",
+     "title": "English Catholic teachers vote overwhelmingly for strike if no deal with Ford government",
+     "link": "https://www.thestar.com/politics/provincial/english-catholic-teachers-vote-overwhelmingly-for-strike-if-no-deal-with-ford-government/article_dec7f21f-6744-4344-a236-2fba6436df3a.html",
+     "angle": "Confirms the timeline for provincial negotiations to resume next week",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Health",
+   "headline": "Ontario medical regulator pauses planned restrictions on safer supply prescribing",
+   "summary": "The College of Physicians and Surgeons of Ontario has temporarily halted the rollout of new restrictions on safer supply opioid prescribing after being served with a legal challenge. The sweeping regulatory changes, which were scheduled to take effect immediately, sought to impose strict limits on how physicians prescribe pharmaceutical alternatives. The pause leaves current prescribing practices in place while the provincial courts examine the policy.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "",
+     "title": "Ontario’s safer supply changes paused due to legal challenge",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-safer-supply-drugs-opioids-ontario-2/",
+     "angle": "Focuses on the immediate pause of the sweeping prescription regime ahead of its planned Monday implementation",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Ontario's medical regulator hit with legal challenge over safer supply drug changes",
+     "link": "https://www.cbc.ca/news/canada/toronto/safer-supply-ontario-changes-pause-9.7424145?cmp=rss",
+     "angle": "Details the medical regulator's specific decision to halt the changes after receiving legal challenge filings",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Economy & trade",
+   "headline": "Roshel to acquire idle Stellantis assembly plant in Brampton",
+   "summary": "Defence contractor Roshel has reached an agreement to acquire Stellantis's idle auto manufacturing plant in Brampton, Ontario, in order to scale up its armoured vehicle production. Premier Doug Ford demanded that Stellantis ensure laid-off auto workers are rehired to staff future operations at the site. The transaction represents a significant transition of southern Ontario industrial infrastructure toward defence manufacturing amid shifting manufacturing priorities.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Joshua Freeman",
+     "title": "‘Simple as that:’ Doug Ford says Stellantis must hire back Brampton workers",
+     "link": "https://www.ctvnews.ca/toronto/article/simple-as-that-doug-ford-says-stellantis-must-hire-back-brampton-workers/",
+     "angle": "Emphasizes Doug Ford's insistence that Stellantis must ensure affected Brampton autoworkers are rehired",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Defence contractor Roshel looking to build capacity, meet demand with plant purchase",
+     "link": "https://www.ctvnews.ca/canada/article/defence-contractor-roshel-looking-to-build-capacity-meet-demand-with-plant-purchase/",
+     "angle": "Focuses on Roshel's strategic aims to boost capacity and meet rising defence demand",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Vente de l’usine de Stellantis : le gouvernement Ford sur la défensive",
+     "link": "https://ici.radio-canada.ca/article/info/2301085/stellantis-doug-ford-industrie-auto",
+     "angle": "Reports on the political pressure facing the Ontario government regarding automotive employment",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Justice & policing",
+   "headline": "Ontario introduces legislation establishing legal process to remove non-consensual intimate images",
+   "summary": "The Ontario government tabled a new bill on Monday to create an expedited civil legal pathway for victims of intimate image abuse to have non-consensually shared images taken down and deleted. The proposed legislation empowers individuals to pursue direct legal remedies against perpetrators and platforms hosting the material. The measure is designed to provide victims with swifter, less burdensome statutory tools to safeguard personal privacy.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Allison Jones",
+     "title": "Ontario tables new law introducing stronger legal protections for victims of intimate image abuse",
+     "link": "https://www.cbc.ca/news/canada/toronto/ford-government-omnibus-bill-queens-park-image-abuse-9.7424114?cmp=rss",
+     "angle": "Emphasizes the creation of new statutory protections and civil deletion avenues for victims",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Ontario tables law to more quickly deal with intimate image abuse",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/ontario-tables-law-to-more-quickly-deal-with-intimate-image-abuse/",
+     "angle": "Focuses on provisions intended to accelerate the removal and legal processing of abusive images",
+     "also_in": [
+      "Toronto Star",
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario tables career college OSAP reforms amid funding freeze for students",
+   "summary": "The provincial government introduced legislation overhauling Ontario Student Assistance Program rules for students attending private career colleges. The legislative reform unfolds against a broader freeze on OSAP disbursements to private colleges, which has left numerous students locked out of classrooms unless they can cover upfront costs privately. Critics and affected learners argue that the new measures do not address the acute financial distress of students currently caught in the funding pause.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "How Ontario proposes to change OSAP rules for career colleges",
+     "link": "https://www.cbc.ca/player/play/9.7424409?cmp=rss",
+     "angle": "Provides a breakdown of the provincial bill reforming OSAP eligibility rules for career colleges",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Trillium College students disappointed at selective return to classes",
+     "link": "https://www.ctvnews.ca/canada/article/trillium-college-students-disappointed-at-selective-return-to-classes/",
+     "angle": "Highlights student backlash at Trillium College after the school permitted only self-paying students to attend",
+     "also_in": [
+      "Toronto Star",
+      "CityNews"
+     ]
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Kristin Rushowy",
+     "title": "This single mom owes $5,000 to her college. Ontario’s new bill does nothing to unfreeze her OSAP",
+     "link": "https://www.thestar.com/politics/provincial/this-single-mom-owes-5-000-to-her-college-ontario-s-new-bill-does-nothing-to-unfreeze-her-osap/article_44fc4908-05e5-40cc-8c02-97b9a6a53e65.html",
+     "angle": "Examines individual student impacts and notes the legislation fails to immediately unfreeze blocked loans",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Provincial audit attributes Ontario Children's Aid Society costs to complex care needs",
+   "summary": "A third-party audit commissioned by the Ontario government revealed that rising costs at Children's Aid Societies stem from supporting children with severe, complex needs rather than executive perks or administrative waste. The findings corroborate claims by child welfare advocates that provincial service gaps force agencies into costly emergency arrangements. In response to agency deficits, the government is proceeding with legislation to heighten oversight and financial scrutiny of the sector.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "L’Ontario veut resserrer la surveillance des sociétés d’aide à l’enfance",
+     "link": "https://ici.radio-canada.ca/article/info/2301144/reforme-societes-aide-enfance-ontario",
+     "angle": "Reports the Ford government's plan to tighten statutory supervision over children's aid societies",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Jessica Smith Cross",
+     "title": "Ford government audit finds kids’ needs, not bonuses and ‘Taj Mahal’ offices, driving up Children's Aid Societies’ costs",
+     "link": "https://www.thetrillium.ca/news/social-services-and-society/ford-government-audit-finds-kids-needs-not-bonuses-and-taj-mahal-offices-driving-up-childrens-aid-societies-costs-13024031",
+     "angle": "Details the audit findings that complex care needs, not administrative excess, are driving budget escalations",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Housing",
+   "headline": "Toronto expands rental development incentives to support up to 10,000 new units",
+   "summary": "Toronto Mayor Olivia Chow launched the second phase of the city's Purpose-Built Rental Housing Incentives program, offering municipal financial backing to support the construction of up to 10,000 rental units. Under the framework, more than 2,000 of the completed homes will be designated as rent-controlled and affordable. The initiative aims to stimulate rental housing starts and expand workforce housing amidst ongoing municipal affordability pressures.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Olivia Piercey",
+     "title": "Toronto to help build over 9,000 new rental homes through phase 2 of plan to development incentives, Chow says",
+     "link": "https://www.cbc.ca/news/canada/toronto/chow-housing-announcement-new-rental-homes-9.7423873?cmp=rss",
+     "angle": "Focuses on Chow's announcement supporting over 9,000 rental units with at least 2,000 affordable homes",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Dee Burman",
+     "title": "City of Toronto supporting construction of 10K new rental homes; more than 2K to be affordable units",
+     "link": "https://toronto.citynews.ca/2026/11/16/city-of-toronto-supporting-construction-of-10k-new-rental-homes-more-than-2k-to-be-affordable-units/",
+     "angle": "Details the city-funded incentive mechanisms and total projected build of 10,000 rental homes",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Peel police charge 12 in multi-million dollar stolen vehicle export bust",
+   "summary": "Peel Regional Police dismantled a transnational auto theft syndicate, arresting 12 individuals and recovering 96 stolen vehicles valued at approximately $4.5 million. The luxury cars had been loaded into shipping containers bound for export markets in West Africa. The operation underscores ongoing law enforcement efforts across the Greater Toronto Area to disrupt organized vehicle theft networks targeting local communities.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Muriel Draaisma",
+     "title": "12 men charged in Peel auto theft bust after 96 vehicles recovered from shipping containers",
+     "link": "https://www.cbc.ca/news/canada/toronto/peel-regional-police-auto-theft-bust-9.7424009?cmp=rss",
+     "angle": "Details the recovery of 96 vehicles from shipping containers destined for West Africa and charges against 12 men",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Alex Arsenych",
+     "title": "Police dismantle ‘criminal network’ behind GTA auto thefts, seize 96 vehicles destined to be shipped overseas",
+     "link": "https://www.ctvnews.ca/toronto/local/peel/article/12-people-facing-more-than-230-charges-in-transnational-auto-theft-investigation-in-gta/",
+     "angle": "Highlights the dismantling of an organized criminal network operating across the Greater Toronto Area",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Transit & transportation",
+   "headline": "Poll reveals Toronto residents are skeptical of planned Waymo robotaxi rollout",
+   "summary": "A survey conducted by Liaison Strategies indicates that a majority of Torontonians harbor significant doubts about Waymo's plans to introduce autonomous taxis in the city by 2028. Respondents cited strong apprehensions regarding road safety, interactions with cyclists, and the technology's capability to navigate severe winter conditions. The findings come as testing vehicles continue mapping Toronto streets ahead of prospective commercial deployment.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Isaac Callan",
+     "title": "Torontonians unenthusiastic about Waymo launch plans, new poll suggests",
+     "link": "https://www.cbc.ca/news/canada/toronto/waymo-toronto-polling-9.7424167?cmp=rss",
+     "angle": "Focuses on public concerns regarding ice, snow, and cycling safety in Toronto",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Elissa Mendes",
+     "title": "Most Torontonians skeptical of self-driving taxis, new poll suggests",
+     "link": "https://www.thestar.com/news/gta/city-hall/most-torontonians-skeptical-of-self-driving-taxis-new-poll-suggests/article_e91420ff-23de-4324-bc50-516c152d6f4e.html",
+     "angle": "Reports the polling figures demonstrating broad public skepticism toward autonomous rideshare services",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
