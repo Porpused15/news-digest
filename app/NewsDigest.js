@@ -11,6 +11,8 @@ cfg.Portrait
 // The APK builder picks permissions by scanning for DroidScript calls and doesn't see
 // fetch(), so without this the built APK has no INTERNET permission ("Failed to fetch").
 _AddPermissions( "Network" )
+// Android 13+ needs runtime permission to post notifications (morning digest alert).
+_AddPermissions( "Notify" )
 
 const OWNER = "Porpused15"
 const BRANCH = "main"
@@ -51,7 +53,31 @@ class Main extends App
         this.buildSourceDialog()
 
         this.loadIndex()
+        this.startNotifier()
+        window.newsDigestApp = this   // for the global OnResume below
     }
+
+    // Background service (Service.js) that posts the morning "today's digest" notification.
+    startNotifier()
+    {
+        if( !this.notifyOn() ) return
+        // CheckPermission lists what isn't granted yet (empty when all granted).
+        if( String( app.CheckPermission( "Notify" ) || "" ) )
+            app.GetPermission( "Notify", () => {} )
+        if( !this.svc ) this.svc = app.CreateService( "this", "this", null, "Persist" )
+    }
+
+    notifyOn() { return app.LoadText( "notify_on", "1", STORE ) == "1" }
+
+    // Coming back to the app (e.g. from the notification): show the latest digest.
+    refresh()
+    {
+        if( Date.now() - ( this.lastRefresh || 0 ) < 5000 ) return
+        this.lastRefresh = Date.now()
+        this.loadIndex()
+    }
+
+    onResume() { this.refresh() }
 
     // ---------------------------------------------------------------- Digest tab
 
@@ -96,6 +122,8 @@ class Main extends App
         this.selDate.setList( this.dates.map( fmtDate ) )
         this.selDate.value = fmtDate( this.dates[0] )
         this.loadDigest( this.dates[0] )
+        // Already looking at today's digest: the service won't notify about it.
+        if( this.dates[0] == isoDate( new Date() ) ) app.SaveText( "notified", this.dates[0], STORE )
     }
 
     async loadDigest( date )
@@ -215,6 +243,15 @@ class Main extends App
         this.selTheme.setOnChange( () => {
             app.SaveText( "theme", selValue( this.selTheme ), STORE )
             this.applyTheme()
+        } )
+
+        this.swNotify = ui.addSwitch( scr, "Morning notification (this phone)", "primary", W )
+        this.swNotify.value = this.notifyOn()
+        this.swNotify.setOnChange( () => {
+            const on = !!this.swNotify.value
+            app.SaveText( "notify_on", on ? "1" : "0", STORE )
+            if( on ) { this.startNotifier(); this.svc?.SendMessage( "check" ) }
+            else this.svc?.SendMessage( "rearm" )   // service sees it's off and stays quiet
         } )
 
         ui.addText( scr, "Delivery", "h6", W )
@@ -505,6 +542,15 @@ function byline( a )
     if( a.also_in && a.also_in.length ) s += " (also in " + a.also_in.join( ", " ) + ")"
     return s
 }
+
+function isoDate( d )
+{
+    const p = n => String( n ).padStart( 2, "0" )
+    return d.getFullYear() + "-" + p( d.getMonth() + 1 ) + "-" + p( d.getDate() )
+}
+
+// Classic DroidScript resume event; forwards to the Hybrid app (same debounced refresh).
+function OnResume() { window.newsDigestApp?.refresh() }
 
 function selValue( sel )
 {

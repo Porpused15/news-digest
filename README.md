@@ -46,6 +46,12 @@ as that day's digest.
 ## Companion app (DroidScript)
 
 1. In DroidScript, create a new **Hybrid** app and replace its code with `app/NewsDigest.js`.
+   Add a second file named exactly **`Service.js`** to the same project with the contents of
+   `app/Service.js`: the background check that posts the morning "today's digest" notification
+   (from 6:40, then every 30 min until noon if the digest is late; once a day; nothing if the
+   app already showed today's digest). The "Morning notification" switch in Settings turns it
+   off per phone. If notifications stop on a phone, set the app's battery use to Unrestricted.
+   After a reboot the check resumes the next time the app is opened.
 2. Reading digests needs nothing. To change settings or use "Send digest now", create a
    fine-grained token (GitHub -> Settings -> Developer settings -> Fine-grained tokens) with access
    to **only `news-digest-config`** and permissions **Contents: Read and write** and **Actions:
