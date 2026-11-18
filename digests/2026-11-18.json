@@ -1,0 +1,535 @@
+{
+ "format": 3,
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T06:21:21-05:00",
+ "scanned": 459,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 22,
+  "National Post": 33,
+  "CBC News": 34,
+  "CTV News": 35,
+  "The Hub": 8,
+  "La Presse": 9,
+  "Radio-Canada": 59,
+  "The Trillium": 5,
+  "TVO": 2,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 0,
+  "London Free Press": 20,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 9,
+  "Toronto Star": 26,
+  "CityNews": 30,
+  "The Local": 0,
+  "BBC": 14,
+  "The Guardian": 1,
+  "NBC News": 7,
+  "Reuters": 66,
+  "Associated Press": 74,
+  "CNN": 16
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "Canada and China expand trade pact with tariff relief for agriculture and metals",
+   "summary": "Prime Minister Mark Carney and Chinese President Xi Jinping reached an agreement at the APEC summit to lower tariffs on Canadian pork and seafood in exchange for Canadian tariff concessions on Chinese steel and aluminum. The deal delivers approximately $400 million in export relief for Canadian producers as Ottawa pursues a trade reset following years of strained relations. However, critics and security analysts caution that the economic concessions risk compromising broader geopolitical interests and complicating ties with the United States.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Ian Bailey",
+     "title": "Politics Insider: China rolls back tariffs on Canadian pork and seafood as Canada opens door for Chinese steel and aluminum",
+     "link": "https://www.theglobeandmail.com/politics/article-politics-insider-china-rolls-back-tariffs-on-canadian-pork-and-seafood/",
+     "angle": "Highlights the reciprocal trade-off involving Canadian pork and seafood alongside Chinese steel and aluminum imports",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "John Mazerolle",
+     "title": "Canada has extended and expanded its deal with China. Here's how it affects different sectors",
+     "link": "https://www.cbc.ca/news/politics/china-canada-tariffs-deal-extended-expanded-trade-pork-seafood-9.7424993?cmp=rss",
+     "angle": "Details sectoral impacts and notes the tariff relief covers roughly $400 million in Canadian exports",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "John Paul Tasker",
+     "title": "Carney secures another China trade deal — but at what cost?",
+     "link": "https://www.cbc.ca/news/politics/carney-xi-china-trade-9.7425325?cmp=rss",
+     "angle": "Focuses on political blowback from China hawks concerned over the concessions made to Beijing",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Graham Richardson",
+     "title": "CTV NEWS IN CHINA: A boon for pork and seafood producers as tariffs drop",
+     "link": "https://www.ctvnews.ca/politics/article/carney-secures-china-trade-concessions-as-tensions-over-auto-investment-persist/",
+     "angle": "Emphasizes the benefits for agricultural and seafood producers alongside tensions over potential Chinese EV investments",
+     "also_in": []
+    },
+    {
+     "outlet": "Reuters",
+     "author": "",
+     "title": "After years on ice, Canada seeks trade-based reset with China, minister says",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcXducGZ4U2x6Qk1QdGVXckdCZDNGbE84S0VtRXhFelZmVW1IZXpCRzFpc21JdEpqdzdvUjk4MzN1dnN5N3VpRXpWbjN6MmNVZjRvQ1Itck1nZ1J2bXBvR1FoMk5JY0QwX1dKNzY0THVza09xUWU4TVJzSS1NUVgxQW1KOE5mc1N1OVQyYVVISkxZRnJwbC1EbG5STy15VGg2TWVMZm1kWk5BWWtzaEUxVlFmRQ?oc=5",
+     "angle": "Frames the agreement as part of Canada's broader strategy to establish a trade-based reset with China",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "International",
+   "topic": "Federal politics",
+   "headline": "Carney meets Trump in China as Canada-U.S. trade negotiations intensify",
+   "summary": "Prime Minister Mark Carney held a 20-minute bilateral meeting with U.S. President Donald Trump on the sidelines of the APEC summit in Shenzhen, China. Carney asserted that Canada's expanding trade ties with China do not threaten Washington, noting Canadian exports to China focus on commodities rather than sensitive technology. The summit discussion comes as senior Canadian and American trade officials ramp up formal weekly negotiations amid friction over U.S. tariffs.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Steven Chase",
+     "title": "Carney meets with Trump at APEC summit in China",
+     "link": "https://www.theglobeandmail.com/politics/article-carney-trump-apec-meeting/",
+     "angle": "Reports on the 20-minute private meeting between Carney and Trump at the summit in China",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Carney to meet with Trump at APEC, says Canada's trade ties with China are not U.S. president's top concern",
+     "link": "https://www.cbc.ca/news/politics/carney-china-trade-9.7426126?cmp=rss",
+     "angle": "Quotes Carney arguing that commodity trade with China is not a primary concern for the Trump administration",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Kate McKenna",
+     "title": "Trade talks between top Canada, U.S. officials ramping up: sources",
+     "link": "https://www.cbc.ca/news/politics/trump-carney-tariffs-trade-latest-9.7425828?cmp=rss",
+     "angle": "Reveals that senior Canadian and U.S. officials have stepped up formal weekly trade talks",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Antoine Trépanier",
+     "title": "La Presse en Chine | Carney a rencontré Trump sur le terrain de Xi",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-18/la-presse-en-chine/carney-a-rencontre-trump-sur-le-terrain-de-xi.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Provides French-Canadian perspective on Carney meeting Trump directly on Chinese soil",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "Canada and India close to finalizing bilateral free trade agreement, envoy says",
+   "summary": "India's high commissioner to Canada announced that Ottawa and New Delhi are on the verge of concluding a comprehensive free trade deal, culminating negotiations that began 16 years ago. In addition to trade terms, the envoy indicated that a bilateral defence agreement is expected to be signed during Indian Prime Minister Narendra Modi's planned visit to Ottawa in December. The anticipated deals signal a major diplomatic and commercial rapprochement between the two nations following years of friction.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Catherine Morrison",
+     "title": "Canada, India close to finalizing free trade deal, envoy says",
+     "link": "https://www.theglobeandmail.com/canada/article-canada-india-free-trade-deal-carney/",
+     "angle": "Reports on the expected signing of a bilateral defence agreement during Narendra Modi's December visit",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Canada, India on the cusp of finalizing free trade deal, says high envoy",
+     "link": "https://www.ctvnews.ca/politics/article/canada-india-on-the-cusp-of-finalizing-free-trade-deal-says-high-envoy/",
+     "angle": "Focuses on the 16-year timeline of trade negotiations reaching finalization",
+     "also_in": [
+      "Toronto Star",
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Federal debt charges are Ottawa's fastest-growing expense, budget watchdog reports",
+   "summary": "Parliamentary Budget Officer Annette Ryan warned that public debt charges have become the federal government's fastest-growing expenditure following $331.6 billion in new spending measures. The watchdog found that Ottawa has committed 96 percent of its newly gained fiscal room, leaving deficits little changed and reserves nearly exhausted. The report also cautioned that substantial federal borrowing extends well beyond the projected headline deficit.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Bill Curry",
+     "title": "Public debt charges are Ottawa’s fastest-growing expense, PBO says",
+     "link": "https://www.theglobeandmail.com/politics/article-parliamentary-budget-officer-budget-2026-report/",
+     "angle": "Identifies public debt servicing as the single fastest-growing expense in the federal budget",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Federal government spending up $331.6 billion under Carney, budget watchdog says",
+     "link": "https://www.ctvnews.ca/politics/article/ottawas-spending-up-3316-billion-under-carney-budget-watchdog-says/",
+     "angle": "Focuses on the $331.6 billion increase in total federal spending under Carney's administration",
+     "also_in": []
+    },
+    {
+     "outlet": "The Hub",
+     "author": "The Hub Staff",
+     "title": "Carney government’s three spending plans total $331.6 billion in new measures, budget watchdog finds",
+     "link": "https://thehub.ca/2026/11/18/carney-governments-three-spending-plans-total-331-6-billion-in-new-measures-budget-watchdog-finds/",
+     "angle": "Notes that 96 percent of newly created fiscal room has been absorbed by new spending commitments",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Alex Ballingall",
+     "title": "Mark Carney’s budget includes billions in borrowing beyond the deficit, new analysis finds",
+     "link": "https://www.thestar.com/politics/federal/carney-s-budget-includes-billions-in-borrowing-beyond-the-deficit-new-analysis-finds/article_38335c9a-e698-4a3d-9d17-8c5e0c956265.html",
+     "angle": "Emphasizes that off-deficit borrowing substantially exceeds the reported headline deficit",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Federal bill amending medical assistance in dying laws advances amid opposition pushback",
+   "summary": "The federal Liberal government's proposed legislation amending Canada's medical assistance in dying laws passed second reading in the House of Commons and was referred to the justice committee. Opposition parties objected after the government moved to limit parliamentary debate, demanding additional time to examine safeguards and legal implications. The committee review will examine controversial provisions before the bill returns to the House for final reading.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Catherine Morrison",
+     "title": "Liberals limit debate on assisted dying bill as Conservatives call for changes",
+     "link": "https://www.cbc.ca/news/politics/maid-bill-liberals-debate-9.7425597?cmp=rss",
+     "angle": "Highlights opposition criticism over the Liberal government's decision to invoke time allocation and limit debate",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Bill proposing changes to medical assistance in dying law passes hurdle in Commons",
+     "link": "https://www.ctvnews.ca/politics/article/liberals-limit-debate-on-assisted-dying-bill-as-conservatives-call-for-changes/",
+     "angle": "Confirms the bill's passage at second reading and its referral to the House justice and human rights committee",
+     "also_in": [
+      "Toronto Star",
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Economy & trade",
+   "headline": "Experts urge Ottawa to launch national security review of proposed Moneris acquisition",
+   "summary": "National security experts and economists are urging the federal government to subject the planned takeover of Moneris by a U.S. private equity firm to an exhaustive national security review. Experts warned that handing Canada's largest payment processor to foreign owners jeopardizes domestic financial data sovereignty. Critics also pointed to the acquiring firm's purported ties to international human rights concerns as grounds for ministerial intervention.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Robert Fife",
+     "title": "Ottawa should conduct national security review of Moneris takeover deal, experts say",
+     "link": "https://www.theglobeandmail.com/politics/article-ottawa-should-conduct-national-security-review-of-moneris-takeover/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Economy & trade",
+   "headline": "Ottawa remains noncommittal as Quebecor makes takeover bid for rival Telus",
+   "summary": "Prime Minister Mark Carney declined to state whether the federal government would permit the telecom industry to lose a major national player following Quebecor's bid to acquire Telus. While the prime minister stressed that Ottawa's priority is fostering competition and lowering consumer prices, analysts note the takeover could create the largest telecommunications firm in Canada. The transaction will face intense scrutiny by federal competition and telecommunications regulators before any approval can be granted.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Steven Chase",
+     "title": "Carney mum on whether Ottawa would allow telecom sector to lose a national player",
+     "link": "https://www.theglobeandmail.com/politics/article-mark-carney-apec-summit-quebecor-bid-for-telus-competition/",
+     "angle": "Quotes Mark Carney insisting federal policy must favour increased consumer competition and lower prices",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Et si Québecor devenait la plus grande entreprise de télécommunications au pays?",
+     "link": "https://ici.radio-canada.ca/article/info/2301387/quebecor-telus-acquisition-telecommunications-concurrence",
+     "angle": "Explores whether shifting trade dynamics could induce federal regulators to approve Quebecor's national expansion",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario English public high school teachers vote overwhelmingly for strike mandate",
+   "summary": "Members of the Ontario Secondary School Teachers' Federation voted 96 per cent in favour of a strike mandate, increasing pressure on the provincial government. The union cited worsening classroom conditions, growing class sizes, and declining student supports as primary grievances across all five major education unions currently working without contracts. Education Minister Paul Calandra downplayed the outcome, stating that high strike-vote margins are typical during contract negotiations.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Dave McGinn",
+     "title": "Ontario English public high-school teachers vote in favour of strike mandate",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-english-public-high-school-teachers-vote-in-favour-strike/",
+     "angle": "Notes that all five major K-12 education unions in Ontario have been without contracts since August",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Ontario : un 2e syndicat d’enseignants obtient un mandat de grève, cette fois à 96 %",
+     "link": "https://ici.radio-canada.ca/article/info/2301312/syndicat-enseignants-ontario-vote-greve",
+     "angle": "Mentions the upcoming strike vote results from the French-language teachers union, AEFO",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Tina Yazdani",
+     "title": "Ontario high school teachers deliver 96 per cent strike mandate, minister says numbers aren’t surprising",
+     "link": "https://www.thetrillium.ca/insider-news/education-and-training/ontario-high-school-teachers-deliver-96-per-cent-strike-mandate-minister-says-numbers-arent-surprising-13029026",
+     "angle": "Highlights Education Minister Paul Calandra's reaction that the result is standard bargaining procedure",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Kristin Rushowy",
+     "title": "Ontario public high school teachers vote 96 per cent in favour of strike mandate",
+     "link": "https://www.thestar.com/politics/provincial/ontario-public-high-school-teachers-vote-96-per-cent-in-favour-of-strike-mandate/article_1a52edde-367b-431d-8843-b269470f0e44.html",
+     "angle": "Outlines the union leadership's statement that teachers are united against provincial government policies",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Doug Ford pitches Ontario-Quebec economic coalition to counter American trade protectionism",
+   "summary": "In a speech to the Chamber of Commerce of Metropolitan Montreal, Ontario Premier Doug Ford called for tearing down internal trade barriers and creating a united economic front between Ontario and Quebec. Ford argued that Canada's two largest provinces must coordinate industrial strategies and economic partnerships to weather escalating trade turbulence with the United States. He emphasized that interprovincial collaboration is essential to protecting domestic manufacturing and critical supply chains.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Ontario Premier Doug Ford touts partnerships with Quebec in Montreal speech",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/ontario-premier-doug-ford-touts-partnerships-with-quebec-in-montreal-speech/",
+     "angle": "Emphasizes Ford's call to dismantle internal provincial trade barriers",
+     "also_in": [
+      "Toronto Star"
+     ]
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Doug Ford plaide pour une alliance économique renforcée entre l’Ontario et le Québec",
+     "link": "https://ici.radio-canada.ca/article/info/2301380/doug-fond-montreal-tarifs-americains",
+     "angle": "Highlights the strategic need for the two provinces to collaborate against U.S. economic dominance",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Lola Kalder",
+     "title": "‘United we stand’: Doug Ford shares economic vision for Ontario-Quebec alliance in Montreal",
+     "link": "https://toronto.citynews.ca/2026/11/17/doug-ford-quebec-ontario-unity-trump/",
+     "angle": "Covers Ford's remarks framing the provincial partnership under a unified economic front",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario tables legislation shielding government from lawsuits over private career college OSAP pause",
+   "summary": "The Ontario government has introduced legislation to protect itself from legal liability resulting from its provincewide suspension of Ontario Student Assistance Program funding to private career colleges. Meanwhile, students enrolled in affected institutions like Trillium College have voiced outrage after schools allowed only students capable of paying out of pocket to continue coursework. The measure shields the province from damages as it reviews funding integrity across private post-secondary institutions.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Part of new bill would prevent lawsuits against Ontario government over OSAP pause",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-government-legislation-osap-pause-9.7426005?cmp=rss",
+     "angle": "Reports on the government's legislative measure barring civil lawsuits over the student aid freeze",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Allison Jones",
+     "title": "Students at Ontario career college 'frustrated' with selective return to classes",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-career-college-selective-return-to-class-9.7424779?cmp=rss",
+     "angle": "Focuses on the student perspective and operational disruption caused by selective class access at private colleges",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Ontario NDP requests Elections Ontario investigation into Progressive Conservative fundraising",
+   "summary": "The Ontario NDP has formally asked Elections Ontario to review bank deposit records to determine whether the governing Progressive Conservatives accepted illegal political donations. The complaint follows reports that the Ford government pledged $175 million to the horse racing industry shortly after a cabinet minister raised $20,000 from sector executives. The opposition alleges a pattern of access-for-donations fundraising that compromises public procurement and subsidy decisions.",
+   "articles": [
+    {
+     "outlet": "The Trillium",
+     "author": "Charlie Pinkerton",
+     "title": "Ontario NDP asks elections agency to investigate PC fundraising practices",
+     "link": "https://www.thetrillium.ca/insider-news/politics/ontario-ndp-asks-elections-agency-to-investigate-pc-fundraising-practices-13028976",
+     "angle": "Details the NDP's formal request for Elections Ontario to scrutinize PC deposit records for illegal donations",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Tom Desormeaux and Charlie Pinkerton",
+     "title": "Ford gov pledged $175M for horse racing after minister raised $20K of political donations from industry",
+     "link": "https://www.thetrillium.ca/news/the-trillium-investigations/ford-gov-pledged-175m-for-horse-racing-after-minister-raised-20k-of-political-donations-from-industry-13027672",
+     "angle": "Uncovers the $175-million horse racing pledge that followed an industry fundraiser hosted by a provincial minister",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Transit & transportation",
+   "headline": "Ontario to introduce legislation hiking fines for loud mufflers and excessive vehicle noise",
+   "summary": "The Ontario government plans to introduce legislation that significantly increases minimum fines for drivers operating vehicles with excessively loud engine revving or illegal exhaust modifications. Provincial officials aim to clamp down on street racing and nuisance noise in urban neighbourhoods across the province. The bill will establish tougher statutory penalties for motorists and mechanics who tamper with vehicle noise-dampening systems.",
+   "articles": [
+    {
+     "outlet": "CityNews",
+     "author": "Meredith Bond",
+     "title": "Ford government moves to silence loud car and truck noise with new legislation",
+     "link": "https://toronto.citynews.ca/2026/11/18/ford-government-loud-car-and-truck-noise-ontario-legislation/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Real estate developers challenge Mississauga's data centre moratorium at provincial tribunal",
+   "summary": "U.S. industrial real estate giant Prologis and Toronto firm Montcrest Asset Management have appealed Mississauga's one-year freeze on data centres over 10 megawatts to the Ontario Land Tribunal. City council enacted the pause to evaluate power grid capacity, land-use zoning, and noise concerns associated with power-hungry facilities. Mississauga's mayor welcomed the legal fight, declaring the city is ready to defend its planning authority.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Jordan Omstead",
+     "title": "Mississauga data centre moratorium faces legal challenge from U.S. real estate giant, Toronto firm",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-mississauga-data-centre-moratorium-faces-legal-challenge-from-us-real/",
+     "angle": "Details the municipal rationale concerning electrical grid strain, noise pollution, and land-use impacts",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Isha Bhargava",
+     "title": "'Bring it on,' Mississauga mayor says as real estate firms appeal city's data centre ban",
+     "link": "https://www.cbc.ca/news/canada/toronto/bring-it-on-mississauga-mayor-says-as-real-estate-firms-appeal-city-s-data-centre-ban-9.7425350?cmp=rss",
+     "angle": "Focuses on the Mississauga mayor's combative reaction welcoming the tribunal battle",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Centres de données et IA : le moratoire de Mississauga attaqué devant les tribunaux",
+     "link": "https://ici.radio-canada.ca/article/info/2301411/intelligence-artificielle-reglement-municipal-ontario",
+     "angle": "Outlines the specific regulatory parameters of the moratorium barring facilities larger than 10 megawatts",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Toronto City Council convenes new term with seven new members and housing priorities",
+   "summary": "Mayor Olivia Chow and 25 city councillors were sworn in for the new term, marking the arrival of seven new council members, including former federal MPs Nate Erskine-Smith and Shaun Chen. Several incoming councillors with backgrounds in grassroots housing advocacy intend to prioritize tenant protections and homelessness solutions on the council floor. Chow delivered her inaugural address outlining her administration's agenda, working with a council expected to be more ideologically aligned with her priorities.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Isaac Callan",
+     "title": "Toronto’s new council is meeting for the first time. Here's who is new and what to expect",
+     "link": "https://www.cbc.ca/news/canada/toronto/toronto-council-first-meeting-2026-9.7424770?cmp=rss",
+     "angle": "Previews the swearing-in ceremony and highlights the arrival of seven new councillors",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Un nouveau conseil municipal plus « bénéfique » pour Olivia Chow",
+     "link": "https://ici.radio-canada.ca/article/info/2301292/toronto-olivia-chow-conseil-municipal",
+     "angle": "Analyzes how the political makeup of the newly elected council may benefit Mayor Olivia Chow",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Sharif Hassan The Canadian Press",
+     "title": "Can advocates elected to Toronto council help fix housing and homelessness crisis?",
+     "link": "https://www.thestar.com/real-estate/can-advocates-elected-to-toronto-council-help-fix-housing-and-homelessness-crisis/article_25a1689b-ded0-566f-bd88-26e4a6677265.html",
+     "angle": "Focuses on newly elected housing and homelessness advocates seeking urgent policy shifts",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "The Canadian Press",
+     "title": "Chow to lay out vision for new term as Toronto council holds first meeting",
+     "link": "https://www.thestar.com/news/ontario/chow-to-lay-out-vision-for-new-term-as-toronto-council-holds-first-meeting/article_987c3ab7-06a4-552a-93ac-74d2f8093dce.html",
+     "angle": "Outlines Mayor Chow's legislative priorities and prospective appointments of former MPs to key roles",
+     "also_in": [
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Transit & transportation",
+   "headline": "TTC transit union urges board to act promptly over misconduct allegations against CEO",
+   "summary": "The transit union representing TTC frontline workers has called on the transit agency's board of directors to act swiftly and maintain transparency regarding workplace misconduct investigations involving CEO Mandeep Lali. The union emphasized that senior transit leadership must be held to the highest standards of workplace accountability. The TTC board has not yet issued formal public findings on the internal investigation.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Codi Wilson",
+     "title": "Union wants TTC board to act ‘swiftly’ after reports of investigation into CEO’s workplace conduct",
+     "link": "https://www.ctvnews.ca/toronto/article/union-wants-ttc-board-to-act-swiftly-after-reports-of-investigation-into-ceos-workplace-conduct/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/gta*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
