@@ -1,0 +1,391 @@
+{
+ "format": 3,
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T06:21:01-05:00",
+ "scanned": 444,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 22,
+  "National Post": 39,
+  "CBC News": 33,
+  "CTV News": 51,
+  "The Hub": 5,
+  "La Presse": 6,
+  "Radio-Canada": 57,
+  "The Trillium": 6,
+  "TVO": 0,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 0,
+  "London Free Press": 29,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 12,
+  "Toronto Star": 52,
+  "CityNews": 30,
+  "The Local": 0,
+  "BBC": 13,
+  "The Guardian": 1,
+  "NBC News": 6,
+  "Reuters": 24,
+  "Associated Press": 55,
+  "CNN": 8
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "Carney meets Trump and Xi in China amid shifting trade relationships",
+   "summary": "Prime Minister Mark Carney concluded his Asia-Pacific tour by securing tariff rollbacks on Canadian pork and seafood in China while meeting briefly with U.S. President Donald Trump on the sidelines of the APEC summit. Carney indicated that trade negotiations with Washington are significantly more complex than those with Beijing and signaled Canada is prepared to diversify partnerships if fair terms cannot be reached with the United States. Domestic steel producers have expressed alarm over concessions to China, while federal officials seek to balance economic engagement against foreign interference and geopolitical risks.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "The Canadian Press",
+     "title": "U.S. trade talks 'more complex' than China's, Carney says",
+     "link": "https://www.theglobeandmail.com/canada/video-us-trade-talks-more-complex-than-chinas-carney-says/",
+     "angle": "Notes Carney's assessment that trade negotiations with the United States are far more complex than those with China",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "John Paul Tasker",
+     "title": "'If the U.S. doesn't want to do a deal, we're busy,' Carney says of ongoing trade talks",
+     "link": "https://www.cbc.ca/news/politics/carney-trump-trade-canada-busy-9.7426568?cmp=rss",
+     "angle": "Emphasizes Carney's warning that Canada is prepared to aggressively diversify trade away from the U.S. if favorable terms are not reached",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Carney tells Pacific Rim businesses that China’s growth a model for Canada",
+     "link": "https://www.ctvnews.ca/politics/article/carney-tells-pacific-rim-businesses-that-chinas-growth-a-model-for-canada/",
+     "angle": "Highlights Carney's address suggesting Canada can draw lessons from China's rapid economic growth while maintaining regulatory guardrails",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Graham Richardson",
+     "title": "CTV News in China: A boon for pork and seafood producers as tariffs drop",
+     "link": "https://www.ctvnews.ca/politics/article/ctv-news-in-china-a-boon-for-pork-and-seafood-producers-as-tariffs-drop/",
+     "angle": "Details the agricultural export concessions achieved for Canadian seafood and pork producers alongside tensions over Chinese vehicle investments",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Iman Janmohamed",
+     "title": "Canada's steel industry says China deal undercuts fight against cheap imports",
+     "link": "https://www.thestar.com/business/carney-s-new-deal-with-xi-jinping-has-jeopardized-progress-to-reduce-chinese-steel-imports-steel-producers/article_c06b94aa-1202-48e3-ae32-b8e503909661.html",
+     "angle": "Focuses on concerns from Canada's domestic steel sector that agreements with Beijing could leave domestic producers vulnerable to cheap imports",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Tonda MacCharles",
+     "title": "Mark Carney has surprise meeting with Donald Trump in China, but no progress on U.S.-Canada trade deal",
+     "link": "https://www.thestar.com/politics/federal/mark-carney-has-surprise-meeting-with-donald-trump-at-apec-summit-in-china/article_1add44b9-7acb-42ea-9d63-47d032bf61fc.html",
+     "angle": "Reports on the surprise meeting between Carney and Trump and the absence of immediate progress on a bilateral trade pact",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Indigenous affairs",
+   "headline": "Ottawa and Inuit leadership reach deal transferring control of child services",
+   "summary": "Indigenous Services Canada and Inuit Tapiriit Kanatami have reached an agreement to introduce the Pirutsiagutiit program, replacing the federal Inuit Child First Initiative. The new framework shifts the administrative governance and delivery of health, social, and educational services directly to four regional Inuit treaty organizations. The transfer is intended to grant Inuit communities greater jurisdictional control over the design and distribution of essential family supports.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "ITK et Ottawa s’entendent pour le transfert des services aux enfants inuit",
+     "link": "https://ici.radio-canada.ca/article/info/2301650/transformation-services-enfants-inuit-pirutsiagutiit",
+     "angle": "Reports on the intergovernmental agreement establishing the Pirutsiagutiit framework to replace earlier federal programs",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Alessia Passafiume The Canadian Press",
+     "title": "New program for children’s social, health services transfers responsibility to Inuit",
+     "link": "https://www.thestar.com/politics/federal/new-program-for-children-s-social-health-services-transfers-responsibility-to-inuit/article_64208797-8f44-5a9c-824d-574001201468.html",
+     "angle": "Details how administrative authority and decision-making will be transferred to regional treaty organizations",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Canadian military suspends cadet training activities to curb operating costs",
+   "summary": "The Canadian Armed Forces has paused most weekend cadet training exercises and competitions across parts of the country until next spring in order to reduce spending, though weekly parade nights will continue. The suspension occurs despite the federal government's public commitments to increase broader long-term defence spending. Internal records reveal immediate departmental cash constraints that require short-term budget cuts across support programs.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Brett Bundale",
+     "title": "Military suspends most cadet activities as officials move to cut spending",
+     "link": "https://www.theglobeandmail.com/canada/article-military-suspends-most-cadet-activities-as-officials-move-to-cut/",
+     "angle": "Reports on the scope of suspended cadet events while noting regular corps parade nights will remain active",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Murray Brewster",
+     "title": "Cadets being told to stand down as Canada adds billions to defence",
+     "link": "https://www.cbc.ca/news/politics/defence-budget-cadets-cuts-training-9.7426967?cmp=rss",
+     "angle": "Highlights leaked defence emails showing immediate budget pressures despite headline increases in overall military spending",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Economy & trade",
+   "headline": "Proposed Quebecor acquisition of Telus faces regulatory scrutiny and consumer cost concerns",
+   "summary": "Quebecor's proposed takeover of rival telecom carrier Telus has raised concerns among consumer advocates that diminished competition could drive up mobile and internet bills. Prime Minister Mark Carney acknowledged that protecting household costs is a priority, but reiterated that the proposed transaction must be reviewed independently by the Competition Bureau and the CRTC. The bid brings renewed scrutiny to capital investment requirements and corporate concentration across Canada's telecommunications sector.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Verity Stevenson",
+     "title": "If Quebecor buys Telus, less competition could mean higher cellphone bills, experts say",
+     "link": "https://www.cbc.ca/news/business/quebecor-telus-proposal-could-mean-higher-bills-experts-9.7425945?cmp=rss",
+     "angle": "Examines warnings from regulatory experts and consumer groups regarding reduced wireless competition and higher prices",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Tonda MacCharles",
+     "title": "Mark Carney says costs for Canadians a priority, but Quebecor-Telus deal will be decided by Competition Bureau, CRTC",
+     "link": "https://www.thestar.com/politics/federal/mark-carney-says-costs-for-canadians-a-priority-but-quebecor-telus-deal-will-be-decided-by-competition-bureau-crtc/article_a0fa9423-e9ca-46c8-9a52-ea09daae8440.html",
+     "angle": "Features Carney's reaction affirming that independent regulatory bodies will decide the fate of the proposed telecom acquisition",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Housing",
+   "headline": "Federal housing minister sidesteps commitment to double pace of homebuilding",
+   "summary": "Federal Housing Minister Gregor Robertson declined to reaffirm the government's previous commitment to double Canada's pace of housing construction over the coming decade. Pressed by reporters, Robertson maintained that the federal government lacks the jurisdiction to mandate municipal construction or private building activity. The shift away from specific quantitative targets comes amid mounting opposition scrutiny over federal housing delivery.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Housing minister says he can't 'force Canadians to build more housing' when pressed on housing targets",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQakZFa1NsRTNhTWp1UlZZNGVZbUVtSm5mMHJROEpUM25KNlplVzNWaWNSbU5laFo5cVFoLWd4T3phOUYwR0JHNVpaLTItWHhoNEU1ZFJSSXZDWGw1ZVJIME1DZnk2bG1uTXVJNnZhNy1wR09lSXluRW5KYWRNM0dKalUzUXVLZVVSWXZxTjZteFFuVkVrNlNtSE82NzV1MmVJLTRtTTQ3WW94djc2NHZvdGZrR2ZteFhBdHBjNTBUX3J2SEZRQTY4MF8tTS1COVlkWEJ0eXp5akljd005TURiMlV3?oc=5",
+     "angle": "Highlights the minister's statement that the federal government cannot directly compel Canadians or developers to build homes",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Housing minister won't reaffirm Liberal pledge to double home construction",
+     "link": "https://www.ctvnews.ca/politics/article/housing-minister-wont-reaffirm-liberal-pledge-to-double-home-construction/",
+     "angle": "Focuses on the minister's refusal to recommit to the long-standing Liberal campaign target of doubling construction rates",
+     "also_in": [
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario elementary and French teachers vote overwhelmingly for strike mandates",
+   "summary": "Members of both the Elementary Teachers' Federation of Ontario and the Association des enseignantes et des enseignants franco-ontariens have delivered strike mandates of 97 and 96 per cent, respectively. The decisive votes follow a ruling by the Ontario Labour Relations Board that defined which employment matters can be negotiated at the central bargaining table with the provincial government. The strong mandates increase pressure on the Ford government as central contract negotiations prepare to resume.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Ontario English public elementary teachers, education workers vote 97% in favour of strike action, union says",
+     "link": "https://www.cbc.ca/news/canada/toronto/etfo-strike-vote-results-9.7427325?cmp=rss",
+     "angle": "Reports on the 97 per cent strike mandate approved by English public elementary teachers and education support workers",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Les enseignants franco-ontariens votent pour un mandat de grève à 96 %",
+     "link": "https://ici.radio-canada.ca/article/info/2301567/aefo-mandat-greve-education-ontario",
+     "angle": "Focuses on the 96 per cent strike vote delivered by French-language teachers across the province",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Isabel Teotonio",
+     "title": "Ontario labour board has ruled on what teachers, support staff can negotiate with the province",
+     "link": "https://www.thestar.com/politics/provincial/ontario-labour-board-has-ruled-on-what-teachers-support-staff-can-negotiate-with-the-province/article_506b89e4-6f21-40c9-bb10-7b492128f3de.html",
+     "angle": "Examines the labour board decision outlining the exact parameters of central versus local bargaining issues",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Economy & trade",
+   "headline": "Ontario and federal officials prepare last-ditch meeting to save Stellantis Brampton plant",
+   "summary": "Ontario Premier Doug Ford and federal Industry Minister Mélanie Joly are scheduled to meet with the global chief executive of Stellantis on Friday in an effort to avert the sale of its Brampton assembly facility. The future of approximately 2,200 manufacturing jobs remains uncertain as governments attempt to preserve the plant for vehicle production. Ontario representatives emphasized that promised public subsidies have not yet been disbursed pending the outcome of these negotiations.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Joshua Freeman",
+     "title": "‘We haven’t given them any money yet’: Ontario officials hoping for good meeting with Stellantis",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/we-havent-given-them-any-money-yet-ontario-officials-hoping-for-good-meeting-with-stellantis/",
+     "angle": "Highlights Ontario government confirmations that committed financial subsidies have not yet been transferred to the automaker",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Rob Ferguson",
+     "title": "'Last chance' meeting with Stellantis looms Friday in hopes of saving Brampton plant for auto production",
+     "link": "https://www.thestar.com/politics/provincial/last-chance-meeting-with-stellantis-looms-friday-in-hopes-of-saving-brampton-plant-for-auto-production/article_f3ab9b40-bdb3-4d54-bc9c-e5d7bc8918a7.html",
+     "angle": "Focuses on the high-stakes Friday meeting between corporate executives and senior federal and provincial leaders",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Transit & transportation",
+   "headline": "Ontario proposes raising minimum fines for excessively noisy vehicles",
+   "summary": "The Ontario government has introduced legislation to increase the minimum fine for drivers who operate excessively noisy vehicles from $60 to $200. Transportation Minister Prabmeet Sarkaria stated the change comes in response to persistent complaints from municipalities, police forces, and residents regarding disruptive modified mufflers. The maximum penalty for the offence will remain set at $1,000 under the Highway Traffic Act.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Liam Casey",
+     "title": "Ontario to increase fines for drivers who create excessive noise",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-ontario-to-increase-fines-for-excessive-car-noise/",
+     "angle": "Outlines the specific fine schedule and statutory revisions presented by the transportation minister",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Arrthy Thayaparan",
+     "title": "Ontario proposes raising minimum fines for excessive vehicle noise to $200",
+     "link": "https://www.cbc.ca/news/canada/toronto/excessive-vehicle-noise-penalty-proposed-legislation-9.7426407?cmp=rss",
+     "angle": "Focuses on the collective push by local police forces and municipalities seeking stronger provincial deterrents",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Mayor Olivia Chow opens second term outlining affordability priorities and fiscal challenges",
+   "summary": "Mayor Olivia Chow inaugurated her second term alongside a newly configured Toronto City Council, pledging to address affordable housing, illegal evictions, and persistent budget deficits. The new council includes several prominent grassroots housing and homelessness advocates who are pushing for immediate action on shelter capacity and tenant rights. Chow also prepared to adjust key committee leadership roles and weigh whether to sit on the Toronto Police Services Board, with Councillor Ausma Malik chosen as council speaker.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Jordan Omstead",
+     "title": "Mayor Chow points to city's fiscal challenges in first meeting of new Toronto council",
+     "link": "https://www.cbc.ca/news/canada/toronto/ont-toronto-council-9.7427153?cmp=rss",
+     "angle": "Emphasizes Chow's inaugural address focusing on municipal balance sheets and cost-of-living relief",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Sharif Hassan",
+     "title": "From frontlines to city hall: Newly elected advocates determined to fix Toronto's housing, homelessness crisis",
+     "link": "https://www.cbc.ca/news/canada/toronto/housing-homelessness-toronto-city-council-advocates-9.7426171?cmp=rss",
+     "angle": "Highlights newly elected council members who plan to bring frontline tenant advocacy and homelessness experience into policy debates",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Chow to shuffle city hall leadership, decide whether to sit on Toronto police board",
+     "link": "https://www.ctvnews.ca/toronto/politics/toronto-city-hall/article/chow-to-shuffle-city-hall-leadership-decide-whether-to-sit-on-toronto-police-board/",
+     "angle": "Details Chow's planned executive committee shuffles and her deliberation over taking a seat on the police board",
+     "also_in": [
+      "Toronto Star"
+     ]
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Bryann Aguilar",
+     "title": "Mayor Chow lays out vision for new term, Malik elected as new speaker",
+     "link": "https://www.ctvnews.ca/toronto/politics/toronto-city-hall/article/mayor-chow-lays-out-vision-for-new-term-malik-elected-as-new-speaker/",
+     "angle": "Reports on Ausma Malik's election as speaker and Chow's broad four-year vision for municipal governance",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Toronto police arrest 21 suspects in sweeping towing industry crime crackdown",
+   "summary": "Toronto police have arrested 21 people and laid more than 100 criminal charges, including conspiracy to commit murder, firearms trafficking, arson, and fraud, following a major investigation into organized crime within the towing sector. Investigators revealed that an active murder plot was intercepted and that an alleged syndicate leader had ties to a towing firm operating under an official police contract. The Toronto Police Service has terminated its contractual arrangement with the company in response to the findings.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Toronto police arrest 21 people and cancel towing contract in Project Swords fallout",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbDBaY2JYQkZTckZpQ0pDdS0xOXBVWlJrWU1GMXlyVHI2dUZmR0JXcDdYdXRmUUNMcEVDOVlpTTU5VGxXNkFXSXZFa3owVjg2UUtieHgxSHE0eEZxNFppbGdFeFd4MjluMzk4NTlTb21FOTdYT3UxM3Z6c1NhN2VWSW9BcXhkX1cxamVyOG85emNCTGVMMjdHclRGWDE3bGdPMUhiRGxLaDk1cUVGcXJGeEpERjlOU2tUbmdCd2ZFMHNXQTFfbXpNUw?oc=5",
+     "angle": "Focuses on the immediate cancellation of the municipal towing contract following the Project Swords enforcement action",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Olivia Piercey",
+     "title": "21 arrested, 112 charges laid in probe of alleged towing-industry crime ring in GTA, police say",
+     "link": "https://www.cbc.ca/news/canada/toronto/21-charged-towing-industry-probe-9.7426765?cmp=rss",
+     "angle": "Details the 112 charges laid across the GTA and the operational reach of the alleged towing crime syndicate",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Codi Wilson",
+     "title": "Murder plot foiled as part of probe into Toronto tow truck violence, company under contract to police implicated",
+     "link": "https://www.ctvnews.ca/toronto/article/toronto-police-foil-murder-plot-as-part-of-investigation-into-violence-connected-to-towing-industry/",
+     "angle": "Emphasizes the specific murder plot disrupted by investigators and the implicated vendor's police connection",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
