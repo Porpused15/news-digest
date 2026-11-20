@@ -1,0 +1,603 @@
+{
+ "format": 3,
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T06:20:47-05:00",
+ "scanned": 558,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 15,
+  "National Post": 30,
+  "CBC News": 41,
+  "CTV News": 58,
+  "The Hub": 7,
+  "La Presse": 8,
+  "Radio-Canada": 57,
+  "The Trillium": 20,
+  "TVO": 1,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 100,
+  "London Free Press": 27,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 9,
+  "Toronto Star": 50,
+  "CityNews": 30,
+  "The Local": 0,
+  "BBC": 17,
+  "The Guardian": 0,
+  "NBC News": 5,
+  "Reuters": 39,
+  "Associated Press": 52,
+  "CNN": 12
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "Canada pursues interim trade pact with Washington amid ongoing tariff tensions",
+   "summary": "Trade Minister Dominic LeBlanc indicated that reaching an interim agreement with the United States could jumpstart formal review discussions for the CUSMA pact, even as cross-border rhetoric remains hostile. Canadian officials and sources report that the recent U.S. midterm elections have not shifted Washington's stance or eased lingering tariff pressures. Ottawa continues to convene economic advisory committees to determine its strategy ahead of broader negotiations.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Darren Major, Kate McKenna",
+     "title": "Reaching interim U.S. trade agreement would kickstart new CUSMA talks, minister says",
+     "link": "https://www.cbc.ca/news/politics/canada-seeking-interim-trade-arrangment-9.7428540?cmp=rss",
+     "angle": "Focuses on LeBlanc's proposal to use an interim pact as a catalyst for trilateral CUSMA negotiations",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Kayla Thompson",
+     "title": "Trump trade adviser hurls insults at federal government as Canada-U.S. trade talks heat up",
+     "link": "https://www.ctvnews.ca/politics/article/trump-trade-adviser-hurls-insults-at-federal-government-as-canada-us-trade-talks-heat-up/",
+     "angle": "Highlights aggressive rhetoric and threats directed at Ottawa by a senior Trump trade adviser",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "LeBlanc gives update on U.S. trade talks to Canada-U.S. advisory committee",
+     "link": "https://www.ctvnews.ca/world/trumps-tariffs/article/leblanc-gives-update-on-us-trade-talks-to-canada-us-advisory-committee/",
+     "angle": "Reports on LeBlanc's briefing to the Canada-U.S. advisory council following the American midterm elections",
+     "also_in": [
+      "Toronto Star"
+     ]
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Stephanie Taylor",
+     "title": "Trump's midterm defeat hasn't moved Canada-U.S. trade talks, sources say",
+     "link": "https://www.thestar.com/politics/donald-trump-s-midterm-drubbing-hasn-t-sped-up-canada-s-trade-talks-sources-say/article_ddb8650a-a844-434a-8513-7441ceba77d3.html",
+     "angle": "Notes that insider sources see no meaningful change in Washington's bargaining posture after the midterms",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "International",
+   "topic": "Federal politics",
+   "headline": "Carney wraps Asia summit tour balancing China ties, Taiwan trade, and Ukraine support",
+   "summary": "Prime Minister Mark Carney concluded an extensive diplomatic tour across Asia, holding bilateral discussions with Donald Trump and addressing regional leaders in Shenzhen. While Carney praised China's rapid economic growth as an instructive model, he also confronted Vladimir Putin directly at APEC by condemning Russia's invasion of Ukraine. Ottawa confirmed it is advancing a bilateral trade agreement with Taiwan, navigating delicate diplomatic balances with Beijing.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Dylan Robertson",
+     "title": "Anand says relations with Trump are 'productive and professional'",
+     "link": "https://www.theglobeandmail.com/canada/video-anand-says-relations-with-trump-are-productive-and-professional/",
+     "angle": "Details Foreign Affairs Minister Anita Anand's characterization of a 20-minute meeting between Carney and Trump",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Steven Chase",
+     "title": "Carney government plans to conclude trade deal with Taiwan despite entente with China",
+     "link": "https://www.theglobeandmail.com/politics/article-carney-government-plans-to-conclude-trade-deal-with-taiwan-despite/",
+     "angle": "Focuses on Ottawa's commitment to conclude a long-delayed trade agreement with Taiwan",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "John Paul Tasker",
+     "title": "With Putin in the room, Carney condemns Russia's illegal invasion of Ukraine",
+     "link": "https://www.cbc.ca/news/politics/carney-putin-apec-ukraine-9.7428573?cmp=rss",
+     "angle": "Emphasizes Carney's direct condemnation of the Ukraine war delivered in the presence of Vladimir Putin",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Carney tells Pacific Rim businesses that China’s growth a model for Canada",
+     "link": "https://www.ctvnews.ca/politics/article/carney-tells-pacific-rim-businesses-that-chinas-growth-a-model-for-canada/",
+     "angle": "Highlights Carney's speech to business leaders suggesting Canada study Chinese economic expansion",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "International",
+   "topic": "Justice & policing",
+   "headline": "United States sanctions alleged Toronto-based cell of Italian mafia",
+   "summary": "The United States Department of the Treasury has imposed sanctions against six Canadian men identified as leaders of an alleged Canadian branch of Italy's 'Ndrangheta crime syndicate. U.S. authorities allege the organization runs global narcotics operations and coordinated money laundering through Canadian businesses, including Toronto-area funeral homes. The move blocks their U.S. assets and prohibits financial institutions under American jurisdiction from dealing with the named entities.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Six Canadian men sanctioned as powerful Mafia bosses with global reach by U.S. government",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zQWI2TG9HSlNXNEIwMjZQdC1fZTByaFR1Uk9HaGljQ1Z0N0tQNjlYWHd1RXRmRlRCNktleXRlYXZMT01hS2k3UnlER1p6NjFBVU9fZkdIOF80UUpHeU9KSzJvSndqdTdPbWlqbmRlSmdXelZnbG5NYU1GZFMwdw?oc=5",
+     "angle": "Highlights the six Canadian men named directly as transnational Mafia bosses subject to sanctions",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Rhianna Schmunk",
+     "title": "U.S. sanctions Italian mafia's alleged Canadian branch, including Toronto-area funeral homes",
+     "link": "https://www.cbc.ca/news/canada/ndrangheta-canada-us-sanctions-luigi-vescio-sr-9.7429102?cmp=rss",
+     "angle": "Details the inclusion of Toronto-area businesses and funeral homes allegedly utilized by the syndicate",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Toronto faction of Italy-based global drug trafficking mafia sanctioned by U.S.",
+     "link": "https://www.ctvnews.ca/canada/article/us-sanctions-canadian-branch-of-italian-mafia-australian-biker-gang/",
+     "angle": "Focuses on the cross-border drug trafficking ties between the Toronto network and Australian motorcycle gangs",
+     "also_in": [
+      "Hamilton Spectator",
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Federal government's 2026 budget passes in the House of Commons",
+   "summary": "Members of Parliament have voted to approve the Liberal government's 2026 federal budget in the House of Commons. Finance Minister François-Philippe Champagne defended the measures as vital support for the country during an uncertain economic climate. The budget's passage secures legislative authority for the government's major spending commitments and economic initiatives.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Liberals’ 2026 budget passes in House of Commons",
+     "link": "https://www.ctvnews.ca/politics/article/liberals-2026-budget-passes-in-house-of-commons/",
+     "angle": "",
+     "also_in": [
+      "Hamilton Spectator",
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "MPs clash sharply during committee review of Carney government's major projects bill",
+   "summary": "House of Commons committee proceedings grew volatile as parliamentarians argued over scheduling weekend sittings to debate Bill C-39. The Carney government's signature major projects legislation has sparked protracted dispute over regulatory timelines and scrutiny. Committee sessions briefly derailed with profanity and gavel strikes as opposition members pushed back against compressed review periods.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "‘Guys, this is f–king stupid’: Tempers fray at committee on Bill C-39",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTU0UzVfRXlxeWR2WVY2dTBUZ0R3SklHSnJZbGhhNVdzeC1GeVlieFVDbnRWNGRyV3pHME1UMjBhTGJqcjdhZXBvcVMxWUNoR1lNSXhtVzhKVC1UTzNPZWcyYkpnVnBLTmRST2pvLU5RdVZnVmNpQnNzYWNHaHRWeDBGSFFhUVRZT1RRTmdGeV9sV0tLanNNVE0tejg?oc=5",
+     "angle": "Focuses on the breakdown in decorum and verbal confrontations during the committee meeting",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "David Thurton",
+     "title": "MPs clash over Sunday sitting as marathon study of Carney's major projects bill continues",
+     "link": "https://www.cbc.ca/news/politics/bill-c39-committee-carney-major-projects-pipelines-9.7428363?cmp=rss",
+     "angle": "Emphasizes the dispute over scheduling Sunday overtime sittings to accelerate the legislative review",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Health",
+   "headline": "Liberals resist calls to split medical assistance in dying legislation for separate votes",
+   "summary": "Justice Minister Sean Fraser confirmed the government will not separate advance requests from its medical assistance in dying legislation for an independent vote. The stance conflicts with calls from both Conservative MPs and the Liberal chair of the MAID committee, who advocate for distinct votes on advance directives, mental illness, and degenerative diseases. The debate highlights growing parliamentary division as the legislation proceeds toward final voting.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Peter Zimonjic",
+     "title": "Liberals won't pull advance requests out of MAID legislation for separate vote: minister",
+     "link": "https://www.cbc.ca/news/politics/sean-fraser-maid-advance-requests-9.7428208?cmp=rss",
+     "angle": "Presents Justice Minister Sean Fraser's formal refusal to divide the bill for committee or floor voting",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "The Canadian Press",
+     "title": "Liberal MAID committee chair wants separate votes for mental illness, diseases",
+     "link": "https://www.thestar.com/politics/federal/liberal-maid-committee-chair-wants-separate-votes-for-mental-illness-diseases/article_60b3d823-bdfb-5be1-8585-873afe4cd62b.html",
+     "angle": "Highlights dissent from the Liberal MAID committee chair, who supports splitting provisions for mental illness",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Green Party leader invites federal NDP to explore electoral collaboration",
+   "summary": "Newly elected Green Party Leader Mike Morrice has written to NDP Leader Avi Lewis proposing structured electoral cooperation between their two federal parties. The initiative aims to unite progressive votes to maximize legislative representation rather than splitting support in competitive ridings. Lewis has not formally agreed to the proposal as the NDP concentrates on key upcoming byelections in Montreal and beyond.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Darren Major",
+     "title": "New Green Party leader pitches NDP on 'electoral co-operation' between 2 parties",
+     "link": "https://www.cbc.ca/news/politics/green-leader-calls-for-electoral-cooperation-ndp-9.7428447?cmp=rss",
+     "angle": "Details the initial outreach and formal letter sent by Mike Morrice to Avi Lewis",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "New Green Party leader pitches electoral collaboration with NDP",
+     "link": "https://www.ctvnews.ca/politics/article/new-green-party-leader-pitches-electoral-collaboration-with-ndp/",
+     "angle": "Examines the broader strategic implications of progressive electoral pacts ahead of general elections",
+     "also_in": [
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Indigenous affairs",
+   "headline": "Supreme Court declines to hear class-action appeal for off-reserve Indigenous child welfare",
+   "summary": "The Supreme Court of Canada has refused to hear an application to certify a class-action lawsuit against the federal government on behalf of Indigenous children taken into non-Indigenous care while living off-reserve. The lawsuit sought parity with multibillion-dollar settlements previously reached for child welfare discrimination experienced on reserves. The top court's decision brings an end to this particular legal path for affected off-reserve families seeking federal compensation.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Top court won't hear bid for class-action lawsuit on behalf of Indigenous children",
+     "link": "https://www.ctvnews.ca/canada/article/top-court-wont-hear-bid-for-class-action-lawsuit-on-behalf-of-indigenous-children/",
+     "angle": "",
+     "also_in": [
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Police deploy AI models for Canada's most wanted list, leading to immediate arrest",
+   "summary": "Canadian police services introduced life-sized artificial intelligence models depicting the country's 25 most wanted fugitives to assist the public in identifying suspects. Hours after the high-profile launch at the Toronto Police College, joint RCMP and municipal units arrested Bolton homicide suspect Filmon Fesshaghirgis in Winnipeg. Authorities credit the enhanced technological approach and increased public awareness with generating actionable leads.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "",
+     "title": "AI used to create virtual models of Canada’s 25 most wanted criminals",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-ai-used-to-create-virtual-models-of-canadas-25-most-wanted-criminals/",
+     "angle": "Details how police agencies used generative AI to build realistic virtual likenesses of wanted suspects",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Ontario man on list of Canada's 25 most wanted fugitives arrested in Winnipeg: OPP",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-man-most-wanted-list-arrested-bolton-homicide-9.7429366?cmp=rss",
+     "angle": "Reports the arrest of an Ontario homicide suspect in Winnipeg shortly after appearing on the list",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Bryann Aguilar",
+     "title": "GTA murder suspect arrested hours after being named one of Canada’s most wanted fugitives",
+     "link": "https://www.ctvnews.ca/toronto/article/gta-murder-suspect-arrested-hours-after-being-named-one-of-canadas-most-wanted-fugitives/",
+     "angle": "Emphasizes the rapid turnaround between publication of the most wanted list and the arrest",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Heather Wright",
+     "title": "Canada’s most wanted list gets an AI-powered makeover",
+     "link": "https://www.ctvnews.ca/canada/article/canadas-most-wanted-list-gets-an-ai-powered-makeover/",
+     "angle": "Describes the public presentation and video demonstrations held at the Toronto Police College",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Ontario Liberal Party set to announce new leader in ranked-ballot race",
+   "summary": "Ontario Liberals are set to conclude their leadership race on Saturday, selecting their third leader since the Progressive Conservatives took office in 2018. Members are voting via ranked ballots among four candidates: Lee Fairclough, Navdeep Bains, Stephanie Bowman, and Dylan Marando. The contest marks an effort by the third-place party to rebuild organizational strength and mount a viable challenge in the next provincial campaign.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Laura Stone",
+     "title": "Ontario Liberal Party to name new leader Saturday, the third since Doug Ford took office",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-liberal-party-to-name-new-leader-saturday-the-third-since-doug/",
+     "angle": "Frames the race around the potential frontrunners Lee Fairclough and former federal minister Navdeep Bains",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Ontario Liberals to select third new leader since 2018",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/ontario-liberals-to-select-third-new-leader-since-2018/",
+     "angle": "Emphasizes the party's persistent leadership turnover and long-term rebuilding efforts",
+     "also_in": [
+      "Hamilton Spectator",
+      "Toronto Star"
+     ]
+    },
+    {
+     "outlet": "CityNews",
+     "author": "News Staff",
+     "title": "Who are the four candidates vying to lead the Ontario Liberals?",
+     "link": "https://toronto.citynews.ca/2026/11/20/who-are-the-four-candidates-vying-to-lead-the-ontario-liberals/",
+     "angle": "Provides profiles and background details on all four leadership candidates on the ranked ballot",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Former Ontario colleges minister dodges scrutiny over expanding OSAP scandal",
+   "summary": "Former Ontario minister of colleges and universities Jill Dunlop is refusing to answer questions regarding an expanding scandal involving the Ontario Student Assistance Program. Dunlop oversaw the post-secondary portfolio for three years until earlier this year as administrative and financial discrepancies emerged. Opposition lawmakers continue demanding answers about provincial oversight and the allocation of student financial assistance.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Allison Jones",
+     "title": "Ontario's former colleges and universities minister refuses to answer questions about growing OSAP scandal",
+     "link": "https://www.cbc.ca/news/canada/toronto/jill-dunlop-colleges-and-universities-osap-9.7428530?cmp=rss",
+     "angle": "Focuses on the timeline of Dunlop's tenure and the growing pressure regarding program mismanagement",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Former colleges and universities minister refuses to answer OSAP questions",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/former-colleges-and-universities-minister-refuses-to-answer-osap-questions/",
+     "angle": "Highlights the former minister's direct refusal to address questions raised by journalists and opposition critics",
+     "also_in": [
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Labour",
+   "headline": "Multiple Ontario education unions vote heavily in favour of strike mandates",
+   "summary": "Education workers represented by CUPE Ontario and French-language school board teachers have delivered overwhelming strike mandates as provincial contract negotiations progress. These votes expand the coalition of education labour unions possessing strike authorization heading into central bargaining with the province and school boards. While job action is not immediate, the mandates increase leverage for unions pressing on wages, staffing levels, and school support resources.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Bryann Aguilar",
+     "title": "CUPE Ontario education workers vote in favour of strike action ahead of bargaining",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/cupe-ontario-education-workers-vote-in-favour-of-strike-action-ahead-of-bargaining/",
+     "angle": "Focuses on the CUPE school board workers' vote as the fifth major education union to secure a mandate",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Elissa Mendes",
+     "title": "Two more Ontario educators' unions vote to strike as contract talks loom",
+     "link": "https://www.thestar.com/politics/provincial/two-more-ontario-educators-unions-vote-to-strike-as-contract-talks-loom/article_c8ea9000-55ef-4891-a8a7-5cfe927bca91.html",
+     "angle": "Adds the strike authorization vote from French-language school board teachers and education staff",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Transit & transportation",
+   "headline": "Ontario Northlander passenger train service set to resume operations after 14-year absence",
+   "summary": "Ontario Northland has confirmed that the Northlander passenger rail line will officially resume service on December 10, connecting Toronto and Cochrane. The passenger rail link returns after a 14-year hiatus, serving 16 communities across northeastern Ontario. Tickets are scheduled to go on sale on November 26, fulfilling a key provincial transit restoration pledge.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Jonathan Migneault",
+     "title": "Ontario Northlander rail service to resume on Dec. 10",
+     "link": "https://www.cbc.ca/news/canada/sudbury/northlander-returns-dec-tenth-9.7428203?cmp=rss",
+     "angle": "Provides the official confirmation and date from Ontario Northland for the return of service",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Dan Bertrand",
+     "title": "Northlander passenger rail service returns Dec. 10 after 14-year absence",
+     "link": "https://www.ctvnews.ca/northern-ontario/article/northlander-passenger-rail-service-returns-dec-10-after-14-year-absence/",
+     "angle": "Details the 16 communities along the Toronto-to-Cochrane route and sets ticket sales for late November",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Chow appoints new council committee heads and declines seat on Toronto police board",
+   "summary": "Toronto Mayor Olivia Chow announced her executive committee appointments and leadership rosters as city council commenced its new term. Chow declined an appointment to the Toronto Police Services Board, leaving civilian police oversight to designated council allies while keeping her existing slate of deputy mayors. The committee shuffle also established a dedicated social services committee and placed newly elected councillors into high-profile files such as housing.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Jordan Omstead",
+     "title": "Olivia Chow taps new councillors for committees, turns down Toronto police board seat",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-chow-toronto-council-board-seats/",
+     "angle": "Focuses on Chow's decision to maintain incumbent deputy mayors while declining the police board seat",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Chow shakes up city hall leadership, taps former Liberal MP for housing",
+     "link": "https://www.ctvnews.ca/toronto/politics/toronto-city-hall/article/chow-shakes-up-city-hall-leadership-taps-former-liberal-mp-for-housing/",
+     "angle": "Highlights the appointment of former federal Liberal MP Nate Erskine-Smith to chair the housing committee",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Mahdis Habibinia",
+     "title": "Olivia Chow revamps council committees, appoints Mike Layton and Nate Erskine-Smith to key roles",
+     "link": "https://www.thestar.com/news/gta/olivia-chow-appoints-mike-layton-and-nate-erskine-smith-to-lead-key-city-council-committees/article_06b24245-4f68-499a-aff9-436834661fec.html",
+     "angle": "Reports on the creation of a new social services committee and roles assigned to councillor Mike Layton",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "John Marchesan",
+     "title": "Mayor Chow turns down police board seat, shakes up city hall leadership with new councillors for committees",
+     "link": "https://toronto.citynews.ca/2026/11/19/mayor-chow-turns-down-police-board-seat/",
+     "angle": "Examines the balance struck between newly elected progressives and veteran council committee chairs",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Transit & transportation",
+   "headline": "Incoming TTC chair vows scrutiny over leadership investigation and budget shortfalls",
+   "summary": "Newly installed TTC Board Chair Paul Ainslie expressed strong concern over ongoing investigations into senior leadership conduct and commission spending. Ainslie assumes leadership of the transit agency as it grapples with an estimated $397-million operating shortfall alongside operational reliability challenges. The incoming chair affirmed plans to demand accountability and pursue rigorous oversight over transit management and finances.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Joshua Freeman",
+     "title": "New TTC Board chair says he’s concerned about allegations surrounding CEO",
+     "link": "https://www.ctvnews.ca/toronto/politics/toronto-city-hall/article/ainslie-says-hes-concerned-with-allegations-around-ttc-leadership-as-he-takes-over-as-new-board-chair/",
+     "angle": "Focuses on Ainslie's direct reactions and concerns regarding allegations involving the TTC chief executive",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Ben Cohen",
+     "title": "Scarborough’s Paul Ainslie steps in as TTC chair amid CEO probe and deep budget deficit",
+     "link": "https://www.thestar.com/news/gta/scarborough-s-paul-ainslie-steps-in-as-ttc-chair-amid-ceo-probe-and-deep-budget-deficit/article_3d4bfdd4-ea88-4616-8605-116e4aebbcd0.html",
+     "angle": "Provides financial context regarding the transit commission's impending $397-million budget deficit",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Economy & trade",
+   "headline": "Federal minister convenes urgent talks to avert sale of Brampton Stellantis facility",
+   "summary": "Industry Minister Mélanie Joly is holding last-minute emergency discussions with company leadership in an attempt to prevent the sale of the Stellantis automotive plant in Brampton. Government officials concede there is little optimism that the facility's divestment can be averted before corporate plans proceed. A potential sale raises severe concerns for thousands of local manufacturing jobs and the stability of Ontario's automotive supply chain.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Vassy Kapelos, Marieke Walsh",
+     "title": "Little hope of averting Stellantis’ sale ahead of Friday meeting with Joly",
+     "link": "https://www.ctvnews.ca/politics/article/little-hope-of-averting-stellantis-sale-ahead-of-friday-meeting-with-joly/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Special Investigations Unit charges Halton police officer in Burlington shooting",
+   "summary": "Ontario's Special Investigations Unit has charged Halton Regional Police Constable Evan Zych with four assault and firearm-related offences following the shooting of a 23-year-old man in Burlington. The incident occurred during an attempted traffic interaction outside a local motel, leaving the victim hospitalized with multiple gunshot wounds. The SIU determined there are reasonable grounds to conclude the officer committed criminal offences, initiating formal court proceedings.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Aura Carreño Rosas",
+     "title": "SIU charges Halton police officer after shooting of Burlington, Ont., man in motel parking lot",
+     "link": "https://www.cbc.ca/news/canada/hamilton/siu-evan-zych-burlington-9.7428303?cmp=rss",
+     "angle": "Notes the setting of the shooting in a motel parking lot and the multiple gunshot wounds suffered",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Jennifer Pagliaro",
+     "title": "Halton police officer charged in shooting of Burlington man",
+     "link": "https://www.thestar.com/news/gta/halton-police-officer-charged-in-shooting-of-burlington-man/article_9fd8d6f2-675d-4a16-b19a-37dc07dad126.html",
+     "angle": "Identifies Constable Evan Zych and specifies the four assault and weapon offences laid by the SIU",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Meredith Bond",
+     "title": "SIU charge Halton police officer after shooting man, 23, during Burlington traffic stop",
+     "link": "https://toronto.citynews.ca/2026/11/19/halton-police-officer-charged-burlington-siu/",
+     "angle": "Focuses on SIU Director Joseph Martino's official finding of reasonable grounds for criminal prosecution",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Coroner's inquest examines police tactics in fatal shooting of Jamal Francique",
+   "summary": "A coroner's inquest into the 2020 death of Jamal Francique, a 28-year-old Black man fatally shot by Peel police, heard testimonies from medical experts and supervising officers. A forensic pathologist testified that the severity of the head wound made Francique's survival over several days astonishing. The supervisory officer defended the operation, stating that officers were carrying out what was planned as a routine arrest before circumstances escalated.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Forensic pathologist tells inquest he was 'shocked' Jamal Francique survived as long as he did after gunshot",
+     "link": "https://www.cbc.ca/news/canada/toronto/jamal-francique-inquest-pathologist-9.7428412?cmp=rss",
+     "angle": "Focuses on forensic medical testimony expressing surprise at how long Francique survived his severe head wound",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Officer says Francique 'threw wrench' in police arrest plan, inquest hears",
+     "link": "https://www.ctvnews.ca/toronto/local/peel/article/officer-says-francique-threw-wrench-in-police-arrest-plan-inquest-hears/",
+     "angle": "Highlights the supervisory officer's stance that his tactical squad would not have altered their arrest plan",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Meredith Bond",
+     "title": "Forensic pathologist ‘shocked’ Francique survived as long as he did after gunshot",
+     "link": "https://toronto.citynews.ca/2026/11/19/forensic-pathologist-shocked-francique-survived-as-long-as-he-did-after-gunshot/",
+     "angle": "Summarizes the overall proceedings and background of the planned police operation in Mississauga",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
