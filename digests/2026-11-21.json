@@ -1,0 +1,416 @@
+{
+ "format": 3,
+ "date": "2026-11-21",
+ "generated_at": "2026-11-21T06:20:41-05:00",
+ "scanned": 390,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 19,
+  "National Post": 27,
+  "CBC News": 32,
+  "CTV News": 51,
+  "The Hub": 10,
+  "La Presse": 5,
+  "Radio-Canada": 64,
+  "The Trillium": 4,
+  "TVO": 0,
+  "Ottawa Citizen": 9,
+  "Hamilton Spectator": 0,
+  "London Free Press": 19,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 9,
+  "Toronto Star": 21,
+  "CityNews": 29,
+  "The Local": 0,
+  "BBC": 17,
+  "The Guardian": 1,
+  "NBC News": 7,
+  "Reuters": 23,
+  "Associated Press": 37,
+  "CNN": 15
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "Canada and U.S. navigate tense trade talks as Trump signals potential deal",
+   "summary": "U.S. President Donald Trump indicated his administration is working toward a fair trade agreement with Canada, while a senior adviser continued to direct sharp rhetoric toward Ottawa. Meanwhile, Canada-U.S. Trade Minister Dominic LeBlanc briefed an economic advisory committee following U.S. midterm election shifts. The negotiations come amid broader pressures over potential cross-border tariffs and economic alignment.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Mike Crawley",
+     "title": "Trump says he's working on a 'fair' trade deal with Canada",
+     "link": "https://www.cbc.ca/news/world/trump-canada-tariffs-trade-news-conference-9.7430092?cmp=rss",
+     "angle": "Focuses on Trump's remarks about working toward a fair agreement following an Asia summit",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Kayla Thompson",
+     "title": "Trump trade adviser hurls insults at federal government as Canada-U.S. trade talks heat up",
+     "link": "https://www.ctvnews.ca/politics/article/trump-trade-adviser-hurls-insults-at-federal-government-as-canada-us-trade-talks-heat-up/",
+     "angle": "Highlights aggressive rhetoric and insults aimed at Ottawa by a senior White House trade adviser",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "LeBlanc gives update on U.S. trade talks to Canada-U.S. advisory committee",
+     "link": "https://www.ctvnews.ca/world/trumps-tariffs/article/leblanc-gives-update-on-us-trade-talks-to-canada-us-advisory-committee/",
+     "angle": "Details LeBlanc's strategic briefing to an economic relations advisory committee following the U.S. midterms",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "International",
+   "topic": "Justice & policing",
+   "headline": "Indian national sentenced to 19 years in U.S. murder-for-hire plot",
+   "summary": "An Indian national, Nikhil Gupta, was sentenced in New York to more than 19 years in prison for orchestrating a contract killing targeting Sikh activist Gurpatwant Pannun. U.S. and Canadian authorities noted the thwarted assassination attempt was closely linked to wider transnational repression efforts, including the fatal shooting of a Canadian Sikh activist in British Columbia. Gupta had previously pleaded guilty to murder-for-hire and conspiracy charges.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Luc Cohen",
+     "title": "Indian man sentenced to more than 19 years in U.S. for plot to kill Sikh separatist",
+     "link": "https://www.theglobeandmail.com/world/article-indian-man-sentenced-us-plot-kill-sikh-separatist/",
+     "angle": "Focuses on the wider pattern of state-sponsored efforts targeting Indian political dissidents abroad",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Greg Mercer, Mike Hager",
+     "title": "Man sentenced in U.S. murder plot that officials say has links to slaying of Canadian Sikh leader",
+     "link": "https://www.theglobeandmail.com/canada/article-nikhil-gupta-sentenced-murder-plot-links-hardeep-singh-nijjar/",
+     "angle": "Emphasizes intelligence links drawn between the plot and the assassination of a Canadian Sikh leader",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Nikhil Gupta sentenced to over 19 years in prison for plot to kill U.S.-Canadian activist",
+     "link": "https://www.cbc.ca/news/world/ny-gupta-sentencing-pannun-plot-us-canada-9.7429637?cmp=rss",
+     "angle": "Highlights court proceedings in New York identifying target Gurpatwant Pannun",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Supreme Court sets date for landmark ruling on Quebec secularism law",
+   "summary": "The Supreme Court of Canada announced it will release its long-awaited decision on Quebec's secularism law, Bill 21, on November 27. The constitutional challenge examines the limits of provincial authority to preemptively invoke the Charter's notwithstanding clause to shield legislation from judicial review. The ruling will carry sweeping national ramifications for civil liberties and the balance between provincial sovereignty and fundamental freedoms.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "David Ebner",
+     "title": "Supreme Court to issue landmark ruling on Quebec’s Bill 21 next week",
+     "link": "https://www.theglobeandmail.com/canada/article-quebec-bill-21-secularism-supreme-court-landmark-ruling-nov-27/",
+     "angle": "Analyzes the broader legal test regarding governments overriding Charter rights through the notwithstanding clause",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Antoni Nerestant",
+     "title": "Supreme Court ruling on Quebec's secularism law coming on Nov. 27",
+     "link": "https://www.cbc.ca/news/canada/montreal/bill-21-ruling-9.7430138?cmp=rss",
+     "angle": "Confirms the official ruling date scheduled for November 27",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Supreme Court rules sexual assault victims are not required to communicate non-consent",
+   "summary": "In a pair of decisions, the Supreme Court of Canada affirmed that victims of sexual assault are under no legal obligation to verbally or physically communicate an absence of consent. The top court overturned a lower court finding that had improperly demanded proof that a complainant conveyed her refusal. The ruling sharpens the legal definition of affirmative consent in Canadian criminal law.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "David Ebner",
+     "title": "Supreme Court sharpens focus on issue of consent in sexual-assault cases",
+     "link": "https://www.theglobeandmail.com/canada/article-supreme-court-sharpens-focus-on-issue-of-consent-in-sexual-assault/",
+     "angle": "Examines the legal implications of two rulings clarifying that consent cannot be presumed",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Supreme Court of Canada upholds conviction for aggravated sexual assault",
+     "link": "https://www.ctvnews.ca/canada/article/supreme-court-of-canada-upholds-conviction-for-aggravated-sexual-assault/",
+     "angle": "Focuses on the upholding of an aggravated sexual assault conviction after identifying a trial judge error",
+     "also_in": [
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Indigenous affairs",
+   "headline": "First Nations groups and NDP demand changes to federal major projects legislation",
+   "summary": "New Democrats and Indigenous youth advocates are pushing back against the federal government's proposed major projects legislation, warning it infringes upon treaty rights. First Nations youth announced plans for a national day of action next month to demonstrate against the bill. Critics argue the proposed statutory changes bypass proper consultation and take a paternalistic approach to resource development.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "David Thurton",
+     "title": "NDP makes plea for stronger Indigenous rights protections in major projects bill",
+     "link": "https://www.cbc.ca/news/politics/ndp-liberals-bill-c39-indigenous-concerns-9.7430722?cmp=rss",
+     "angle": "Focuses on NDP parliamentary criticism accusing the government of taking a colonial legislative approach",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "First Nations youth plan day of action against Ottawa's major projects legislation",
+     "link": "https://www.ctvnews.ca/politics/article/first-nations-youth-plan-day-of-action-against-ottawas-major-projects-legislation/",
+     "angle": "Covers plans by First Nations youth to hold a nationwide day of action protesting the legislation",
+     "also_in": [
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario education unions secure strike mandates ahead of central bargaining",
+   "summary": "Five unions representing more than 250,000 teachers and school support staff have voted in favour of strike action across Ontario. Central contract bargaining is scheduled to start before the end of the month, raising the prospect of classroom disruptions if negotiations stall. Union leaders are seeking improved wages and working conditions in upcoming talks with the provincial government.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Jenna Olsen",
+     "title": "All Ontario teachers' unions vote in favour of strike action",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-teachers-unions-vote-strike-action-9.7430571?cmp=rss",
+     "angle": "Covers the union-wide voting outcome across 250,000 workers ahead of central bargaining",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Jermaine Wilson",
+     "title": "All five of Ontario’s education unions now have strike mandates. Here is what that could mean for students",
+     "link": "https://www.ctvnews.ca/toronto/article/all-five-of-ontarios-education-unions-now-have-strike-mandates-here-is-what-that-could-mean-for-students/",
+     "angle": "Examines the practical implications and potential disruptions facing students and parents",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Economy & trade",
+   "headline": "Ottawa and Ontario press Stellantis over proposed sale of Brampton plant",
+   "summary": "Federal officials revealed that automaker Stellantis could be forced to repay $831 million in government support if it proceeds with selling its Brampton assembly plant. Ontario Premier Doug Ford described closed-door talks with company and federal officials as challenging but productive, while urging Ottawa to eliminate industrial carbon pricing to keep the facility viable. The plant's prospective sale to defence contractor Roshel has stoked concerns over manufacturing jobs in the province.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Darren Major, Janyce McGregor, Peter Zimonjic",
+     "title": "Stellantis would owe feds $831M if sale of Brampton, Ont., plant proceeds: source",
+     "link": "https://www.cbc.ca/news/politics/joly-ford-stellantis-brampton-unifor-meeting-9.7430142?cmp=rss",
+     "angle": "Reports that the federal government could seek an $831 million clawback if the plant is sold",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Bryann Aguilar",
+     "title": "Meeting with Stellantis officials challenging but productive, Premier Ford says",
+     "link": "https://www.ctvnews.ca/toronto/article/meeting-with-stellantis-officials-challenging-but-productive-premier-ford-says/",
+     "angle": "Covers Premier Ford's assessment of challenging multi-party talks with company executives",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Alex Ballingall",
+     "title": "Doug Ford urges Ottawa to ditch industrial carbon price to save Stellantis Brampton plant",
+     "link": "https://www.thestar.com/politics/provincial/doug-ford-urges-ottawa-to-ditch-industrial-carbon-price-to-save-stellantis-brampton-plant/article_9dbe6c5e-6055-4515-9f88-255fff1e21f2.html",
+     "angle": "Highlights Ford's push for federal industrial carbon price relief to preserve operations",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Ontario Liberals wrap up leadership race to choose new party leader",
+   "summary": "Ontario Liberals are selecting their third leader since 2018 following a lengthy contest among candidates Navdeep Bains, Lee Fairclough, Stephanie Bowman, and Dylan Marando. The party hopes the vote will end years in the political wilderness and establish a viable alternative to Premier Doug Ford's majority government. Outgoing interim leader John Fraser noted that his primary role was paving the way for succession and rebuilding party momentum.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Shawn Jeffords",
+     "title": "Ontario Liberals to elect new leader today after lengthy race",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-liberal-leadership-race-9.7430331?cmp=rss",
+     "angle": "Reports on the close race and absence of a clear front-runner as voting concludes",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Le Parti libéral de l’Ontario annonce son nouveau chef aujourd’hui",
+     "link": "https://ici.radio-canada.ca/article/info/2301916/parti-liberal-ontario-chef",
+     "angle": "Identifies the four contenders competing on the final leadership ballot",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Tom Desormeaux",
+     "title": "‘My job is succession’: John Fraser reflects on his future after Liberal leadership",
+     "link": "https://www.thetrillium.ca/news/politics/my-job-is-succession-john-fraser-reflects-on-his-future-after-liberal-leadership-13044003",
+     "angle": "Focuses on interim leader John Fraser's reflections on succession and rebuilding",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Rob Ferguson",
+     "title": "New chapter for Ontario's struggling Liberal party begins this weekend",
+     "link": "https://www.thestar.com/politics/provincial/new-chapter-for-ontario-s-struggling-liberal-party-begins-this-weekend/article_d9bd3ab3-0240-4b20-b3b3-12e18145db2b.html",
+     "angle": "Analyzes the party's ongoing challenges against consecutive Progressive Conservative majorities",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Economy & trade",
+   "headline": "Ontario and Ottawa announce $250-million funding for new Sault Ste. Marie port",
+   "summary": "The federal and Ontario governments have each committed $125 million toward constructing a multimodal marine port in Sault Ste. Marie by 2031. Officials stated the project will expand cargo capacity, boost regional supply chains, and decrease Canadian trade reliance on American shipping channels. Local leaders described the announcement as a transformative investment for the northern economy.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "",
+     "title": "Ontario, Ottawa commit $250-million for new port in Sault Ste. Marie",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-ontario-ottawa-commit-250-million-for-new-port-in-sault-ste-marie/",
+     "angle": "Focuses on the joint funding pledge and its role in closing infrastructure gaps",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Dan Bertrand",
+     "title": "Sault Ste. Marie port project lands $250M to cut U.S. trade reliance",
+     "link": "https://www.ctvnews.ca/northern-ontario/article/sault-ste-marie-port-project-lands-250m-to-cut-us-trade-reliance/",
+     "angle": "Emphasizes the multimodal hub's projected 2031 completion date and trade diversification from the U.S.",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "James Hopkin",
+     "title": "'It's finally done': $250-million announcement makes the Sault's port 'dreams' possible",
+     "link": "https://www.thetrillium.ca/news/government-finance-and-the-economy/terry-sheehan-helps-land-125-million-for-port-of-sault-ste-marie-13044180",
+     "angle": "Highlights the reaction of northern Ontario stakeholders and long-standing local economic ambitions",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario finalizes regulations allowing school board directors to reject trustee motions",
+   "summary": "New provincial regulations grant unelected school board directors the authority to veto motions introduced by democratically elected trustees. The Ford government says the measures are intended to maintain administrative focus on core academic outcomes. Education advocates and governance experts criticized the decision, warning it erodes local democratic accountability.",
+   "articles": [
+    {
+     "outlet": "The Trillium",
+     "author": "Tina Yazdani",
+     "title": "Ontario finalizes rules giving school board CEOs power to reject trustee motions",
+     "link": "https://www.thetrillium.ca/insider-news/education-and-training/ontario-finalizes-rules-giving-school-board-ceos-power-to-reject-trustee-motions-13042611",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "United States slaps sanctions on alleged GTA faction of Italian mafia",
+   "summary": "The U.S. Department of the Treasury has sanctioned six alleged Canadian leaders of the 'Ndrangheta crime syndicate alongside several businesses in the Greater Toronto Area. The targeted operations include local funeral homes accused of laundering illicit revenues and supporting organized crime activities. Law enforcement agencies on both sides of the border continue to target the international financial footprint of southern Ontario mob networks.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Colin Freeze, Eric Reguly",
+     "title": "U.S. sanctions alleged Canadian faction of Italian mafia",
+     "link": "https://www.theglobeandmail.com/canada/article-us-sanctions-alleged-canadian-faction-ndrangheta-italian-mafia/",
+     "angle": "Breaks down the Treasury Department's sanctions order against alleged 'Ndrangheta leaders and businesses",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Gabriel Hilty",
+     "title": "U.S. sanctions against ’Ndrangheta Mafia include Toronto-area funeral homes and alleged crime boss at centre of Star investigation",
+     "link": "https://www.thestar.com/news/gta/u-s-sanctions-against-ndrangheta-include-owner-of-gta-funeral-homes-man-at-centre-of-star-investigation/article_d1aa04d4-dca2-47ff-95ac-ea278ce3fbe8.html",
+     "angle": "Provides investigative details on the targeted Toronto-area funeral homes and individual figures",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Transit & transportation",
+   "headline": "Major construction to snarl King Street West traffic and transit until 2027",
+   "summary": "The City of Toronto and the TTC are launching extensive infrastructure work along King Street West that will persist through winter 2027. The project entails replacing aging underground watermains and repairing streetcar tracks between Dufferin Street and Close Avenue. Commuters face lane reductions, intersection shutdowns, and streetcar diversions for more than a year.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Jermaine Wilson",
+     "title": "Major construction set to disrupt King Street West through 2027",
+     "link": "https://www.ctvnews.ca/toronto/article/major-construction-set-to-disrupt-king-street-west-through-2027/",
+     "angle": "Outlines the timeline of road closures and traffic delays along the busy downtown corridor",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Meredith Bond",
+     "title": "Streetcar diverting, traffic down to one lane for major infrastructure work on King Street West until winter 2027",
+     "link": "https://toronto.citynews.ca/2026/11/20/streetcar-diverting-traffic-down-to-one-lane-for-major-infrastructure-work-on-king-street-west-until-winter-2027/",
+     "angle": "Details specific TTC streetcar detours and underground watermain replacement plans",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
