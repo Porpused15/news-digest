@@ -1,0 +1,284 @@
+{
+ "format": 3,
+ "date": "2026-11-22",
+ "generated_at": "2026-11-22T06:20:52-05:00",
+ "scanned": 266,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 3,
+  "National Post": 13,
+  "CBC News": 21,
+  "CTV News": 34,
+  "The Hub": 1,
+  "La Presse": 0,
+  "Radio-Canada": 24,
+  "The Trillium": 1,
+  "TVO": 1,
+  "Ottawa Citizen": 8,
+  "Hamilton Spectator": 0,
+  "London Free Press": 11,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 5,
+  "Toronto Star": 25,
+  "CityNews": 20,
+  "The Local": 0,
+  "BBC": 3,
+  "The Guardian": 1,
+  "NBC News": 0,
+  "Reuters": 11,
+  "Associated Press": 88,
+  "CNN": 6
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Federal politics",
+   "headline": "Canadian officials see no change despite reports of U.S. defence restrictions",
+   "summary": "Reports emerged of a classified directive from U.S. Defence Secretary Pete Hegseth restricting bilateral military co-operation with Canada, catching officials in Ottawa off guard. Canadian Defence Minister David McGuinty and military leaders stated they have seen no evidence of operational changes, noting core alliances like NORAD and NATO remain unaffected. A U.S. senator later clarified that the memo targets interactions such as think-tank conferences rather than joint military missions.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Murray Brewster",
+     "title": "Hegseth reportedly moves to restrict defence ties with Canada, but Ottawa sees no change",
+     "link": "https://www.cbc.ca/news/politics/canada-us-pentagon-restrictions-hegseth-9.7431302?cmp=rss",
+     "angle": "Details the surprise in Ottawa over the directive and notes that NORAD, NATO and intelligence sharing remain intact",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Paul Hollingsworth",
+     "title": "Canada, U.S. leaders respond to Pentagon memo report",
+     "link": "https://www.ctvnews.ca/politics/article/canada-us-leaders-respond-to-pentagon-memo-report/",
+     "angle": "Highlights Defence Minister David McGuinty's remarks that the federal government remains in the dark about the memo's contents",
+     "also_in": []
+    },
+    {
+     "outlet": "Associated Press",
+     "author": "",
+     "title": "US senator says Pentagon restrictions on Canada focus on think tanks and social events",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQy1HRmtuYU9aVXlJYkNPR1FxLXlDMEVLMzd1M1Q4ODRfUV9Zd3BLenJBRENhYVNMSTM2UU1Yc2VCSkxaXzNJRy1jM3AyZWhldE41WmJET0huQUlIaUZNdF9ZNVhQanMtLUIwc1RUTHF4QlFzeWNBdVgxZkRneFZfNkdCTkd1UjJ2dzM2bUVYOVRfX0ZFemRZTE5vREVlZEp6ajNvcWw5RUlwMkhXeHVZ?oc=5",
+     "angle": "Quotes a U.S. senator explaining that the restrictions focus on think tanks and social events rather than joint military operations",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Environment & energy",
+   "headline": "Projections show Canada poised to miss 2030 Paris climate targets",
+   "summary": "Recent data and government projections indicate Canada is off course to meet its 2030 greenhouse gas emissions reduction commitments under the Paris Agreement. Prime Minister Mark Carney previously acknowledged that national emissions would rise in the immediate years ahead, yet federal authorities have refrained from officially conceding defeat on the targets. The gap highlights persistent challenges in balancing climate policy objectives with economic growth and industrial activity.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Nick Murray The Canadian Press",
+     "title": "All signs show Canada can’t meet its Paris target — here’s why Ottawa won’t admit it",
+     "link": "https://www.thestar.com/news/canada/all-signs-show-canada-can-t-meet-its-paris-target-here-s-why-ottawa-won-t-admit-it/article_2df27d53-ee30-5e8b-8683-527816deac68.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Health",
+   "headline": "Hospital bed reductions leave emergency departments in crisis across Canada",
+   "summary": "Emergency departments and surgical wards across the country are operating under severe strain as population growth outpaces hospital bed capacity. Post-operative nurses report widespread moral distress from delivering critical care to recovering patients in hallways rather than dedicated rooms. Health care practitioners warn that past bed cuts have left acute care systems in disaster mode, threatening patient safety and staff retention.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "'Totally unacceptable': Surgical nurses describe moral distress of being forced to care for post-op patients in hallways",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUXNiNjl1aEpPV2hYVDdDZHd3dFcxODRaTVlZZlk3S2RtXzJ1Vndkd1dMeWllS25CYlZKcjlJa0ZpR2FFR2NNZjM3bm4yMU1jakh0Q21JWi1iRFZrWXRzTUZISzZ4S2RuSW41REtnN2pvWGtwYUZmbnR6c214djU3bV9rcWxzNHQ5Wmc?oc=5",
+     "angle": "Details frontline surgical nurses' experiences with hallway medicine and the moral distress caused by inadequate patient beds",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "As population exploded, Canada cut thousands of hospital beds. Now, ERs are in 'disaster mode'",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41dHd6aDYxTF9NUkxVSW5YcVBadEd4UmZBNWhwNU01dzFSN0d0SzBuckFFVXQxb2RnZzFndFdna1NBa05QWU91ZFBuRncyaVdqd0N3NzZDb1NKaUFxNU9mMEllZUhZVGs4YlE?oc=5",
+     "angle": "Examines how decades of hospital bed cuts coupled with rapid population growth pushed emergency departments nationwide into crisis mode",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Parliamentary committee hears Canada's foreign influence registry has only nine registrants",
+   "summary": "A parliamentary committee was informed that Canada's new foreign influence registry contains only nine registered individuals despite estimates that roughly 2,400 people meet the criteria. The stark disparity raises questions about enforcement mechanisms, compliance oversight, and the effectiveness of the transparency measure. Lawmakers are scrutinizing whether federal authorities have adequate tools to monitor and deter foreign meddling.",
+   "articles": [
+    {
+     "outlet": "The Hub",
+     "author": "The Hub Staff",
+     "title": "Only nine names on foreign influence registry against an estimated 2,400, committee hears",
+     "link": "https://thehub.ca/2026/11/22/only-nine-names-on-foreign-influence-registry-against-an-estimated-2400-committee-hears/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Tech giant warns it may withdraw WhatsApp from Canada over federal legislation",
+   "summary": "Meta announced it may consider withdrawing encrypted messaging services including WhatsApp from Canada in response to proposed federal legislation under Bill C-22. Rights groups and settlement organizations warn that terminating the app would disrupt a vital communication channel used by refugees and newcomers to connect with families abroad. The standoff underscores growing friction between federal regulators targeting online security and international tech firms.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Jillian Kestler-D'Amours",
+     "title": "WhatsApp is a 'lifeline' for refugees. Advocates fear it could be severed in fight over federal bill",
+     "link": "https://www.cbc.ca/news/canada/lawful-access-bill-whatsapp-newcomers-9.7429493?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Transit & transportation",
+   "headline": "Study finds Quebec City to Toronto high-speed rail line could generate billions",
+   "summary": "An economic study commissioned by Alto projects that a dedicated high-speed rail corridor linking Quebec City and Toronto would contribute 24.5 billion dollars annually to Canada's gross domestic product. The study attributes the anticipated economic boost largely to major productivity improvements and enhanced regional mobility along the corridor. The findings add momentum to ongoing debates over federal transit investments between Ontario and Quebec.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Pierre Saint-Arnaud The Canadian Press",
+     "title": "A study commissioned by Alto finds it would add $24.5 billion annually to the GDP",
+     "link": "https://www.thestar.com/business/a-study-commissioned-by-alto-finds-it-would-add-24-5-billion-annually-to-the-gdp/article_1a4d5a24-6840-53a7-a218-80fbbed68d6c.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Navdeep Bains elected leader of Ontario Liberal Party",
+   "summary": "Navdeep Bains has won a narrow victory in the Ontario Liberal leadership contest, edging past runner-up Lee Fairclough to become the party's new leader. The former federal cabinet minister takes charge after three straight election defeats and faces the difficult task of rebuilding the party without holding a seat in the provincial legislature. His victory comes as the Liberals trail Doug Ford's Progressive Conservatives and prepare for the next provincial election.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Laura Stone",
+     "title": "Ontario Liberals choose Navdeep Bains as new leader",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-liberal-party-new-leader-navdeep-bains/",
+     "angle": "Highlights the narrow victory over Lee Fairclough and party rebuild efforts following three consecutive election losses",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Shawn Jeffords",
+     "title": "Bains faces serious challenge rebuilding Ontario's Liberal party, insiders say",
+     "link": "https://www.cbc.ca/news/canada/toronto/navdeep-bains-liberal-leader-9.7431590?cmp=rss",
+     "angle": "Emphasizes warnings from party insiders about the steep road ahead and Bains's statement that there are no shortcuts to power",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Martin Regg Cohn",
+     "title": "Navdeep Bains eked out the Liberal leadership. Winning Ontario will be even harder",
+     "link": "https://www.thestar.com/politics/political-opinion/navdeep-bains-eked-out-the-liberal-leadership-winning-ontario-will-be-even-harder/article_dcebbd9d-3440-4ef7-aaeb-dab0c5ac6195.html",
+     "angle": "Focuses on the strategic dilemma of leading the party from outside Queen's Park while trailing the governing Progressive Conservatives in polls",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "College association flags spikes in backdated Ontario student aid applications",
+   "summary": "The association representing Ontario career colleges alerted the provincial government after uncovering unusual spikes in backdated Ontario Student Assistance Program applications. The submissions were dated just prior to a provincial aid freeze, prompting concerns over potential compliance issues and improper claims. The warning highlights administrative vulnerabilities within provincial student financial assistance systems.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Kristin Rushowy",
+     "title": "Backdated OSAP applications raised red flags, career colleges association's letter says",
+     "link": "https://www.thestar.com/politics/backdated-osap-applications-raised-red-flags-career-colleges-association-s-letter-says/article_21355e67-ee77-4bc3-a52b-2a0ab9fcbf68.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Economy & trade",
+   "headline": "Federal and Ontario officials hold talks with Stellantis over Brampton assembly plant",
+   "summary": "Federal and Ontario government representatives met with Stellantis executives in an effort to secure the future of the automaker's Brampton assembly plant. The discussions address mounting anxiety among autoworkers who have faced prolonged layoffs since operations were paused in 2023. The outcome of the negotiations will determine the facility's viability and employment prospects across the regional manufacturing sector.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "'We deserve answers,' says laid-off Stellantis worker | Hanomansing Live",
+     "link": "https://www.cbc.ca/player/play/9.7431053?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Transit & transportation",
+   "headline": "Highway 407 tolls set to rise across Greater Toronto Area in 2027",
+   "summary": "The private operator of Highway 407 announced higher toll rates taking effect on January 1, 2027, across the Toronto region. Frequent rush-hour commuters can expect to pay nearly 12 dollars more per month depending on travel distance and vehicle class. The increase adds financial pressure on GTA motorists navigating regional highway congestion.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Samm Mohibuddin",
+     "title": "Highway 407 tolls are going up in 2027. Here's how much more drivers can expect to pay",
+     "link": "https://www.thestar.com/news/gta/highway-407-tolls-going-up-in-2027-here-s-how-much-more-drivers-can-expect-to-pay/article_5dfc2249-6a55-42b6-b1a3-56a8596ffda4.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
