@@ -1,0 +1,352 @@
+{
+ "format": 3,
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T06:20:57-05:00",
+ "scanned": 281,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 11,
+  "National Post": 17,
+  "CBC News": 13,
+  "CTV News": 22,
+  "The Hub": 6,
+  "La Presse": 2,
+  "Radio-Canada": 27,
+  "The Trillium": 1,
+  "TVO": 0,
+  "Ottawa Citizen": 6,
+  "Hamilton Spectator": 0,
+  "London Free Press": 7,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 7,
+  "Toronto Star": 30,
+  "CityNews": 22,
+  "The Local": 0,
+  "BBC": 3,
+  "The Guardian": 0,
+  "NBC News": 2,
+  "Reuters": 11,
+  "Associated Press": 100,
+  "CNN": 6
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "United States and Canada close to tariff relief deal, American trade representative says",
+   "summary": "U.S. Trade Representative Jamieson Greer stated that Washington and Ottawa are making substantial progress and are relatively close to reaching an agreement on trade and tariff relief. The discussions take place amid heightened cross-border economic tensions and American scrutiny regarding Chinese influence and investments. Securing an arrangement remains a primary objective for Canadian officials seeking to protect cross-border commerce and manufacturing stability.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "The U.S. and Canada ‘fairly close’ to reaching tariff-relief deal: Greer",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTlA2Umx3N3M0LW1KNmVIc3E1YThXUWdkZG9YVGd1alNSUUZyOVFnYlBsTmQxdUhaT0ZVb1pLSDhaQW85NEl0TEtVRFNVbDc1Z08yWWRPczU0V3BjZDc1NDVhM0RFVElja2VaMl9MODVFeGJiYjl5S2ZYZE04UExDWWpUSngwU0M2bUE0Sklvd29LOFNNZURDZ1FqMU1TcmgzVW9oZldyeHhoVTlQRktmLTZoQVZ6eUotSzN3?oc=5",
+     "angle": "Focuses on the trade representative's statement that both sides are fairly close to securing tariff relief",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Les États-Unis constatent des progrès dans les négociations avec le Canada",
+     "link": "https://ici.radio-canada.ca/article/info/2302435/etats-unis-negociations-canada-accord-greer",
+     "angle": "Reports on the state of negotiations from the perspective of bilateral diplomatic discussions",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "The Canadian Press",
+     "title": "U.S. trade chief sees progress in Canada talks, raises China concerns",
+     "link": "https://www.thestar.com/news/canada/u-s-trade-chief-sees-progress-in-canada-talks-raises-china-concerns/article_b9b3c8ce-0a04-5597-a99a-70dba1f8d86a.html",
+     "angle": "Emphasizes American concerns about China's economic role alongside the progress in bilateral trade talks",
+     "also_in": [
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Environment & energy",
+   "headline": "Federal government faces criticism as projections show Canada will miss 2030 climate targets",
+   "summary": "Official projections indicate that Canada is increasingly unlikely to meet its 2030 greenhouse gas emissions reduction target established under the Paris climate agreement. Environment Minister Julie Dabrusin faces growing criticism for insisting commitments remain on track, despite previous federal acknowledgments that domestic emissions will rise in the near term. Environmental organizations and opposition critics are calling on Ottawa to account for recent policy rollbacks and present realistic climate plans.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Nick Murray",
+     "title": "Ottawa unlikely to meet 2030 emissions target, despite official statements",
+     "link": "https://www.theglobeandmail.com/canada/article-climate-carney-2030-paris-emissions-target/",
+     "angle": "Highlights criticism directed at Environment Minister Julie Dabrusin for maintaining that Paris targets remain achievable",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "All signs show Canada can’t meet its Paris target — here’s why Ottawa won’t admit it",
+     "link": "https://www.ctvnews.ca/canada/article/all-signs-show-canada-cant-meet-its-paris-target-heres-why-ottawa-wont-admit-it/",
+     "angle": "Examines earlier statements by Prime Minister Mark Carney acknowledging that emissions will increase in coming years",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Des groupes dénoncent l’inaction de la ministre Dabrusin quant aux reculs climatiques",
+     "link": "https://ici.radio-canada.ca/article/info/2302396/groupes-denoncent-inaction-ministre-dabrusin-reculs-climatiques",
+     "angle": "Details backlash from environmental advocacy groups regarding federal policy rollbacks on climate commitments",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Health",
+   "headline": "Daily cannabis use now surpasses daily alcohol drinking among younger Canadians, study shows",
+   "summary": "A study published in the Canadian Medical Association Journal has found that daily cannabis consumption now exceeds daily alcohol drinking among Canadian adults under age 50. Researchers identified a notable generational shift in consumption habits, observing that daily cannabis use among adults under 35 also surpasses daily cigarette smoking. Public health experts warn that high-frequency use carries significant medical risks, including increased susceptibility to dependency and cannabis-induced psychosis.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Kristy Kirkup",
+     "title": "Daily cannabis use more common among Canadian adults than daily alcohol consumption, study finds",
+     "link": "https://www.theglobeandmail.com/canada/article-daily-cannabis-use-more-common-among-canadian-adults-than-daily/",
+     "angle": "Emphasizes clinical warnings regarding the psychiatric and health risks associated with frequent cannabis consumption",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Omar Mosleh",
+     "title": "Why daily cannabis use in Canada just topped daily alcohol use for adults under 50: 'A generational shift'",
+     "link": "https://www.thestar.com/news/gta/why-daily-cannabis-use-in-canada-just-topped-daily-alcohol-use-for-adults-under-50-a-generational-shift/article_e5d9348b-2a3a-41a2-97a1-c630412b1886.html",
+     "angle": "Highlights the generational shift in substance habits and notes daily cannabis use now eclipses cigarette smoking in adults under 35",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Tech companies and law enforcement clash in Senate over federal data access bill",
+   "summary": "Major technology corporations and law enforcement agencies have delivered opposing final appeals as the Senate debates contentious national security legislation. The proposed law would alter how digital platforms retain and disclose customer data to Canadian police and national security agencies. Law enforcement officials argue the powers are urgently needed to conduct modern criminal investigations, while tech firms warn the framework undermines basic digital privacy protections.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Catharine Tunney",
+     "title": "Big tech, law enforcement make final pitches as Senate considers data access bill's future",
+     "link": "https://www.cbc.ca/news/politics/bill-c-22-lawful-access-privacy-senate-9.7430455?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Federal government begins recruiting commissioners for independent wrongful-conviction review body",
+   "summary": "The federal government has initiated the recruitment process for commissioners to lead the newly created Miscarriage of Justice Review Commission. The independent civilian body will be tasked with reviewing claims of wrongful conviction and deciding whether cases warrant referral back to the justice system for new trials or appeals. The commission was designed to replace the former ministerial review system and remove political decision-making from potential miscarriages of justice.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Ottawa recruiting commissioners for wrongful-conviction review body",
+     "link": "https://www.ctvnews.ca/politics/article/ottawa-recruiting-commissioners-for-wrongful-conviction-review-body/",
+     "angle": "",
+     "also_in": [
+      "Toronto Star",
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Federal budget restrictions to Canadian cadet program prompt nationwide pushback from families",
+   "summary": "Parents, cadets, and community leaders across several provinces are protesting federal spending limits that have forced the suspension of several activities in the Canadian cadet program. The Department of National Defence has maintained that foundational weekly training sessions will continue unaffected despite the operational reductions. Online petitions and local appeals are urging Ottawa to reverse the funding cuts, citing the program's vital role in youth development and leadership training.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Cadets et parents préoccupés par des restrictions fédérales",
+     "link": "https://ici.radio-canada.ca/videos/1-10815911/cadets-et-parents-preoccupes-par-restrictions-federales",
+     "angle": "Focuses on broad parental concern across Canada and within the National Capital Region regarding suspended activities",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Des parents du Saguenay–Lac-Saint-Jean dénoncent les coupes dans le programme des cadets",
+     "link": "https://ici.radio-canada.ca/article/info/2302430/saint-honore-escadron-92-ministere-defense-nationale-compression",
+     "angle": "Highlights online petitions and grassroots protests organized by families in Quebec opposing the cuts",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Les changements apportés au programme des cadets déplaisent au N.-B.",
+     "link": "https://ici.radio-canada.ca/article/info/2302379/suspension-activites-cadets-air-nb",
+     "angle": "Covers reaction in Atlantic Canada alongside Defence department assurances that weekly local meetings remain intact",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Labour",
+   "headline": "Bombardier aerospace workers vote overwhelmingly in favour of strike mandate",
+   "summary": "Workers at aircraft manufacturer Bombardier have voted by 97.8 per cent in favour of a strike mandate after rejecting the company's latest contract proposal. The unionized employees are seeking improvements in compensation and working conditions across the company's manufacturing operations. The strong strike mandate increases pressure on management to return to the bargaining table and avoid disruptions to aircraft production.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Des travailleurs de Bombardier votent en faveur d’un mandat de grève",
+     "link": "https://ici.radio-canada.ca/article/info/2302400/bombardier-greve-conflit-travail-syndicat",
+     "angle": "Reports the specific 97.8 per cent strike authorization vote among workers in Quebec",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "News Staff",
+     "title": "Bombardier workers reject contract offer, vote for strike mandate",
+     "link": "https://toronto.citynews.ca/2026/11/22/bombardier-workers-reject-contract-offer-vote-for-strike-mandate/",
+     "angle": "Emphasizes the rejection of the aircraft manufacturer's formal contract offer and the potential for manufacturing disruptions",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Navdeep Bains takes helm of Ontario Liberals at Queen's Park without legislative seat",
+   "summary": "Newly chosen Ontario Liberal Leader Navdeep Bains appeared with his caucus at Queen’s Park following a narrow leadership contest victory over MPP Lee Fairclough. Bains does not currently hold a seat in the provincial legislature, though he has pledged to run in an upcoming byelection or general election. At the same time, Premier Doug Ford's Progressive Conservatives are preparing targeted advertising campaigns against the former federal minister as he attempts to rebuild the party.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Laura Stone",
+     "title": "New Ontario Liberal Leader to appear with caucus Monday at Queen’s Park – without a seat",
+     "link": "https://www.theglobeandmail.com/canada/article-new-ontario-liberal-leader-navdeep-bains-caucus-queens-park-no-seat/",
+     "angle": "Focuses on Bains appearing with the provincial caucus while lacking a seat in the legislature",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Rob Ferguson",
+     "title": "New Ontario Liberal boss girds for attack ad blitz from Premier Doug Ford's PCs",
+     "link": "https://www.thestar.com/politics/provincial/new-ontario-liberal-boss-girds-for-attack-ad-blitz-from-premier-doug-fords-pcs/article_b3173033-cc92-4e30-95ae-5afac26b0173.html",
+     "angle": "Highlights the narrow margin of his leadership victory and the impending advertising offensive from the governing PCs",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Health",
+   "headline": "Ontario task force calls for centralized navigation system to support dementia patients",
+   "summary": "A healthcare task force has published a blueprint urging the Ontario government to create a centralized care navigation system for people diagnosed with dementia. Families across the province report significant barriers in accessing existing support services, often receiving little guidance on available community resources after an initial diagnosis. The proposed registry and coordination model aims to connect patients and caregivers with programs earlier to reduce caregiver burnout and acute hospital visits.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Moira Welsh",
+     "title": "A dementia diagnosis — and then nothing: Ontario families struggle to find care",
+     "link": "https://www.thestar.com/politics/provincial/a-dementia-diagnosis-and-then-nothing-ontario-families-struggle-to-find-care/article_59e31a68-7d37-4512-a362-8c3131194b95.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Ontario to provide Toronto $29 million for crossing guards following speed camera ban",
+   "summary": "The Ontario government is set to provide the City of Toronto with a one-time grant of nearly $30 million to help fund municipal crossing guards. The top-up is designed to replace revenue that was previously collected through automated speed enforcement cameras, which the Ford government banned across the province in November 2025. Municipal officials and safety advocates had expressed serious alarm that the elimination of speed cameras created significant budget deficits and jeopardized pedestrian safety around schools.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Isaac Callan",
+     "title": "Toronto to receive $29M top-up for crossing guards speed cameras used to fund",
+     "link": "https://www.cbc.ca/news/canada/toronto/toronto-crossing-guard-ontario-money-9.7430436?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Education",
+   "headline": "Students and faculty organize to protect York University's Glendon campus from closure",
+   "summary": "Students and faculty members at York University are mobilizing against an administrative proposal to shut down the historic Glendon campus as a standalone faculty. University administrators initiated the structural review following sustained declines in enrolment at the bilingual midtown Toronto institution. Advocates argue that ending Glendon's independent status would critically erode bilingual post-secondary education and cultural offerings in southern Ontario.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Janet Hurley",
+     "title": "The fate of York U’s Glendon campus will soon be decided. Students and teachers are fighting to keep it",
+     "link": "https://www.thestar.com/news/gta/the-fate-of-york-u-s-glendon-campus-will-soon-be-decided-students-and-teachers-are-fighting-to-keep-it/article_aaab7c2b-1cab-4f73-abae-8a2e25164c63.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Labour",
+   "headline": "Internal harassment dispute and leaked recordings create turmoil within Toronto's CUPE Local 79",
+   "summary": "Canadian Union of Public Employees Local 79, which represents more than 20,000 municipal workers in Toronto, is dealing with severe internal controversy involving harassment claims, covert recordings, and anonymous social media campaigns. The feud has exposed deep fractures within the executive leadership of the city's largest municipal labour organization. The leadership crisis comes as the union faces key public service obligations and internal calls for institutional reform.",
+   "articles": [
+    {
+     "outlet": "Toronto Star",
+     "author": "Ben Spurr",
+     "title": "Inside the toxic feud roiling Toronto’s largest city union: secret recordings, cheating allegations — and Lisa ‘Left Eye’ Lopes",
+     "link": "https://www.thestar.com/news/gta/inside-the-toxic-feud-roiling-toronto-s-largest-city-union-secret-recordings-cheating-allegations-and-lisa-left-eye-lopes/article_12b3704b-36aa-4be1-86e2-2c98ffe9cc53.html",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
