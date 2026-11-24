@@ -244,6 +244,9 @@ def fetch_items(feeds: dict, lookback_hours: int):
     return items, errors, counts
 
 
+THINKING = types.ThinkingLevel.MEDIUM  # main model only; compare_prompts.py varies it
+
+
 def summarize(items, model: str, language: str):
     """Ask Gemini to select, group into stories, categorize and summarize.
 
@@ -271,7 +274,7 @@ def summarize(items, model: str, language: str):
     # Main model: medium thinking (Gemini 3 Flash defaults to high, which ran past the
     # deadline). The fallback keeps its own default.
     main_config = config.model_copy(update={
-        "thinking_config": types.ThinkingConfig(thinking_level=types.ThinkingLevel.MEDIUM)})
+        "thinking_config": types.ThinkingConfig(thinking_level=THINKING)})
 
     # Gemini often returns 503 "high demand" for minutes at a time. The main model gets two
     # tries before the lighter fallback (whose picks are noticeably thinner), then one more.
