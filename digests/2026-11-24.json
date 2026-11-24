@@ -1,0 +1,507 @@
+{
+ "format": 3,
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T06:21:18-05:00",
+ "scanned": 518,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 30,
+  "National Post": 27,
+  "CBC News": 29,
+  "CTV News": 46,
+  "The Hub": 9,
+  "La Presse": 5,
+  "Radio-Canada": 58,
+  "The Trillium": 6,
+  "TVO": 1,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 100,
+  "London Free Press": 20,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 11,
+  "Toronto Star": 27,
+  "CityNews": 30,
+  "The Local": 0,
+  "BBC": 13,
+  "The Guardian": 2,
+  "NBC News": 2,
+  "Reuters": 30,
+  "Associated Press": 100,
+  "CNN": 15
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Federal politics",
+   "headline": "Pentagon issues fact sheet rebuking Canada over military spending and readiness",
+   "summary": "The United States Department of Defense has released a document criticizing Canada for failing to meet its NATO and NORAD obligations and pointing to readiness deficits across its armed forces. The public rebuke follows rising friction over continental defence cooperation and the federal government's review of planned F-35 fighter jet purchases. A U.S. senator noted that an accompanying classified Pentagon memo restricts meeting and conference attendance rather than joint military operations.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Murray Brewster",
+     "title": "Pentagon takes fresh aim at Canada's military readiness, defence spending priorities",
+     "link": "https://www.cbc.ca/news/politics/pentagon-criticizes-canadian-military-readiness-9.7433335?cmp=rss",
+     "angle": "focuses on accusations that Ottawa is prioritizing domestic economic interests over military readiness amid its F-35 review",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Pentagon criticizes Canada in 'fact sheet' after Hegseth memo",
+     "link": "https://www.ctvnews.ca/canada/article/pentagon-criticizes-canada-in-fact-sheet-after-hegseth-memo/",
+     "angle": "highlights specific operational readiness deficits across air, land, and sea cited in the Pentagon fact sheet",
+     "also_in": [
+      "Hamilton Spectator",
+      "CityNews"
+     ]
+    },
+    {
+     "outlet": "The Hub",
+     "author": "The Hub Staff",
+     "title": "Pentagon memo on Canada limits meetings, not operations, U.S. senator says",
+     "link": "https://thehub.ca/2026/11/23/pentagon-memo-on-canada-limits-meetings-not-operations-u-s-senator-says/",
+     "angle": "reports a U.S. senator's clarification that the classified memo restricts meetings rather than joint operations",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Quebec court suspends provincial law abolishing mandatory oath of allegiance to the King",
+   "summary": "A Quebec Superior Court judge has temporarily suspended a 2022 provincial law that made swearing an oath of allegiance to King Charles III optional for members of the National Assembly. Premier Paul St-Pierre Plamondon criticized the decision as problematic and confirmed the provincial government will appeal, casting doubt on the upcoming resumption of the legislature. The ruling raises significant constitutional questions regarding the authority of provincial legislatures to unilaterally alter requirements for elected lawmakers.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Maura Forrest",
+     "title": "Quebec court rules provincial legislators must swear oath to King",
+     "link": "https://www.theglobeandmail.com/canada/article-quebec-court-rules-mnas-must-swear-oath-to-king/",
+     "angle": "details the court suspension of the 2022 provincial law following legislators' refusal to swear allegiance to the King",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Quebec to appeal court decision reinstating oath to the King, casting doubt on legislature's return",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnc2N0hWT1l0SXpNQTdwZ09WMENTWU9HMnpWZVhWdmU4aU1aQjRHeDYwTWFKMHJUVzR2Ty1mMHZQV2dNNFR2X3VwdkFIOERnbkhoLWV2eU9WWlFDakRaYS1JX05IZXQxdUJBLTJvbVhRamlseFVhWmdKN3JJS0xwQ1JlYzMtUE9Nc0I0cE5ZdnhDNndvSDVjSFVjZw?oc=5",
+     "angle": "focuses on the Quebec government's planned appeal and the uncertainty it creates for the legislature's resumption",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Philippe Teisceira-Lessard",
+     "title": "Serment au roi | Un jugement « énigmatique et problématique », dit Paul St-Pierre Plamondon",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-23/serment-au-roi/un-jugement-enigmatique-et-problematique-dit-paul-st-pierre-plamondon.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "emphasizes Premier Paul St-Pierre Plamondon's criticism of the ruling as enigmatic and problematic",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Economy & trade",
+   "headline": "Ontario and Alberta premiers urge progress on interprovincial trade and pipeline partnerships",
+   "summary": "Ontario Premier Doug Ford and Alberta Premier Danielle Smith addressed business leaders in Toronto, warning that persistent internal trade barriers continue to weaken the Canadian economy. Smith raised frustrations regarding provincial bureaucratic hurdles such as alcohol distribution rules, while Ford highlighted potential collaboration on energy corridors and both expressed optimism about prospective trade talks with the United States. Both leaders urged governments across the country to dismantle interprovincial red tape to encourage economic growth.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Jeff Gray",
+     "title": "Ford, Smith tout potential pipeline partnership but point fingers on interprovincial trade",
+     "link": "https://www.theglobeandmail.com/canada/article-doug-ford-danielle-smith-pipelines-interprovincial-trade/",
+     "angle": "focuses on Danielle Smith chiding Doug Ford over provincial alcohol retail barriers alongside pipeline discussions",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Ontario, Alberta premiers weigh in on interprovincial trade, say it remains complicated",
+     "link": "https://www.cbc.ca/news/canada/toronto/interprovincial-trade-ford-smith-ontario-alberta-9.7433089?cmp=rss",
+     "angle": "outlines both premiers' broader assessment that internal trade barriers remain stubbornly complex across Canada",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Joshua Freeman",
+     "title": "Doug Ford ‘very confident’ Canada could see trade deal with U.S. soon",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/doug-ford-and-danielle-smith-express-optimism-canada-could-see-trade-deal-soon/",
+     "angle": "highlights Ford and Smith expressing confidence that Canada could finalize a trade deal with the United States",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Defence minister restores funding for Canadian cadet activities following public backlash",
+   "summary": "Defence Minister David McGuinty announced that the federal government will inject supplemental funding into youth cadet and junior ranger programs to reverse planned cancellations of weekend activities. The move comes after widespread public outrage from organizers and parents, particularly in Ontario, British Columbia, and northern communities where local training exercises were abruptly halted. The restored funding will allow weekend exercises and supplemental training to continue through the end of the fiscal year in March.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "David Baxter",
+     "title": "Cadet weekend activities to be restored, Defence Minister says",
+     "link": "https://www.theglobeandmail.com/canada/article-cadet-weekend-activities-mcguinty/",
+     "angle": "reports the defence minister's announcement that new funding will sustain weekend cadet training through March",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Murray Brewster",
+     "title": "Defence Department tops up cadet program after outrage over cancelled activities",
+     "link": "https://www.cbc.ca/news/politics/dnd-cadet-program-top-up-9.7432950?cmp=rss",
+     "angle": "focuses on the policy reversal following public outrage over abruptly suspended youth training programs",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Jessica Davey-Quantick",
+     "title": "Tighter funding leaves northern cadets out in the cold",
+     "link": "https://www.cbc.ca/news/canada/tighter-funding-leaves-northern-cadets-out-in-the-cold-9.7432055?cmp=rss",
+     "angle": "highlights the acute impact that earlier budget cuts had on cadet and junior ranger programs in northern communities",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Indigenous affairs",
+   "headline": "Indigenous leaders raise consultation concerns over major projects bill in Senate hearings",
+   "summary": "Indigenous leaders appearing before Senate committee hearings on the federal Building Canada Strong Act have raised serious concerns about inadequate consultation and threats to reconciliation. The proposed legislation, designated Bill C-39, seeks to expedite national infrastructure and energy projects while curbing labour disruptions, but has triggered contentious committee debates. Critics warn that fast-tracking approvals risks bypassing constitutionally protected treaty rights and community engagement.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "‘Guys, this is f–king stupid’: Tempers fray at committee on Bill C-39",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTU0UzVfRXlxeWR2WVY2dTBUZ0R3SklHSnJZbGhhNVdzeC1GeVlieFVDbnRWNGRyV3pHME1UMjBhTGJqcjdhZXBvcVMxWUNoR1lNSXhtVzhKVC1UTzNPZWcyYkpnVnBLTmRST2pvLU5RdVZnVmNpQnNzYWNHaHRWeDBGSFFhUVRZT1RRTmdGeV9sV0tLanNNVE0tejg?oc=5",
+     "angle": "reports on partisan tension and procedural conflict during committee deliberations on the bill",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Jeremie Charron",
+     "title": "Indigenous leaders raise consultation concerns over Bill C-39 in Senate hearings",
+     "link": "https://www.ctvnews.ca/politics/article/indigenous-leaders-raise-consultation-concerns-over-bill-c-39-in-senate-hearings/",
+     "angle": "highlights testimony from Indigenous leaders warning that fast-tracked project approvals undermine consultation and reconciliation",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Tech leaders and Google warn federal lawful-access bill compromises digital security",
+   "summary": "Technology executives and cybersecurity specialists are urging Parliament to reconsider provisions in the federal lawful-access bill that would require service providers to store customer metadata for months. A senior Google official told a Senate committee that mandated data retention creates high-value targets for criminal hackers, while Canadian tech companies warned the measure threatens international competitiveness and privacy. The federal government maintains that the expanded access tools are essential for law enforcement to investigate modern digital crime.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Marie Woolf",
+     "title": "Business leaders, tech entrepreneurs warn lawful-access bill could harm Canada’s competitiveness",
+     "link": "https://www.theglobeandmail.com/politics/article-business-leaders-tech-entrepreneurs-warn-lawful-access-bill-could-harm/",
+     "angle": "reports warnings from Canadian business leaders and tech firms threatening relocation over data retention mandates",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Google says 'lawful access' bill creates 'attractive' opportunities for bad actors",
+     "link": "https://www.ctvnews.ca/canada/article/google-says-lawful-access-bill-creates-attractive-opportunities-for-bad-actors/",
+     "angle": "covers Google's Senate testimony warning that mandated long-term metadata storage creates vulnerabilities for bad actors",
+     "also_in": [
+      "Hamilton Spectator",
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Federal government designates Masar Badil as a terrorist entity",
+   "summary": "Public Safety Canada has officially added Masar Badil to the country's terrorist entity list, designating it as an alias for Samidoun. Samidoun was previously listed as a terrorist organization by the federal government in 2024. The listing took effect days ahead of a planned conference in Toronto, enabling authorities to freeze assets and prohibit financial or material support to the group under anti-terrorism laws.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Feds list Masar Badil as terrorist organization days before Toronto conference",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZnB2cWFPUU1NWWl3MmNfdy1OQ1BKYW16SHdXbUlYakRJTlp3Zk1NN0tuam40Qm9wRHRvRnFTeWdWaEhCM010VDQxSFk5QTRmRng4THpBczdBalZIYUdlMjU3eXFFQUVSNEQ4WHk5NGRQZVBsY1Y4Yi1sZUkwWnhXU216S2VJNWt2NWdkbzVGSkZOd3hCSWF4UjF0NHV0NWtjRHpNNFRvX3JkT09xUU5WUHM5MXRQQm43UXcySXR0Wm1qb0lrcmc?oc=5",
+     "angle": "highlights the designation occurring days before the group was scheduled to take part in a Toronto conference",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Canada adds Masar Badil group to terrorist entity list, citing status as alias for Samidoun",
+     "link": "https://www.cbc.ca/news/world/masar-badil-added-terrorist-entity-list-9.7433007?cmp=rss",
+     "angle": "details the public safety minister's formal announcement naming the group an alias for Samidoun",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Transit & transportation",
+   "headline": "Draft federal budget bill proposes sweeping land-seizure powers for high-speed rail",
+   "summary": "The federal government has proposed new land-expropriation powers in its draft budget implementation legislation to fast-track property acquisition for Canada's planned high-speed rail project. The measures would bypass standard expropriation procedures to expedite corridor assembly along the Quebec City-to-Toronto route. Proponents say the expanded authority is necessary to avoid costly delays, while legal experts and affected landowners express concern over curtailed avenues for appeal.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Lisa Mayor",
+     "title": "Draft budget bill proposes sweeping new land-seizure powers for high-speed rail",
+     "link": "https://www.cbc.ca/news/politics/alto-expropriation-changes-9.7433464?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Health",
+   "headline": "Cancer patients sue Ontario after provincial health insurance denies coverage for U.S. treatment",
+   "summary": "Two Ontario cancer patients have launched legal action against the provincial government after their applications for out-of-country treatment coverage in the United States were delayed or rejected. Premier Doug Ford defended the system's decisions by asserting that foreign drug manufacturers often refuse to seek regulatory approval in Canada, though he acknowledged the emotional toll on families. Opposition critics argue the province's bureaucratic hurdles and retroactive rule changes are preventing vulnerable patients from accessing life-saving care.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Ha Tu Thanh",
+     "title": "Two cancer patients taking Ontario to court after requests for treatment in the U.S. denied",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-us-cancer-treatment-coverage-sabrina-apitz-grossman-kevin-nash/",
+     "angle": "details the legal challenge alleging government delays in processing out-of-country treatment requests compromised patient health",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Tina Yazdani",
+     "title": "Premier says drugmakers are refusing to seek approval in Canada as he defends U.S. cancer treatment denials",
+     "link": "https://www.thetrillium.ca/news/health/premier-says-drugmakers-are-refusing-to-seek-approval-in-canada-as-he-defends-us-cancer-treatment-denials-13050325",
+     "angle": "covers Premier Doug Ford defending the coverage denials by citing pharmaceutical companies' refusal to seek Canadian approval",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Navdeep Bains defends federal cabinet record as Ontario PCs launch carbon tax attacks",
+   "summary": "Newly chosen Ontario Liberal Leader Navdeep Bains is defending his record in federal politics as Premier Doug Ford's Progressive Conservatives prepare attack advertisements targeting his past support for the carbon tax. Bains stated it was an honour to have served in Justin Trudeau's cabinet while resisting efforts by the provincial government to define his leadership by federal policies. The confrontation marks an early clash between Queen's Park Conservatives and the new official opposition leader ahead of the next provincial campaign.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Laura Stone",
+     "title": "Bains defends record as PCs prepare attack ads linking him to Trudeau",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-liberals-navdeep-bains-progressive-conservative-attack-ads/",
+     "angle": "features Navdeep Bains defending his federal cabinet record as provincial Tories prepare attack advertisements",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Steve Cornwell and Katherine DeClerq",
+     "title": "Navdeep Bains defends his Trudeau government era as Ford’s PCs aim to tie new Liberal leader to carbon tax",
+     "link": "https://www.thetrillium.ca/insider-news/politics/navdeep-bains-defends-his-trudeau-government-era-as-fords-pcs-aim-to-tie-new-liberal-leader-to-carbon-tax-13050702",
+     "angle": "analyzes the Progressive Conservative strategy of linking the new Liberal leader to carbon pricing",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Robert Benzie",
+     "title": "Doug Ford links new Liberal Leader Navdeep Bains to Trudeau carbon tax",
+     "link": "https://www.thestar.com/politics/provincial/doug-ford-links-new-liberal-leader-navdeep-bains-to-trudeau-carbon-tax/article_1958bd39-e264-4068-a35f-725dc6f59ac1.html",
+     "angle": "focuses on Premier Doug Ford directly attacking Bains over his support for federal carbon taxes",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Health",
+   "headline": "Ontario hospital nurses demand provincial action on workplace violence, trauma and severe burnout",
+   "summary": "A report commissioned by the Ontario Council of Hospital Unions revealed that nearly nine in ten hospital nurses in the province suffer from extreme exhaustion and high workplace stress. The findings coincided with a demonstration at Queen's Park by nursing advocates and the family of a nurse who died by suicide, demanding stronger government protections against workplace violence and trauma. Healthcare representatives warn that systemic understaffing and worsening working conditions are deepening the province's clinical retention crisis.",
+   "articles": [
+    {
+     "outlet": "The Trillium",
+     "author": "Tom Desormeaux",
+     "title": "Nursing community asks government for better protection from violence",
+     "link": "https://www.thetrillium.ca/insider-news/health/nursing-community-asks-government-for-better-protection-from-violence-13051055",
+     "angle": "covers nursing advocates and a bereaved family rallying at Queen's Park to demand workplace violence protections",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Joseph Ryan",
+     "title": "Ontario nurses experiencing exhaustion, high levels of stress due to their job: report",
+     "link": "https://toronto.citynews.ca/2026/11/23/9-in-10-nurses-experience-exhaustion-and-high-levels-of-stress-due-to-their-job-report/",
+     "angle": "details union survey findings showing nearly nine in ten Ontario hospital nurses experience severe exhaustion and job stress",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Mayor Olivia Chow replaces Toronto city manager in major administrative restructuring",
+   "summary": "Toronto Mayor Olivia Chow has invoked her strong mayor powers to replace city manager Paul Johnson with an interim appointee and overhaul the senior leadership at city hall. The departure of the city's top-paid and most senior bureaucrat comes as the administration prepares for internal restructuring and upcoming budget deliberations. Chow indicated the changes are aimed at reorganizing municipal operations to deliver key public services more effectively.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Olivia Piercey",
+     "title": "Toronto's top bureaucrat leaving city hall, Chow uses 'strong mayor' powers to appoint interim replacement",
+     "link": "https://www.cbc.ca/news/canada/toronto/toronto-city-manager-leaving-role-9.7432479?cmp=rss",
+     "angle": "covers Chow's broader overhaul of senior municipal bureaucratic roles to restructure internal city operations",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Codi Wilson, Joshua Freeman",
+     "title": "Toronto’s top bureaucrat out as Olivia Chow seeks to ‘reorganize’ city administration",
+     "link": "https://www.ctvnews.ca/toronto/politics/toronto-city-hall/article/torontos-top-bureaucrat-out-as-olivia-chow-seeks-to-reorganize-city-administration/",
+     "angle": "details the immediate removal of Paul Johnson under strong mayor powers",
+     "also_in": []
+    },
+    {
+     "outlet": "Hamilton Spectator",
+     "author": "Mahdis Habibinia",
+     "title": "Toronto’s top bureaucrat is out as Olivia Chow shakes up city hall ahead of budget fight",
+     "link": "https://www.thespec.com/news/ontario/toronto-s-top-bureaucrat-paul-johnson-leaving-role-with-the-city-sources/article_110e2587-34f8-5938-a8c4-04179c9d3d74.html",
+     "angle": "highlights the strategic timing of the leadership shakeup ahead of a contentious budget process",
+     "also_in": [
+      "Toronto Star"
+     ]
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Kathryn Mannie The Canadian Press",
+     "title": "Olivia Chow uses strong mayor powers to replace Toronto's city manager",
+     "link": "https://www.thestar.com/news/ontario/olivia-chow-uses-strong-mayor-powers-to-replace-toronto-s-city-manager/article_81cdd6a7-61a0-5074-8385-57b15143ba4d.html",
+     "angle": "focuses on the appointment of an interim replacement alongside changes to administrative reporting structures",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Toronto mayor and advocates call for youth violence prevention after fatal Scarborough shooting",
+   "summary": "Toronto Mayor Olivia Chow and community advocates are calling for substantial municipal investments in youth violence prevention and employment after two 16-year-old boys were killed in a Scarborough shooting. Police reported that more than one hundred young people have faced firearms-related charges across the city this year. Chow emphasized that expanding community-level supports and preventive programs is critical alongside enforcement to halt the cycle of violence among local teenagers.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Joshua McGinnis",
+     "title": "A ‘bright light:’ 16-year-old who was killed in double shooting in Scarborough remembered by school staff",
+     "link": "https://www.ctvnews.ca/toronto/article/heartbreaking-scarborough-shooting-prompts-call-for-renewed-action-on-youth-violence/",
+     "angle": "reports Mayor Olivia Chow's call for municipal funding in youth violence prevention programs",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Gabriel Hilty",
+     "title": "Mayor calls for action after Scarborough shooting that left 2 teens dead: 'Two deaths is too many'",
+     "link": "https://www.thestar.com/news/gta/mayor-calls-for-action-after-scarborough-shooting-that-left-2-teens-dead-two-deaths-is-too-many/article_82971a41-9987-4df2-80ec-c73123c62f08.html",
+     "angle": "focuses on city hall's commitment to youth-focused preventive measures following the deaths of two teenagers",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Dee Burman",
+     "title": "Advocate says lack of jobs fueling ‘epidemic of youth violence’ in Toronto",
+     "link": "https://toronto.citynews.ca/2026/11/23/toronto-youth-crime-violence/",
+     "angle": "features community advocates pointing to youth unemployment and lack of opportunities as key drivers of gun violence",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Transit & transportation",
+   "headline": "Multi-year construction on Toronto's King Street West begins with major transit diversions",
+   "summary": "The City of Toronto has started major infrastructure renewal work on King Street West that will disrupt vehicular traffic, streetcar routes, and local businesses through the fall of 2027. The project includes replacing aging water mains, reconstructing roads, and upgrading streetcar tracks across sections of the downtown corridor. Transit officials have diverted streetcar routes and implemented lane closures, urging commuters to anticipate extended travel times.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Amy van den Berg",
+     "title": "Construction begins in Toronto's west end as city prepares for months-long disruption",
+     "link": "https://www.cbc.ca/news/canada/toronto/construction-begins-ttc-king-street-9.7432526?cmp=rss",
+     "angle": "outlines the ten-month infrastructure replacement timeline running along King Street West through fall 2027",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Jermaine Wilson",
+     "title": "Major construction set to disrupt King Street West through 2027 starts today",
+     "link": "https://www.ctvnews.ca/toronto/article/major-construction-set-to-disrupt-king-street-west-through-2027/",
+     "angle": "details road closures, intersection lane reductions, and transit diversions disrupting downtown commutes",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Transit & transportation",
+   "headline": "Highway 407 toll rates to rise for GTA drivers starting in January",
+   "summary": "The private operator of Highway 407 ETR has announced toll rate increases for light vehicles that will take effect on January 1 across the Greater Toronto Area. Drivers will face rate hikes between five and 24 cents per kilometre depending on the zone and time of day, alongside increases to monthly administrative fees. The higher charges will raise travel costs for regional commuters relying on the electronic toll route to bypass congestion on public highways.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Joshua Freeman",
+     "title": "Hwy. 407 tolls to go up on Jan. 1. Here is how much more drivers will have to pay",
+     "link": "https://www.ctvnews.ca/toronto/article/hwy-407-tolls-to-go-up-on-jan-1-here-is-how-much-more-drivers-will-have-to-pay/",
+     "angle": "reports the private toll highway operator's announcement of rate hikes taking effect on New Year's Day",
+     "also_in": []
+    },
+    {
+     "outlet": "Hamilton Spectator",
+     "author": "Evelyn Harford",
+     "title": "Highway 407 toll rates and fees rise in 2027: What Ontario drivers need to know",
+     "link": "https://www.thespec.com/life/ontario-highway-407-toll-rates-fees-2027/article_8efeaed3-bf2c-5316-b692-0ea7827c2ebf.html",
+     "angle": "breaks down the per-kilometre toll increases ranging between five and 24 cents depending on zone and time of travel",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Toronto Star: https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
