@@ -1,0 +1,579 @@
+{
+ "format": 3,
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T06:21:49-05:00",
+ "scanned": 511,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 28,
+  "National Post": 31,
+  "CBC News": 32,
+  "CTV News": 56,
+  "The Hub": 9,
+  "La Presse": 10,
+  "Radio-Canada": 58,
+  "The Trillium": 6,
+  "TVO": 1,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 0,
+  "London Free Press": 22,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 20,
+  "Toronto Star": 52,
+  "CityNews": 30,
+  "The Local": 0,
+  "BBC": 13,
+  "The Guardian": 2,
+  "NBC News": 5,
+  "Reuters": 35,
+  "Associated Press": 100,
+  "CNN": 13
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Federal politics",
+   "headline": "Pentagon criticizes Canada over lagging defence spending and military readiness",
+   "summary": "A leaked Pentagon document and senior U.S. officials sharply criticized Canada for failing to meet continental defence commitments and address operational deficits across its military branches. Defence Minister David McGuinty pushed back against the rebuke, asserting that Canada is a sovereign nation that does not report to Washington. The public dispute threatens to strain cross-border security cooperation as the U.S. signals potential retaliatory measures if Ottawa does not accelerate defence investments.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Murray Brewster",
+     "title": "Pentagon prepared to 'up the ante' in defence dispute with Canada",
+     "link": "https://www.cbc.ca/news/politics/defence-canada-us-pentagon-spending-9.7434887?cmp=rss",
+     "angle": "Highlights Pentagon threats of unspecified further measures and the wide gap between Ottawa's rhetoric and reality.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Spencer Van Dyk",
+     "title": "‘We don’t report to the United States’: Defence minister following Pentagon ‘fact sheet’",
+     "link": "https://www.ctvnews.ca/politics/article/we-dont-report-to-the-united-states-defence-minister-following-pentagon-defence-spending-fact-sheet/",
+     "angle": "Focuses on Defence Minister David McGuinty's dismissive response to the U.S. fact sheet.",
+     "also_in": []
+    },
+    {
+     "outlet": "The Guardian",
+     "author": "Leyland Cecco in Toronto",
+     "title": "Canada says it ‘does not report to the US’ after Pentagon memo criticizing military spending",
+     "link": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo",
+     "angle": "Emphasizes the international diplomatic strain and U.S. characterization of Canada's atrophied capabilities.",
+     "also_in": []
+    },
+    {
+     "outlet": "Associated Press",
+     "author": "",
+     "title": "Canada's defense minister says his country answers to no one in Washington after a Pentagon rebuke",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFhyZ21EQ3ZWMUluVmhCOFN3a1Z1OC1qTkM3Z1pqMzVZLWdqamstSThCM0xrMG1mTmpZaUtPUWNPelNUSnJLZGJjMFdGbTNoanlmSmw1bkNtUXdmd0NKTXVJQkRsbDJjaWdtaDZNSDFFZFNrdV94cnpsOV94TWdFYVVsMDNOZDdRVDdMT3Z6cDRqMjZVSHRHVlJBajJFMXM?oc=5",
+     "angle": "Reports on the Pentagon's specific criticisms regarding defence spending and Canada's F-35 fighter jet review.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Transit & transportation",
+   "headline": "Federal government defends expanded expropriation powers for Alto high-speed rail",
+   "summary": "Transport Minister Steven MacKinnon defended proposed federal legislation granting expanded land expropriation authority for stations and depots along the planned Alto high-speed rail corridor between Quebec City and Toronto. Landowners in affected rural communities have mounted vocal protests against potential property seizures, while critics warn federal compensation guidelines are less clear than provincial standards. Experts have also dismissed proposed alternative rail routings through agricultural areas as technically unrealistic.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Christopher Reynolds",
+     "title": "Ottawa defends new land seizure powers proposed for Alto’s high-speed rail project",
+     "link": "https://www.theglobeandmail.com/canada/article-alto-high-speed-rail-project-land-seizure-powers/",
+     "angle": "Covers the transport minister's rationale that expropriation powers are needed to prevent multi-year project delays.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Abigail Bimman",
+     "title": "‘We would lose our home’: Why Alto high speed rail debate is at a ‘fever pitch’",
+     "link": "https://www.ctvnews.ca/canada/article/we-would-lose-our-home-why-alto-high-speed-rail-debate-is-at-a-fever-pitch/",
+     "angle": "Provides perspective from rural Ontario property owners facing the loss of their homes.",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "TGV d’Alto : l’alternative proposée par l’UPA « est irréaliste », selon des experts",
+     "link": "https://ici.radio-canada.ca/article/info/2301750/train-grande-vitesse-frequence-alto-upa",
+     "angle": "Cites research finding that alternative rail corridors proposed by agricultural groups are commercially and technically unfeasible.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Ryan Tumilty",
+     "title": "Federal minister defends expanded expropriation rules for Alto high-speed rail line",
+     "link": "https://www.thestar.com/politics/federal/federal-minister-defends-expanded-expropriation-rules-for-alto-high-speed-rail-line/article_4387f76b-5ccc-4d88-a9d8-ba1f210d0524.html",
+     "angle": "Highlights concerns that the federal expropriation framework provides less certainty on compensation than Ontario rules.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Alberta invokes Sovereignty Act over federal hate speech legislation",
+   "summary": "The Alberta government announced plans to invoke its Sovereignty Act against recent federal amendments that removed religious belief exemptions from hate crime laws. Premier Danielle Smith and provincial officials argued the federal changes jeopardize religious freedoms and freedom of expression. Although provincial prosecutors already retain discretion over which criminal charges to pursue, the formal motion escalates ongoing constitutional tensions between Edmonton and Ottawa.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Matthew Scace",
+     "title": "Smith pushes back on hate-speech law changes, citing Alberta sovereignty act",
+     "link": "https://www.theglobeandmail.com/canada/alberta/article-smith-pushes-back-on-changes-to-hate-speech-laws/",
+     "angle": "Frames the resistance within Alberta's broader constitutional challenges against federal jurisdiction.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Trevor Howlett",
+     "title": "Alberta pushes back against federal hate speech law that removed religious exemption",
+     "link": "https://www.cbc.ca/news/canada/edmonton/sovereignty-act-motion-nov-24-9.7434055?cmp=rss",
+     "angle": "Details the specific removal of the religious exemption from federal anti-hate statutes.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Kathy Le",
+     "title": "Alberta invokes Sovereignty Act over federal hate-crime law, citing religious freedom concerns",
+     "link": "https://www.ctvnews.ca/politics/article/alberta-invokes-sovereignty-act-over-federal-hate-crime-law-citing-religious-freedom-concerns/",
+     "angle": "Focuses on arguments from religious groups and provincial officials about chilled speech.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Jack Farrell The Canadian Press",
+     "title": "Alberta takes symbolic stand against federal hate crime law, says it silences speech",
+     "link": "https://www.thestar.com/news/canada/alberta/alberta-takes-symbolic-stand-against-federal-hate-crime-law-says-it-silences-speech/article_1e40f241-32a9-5eda-9a88-7e39df17ff30.html",
+     "angle": "Notes that the motion is largely symbolic because the province already has final say over prosecution decisions.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Immigration minister defends permanent residency targets and temporary worker limits",
+   "summary": "Immigration Minister Lena Diab defended the federal government's 2027 immigration strategy against Conservative efforts to curb annual targets, insisting that the majority of anticipated permanent residents are already living in Canada. The government confirmed its one-time transition program will be strictly capped at 200,000 entrants, with spaces for up to 100,000 temporary workers allocated to provincial jurisdiction. Unused provincial allocations will not be replaced, shifting key immigration intake decisions onto regional governments.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "David Baxter",
+     "title": "Minister defends 2027 permanent residency plan, says 'vast majority' are already in Canada",
+     "link": "https://www.cbc.ca/news/politics/immigration-permanent-residents-canada-9.7434312?cmp=rss",
+     "angle": "Focuses on the minister's defence against Conservative parliamentary motions to block the intake plan.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Minister says one-time plan for permanent residents capped at 200,000 entries",
+     "link": "https://www.ctvnews.ca/canada/article/minister-says-one-time-plan-for-permanent-residents-capped-at-200000-entries/",
+     "angle": "Emphasizes the strict 200,000-person cap placed on the one-time transition pathway.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "David Baxter The Canadian Press",
+     "title": "Minister says plan for up to 100,000 temporary workers in the hands of provinces",
+     "link": "https://www.thestar.com/politics/federal/minister-says-one-time-plan-for-permanent-residents-capped-at-200-000-entries/article_b1b15185-cdd6-580d-ade6-3cfd6e47e006.html",
+     "angle": "Highlights the delegation of up to 100,000 temporary worker regularizations to provincial discretion.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Indigenous affairs",
+   "headline": "First Nations demand clean water rights in federal major projects legislation",
+   "summary": "A parliamentary committee has returned the federal government's major projects bill to the House of Commons after voting down key amendments supported by labour and environmental groups. Concurrently, Assembly of First Nations National Chief Cindy Woodhouse Nepinak demanded the legislation be amended to formally recognize the human right to clean drinking water. First Nations leaders maintain that the current statutory protections are inadequate to safeguard reserve water supplies against industrial resource development.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Bill Curry",
+     "title": "Committee votes to send major projects bill back to the House after rejecting amendments",
+     "link": "https://www.theglobeandmail.com/politics/article-bill-c-39-legislative-committee-hearings-labour-environment-november/",
+     "angle": "Covers the committee's vote to advance the bill after more than 100 hours of debate and rejected amendments.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Alessia Passafiume The Canadian Press",
+     "title": "National chief calls on Ottawa to include human right to clean water in new bill",
+     "link": "https://www.thestar.com/politics/federal/national-chief-calls-on-ottawa-to-include-human-right-to-clean-water-in-new-bill/article_4bc592c4-68ee-5b4b-846c-cdeb6e292b6c.html",
+     "angle": "Details the Assembly of First Nations' demand for statutory recognition of clean water as a basic human right.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Health",
+   "headline": "Food safety union warns of risks from reduced meat plant inspections",
+   "summary": "The union representing federal agricultural inspectors warned that food safety across Canada is being compromised after the Canadian Food Inspection Agency ended mandatory daily inspections at domestic meat processing facilities. Internal documents revealed that daily oversight was halted in October as part of agency operational changes. Union officials caution that reduced monitoring increases the risk of contamination and foodborne illness outbreaks entering the retail supply chain.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Catherine Morrison",
+     "title": "Food safety at risk after cut back on inspections at meat plants, union warns",
+     "link": "https://www.theglobeandmail.com/canada/article-food-safety-risk-inspections-meat-plants/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Health",
+   "headline": "Ontario cancer patients challenge provincial refusal to fund out-of-country treatment",
+   "summary": "Two terminally ill cancer patients have launched a legal challenge against the Ontario government in Divisional Court after being denied public funding for specialized therapies available only in the United States. Lawyers for the patients argue the province acted in bad faith by retroactively altering eligibility rules for out-of-country care, effectively extinguishing patient rights overnight. Premier Doug Ford expressed personal sympathy for the patients, while the court's decision could redefine provincial obligations to finance non-domestic healthcare.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Ha Tu Thanh",
+     "title": "Ontario changed out-of-country health care rules in bad faith, patients’ lawyers say",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-changed-out-of-country-health-care-rules-in-bad-faith/",
+     "angle": "Examines legal arguments that the province altered funding rules in bad faith.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Alina Snisarenko",
+     "title": "2 cancer patients take Ontario to court over refusal to fund out-of-country treatment",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-out-of-country-treatment-cancer-patients-court-9.7434936?cmp=rss",
+     "angle": "Notes the opening of Divisional Court proceedings regarding the life-saving nature of the denied therapies.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Jon Woodward",
+     "title": "‘It’s life or death’: Cancer patients with months to live challenge treatment denial in Ontario court",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/its-life-or-death-cancer-patients-with-months-to-live-challenge-treatment-denial-in-ontario-court/",
+     "angle": "Focuses on the patients' terminal prognoses and their courtroom clash with provincial attorneys.",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Traitement pour le cancer refusé : « J’ai le cœur brisé », affirme Doug Ford",
+     "link": "https://ici.radio-canada.ca/article/info/2302792/apitz-grossman-cancer-patient-ontario",
+     "angle": "Highlights Premier Doug Ford's emotional reaction and specific details of patient Sabrina Apitz-Grossman's diagnosis.",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Tina Yazdani",
+     "title": "‘Their rights were extinguished overnight’: Cancer patients accuse Ford government of abusing its power in court fight over U.S. treatments",
+     "link": "https://www.thetrillium.ca/news/health/their-rights-were-extinguished-overnight-cancer-patients-accuse-ford-government-of-abusing-its-power-in-court-fight-over-us-treatments-13055576",
+     "angle": "Details allegations of government power abuse and the retroactive invalidation of prior application criteria.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Economy & trade",
+   "headline": "Ontario mortgage delinquency rate jumps 31 per cent amid rising debt strain",
+   "summary": "Equifax Canada reported that the national 90-day mortgage delinquency rate climbed 31 per cent in the third quarter of the year, reaching its highest level since record-keeping began in 2013. The deterioration was heavily concentrated in Ontario and British Columbia, where elevated borrowing costs and mortgage renewals have stretched homeowner budgets. Analysts caution that mounting household financial stress could lead to further defaults and constrain consumer spending.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Ritika Dubey",
+     "title": "Missed Ontario mortgage payments help push delinquency rate up 31% in 3rd quarter: Equifax report",
+     "link": "https://www.cbc.ca/news/business/mortgage-delinquency-9.7433747?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Premier Ford considers crackdown on out-of-control online gambling advertisements",
+   "summary": "Ontario Premier Doug Ford announced that his administration is exploring restrictions on internet gaming advertisements, calling the ubiquitous commercials out of control. Public health advocates and opposition lawmakers have raised alarm over the social and financial toll of widespread sports betting marketing since Ontario launched its regulated iGaming market. The provincial review could lead to tighter promotional guidelines or outright advertising limits on broadcast and digital platforms.",
+   "articles": [
+    {
+     "outlet": "The Trillium",
+     "author": "Tom Desormeaux",
+     "title": "‘It’s out of control:’ Premier Ford vows to look into gambling ads harm",
+     "link": "https://www.thetrillium.ca/insider-news/health/its-out-of-control-premier-ford-vows-to-look-into-gambling-ads-harm-13055626",
+     "angle": "Emphasizes the premier's commitment to review the harms associated with pervasive betting ads.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Rob Ferguson",
+     "title": "Online gambling ads are ‘out of control,’ Doug Ford says",
+     "link": "https://www.thestar.com/politics/provincial/online-gambling-ads-are-out-of-control-doug-ford-says/article_0b640d12-971d-49b0-b72f-e2e8c6d47a34.html",
+     "angle": "Focuses on growing public concerns over problem gambling and the social costs of online gaming platforms.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Labour",
+   "headline": "Stellantis sues Unifor over environmental audit at Brampton assembly plant",
+   "summary": "Automaker Stellantis has filed a lawsuit against Unifor, accusing the union of obstructing an environmental site assessment required to finalize the sale of its Brampton assembly plant. The legal action escalates an ongoing confrontation between the automaker and its workforce over the facility's future and job security. The court dispute risks delaying the commercial transaction and further complicating upcoming collective bargaining discussions.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Sammy Hudes",
+     "title": "Stellantis taking Unifor to court over alleged obstruction of environmental assessment",
+     "link": "https://www.cbc.ca/news/canada/toronto/stellantis-sues-unifor-brampton-assembly-plant-9.7434527?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Environment & energy",
+   "headline": "Ontario introduces mining reforms to speed up mineral exploration and development",
+   "summary": "The Ontario government introduced legislative proposals to expedite mining project approvals, accelerate mineral exploration, and revoke dormant resource leases. First Nations leaders expressed serious concern that the expedited timelines will bypass mandatory crown consultation and jeopardize treaty rights. Provincial officials maintain the streamlined regulations are essential for developing critical mineral supply chains supporting the domestic electric vehicle and clean technology industries.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Lydia Chubak",
+     "title": "Ontario proposes mining reforms to speed up development",
+     "link": "https://www.ctvnews.ca/northern-ontario/article/ontario-proposes-mining-reforms-to-speed-up-development/",
+     "angle": "Reports on First Nations leadership concerns regarding inadequate consultation and rushed development.",
+     "also_in": []
+    },
+    {
+     "outlet": "Sudbury Star",
+     "author": "",
+     "title": "Stephen Lecce: New measures will fast-track new and established mines",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeEpwOWlDeEZodENlUHNiYzZJbFhHamU0YjRReHNGTkMxVkFjQmRHWnFoTlFpQm5EXzBZdjZXZWhMZlZDN244ZGRXNjBSYTNfX2JpQnJNS2NOVFJWR205MTRyVUhMRnAxNnozVjlpZmJjUEU1N1pSQUM2bGpUOUNzQlNLVUdOMV9FMXZybQ?oc=5",
+     "angle": "Presents Mines Minister Stephen Lecce's perspective on fast-tracking exploration and eliminating regulatory hurdles.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario faith-based university students face financial strain under OSAP freeze",
+   "summary": "Students attending faith-based post-secondary institutions across Ontario are facing acute financial strain following a provincial freeze on Ontario Student Assistance Program funding. The freeze was enacted after the Ministry of Colleges and Universities alleged potential criminal fraud and referred several institutions to the Ontario Provincial Police. However, the minister confirmed that the provincial police force has yet to follow up on the government's allegations, leaving students in financial limbo.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Kelly Grant",
+     "title": "Faith-based university students unfairly caught up in OSAP freeze, schools say",
+     "link": "https://www.theglobeandmail.com/canada/article-faith-based-university-students-caught-in-osap-freeze/",
+     "angle": "Focuses on the financial pressure experienced by students and the tuition deferrals implemented by affected schools.",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Katherine DeClerq",
+     "title": "OPP has yet to follow up with the Ford government about its ‘criminal’ OSAP claims: colleges minister",
+     "link": "https://www.thetrillium.ca/insider-news/education-and-training/opp-has-yet-to-follow-up-with-the-ford-government-about-its-criminal-osap-claims-colleges-minister-13055214",
+     "angle": "Reveals that the OPP has not yet initiated follow-up investigations despite the province's fraud referrals.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Toronto proposes commercial parking levy and 911 cellphone fee to address shortfall",
+   "summary": "City of Toronto staff have proposed implementing a commercial parking levy and a $2 monthly 911 fee on cellphone bills to help offset an anticipated $1.1-billion municipal budget shortfall. The recommended revenue tools aim to generate sustained operational income while allowing Mayor Olivia Chow to uphold her commitment to avoid excessive property tax increases. City council will debate the revenue proposals as part of the upcoming municipal budget process.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Codi Wilson",
+     "title": "A 911 fee on cellphone bills and a commercial parking levy among new revenue tools proposed for Toronto",
+     "link": "https://www.ctvnews.ca/toronto/article/a-911-fee-on-cellphone-bills-and-a-commercial-parking-levy-here-are-some-revenue-tools-city-staff-are-now-pitching-in-toronto/",
+     "angle": "Outlines the proposed revenue mechanisms within the context of the city's broader budget pressures.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Ben Spurr",
+     "title": "New fees for Toronto cellphones, parking proposed as Olivia Chow looks to keep property tax promise",
+     "link": "https://www.thestar.com/news/gta/toronto-drivers-and-cellphone-users-could-face-new-fees-under-a-city-staff-proposal/article_67b89faa-c77c-43bf-96e8-6f596d3fb9a7.html",
+     "angle": "Focuses on how the new fees are designed to help Mayor Olivia Chow meet her property tax commitments.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Environment & energy",
+   "headline": "Toronto-area greenhouse gas emissions see largest spike in a decade",
+   "summary": "Greenhouse gas emissions across the Greater Toronto and Hamilton Area experienced their sharpest increase in at least ten years, severely compromising regional climate targets. The surge was driven by increased reliance on natural gas electricity generation and elevated home heating demand during a colder winter. Meeting regional 2030 climate benchmarks will now require annual emissions cuts of approximately 16 per cent.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Jordan Omstead",
+     "title": "Toronto-area emissions see largest rise in decade, setting back climate goals",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-toronto-area-emissions-see-largest-rise-in-decade/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Premier Ford backs Mayor Chow's use of strong mayor powers in Toronto",
+   "summary": "Ontario Premier Doug Ford offered public support for Toronto Mayor Olivia Chow after she utilized strong mayor powers to replace the city manager. The move drew criticism from council observers who noted Chow previously condemned the provincial legislation as undemocratic when it was introduced. Municipal analysts suggest the decision reflects a broader trend of GTA mayors embracing executive authority to streamline local administrations.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Joshua Freeman",
+     "title": "Ford backs Chow’s use of strong mayor powers to replace Toronto’s city manager",
+     "link": "https://www.ctvnews.ca/toronto/politics/toronto-city-hall/article/ford-backs-chows-use-of-strong-mayor-powers-to-replace-torontos-city-manager/",
+     "angle": "Reports Premier Doug Ford's endorsement of Mayor Olivia Chow's leadership decision.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Rob Ferguson",
+     "title": "Doug Ford praises Olivia Chow for using ‘strong mayor’ powers",
+     "link": "https://www.thestar.com/politics/provincial/doug-ford-praises-olivia-chow-for-using-strong-mayor-powers/article_2c8e1d0f-f5c0-4610-91b7-444b1bd1b217.html",
+     "angle": "Highlights political reaction at Queen's Park recalling Chow's past opposition to strong mayor legislation.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Edward Keenan",
+     "title": "Should mayors get to hire and fire bureaucrats at will? Not everyone agrees",
+     "link": "https://www.thestar.com/news/gta/should-mayors-get-to-hire-those-who-work-under-them-not-everyone-agrees/article_9f5b1ad5-44b8-4e16-b352-f043ae99ce84.html",
+     "angle": "Analyzes the growing willingness of municipal leaders across the region to deploy unilateral executive powers.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Peel police officer testifies on fight-or-flight instinct in fatal shooting inquest",
+   "summary": "A Peel Regional Police constable testified at a coroner's inquest that he acted on a fight-or-flight instinct when fatally shooting Jamal Francique during an attempted arrest in Mississauga in 2016. The officer told the jury he did not make a conscious decision to fire and offered condolences to Francique's family as proceedings commenced. The inquest is reviewing police tactics and decision-making during high-risk apprehension operations involving Black individuals.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Paola Loriggio",
+     "title": "Constable who shot Jamal Francique says he acted out of 'fight-or-flight' instinct",
+     "link": "https://www.cbc.ca/news/canada/toronto/officer-condolences-jamal-francique-inquest-9.7434350?cmp=rss",
+     "angle": "Highlights the officer's testimony regarding his psychological state and condolences offered to Francique's family.",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Patricia D'Cunha",
+     "title": "Constable who shot Jamal Francique offers condolences to family at inquest",
+     "link": "https://toronto.citynews.ca/2026/11/24/jamal-francique-inquest-latest/",
+     "angle": "Provides background on the circumstances of the 2016 attempted arrest and the scope of the coroner's inquest.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Housing",
+   "headline": "East York tenants call for ombudsman probe into municipal inaction over building repairs",
+   "summary": "Tenants and housing advocacy group ACORN have called on Toronto's ombudsman to launch an independent investigation into the city's enforcement failures at 500 Dawes Road. Residents of the 14-storey rental complex have endured persistent mold, infestations, broken elevators, and structural concerns for over a decade despite hundreds of municipal complaints. The advocacy group argues that systemic municipal oversight breakdowns have enabled the landlord to leave serious health and safety hazards unaddressed.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Joanna Lavoie, Mike Walker",
+     "title": "Toronto tenants group wants ombudsman to probe city’s handling of long-standing issues at East York building",
+     "link": "https://www.ctvnews.ca/toronto/article/toronto-tenants-group-wants-ombudsman-to-probe-citys-handling-of-long-standing-issues-at-east-york-building/",
+     "angle": "Details the extensive list of structural defects, elevator breakdowns, and mold infestations affecting residents.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Mahdis Habibinia",
+     "title": "Tenants call for investigation into decade of city inaction at 500 Dawes",
+     "link": "https://www.thestar.com/news/gta/tenants-call-for-investigation-into-decade-of-city-inaction-at-500-dawes/article_4d8502fd-d59d-496e-8446-286bc0928e94.html",
+     "angle": "Focuses on the decade-long timeline of unaddressed city complaints and tenant demands for ombudsman intervention.",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Dee Burman",
+     "title": "Tenants seek accountability after years of complaints, repairs at 500 Dawes Road",
+     "link": "https://toronto.citynews.ca/2026/11/24/tenants-seek-accountability-after-years-of-complaints-repairs-at-500-dawes-road/",
+     "angle": "Highlights the joint campaign by Toronto ACORN and the local tenants' association demanding municipal accountability.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Justice & policing",
+   "headline": "Toronto South detention centre guard charged with impersonating police officer",
+   "summary": "Toronto police arrested and charged a 21-year-old correctional officer from the Toronto South Detention Centre for allegedly impersonating an Ontario Provincial Police officer. Authorities allege the suspect approached a motorist in an Etobicoke park while falsely identifying himself as a provincial police constable. Police are investigating whether other members of the public had similar encounters with the accused.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Elianna Lev",
+     "title": "Toronto police arrest correctional officer for allegedly posing as a cop",
+     "link": "https://www.ctvnews.ca/toronto/article/toronto-police-arrest-correctional-officer-for-allegedly-posing-as-a-cop/",
+     "angle": "Identifies the suspect as an employee of the Toronto South Detention Centre and details the arrest.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Megan Mills Devoe",
+     "title": "Toronto South correctional officer charged with impersonating an OPP cop in Etobicoke",
+     "link": "https://www.thestar.com/news/gta/toronto-south-correctional-officer-charged-with-impersonating-an-opp-cop-in-etobicoke/article_ad1fea43-37ba-4aa0-a394-59a79ab142db.html",
+     "angle": "Specifies the location of the incident at Colonel Sam Smith Park and the identity of the accused.",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
