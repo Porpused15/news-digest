@@ -1,0 +1,537 @@
+{
+ "format": 3,
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T06:21:05-05:00",
+ "scanned": 582,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 34,
+  "National Post": 21,
+  "CBC News": 40,
+  "CTV News": 40,
+  "The Hub": 8,
+  "La Presse": 7,
+  "Radio-Canada": 68,
+  "The Trillium": 3,
+  "TVO": 0,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 100,
+  "London Free Press": 21,
+  "Waterloo Region Record": 100,
+  "Sudbury Star": 14,
+  "Toronto Star": 49,
+  "CityNews": 24,
+  "The Local": 0,
+  "BBC": 18,
+  "The Guardian": 1,
+  "NBC News": 2,
+  "Reuters": 23,
+  "Associated Press": 100,
+  "CNN": 10
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Federal politics",
+   "headline": "Carney downplays Pentagon defence spending critique as NATO commander offers praise",
+   "summary": "Prime Minister Mark Carney stated that U.S. President Donald Trump has not brought up the Pentagon's critical assessment of Canadian defence spending during their bilateral conversations. The Pentagon recently issued a fact sheet arguing that Canada is failing to contribute its fair share toward continental and North American security. Meanwhile, NATO's deputy commander struck a contrasting and supportive tone, commending Canada's military rebuild efforts and its active contributions to European deterrence.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Craig Lord",
+     "title": "Trump hasn’t raised Pentagon’s defence complaints, Carney says",
+     "link": "https://www.theglobeandmail.com/canada/article-trump-pentagon-defence-spending-complaints-carney/",
+     "angle": "Notes Carney's emphasis on Canada's historic military investments and improved service member compensation.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Murray Brewster",
+     "title": "NATO's No. 2 commander strikes different tone on Canada than Pentagon",
+     "link": "https://www.cbc.ca/news/politics/defence-spending-pentagon-nato-carney-9.7435919?cmp=rss",
+     "angle": "Highlights the contrasting assessment from NATO's deputy commander praising Canada's operational contributions in Europe.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Ashley Burke",
+     "title": "As Pentagon blasts Canada's defence spending, Carney says Trump hasn't raised concerns",
+     "link": "https://www.cbc.ca/news/politics/carney-trump-pentagon-criticism-canada-defence-spending-military-readiness-9.7435718?cmp=rss",
+     "angle": "Focuses on the domestic political pressure facing the prime minister over continental defence obligations.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Alex Ballingall",
+     "title": "Mark Carney says Donald Trump hasn’t raised Pentagon’s concerns about Canada’s military",
+     "link": "https://www.thestar.com/politics/federal/mark-carney-says-donald-trump-hasn-t-raised-pentagon-s-concerns-about-canada-s-military/article_49570449-0539-44a4-9e24-6a4511bf10eb.html",
+     "angle": "Details Carney's direct response to the specific allegations in the Pentagon's published fact sheet.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Supreme Court prepares landmark ruling on Quebec secularism law and Charter rights",
+   "summary": "The Supreme Court of Canada is poised to deliver a historic ruling on Quebec's Bill 21, which prohibits certain public sector employees from wearing religious symbols on the job. The decision could establish new limits on provincial use of the Charter's notwithstanding clause and dramatically alter federal-provincial relations. Observers across the country are watching closely as the ruling has the potential to reshape Canadian constitutional law and minority rights protections.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "David Ebner",
+     "title": "The historic stakes in Friday’s landmark Supreme Court ruling on the Charter and Quebec’s Bill 21",
+     "link": "https://www.theglobeandmail.com/canada/article-historic-stakes-in-landmark-supreme-court-ruling-quebec-bill-21/",
+     "angle": "Provides a step-by-step breakdown of how the ruling will assess the limits of political power and Charter guarantees.",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Eric Andrew-Gee",
+     "title": "Quebec braces for Supreme Court decision on Bill 21",
+     "link": "https://www.theglobeandmail.com/canada/article-quebec-braces-for-supreme-court-decision-on-bill-21/",
+     "angle": "Highlights the political stakes in Quebec and the potential strain on national unity if the notwithstanding clause is curtailed.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Isaac Olson",
+     "title": "What's at stake as Canada's top court ruling on Quebec secularism law looms",
+     "link": "https://www.cbc.ca/news/canada/montreal/supreme-court-bill-21-quebec-9.7436487?cmp=rss",
+     "angle": "Focuses on the optimism expressed by opposing legal camps ahead of the decision.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Stephanie Taylor",
+     "title": "Why a Supreme Court ruling on a secularism law could reverberate across Canadian politics",
+     "link": "https://www.thestar.com/politics/federal/why-a-supreme-court-ruling-on-a-secularism-law-could-reverberate-across-canadian-politics/article_9b253d2c-4494-4659-9d0e-53cfee39b03e.html",
+     "angle": "Examines how the decision could reverberate through the federal political landscape and intergovernmental ties.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Senate committee amends federal lawful-access bill to strengthen cybersecurity safeguards",
+   "summary": "A Senate national security committee has adopted amendments to the federal government's controversial lawful-access legislation, Bill C-22, to address mounting concerns from tech companies and privacy advocates. The bill, which broadens police and intelligence agency access to digital subscriber information, was altered to clarify provisions and reinforce privacy protections against cyber vulnerabilities. While tech stakeholders welcomed the adjustments, several civil liberties and cybersecurity experts warned that the changes do not go far enough to prevent warrantless overreach.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Marie Woolf",
+     "title": "Senators amend lawful-access bill to address tech companies’ concerns about cybersecurity",
+     "link": "https://www.theglobeandmail.com/politics/article-senators-amend-lawful-access-bill-c-22-cybersecurity-concerns/",
+     "angle": "Focuses on tech industry representations and the continuing criticism from privacy advocates who view the changes as insufficient.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Catharine Tunney",
+     "title": "Senate committee recommends changing Liberals' data access bill following cybersecurity concerns",
+     "link": "https://www.cbc.ca/news/politics/bill-c-22-lawful-access-security-9.7436101?cmp=rss",
+     "angle": "Emphasizes the committee's specific reservations regarding state agencies accessing Canadians' private personal information.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Senate committee makes amendments to Liberal government's 'lawful access' bill",
+     "link": "https://www.ctvnews.ca/politics/article/senate-committee-makes-amendments-to-liberal-governments-lawful-access-bill/",
+     "angle": "Details the legislative modifications intended to tighten definitions and clarify procedural thresholds.",
+     "also_in": [
+      "Hamilton Spectator",
+      "Waterloo Region Record",
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Transit & transportation",
+   "headline": "Federal government defends expanded land expropriation powers for Alto high-speed rail",
+   "summary": "Transport Minister Steven MacKinnon defended federal plans to grant Ottawa broad authority to seize land along the proposed Alto high-speed rail corridor between Toronto and Quebec City, including transferring expropriated properties to private consortia. Opposition leaders condemned the measure as overbearing and authoritarian, with Bloc Québécois Leader Yves-François Blanchet accusing Prime Minister Mark Carney of acting like a pharaoh. Meanwhile, rail and transport researchers dismissed alternative route proposals from Quebec agricultural producers as technically unrealistic.",
+   "articles": [
+    {
+     "outlet": "The Hub",
+     "author": "The Hub Staff",
+     "title": "Ottawa defends plan to expand expropriation powers for Alto high-speed rail",
+     "link": "https://thehub.ca/2026/11/26/ottawa-defends-plan-to-expand-expropriation-powers-for-alto-high-speed-rail/",
+     "angle": "Details the legal provisions enabling the federal government to transfer expropriated land directly to private consortiums.",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Antoine Trépanier",
+     "title": "TGV d’Alto | Carney se comporte en « pharaon », peste Blanchet",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-25/tgv-d-alto/carney-se-comporte-en-pharaon-peste-blanchet.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Highlights fierce pushback from federal opposition leaders against what they describe as authoritarian government overreach.",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "TGV d’Alto : la solution proposée par l’UPA « est irréaliste », selon des experts",
+     "link": "https://ici.radio-canada.ca/article/info/2301750/train-grande-vitesse-frequence-alto-upa",
+     "angle": "Examines research findings concluding that the compromise route championed by Quebec farmers is unviable.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Health",
+   "headline": "Study reveals deep income and racial disparities in access to family doctors",
+   "summary": "A new study by the Canadian Institute for Health Information found that adults living in lower-income neighbourhoods are significantly less likely to have a regular family doctor and more likely to be hospitalized for preventable conditions. The data also highlighted that Black and Latin American Canadians, young adults, and men face disproportionate barriers to securing primary care providers. Health researchers emphasized that persistent inequities in frontline care drive avoidable hospital admissions and worsen health outcomes.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Kristy Kirkup",
+     "title": "Adults in lowest-income neighbourhoods more likely to be hospitalized for manageable conditions, study says",
+     "link": "https://www.theglobeandmail.com/canada/article-adults-in-lowest-income-neighbourhoods-more-likely-to-be-hospitalized/",
+     "angle": "Focuses on data correlating lower-income residential areas with higher rates of hospitalizations for manageable illnesses.",
+     "also_in": []
+    },
+    {
+     "outlet": "Hamilton Spectator",
+     "author": "Nicole Ireland The Canadian Press",
+     "title": "Low-income, Black and Latin American people less likely to have a family doctor: report",
+     "link": "https://www.thespec.com/news/canada/low-income-black-and-latin-american-people-less-likely-to-have-a-family-doctor-report/article_c2d2bc49-e667-51c8-a811-61afedc94624.html",
+     "angle": "Highlights racial disparities, noting that Black and Latin American individuals encounter pronounced obstacles in finding doctors.",
+     "also_in": [
+      "Waterloo Region Record"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Health",
+   "headline": "Health Canada issues warning over rare vision loss risk from semaglutide medications",
+   "summary": "Health Canada has issued a public advisory regarding a very rare but serious risk of vision loss associated with GLP-1 receptor agonist medications, including Ozempic and Wegovy. The regulator warned that semaglutide use has been linked to non-arteritic anterior ischemic optic neuropathy, a condition caused by reduced blood flow to the optic nerve. Patients experiencing sudden sight loss, blurring, or rapidly deteriorating vision are advised to seek immediate medical attention.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Nicole Ireland",
+     "title": "Rare vision loss risk with Ozempic, other semaglutide drugs, Health Canada warns",
+     "link": "https://www.theglobeandmail.com/canada/article-ozempic-semaglutide-glp-sight-vision-loss/",
+     "angle": "Outlines specific clinical warning signs such as blurring and cloudiness that require emergency care.",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "GLP-1 : Santé Canada lance un avertissement concernant un risque rare de perte de la vue",
+     "link": "https://ici.radio-canada.ca/article/info/2303080/sante-canada-glp1-wegovy-ozempic-rybelsus-vue-perte",
+     "angle": "Summarizes the federal health department's safety alert regarding the broader GLP-1 drug category.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Nicole Ireland The Canadian Press",
+     "title": "Health Canada warns of rare vision loss risk with Ozempic and other semaglutide drugs",
+     "link": "https://www.thestar.com/news/canada/health-canada-warns-of-rare-vision-loss-risk-with-ozempic-and-other-semaglutide-drugs/article_662dad2f-812a-5cf4-bfea-2bb19e3ff116.html",
+     "angle": "Provides clinical details regarding NAION and its physiological mechanism on optic nerve blood flow.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Ontario watchdog warns of deficits until 2050 and debt reaching 1.5 trillion dollars",
+   "summary": "Ontario's Financial Accountability Office released a projection warning that the province faces continuous budget deficits through 2050 and a debt load swelling to $1.5 trillion without significant fiscal correction. The watchdog calculated that the annual deficit will rise from one per cent of gross domestic product to 1.5 per cent by mid-century. Finance Minister Peter Bethlenfalvy's office disputed the long-range economic analysis, defending the government's investment trajectory.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "L’Ontario foncerait vers 25 ans de déficits sans un coup de barre budgétaire",
+     "link": "https://ici.radio-canada.ca/article/info/2302972/ontario-deficit-budget-brf-dette",
+     "angle": "Emphasizes the long-term trendline showing deficit growth relative to Ontario's overall gross domestic product.",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Tom Desormeaux and Steve Cornwell",
+     "title": "FAO projects Ontario’s debt to reach $1.5 trillion, budget deficits until 2050",
+     "link": "https://www.thetrillium.ca/insider-news/government-finance-and-the-economy/fao-projects-ontarios-debt-to-reach-15-trillion-budget-deficits-until-2050-13060424",
+     "angle": "Reports the finance minister's formal rejection and defense against the watchdog's fiscal modeling.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Justice & policing",
+   "headline": "LCBO deploys paid duty police officers across more than 40 high-risk stores",
+   "summary": "The Liquor Control Board of Ontario has launched Operation Secure Stores, an anti-theft initiative deploying paid duty police officers to more than 40 high-risk retail outlets across the province. The Crown corporation noted that existing loss-prevention measures generated over 2,000 arrests last year, but ongoing brazen robberies targeting premium spirits prompted stricter deterrence. The heightened security presence aims to protect store workers and deter organized theft networks operating in retail centres.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "",
+     "title": "LCBO to deploy paid duty cops in over 40 stores to bolster anti-theft efforts",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-lcbo-cops-police-theft-security/",
+     "angle": "Notes the LCBO's statistics showing that existing security programs yielded more than 2,000 arrests last year.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Linus Mulherin",
+     "title": "LCBO adding police officers to more than 40 stores in security push",
+     "link": "https://www.cbc.ca/news/canada/toronto/lcbo-increases-security-police-presence-9.7435471?cmp=rss",
+     "angle": "Details the risk criteria used by the Crown corporation to designate locations for officer deployment.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Jermaine Wilson",
+     "title": "‘Operation Secure Stores:’ Paid duty cops to be deployed at more LCBO locations amid brazen thefts",
+     "link": "https://www.ctvnews.ca/toronto/article/lcbo-to-deploy-paid-duty-police-officers-at-40-more-locations-in-effort-to-crack-down-on-theft/",
+     "angle": "Outlines the operational scope and formal branding of the Operation Secure Stores campaign.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Adrian Ghobrial",
+     "title": "Police officers to be deployed at LCBO outlets in effort to curb liquor store robberies",
+     "link": "https://www.ctvnews.ca/canada/article/police-officers-to-be-deployed-at-lcbo-outlets-in-effort-to-curb-liquor-store-robberies/",
+     "angle": "Focuses on the brazen theft tactics where thieves walk out with bags of high-value spirits.",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "La LCBO accentue la sécurité dans ses succursales",
+     "link": "https://ici.radio-canada.ca/article/info/2303009/lcbo-securite-vol-etalage-ontario",
+     "angle": "Reports on the public and commercial reaction to putting uniformed officers in retail liquor outlets.",
+     "also_in": []
+    },
+    {
+     "outlet": "Hamilton Spectator",
+     "author": "Raju Mudhar",
+     "title": "LCBO to use paid duty police officers to help deter thefts",
+     "link": "https://www.thespec.com/news/ontario/lcbo-to-use-paid-duty-police-officers-to-help-deter-thefts/article_43729b45-092e-55b6-b7f1-46936137535d.html",
+     "angle": "Highlights the partnership between the liquor board and municipal police forces across Ontario.",
+     "also_in": [
+      "Waterloo Region Record",
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Ford government reviews possible restrictions on out-of-control online gambling ads",
+   "summary": "Ontario Premier Doug Ford announced that his cabinet is reviewing measures to curtail online gambling advertisements, describing the current volume of ads across the province as out of control. The provincial government faces escalating demands from opposition MPPs and public health advocates to enact comprehensive limits or an outright ban before the end of the year. Ontario was the first Canadian jurisdiction to establish a regulated private market for internet sports betting and gaming in 2022.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Alina Snisarenko",
+     "title": "Ford calls online gambling ads 'out of control,' says cabinet will look into problem",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-gambling-ads-doug-ford-opposition-reaction-9.7436285?cmp=rss",
+     "angle": "Highlights the growing legislative pressure from opposition MPPs demanding action before year's end.",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Joshua McGinnis",
+     "title": "Doug Ford says Ontario will look to ‘curtail’ online gambling advertisements",
+     "link": "https://www.ctvnews.ca/toronto/article/doug-ford-says-ontario-will-look-to-curtail-online-gambling-advertisements/",
+     "angle": "Focuses on statements from the premier's office regarding specific regulatory avenues being weighed.",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Publicités sur les paris sportifs en ligne : « C’est tout simplement exagéré », dit Ford",
+     "link": "https://ici.radio-canada.ca/article/info/2303051/doug-ford-publicite-ligne-paris-sportifs",
+     "angle": "Recalls Ontario's pioneering role in launching Canada's first open commercial market for online sports betting.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Transit & transportation",
+   "headline": "Ontario will allow single-occupant vehicles in highway HOV lanes during off-peak hours",
+   "summary": "The Ontario Ministry of Transportation announced that single-occupancy vehicles will be permitted to travel in high-occupancy vehicle lanes during non-peak hours starting January 1, 2027. Provincial officials stated that opening underutilized lanes will optimize highway capacity and reduce broad traffic congestion, while carpoolers will retain exclusive access during weekday rush hours. Critics and transit advocates have questioned whether diluting HOV restrictions undermines incentives for carpooling and public transit.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Linus Mulherin",
+     "title": "Ontario to open HOV lanes to solo drivers starting Jan. 1, during non-peak hours",
+     "link": "https://www.cbc.ca/news/canada/toronto/hov-lane-single-occupant-vehicle-expansion-9.7435910?cmp=rss",
+     "angle": "Specifies the 2027 effective date and outlines the Ford government's congestion-reduction rationale.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Matthew Daldalian",
+     "title": "Ontario to open HOV highway lanes to solo drivers during off-peak hours",
+     "link": "https://www.thestar.com/news/gta/ontario-to-open-hov-highway-lanes-to-solo-drivers-during-off-peak-hours/article_bf4065e7-ebbf-4eb6-8db5-7613d9d2bcfe.html",
+     "angle": "Clarifies the precise schedule of priority hours reserved for carpoolers on weekdays and weekends.",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Michael Talbot",
+     "title": "Ontario to allow single-occupant vehicles to use HOV lanes during off-peak hours",
+     "link": "https://toronto.citynews.ca/2026/11/25/hov-lanes-single-occupant-vehicles-ontario/",
+     "angle": "Details the Ministry of Transportation's assessment that the change optimizes existing highway infrastructure.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Environment & energy",
+   "headline": "Bird advocates and Margaret Atwood press Ottawa to block Pelee Island telecom tower",
+   "summary": "Author Margaret Atwood and a coalition of conservation groups are calling on the federal government to order a full environmental assessment to halt a proposed 200-metre telecommunications tower on Pelee Island. Opponents argue the planned structure sits directly across a globally recognized migratory corridor for songbirds and poses severe collision hazards. Advocates report gaining substantial public momentum as they lobby federal authorities to intervene before construction proceeds.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Ivan Semeniuk",
+     "title": "Bird advocates press case against Pelee Island tower",
+     "link": "https://www.theglobeandmail.com/canada/science/article-margaret-atwood-bird-advocates-press-case-against-pelee-island-tower/",
+     "angle": "Details the scientific arguments regarding migratory songbird pathways crossing through southwestern Ontario.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Samantha Craggs",
+     "title": "Margaret Atwood, bird advocates fighting Pelee Island telecom tower say battle is gaining steam",
+     "link": "https://www.cbc.ca/news/canada/windsor/atwood-bird-tower-pelee-island-9.7435820?cmp=rss",
+     "angle": "Emphasizes Atwood's comments on the growing grassroots support for a comprehensive federal impact review.",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Jordan Omstead The Canadian Press",
+     "title": "Margaret Atwood urges feds to block bird-threatening telecom tower on Pelee Island",
+     "link": "https://www.thestar.com/news/ontario/margaret-atwood-urges-feds-to-block-bird-threatening-telecom-tower-on-pelee-island/article_59fea45b-5b0e-5655-b94c-a4b7f5c4524d.html",
+     "angle": "Focuses on the coalition's direct petition urging federal ministers to formally block the tower's installation.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Toronto evaluates new revenue measures including a monthly cellphone fee for 911",
+   "summary": "Toronto city staff have recommended three new municipal revenue tools, led by a proposed $2 monthly fee on mobile phone lines to help fund the city's next-generation 911 system. Facing major budget shortfalls for the upcoming fiscal year, the Executive Committee will consider whether to ask telecommunications carriers to collect the charge, which could generate up to $65.1 million annually. City council must decide how to balance rising emergency service costs against public resistance to added fees.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Toronto to look at 3 new revenue tools as city faces budget pressures",
+     "link": "https://www.cbc.ca/news/canada/toronto/toronto-three-new-revenue-measures-9.7436488?cmp=rss",
+     "angle": "Outlines city staff recommendations on three separate revenue-raising mechanisms to tackle the municipal shortfall.",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "How Toronto's new revenue ideas could hit your wallet",
+     "link": "https://www.cbc.ca/player/play/9.7436473?cmp=rss",
+     "angle": "Analyzes the practical financial impact these potential taxes and fees will have on municipal residents.",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Taxe déguisée pour le 911? Toronto veut ajouter 2 $ par mois à votre forfait mobile",
+     "link": "https://ici.radio-canada.ca/article/info/2303096/toronto-telephone-taxe",
+     "angle": "Frames the proposed 911 surcharge as a disguised consumer tax on mobile phone accounts.",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Denio Lourenco",
+     "title": "Toronto wants to charge residents with cell phones a $24 annual service fee to fund new 911 system",
+     "link": "https://toronto.citynews.ca/2026/11/25/toronto-wants-to-charge-residents-with-cell-phones-a-24-annual-service-fee-to-fund-new-911-system/",
+     "angle": "Details the procedural timeline for the Executive Committee's upcoming December review of the proposal.",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Economy & trade",
+   "headline": "Federal industry minister pursues talks with Stellantis regarding Brampton auto plant",
+   "summary": "Federal Industry Minister Mélanie Joly reported holding productive discussions with Stellantis negotiators in Toronto to resolve the future of the automaker's idled assembly facility in Brampton. Talks follow controversy over Stellantis's plans to sell the plant to armoured vehicle manufacturer Roshel, which raised questions about automotive employment and previously pledged government support. Joly expressed confidence that Ottawa and the automaker can find a sustainable path forward to protect manufacturing workers.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "Jermaine Wilson",
+     "title": "Joly reports ‘productive meeting’ with Stellantis negotiator as Brampton talks continue",
+     "link": "https://www.ctvnews.ca/toronto/article/joly-reports-productive-meeting-with-stellantis-negotiator-as-brampton-talks-continue/",
+     "angle": "Notes ongoing meetings in Toronto with the company's lead negotiator to explore workforce solutions.",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Usine de Brampton : la ministre Joly a rencontré le négociateur de Stellantis",
+     "link": "https://ici.radio-canada.ca/article/info/2302947/stellantis-brampton-usine-vente-roshel",
+     "angle": "Emphasizes the federal industry minister's commitment to explore all possible options to support plant employees.",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "News Staff",
+     "title": "Joly ‘convinced’ Ottawa can find a path forward with Stellantis as talks continue",
+     "link": "https://toronto.citynews.ca/2026/11/25/a-lot-of-noise-joly-meets-with-stellantis-leadership-again-says-talks-continuing/",
+     "angle": "Highlights the minister's optimism following fallout from the proposed sale to defence contractor Roshel.",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": []
+}
