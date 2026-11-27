@@ -1,0 +1,504 @@
+{
+ "format": 3,
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T06:21:26-05:00",
+ "scanned": 522,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 29,
+  "National Post": 33,
+  "CBC News": 39,
+  "CTV News": 54,
+  "The Hub": 9,
+  "La Presse": 8,
+  "Radio-Canada": 63,
+  "The Trillium": 20,
+  "TVO": 1,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 100,
+  "London Free Press": 21,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 17,
+  "Toronto Star": 56,
+  "CityNews": 21,
+  "The Local": 0,
+  "BBC": 8,
+  "The Guardian": 0,
+  "NBC News": 0,
+  "Reuters": 24,
+  "Associated Press": 26,
+  "CNN": 8
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Supreme Court prepares to rule on Quebec secularism law and Charter rights",
+   "summary": "The Supreme Court of Canada is set to release its historic decision determining the constitutional validity of Quebec's Bill 21, which prohibits certain public sector workers from wearing religious symbols. The ruling tests the limits of fundamental freedoms under the Charter of Rights and Freedoms as well as the scope of the notwithstanding clause. The outcome carries profound legal consequences for minority rights and national unity across Canada.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Peter Zimonjic",
+     "title": "Supreme Court to render its decision on Quebec's secularism law today",
+     "link": "https://www.cbc.ca/news/politics/supreme-court-decison-bill-21-9.7437512?cmp=rss",
+     "angle": "Focuses on the strict confidentiality protocols and anticipation among lawyers and journalists ahead of the decision",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Antoine Trépanier",
+     "title": "Décision de la Cour suprême du Canada | Jour J pour la Loi sur la laïcité de l’État",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-26/decision-de-la-cour-supreme-du-canada/jour-j-pour-la-loi-sur-la-laicite-de-l-etat.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Frames the ruling as the final chapter of a multi-year legal battle over Quebec state secularism",
+     "also_in": []
+    },
+    {
+     "outlet": "BBC",
+     "author": "",
+     "title": "Canada's top court to rule on Quebec's ban on wearing religious symbols",
+     "link": "https://www.bbc.co.uk/news/articles/c78j8vk3r50o?at_medium=RSS&at_campaign=rss",
+     "angle": "Emphasizes the broader national impact of the verdict beyond religious expression",
+     "also_in": []
+    },
+    {
+     "outlet": "Reuters",
+     "author": "",
+     "title": "Canada's Supreme Court to rule on Quebec's law on religious symbols in test of Canadian unity",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2xTN3lIM0VNZ0t1dTRlSy13WUo1T0JIek5NZThtRklXazNKZlhyUUN0VWxOOXpRY2drMkFOZXlZd1BFM0FrYWpPQjlnYk1kUzB0dzZVczV4b1B2YjZ2MmtJYXM5dEIwNi1VVW9TcUVGWHRPbUNybDdyV2ZzNTZObm5FQTUwLUt2VjNtOWx4N3c4MDdTZGFvS3VGdHVaSno4aWh6ZzNRRURtNmdTMmxrS1lIdmhTZVdCVWFyak9QY2FjRHJsd1dJWA?oc=5",
+     "angle": "Highlights the constitutional test the case poses for Canadian unity and federal-provincial relations",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Temporary resident population projected to exceed federal target through 2027",
+   "summary": "Immigration Minister Lena Diab announced that temporary residents are expected to make up 5.5 per cent of Canada's total population by the end of 2027, surpassing the federal ceiling of 5 per cent. The revised outlook reflects ongoing demographic pressures and difficulties in drawing down international student and work permit numbers. The variance will likely heighten parliamentary scrutiny over immigration planning and its impact on public infrastructure.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "David Baxter",
+     "title": "Non-permanent population expected to exceed 2027 target, minister says",
+     "link": "https://www.cbc.ca/news/politics/temporary-immigration-targets-9.7437870?cmp=rss",
+     "angle": "Reports the minister's admission that the population share will overshoot the original target",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Non-permanent population expected to exceed 2027 target: minister",
+     "link": "https://www.ctvnews.ca/politics/article/non-permanent-population-expected-to-exceed-2027-target-minister/",
+     "angle": "Focuses on the updated government estimates and the timeline for managing non-permanent resident levels",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Federal major projects legislation faces Senate resistance and labour union criticism",
+   "summary": "The federal government's Bill C-39, designed to expedite regulatory reviews for major infrastructure projects and amend labour standards, is facing pushback ahead of the holiday recess. The Canadian Labour Congress warned that proposed amendments fail to adequately protect workers' constitutional right to strike, while senators and Indigenous leaders raised environmental and consultation concerns. Despite division within caucus and committee opposition, the government maintains that the economic bill will pass.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Bill Curry",
+     "title": "Senate weighs changes to major projects bill over labour, First Nations concerns",
+     "link": "https://www.theglobeandmail.com/politics/article-conservatives-poilievre-opposition-c-39-major-projects-bill/",
+     "angle": "Focuses on Senate negotiations and warnings that Indigenous and labour amendments could delay holiday passage",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Stephanie Ha",
+     "title": "Liberals will pass Bill C-39, despite competing views within caucus: House leader",
+     "link": "https://www.ctvnews.ca/politics/article/slam-dunk-with-our-own-mps-government-house-leader-confident-liberals-will-pass-bill-c-39/",
+     "angle": "Emphasizes the government House leader's insistence that the bill will clear Parliament despite caucus friction",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Labour group says Bill C-39 changes fail to protect workers' right to strike",
+     "link": "https://www.ctvnews.ca/politics/article/labour-group-says-bill-c-39-changes-fail-to-protect-workers-right-to-strike/",
+     "angle": "Details specific objections from organized labour regarding protections for striking workers",
+     "also_in": [
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Quebec legislature will sit without mandatory oath to King despite court ruling",
+   "summary": "Quebec Premier Paul St-Pierre Plamondon confirmed that the provincial legislature will proceed with its upcoming session without elected members swearing the oath of allegiance to the King. The decision defies a recent court ruling that declared the monarchical oath mandatory under Canada's constitution, an order the province is now appealing. The confrontation establishes a high-stakes legal clash over provincial autonomy and the Crown's role in Canadian democracy.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Maura Forrest",
+     "title": "Quebec government will sit without taking oath to King, Premier says",
+     "link": "https://www.theglobeandmail.com/canada/article-quebec-government-oath-to-king-premier-national-assembly/",
+     "angle": "Focuses on the province's decision to appeal the ruling while proceeding with the legislative sitting",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "‘Rule of law has to prevail,’ says lawyer at heart of Quebec’s oath to the King decision",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdVZCOGdfU3dtbU1GV1FVVmxLenp2WlVLQWM1VmZoaThJWHQ5ZTlVLXI3Yzhlc20tUm1GUGxod1lzdVI4UEZtNXVxdjdKdER2TWdJRzFieUFmaGcxQ3p4bFU4QWxvTDRTQjRjZzExUnFvTHRIUFBnOXN1QjRLTmZWZ1hnN192dzh3WXdVSjZUNElUa0tVeWJsX3NIbUt2WXBNdGRvTkwwVWxoOTFEMHFXZ2g0LWtwQQ?oc=5",
+     "angle": "Highlights the constitutional arguments of the litigators defending the necessity of the royal oath",
+     "also_in": []
+    },
+    {
+     "outlet": "Hamilton Spectator",
+     "author": "The Canadian Press",
+     "title": "Quebec premier says parliamentary session will go ahead without oath to the King",
+     "link": "https://www.thespec.com/politics/quebec-premier-says-parliamentary-session-will-go-ahead-without-oath-to-the-king/article_4c32e068-db79-5b09-acff-ef629a379a43.html",
+     "angle": "Reports the premier's formal confirmation of the assembly's December sitting date without the oath",
+     "also_in": [
+      "Toronto Star"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Conservatives demand parliamentary testimony from Prime Minister's wife on envoy duties",
+   "summary": "Federal Conservatives are demanding that Diana Fox Carney, wife of Prime Minister Mark Carney, appear before Parliament to testify regarding her role as ocean envoy. Mandate documents show her position involves securing government commitments, leading the opposition to allege a lack of transparency and raise concerns over potential lobbying conflicts. The demand intensifies political scrutiny over ethics and non-civil-service appointments in the prime minister's office.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Dylan Robertson",
+     "title": "Conservatives call on Diana Fox Carney to testify to Parliament about ocean envoy role",
+     "link": "https://www.theglobeandmail.com/canada/article-conservatives-call-on-diana-fox-carney-to-testify-to-parliament-about/",
+     "angle": "Covers the initial opposition call for transparency regarding Fox Carney's official priorities",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Jenn Thornhill Verma, Stephanie Levitz",
+     "title": "Diana Fox Carney mandated to secure government pledges as ocean envoy, letter shows",
+     "link": "https://www.theglobeandmail.com/politics/article-diana-fox-carney-ocean-envoy-mandate-letter/",
+     "angle": "Details the mandate letter outlining her formal role in securing governmental commitments",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Conservatives demand PM Carney’s wife testify to Parliament",
+     "link": "https://www.ctvnews.ca/politics/article/conservatives-want-pms-wife-diana-fox-carney-to-testify-to-parliament-on-oceans-role/",
+     "angle": "Focuses on potential lobbying concerns and Conservative procedural motions in Parliament",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Suspected North Korean cyber operative secured remote Canadian jobs via false Toronto identity",
+   "summary": "An investigation has exposed suspected North Korean operatives posing as Canadian citizens through a fraudulent Toronto-based IT business to obtain remote technology positions in domestic corporations and government agencies. The scheme enabled workers to funnel salary earnings back to the sanctioned regime in Pyongyang to evade international financial controls. The findings have raised alarms about background screening failures and national security vulnerabilities within remote working arrangements across Canada.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Matthew Pierce, Scott Anderson, Mark Kelley",
+     "title": "This suspected North Korean operative said he had an IT company in Toronto. It wasn't real",
+     "link": "https://www.cbc.ca/news/canada/suspected-north-korean-operative-software-company-9.7437137?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Health",
+   "headline": "Former oversight member urges police referrals for contentious Ontario MAID cases",
+   "summary": "A physician and former member of Ontario's assisted dying oversight committee told a parliamentary committee that two medically assisted deaths in the province warranted referral to police. The expert argued that the incidents tested the legal limits of assisted suicide legislation and highlighted risks of coercion among vulnerable individuals. The testimony brings renewed attention to the adequacy of clinical safeguards and the debate surrounding MAID oversight across Canada.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Nancy Macdonald, Kristy Kirkup",
+     "title": "Two Ontario MAID cases should have been referred to police, former oversight committee member says",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-maid-cases-should-refer-police-former-oversight-committee/",
+     "angle": "Focuses on the former committee member's assessment that the cases crossed the threshold of current Canadian law",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Two MAID deaths should have been referred to police, ex-member of oversight committee tells MPs",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOW5KdS1HM0VOS0lhT1BTdGdyN3dnTGlOUDJ6d19zZWYyN0wwU1JvNXo2NXRMaFVBNzhseVlueU9oSHp4V201WWNwSkZMMWFCU3NUcG1ORTZ5anRyclpEM3FKRGdfeVlaWS1QYkVqRlVUVDZweWVCSm5SNTdYYmpiTHBsYUJhQTYtSklzb1lSQVZBN0lpSnc?oc=5",
+     "angle": "Reports the physician's testimony directly to members of Parliament examining the assisted dying regime",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Doug Ford advocates castle law and armed self-defence following violent home invasions",
+   "summary": "Premier Doug Ford announced that he is a legal firearm owner and would not hesitate to shoot an armed intruder entering his home, urging Ontarians to fight back against home invasions. Ford called for federal Criminal Code amendments to enact castle law protections that allow residents to use whatever force necessary to protect their property and families. The premier's rhetoric has sparked significant controversy regarding vigilante self-defence in the wake of a fatal Toronto break-in.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Laura Stone, Colin Freeze",
+     "title": "Ford says he would use his gun to protect family against home intruder",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-doug-ford-toronto-home-invasions-gun/",
+     "angle": "Highlights Ford's personal gun ownership and his aggressive rhetoric about shooting intruders through the front door",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Allison Jones, Sadeen Mohsen",
+     "title": "Ford says he wouldn't hesitate to shoot a home invader, encourages Ontarians to 'fight back'",
+     "link": "https://www.cbc.ca/news/canada/toronto/ford-home-invasion-ontario-9.7437456?cmp=rss",
+     "angle": "Details Ford's advice to citizens to use any tool at their disposal to defend themselves",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Martin Regg Cohn",
+     "title": "Doug Ford helps no one by shooting his mouth off",
+     "link": "https://www.thestar.com/politics/political-opinion/doug-ford-helps-no-one-by-shooting-his-mouth-off/article_3ee1d261-f021-454c-b4f8-307a4ed2c804.html",
+     "angle": "Provides critical political analysis arguing the premier's call to arms is irresponsible and unhelpful",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Dee Burman",
+     "title": "‘I’ll blow the guy right through the front door’: Ford calling for ‘castle law’ after spate of violent GTA home invasions",
+     "link": "https://toronto.citynews.ca/2026/11/26/ford-castle-law-after-spate-violent-gta-home-invasions/",
+     "angle": "Links Ford's demand for federal Criminal Code changes directly to recent violent GTA break-ins",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Ontario and Unifor urge Ottawa to exempt automakers from emissions penalties",
+   "summary": "Ontario Premier Doug Ford and Unifor national president Lana Payne have jointly called on the federal government to eliminate greenhouse gas compliance penalties for Canadian automakers. They argue that federal tailpipe emissions mandates undermine the competitiveness and viability of domestic manufacturing plants during an uncertain transition period. The joint appeal follows recent political tensions and corporate shifts across automotive manufacturing facilities in southern Ontario.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Laura Stone, Eric Atkins",
+     "title": "Premier Ford, Unifor leader call on Ottawa to scrap greenhouse gas rules for Canadian automakers",
+     "link": "https://www.theglobeandmail.com/business/article-ford-unifor-greenhouse-gas-rules-automakers-stellantis-plant/",
+     "angle": "Connects the joint lobbying effort to industrial restructuring at the Stellantis facility in Brampton",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Nick Murray",
+     "title": "Ford, Unifor call on Ottawa to exempt Canadian automakers from exhaust pollution penalties",
+     "link": "https://www.cbc.ca/news/canada/toronto/doug-ford-unifor-exhaust-penalties-ottawa-9.7437680?cmp=rss",
+     "angle": "Focuses on the formal demand to suspend federal financial penalties for tailpipe emissions standards",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Justice & policing",
+   "headline": "Supreme Court agrees to hear constitutional challenge over Ontario Greenbelt law",
+   "summary": "The Supreme Court of Canada has agreed to hear an appeal from developer Minotar Holdings challenging Ontario legislation governing the protected Greenbelt. The developer argues that portions of its property were improperly incorporated into the conservation boundary. The decision will set a key judicial precedent on the constitutional boundaries of provincial land planning and development restrictions.",
+   "articles": [
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Supreme Court of Canada to hear challenge of Ontario law central to Greenbelt dispute",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/supreme-court-of-canada-to-hear-challenge-of-ontario-law-central-to-greenbelt-dispute/",
+     "angle": "Details the developer's legal arguments contesting the provincial zoning designation",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "The Canadian Press",
+     "title": "Supreme Court of Canada to hear challenge of law central to Ontario land dispute",
+     "link": "https://www.thestar.com/news/ontario/supreme-court-of-canada-to-hear-challenge-of-law-central-to-ontario-land-dispute/article_8a6b7807-9262-5c9d-9e3a-9f0f4500fc87.html",
+     "angle": "Contextualizes the top court's decision within the wider political scrutiny surrounding Greenbelt land policies",
+     "also_in": [
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario ministry was warned about private college student aid surge a year earlier",
+   "summary": "Records reveal that the Ontario government received explicit written warnings over a year ago concerning massive student aid growth at the Canadian College of Business, Science and Technology. Although financial aid payouts at the institution skyrocketed by thousands of per cent, the school was excluded from provincial cutoffs applied to six other private career colleges. The revelations have prompted renewed criticism regarding Queen's Park's oversight of public student loans and private post-secondary education.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Allison Jones",
+     "title": "Ontario kept funding career college with massive OSAP growth despite early warning, letter shows",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-kept-funding-ccbst-osap-nolan-quinn/",
+     "angle": "Identifies the specific college and notes its rapid OSAP funding growth relative to peers",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Allison Jones",
+     "title": "Letter shows province was warned about private career college with rising OSAP growth",
+     "link": "https://www.cbc.ca/news/canada/toronto/osap-growth-career-college-letter-ontario-9.7436850?cmp=rss",
+     "angle": "Focuses on the newly released letter showing the minister was alerted well before corrective action was taken",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Transit & transportation",
+   "headline": "Ontario mandates driver licences and insurance for motorcycle-style electric bikes",
+   "summary": "The Ontario government will require drivers of motorcycle- and moped-style electric bikes to obtain licences, vehicle registration, and insurance starting May 1. The new rules aim to address road safety hazards, excessive speeds, and pedestrian safety concerns caused by heavy e-bikes operating in bicycle lanes. The change is set to alter traffic enforcement and micromobility regulations on municipal roads throughout Toronto and across the province.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Allison Jones and Maan Alhmidi",
+     "title": "Ontario to require licences for drivers of motorcycle-style e-bikes",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-motorcycle-style-e-bikes-ontario-new-rules/",
+     "angle": "Details the provincial announcement and the safety rationale regarding high collision speeds",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Andy Takagi",
+     "title": "How Ontario's new e-bike rules may divide Toronto streets",
+     "link": "https://www.thestar.com/news/gta/how-ontario-s-new-e-bike-rules-may-divide-toronto-streets/article_1f2009d2-7638-4515-88d0-9f0ed7bec5c9.html",
+     "angle": "Examines how the division between pedal-assist and motorcycle-style e-bikes will affect Toronto streets",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Meredith Bond",
+     "title": "Ontario announces new regulations on e-bikes",
+     "link": "https://toronto.citynews.ca/2026/11/26/ebikes-restrictions-ontario-roads/",
+     "angle": "Outlines the precise vehicle specifications and requirements matching mopeds and light motorcycles",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Health",
+   "headline": "Public Health Ontario warned government on betting harms as advertising debate grows",
+   "summary": "Government records indicate Public Health Ontario warned the provincial government about significant public health risks stemming from commercial online sports betting shortly after the sector expanded. Although Premier Doug Ford acknowledged that wagering advertisements have grown out of control, Queen's Park is resisting calls from opposition parties and healthcare groups to ban marketing. Medical professionals report rising emergency room presentations and distress calls connected to gambling addiction across Ontario.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Simon Houpt",
+     "title": "Public Health Ontario warned province about online gambling risks in April, document shows",
+     "link": "https://www.theglobeandmail.com/canada/article-public-health-ontario-warned-online-gambling-risks-document-shows/",
+     "angle": "Reveals the internal Public Health Ontario document outlining systemic risks since market deregulation",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Rob Ferguson",
+     "title": "Ford says gambling ads are ‘out of control,’ but his government is resisting calls for a quick ban",
+     "link": "https://www.thestar.com/news/ontario/ford-says-gambling-ads-are-out-of-control-but-his-government-is-resisting-calls-for-a-quick-ban/article_1aff3f8a-6a0a-49c8-b283-72219d67334e.html",
+     "angle": "Focuses on the political resistance from the Ford government against implementing an immediate advertising ban",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "City of Toronto audit reveals questionable staff spending on corporate credit cards",
+   "summary": "An expenditure analysis revealed that City of Toronto employees used municipal credit cards for hundreds of questionable purchases, including baseball tickets, gift cards, and disputed dating app charges. While city management insists robust auditing checks are active, municipal finance experts argue that internal controls and oversight mechanisms remain inadequate. The spending revelations come at a sensitive time as city council explores revenue-generating measures to bridge significant operating shortfalls.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Alina Snisarenko",
+     "title": "Jays tickets, drums and Tinder: Hundreds of purchases made with city credit cards raise questions about misuse",
+     "link": "https://www.cbc.ca/news/canada/toronto/toronto-city-hall-credit-cards-expenses-9.7437567?cmp=rss",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "Toronto proposal for emergency phone fee sparks potential budget clash with Queen's Park",
+   "summary": "The City of Toronto is exploring new municipal revenue tools, including a proposed $2 monthly fee on mobile phone bills to support 911 dispatch operations. The tax proposal risks provincial intervention, as Premier Doug Ford's government holds statutory authority to overrule municipal taxation measures. The conflicting positions set up a major political clash between Mayor Olivia Chow's administration and the provincial government over municipal finances.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Scott Stinson: Olivia Chow promised that Toronto's finances were in good shape. Now she's looking at new taxes",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ILWx6U0Y2U1Q2bGJRTjU1OFZSV1BGck90S1lzaWppQkE2ZEpGMnBJLWgxTTJEWjVFMzBuaWFUSWkxWHVRcTJodklodEM1TGRiYWNpS0o3UjZDUldrLU1XeW12bXBYcFNyQkxFSmVlYUQyT2lUMlE?oc=5",
+     "angle": "Focuses on Chow's municipal fiscal management and the political shift toward seeking new local revenues",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Taxe déguisée pour le 911? Toronto veut ajouter 2 $ par mois à votre forfait mobile",
+     "link": "https://ici.radio-canada.ca/article/info/2303096/toronto-telephone-taxe",
+     "angle": "Details the specific proposal for a 911 mobile phone fee and its projected annual yield",
+     "also_in": []
+    },
+    {
+     "outlet": "TVO",
+     "author": "John Michael McGrath",
+     "title": "Toronto wants to levy new taxes. Will Doug Ford allow it?",
+     "link": "https://www.tvo.org/article/toronto-wants-to-levy-new-taxes-will-doug-ford-allow-it",
+     "angle": "Analyzes the impending jurisdictional battle between City Hall and Premier Doug Ford over taxing powers",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
