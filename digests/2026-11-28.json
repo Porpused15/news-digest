@@ -1,0 +1,809 @@
+{
+ "format": 3,
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T06:20:54-05:00",
+ "scanned": 451,
+ "scanned_by_outlet": {
+  "The Globe and Mail": 32,
+  "National Post": 26,
+  "CBC News": 33,
+  "CTV News": 44,
+  "The Hub": 10,
+  "La Presse": 9,
+  "Radio-Canada": 62,
+  "The Trillium": 5,
+  "TVO": 1,
+  "Ottawa Citizen": 10,
+  "Hamilton Spectator": 0,
+  "London Free Press": 21,
+  "Waterloo Region Record": 0,
+  "Sudbury Star": 8,
+  "Toronto Star": 36,
+  "CityNews": 27,
+  "The Local": 0,
+  "BBC": 6,
+  "The Guardian": 2,
+  "NBC News": 2,
+  "Reuters": 21,
+  "Associated Press": 99,
+  "CNN": 7
+ },
+ "outlet_order": [
+  "The Globe and Mail",
+  "National Post",
+  "CBC News",
+  "CTV News",
+  "The Hub",
+  "La Presse",
+  "Radio-Canada",
+  "The Trillium",
+  "TVO",
+  "Ottawa Citizen",
+  "Hamilton Spectator",
+  "London Free Press",
+  "Waterloo Region Record",
+  "Sudbury Star",
+  "Toronto Star",
+  "CityNews",
+  "The Local",
+  "BBC",
+  "The Guardian",
+  "NBC News",
+  "Reuters",
+  "Associated Press",
+  "CNN"
+ ],
+ "topic_order": [
+  "Federal politics",
+  "Ontario politics",
+  "Toronto & GTA politics",
+  "Economy & trade",
+  "Housing",
+  "Transit & transportation",
+  "Health",
+  "Education",
+  "Justice & policing",
+  "Environment & energy",
+  "Labour",
+  "Indigenous affairs",
+  "Other public interest"
+ ],
+ "level_order": [
+  "International",
+  "National",
+  "Ontario",
+  "Greater Toronto Area"
+ ],
+ "stories": [
+  {
+   "level": "International",
+   "topic": "Economy & trade",
+   "headline": "Pierre Poilievre to travel to Washington to advocate for tariff-free trade",
+   "summary": "Conservative Leader Pierre Poilievre is scheduled to visit Washington next week to meet with American officials and lobby against proposed U.S. tariffs on Canadian goods. The trip comes as federal ministers continue bilateral negotiations to protect cross-border supply chains. Poilievre's office notified the Prime Minister's Office of the travel plans and will receive a briefing from Canada's ambassador to the United States.",
+   "articles": [
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Poilievre heading to Washington as LeBlanc continues talks with Americans",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSy1JWGEyTGd0MkFsanFWd2M0aHNfdG1rTEdSc3l1am9TUllCRExaQjN5M3JDSnNvMjFWajVRYmowck1FZXpqLWZIci1pQVRETUU1UHY5TzFocnJIbGhHWXhWZ28yWWVjYzRNQjdNMkVXNWNuM3BwUENzSVE5U1RCcS1JMU0yc1hBUUtoa2wxX3hUcW5TTG5QY3lBcUFFVUtEQ3RycnFVcElheUNUcVRzV3k2dzVtel9qdmF0dkZ0Zw?oc=5",
+     "angle": "Mentions Poilievre's trip occurring alongside Minister Dominic LeBlanc's ongoing discussions with American counterparts",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Catherine Morrison",
+     "title": "Poilievre heading to Washington next week in push for tariff-free trade with U.S.",
+     "link": "https://www.cbc.ca/news/politics/poilievre-washington-trip-9.7439098?cmp=rss",
+     "angle": "Focuses on Poilievre's stated agenda of advocating for tariff-free trade between both nations",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Marieke Walsh",
+     "title": "Poilievre to visit Washington as Canada-U.S. trade talks continue",
+     "link": "https://www.ctvnews.ca/politics/article/poilievre-to-visit-washington-as-canada-us-trade-talks-continue/",
+     "angle": "Confirms Poilievre's notification to the Prime Minister's Office and upcoming briefing from the Canadian embassy",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Catherine Morrison The Canadian Press",
+     "title": "Poilievre heading to Washington next week as Canada-U.S. trade talks continue",
+     "link": "https://www.thestar.com/politics/federal/poilievre-heading-to-washington-next-week-as-canada-u-s-trade-talks-continue/article_83f4422a-cc12-5065-8d74-9a5054770a08.html",
+     "angle": "Outlines the broader context of strained bilateral economic negotiations facing Canadian industry",
+     "also_in": [
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Justice & policing",
+   "headline": "Supreme Court largely upholds Quebec secularism law and use of notwithstanding clause",
+   "summary": "The Supreme Court of Canada has largely upheld Quebec's Bill 21, ruling that provincial governments can pre-emptively invoke the Charter's notwithstanding clause to shield legislation from court challenges, though it invalidated provisions applying to elected members of the National Assembly. The decision cements the ban on religious symbols for public servants in positions of authority, including teachers and police officers. While Quebec leaders welcomed the confirmation of provincial autonomy, civil liberties groups, affected workers, and other provincial leaders condemned the law as discriminatory.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "David Ebner",
+     "title": "Supreme Court upholds Quebec’s Bill 21 in landmark ruling on Charter of Rights",
+     "link": "https://www.theglobeandmail.com/canada/article-supreme-court-upholds-quebec-bill-21-charter-of-rights/",
+     "angle": "Focuses on the fractured bench and legal divisions across the top court's justices",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Globe Staff",
+     "title": "Key moments from the Supreme Court’s landmark Bill 21 ruling",
+     "link": "https://www.theglobeandmail.com/canada/article-bill-21-supreme-court-ruling-reaction-quebec-secularism-live-updates/",
+     "angle": "Highlights federal and provincial political reactions, including Mark Carney's review and Wab Kinew's condemnation",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Eric Andrew-Gee",
+     "title": "Supreme Court’s Bill 21 ruling wards off political crisis in Quebec",
+     "link": "https://www.theglobeandmail.com/canada/article-supreme-court-bill-21-ruling-political-crisis-quebec/",
+     "angle": "Analyzes how the judgment averts a constitutional and political crisis between Quebec and Ottawa",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Campbell Clark",
+     "title": "Carney loses in court but wins politically",
+     "link": "https://www.theglobeandmail.com/politics/opinion/article-carney-loses-in-court-but-wins-politically-bill-21/",
+     "angle": "Argues the legal outcome delivers a practical political victory for the federal government",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Divided SCC rules no new limits on notwithstanding clause, upholds much of Bill 21",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb2pmWGtzOGJSSUllRHJVeTc4NDQ2enlMWkdCMXNxMUsxRVl2bVNoeGs0ck12RVRUS3ctN2lPVXVZVzF6aDAyODZiZ1lnWXVmdnByMV9Qak96cWFBRlAzOWpFSGNfMFBNZXo4YUhtR1dHSnZ2YW9JN21aZkxKaERMOUtLU2pTcHFXbTV5SHB5RHR3NUV1?oc=5",
+     "angle": "Examines the court's finding that Section 33 places no new limits on provincial pre-emptive overrides",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Arturo Chang",
+     "title": "Upheld Quebec religious symbols bill 'legislative racism,' Manitoba premier says",
+     "link": "https://www.cbc.ca/news/canada/manitoba/wab-kinew-quebec-bill-21-legislative-racism-alberta-saskatchewan-discrimination-supreme-court-ruling-9.7440050?cmp=rss",
+     "angle": "Focuses on Manitoba Premier Wab Kinew denouncing the upheld legislation as legislative racism",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Aaron Wherry",
+     "title": "The future of the notwithstanding clause is now up to political leaders",
+     "link": "https://www.cbc.ca/news/politics/supreme-court-notwithstanding-bill21-analysis-9.7439500?cmp=rss",
+     "angle": "Contends that future constraints on the notwithstanding clause now rest with political actors rather than the judiciary",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Judy Trinh, Kelly Greig",
+     "title": "Supreme Court of Canada upholds Quebec’s secularism law",
+     "link": "https://www.ctvnews.ca/montreal/article/supreme-court-of-canada-upholds-quebecs-secularism-law/",
+     "angle": "Summarizes the historical scope of the ruling and its impact on public sector workers",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Daphné Cameron",
+     "title": "Décision de la Cour suprême sur la loi 21 | « Ça fait mal », se désolent des femmes qui portent le voile",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-27/decision-de-la-cour-supreme-sur-la-loi-21/ca-fait-mal-se-desolent-des-femmes-qui-portent-le-voile.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Gathers reactions from veiled Muslim women expressing distress and disappointment over the ruling",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Antoine Trépanier",
+     "title": "Loi sur la laïcité de l’État du Québec | La Cour suprême confirme la validité de la « loi 21 »",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-27/loi-sur-la-laicite-de-l-etat-du-quebec/la-cour-supreme-confirme-la-validite-de-la-loi-21.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Details the specific carve-out invalidating the law's application to elected members of the National Assembly",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "Tommy Chouinard",
+     "title": "Décision de la Cour suprême sur la loi 21 | Une « bonne nouvelle » et un « recul important », dit St-Pierre Plamondon",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-27/decision-de-la-cour-supreme-sur-la-loi-21/une-bonne-nouvelle-et-un-recul-important-dit-st-pierre-plamondon.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Reports Parti Québécois leader Paul St-Pierre Plamondon calling the ruling both good news and a setback for provincial rights",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Wab Kinew s’insurge contre la validation de la Loi sur la laïcité de l’État du Québec",
+     "link": "https://ici.radio-canada.ca/article/info/2303642/wab-kinew-loi-21-reaction",
+     "angle": "Details Manitoba's reaction to the loss on secularism alongside modest gains at the Supreme Court",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Stephanie Taylor",
+     "title": "Supreme Court upholds Quebec's use of notwithstanding clause for secularism law",
+     "link": "https://www.thestar.com/politics/supreme-court-upholds-quebec-s-use-of-notwithstanding-clause-for-secularism-law/article_509b06da-29be-48c8-a8bf-3d34119937fb.html",
+     "angle": "Highlights the legal confirmation that pre-emptive use of the notwithstanding clause remains constitutionally valid",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Erika Morris The Canadian Press",
+     "title": "Five takeaways from the Supreme Court's ruling on Quebec secularism law",
+     "link": "https://www.thestar.com/news/canada/quebec/five-takeaways-from-the-supreme-court-s-ruling-on-quebec-secularism-law/article_7dc95f6d-3ec6-56bb-9f93-6d3145c33bb9.html",
+     "angle": "Breaks down key legal takeaways from the ruling for Canadian constitutional law",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "Kelsey Patterson",
+     "title": "Supreme Court of Canada upholds most of Quebec’s secularism law in landmark ruling",
+     "link": "https://toronto.citynews.ca/2026/11/27/supreme-court-ruling-quebec-secularism-bill-21/",
+     "angle": "Provides details on the 532-page judgment and its broader national precedent",
+     "also_in": []
+    },
+    {
+     "outlet": "The Guardian",
+     "author": "Leyland Cecco in Toronto",
+     "title": "Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols",
+     "link": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols",
+     "angle": "Emphasizes the deep tension exposed between individual minority rights and state legislative power",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Prime Minister Mark Carney to whip Liberal caucus vote on major projects legislation",
+   "summary": "Prime Minister Mark Carney announced that all Liberal MPs will be required to vote in favour of Bill C-39, legislation intended to expedite federal regulatory approvals for major industrial projects and overhaul parts of the Canada Labour Code. The decision to whip the vote ensures the contested bill's passage through the House of Commons despite internal debate and criticism from opposition parties. The move comes shortly after the government House leader described the legislation as a straightforward priority.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Catharine Tunney",
+     "title": "Carney says vote on controversial bill to fast-track projects will be whipped for Liberal MPs",
+     "link": "https://www.cbc.ca/news/politics/bil-c-39-major-projects-vote-9.7439299?cmp=rss",
+     "angle": "Explains Carney's order that all Liberal MPs support the legislation to guarantee House passage",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Stephanie Ha",
+     "title": "One day after MacKinnon called Bill C-39 a ‘slam dunk,’ PM Carney says he will whip votes",
+     "link": "https://www.ctvnews.ca/politics/article/pm-carney-says-he-will-whip-vote-over-bill-c-39-one-day-after-house-leader-calls-it-a-slam-dunk/",
+     "angle": "Contrasts the prime minister's caucus discipline with previous assertions that the bill was an easy win",
+     "also_in": []
+    },
+    {
+     "outlet": "The Hub",
+     "author": "The Hub Staff",
+     "title": "Parliament Today: Building Canada Strong Act reaches report stage",
+     "link": "https://thehub.ca/2026/11/27/parliament-today-building-canada-strong-act-reaches-report-stage/",
+     "angle": "Notes that the Building Canada Strong Act has advanced to report stage in Parliament",
+     "also_in": []
+    },
+    {
+     "outlet": "La Presse",
+     "author": "David Baxter",
+     "title": "Projet de loi C-39 sur les grands projets | Tous les députés libéraux devraient voter « en tant que gouvernement », estime Carney",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-27/projet-de-loi-c-39-sur-les-grands-projets/tous-les-deputes-liberaux-devraient-voter-en-tant-que-gouvernement-estime-carney.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "angle": "Details Carney's statement that Liberal parliamentarians must vote strictly in their capacity as a government",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "David Baxter The Canadian Press",
+     "title": "All Liberals expected to vote 'as a government' on Bill C-39: Carney",
+     "link": "https://www.thestar.com/news/canada/all-liberals-expected-to-vote-as-a-government-on-bill-c-39-carney/article_b8622c69-9a33-579e-becc-3d1e0824ed5c.html",
+     "angle": "Outlines the bill's provisions establishing special fast-track industrial zones and amending labour regulations",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Transit & transportation",
+   "headline": "Ottawa adds Mackenzie Valley Highway to federal list of national interest projects",
+   "summary": "The federal government has officially designated the proposed 800-kilometre Mackenzie Valley Highway in the Northwest Territories as a project of national interest to accelerate its construction. Prime Minister Mark Carney and N.W.T. Premier R.J. Simpson stated the year-round road will enhance Arctic security, improve transportation reliability for remote communities, and unlock critical resource extraction opportunities. The project marks the first major northern infrastructure development fast-tracked under the federal designation.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Brittany Hobson",
+     "title": "Ottawa adds Northwest Territories highway to major projects list",
+     "link": "https://www.theglobeandmail.com/canada/article-northwest-territories-mackenzie-valley-highway-major-projects-list/",
+     "angle": "Highlights how the corridor will improve delivery logistics and support northern mineral exploration",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Steven Chase",
+     "title": "Carney to fast-track approvals for northern highway, citing Arctic security and economy",
+     "link": "https://www.theglobeandmail.com/politics/article-carney-mackenzie-valley-highway-project-national-interest-november-27/",
+     "angle": "Frames Carney's fast-tracking decision around Arctic defence, sovereignty, and regional economic development",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Prime Minister Mark Carney officially lists Mackenzie Valley Highway as project of national interest",
+     "link": "https://www.cbc.ca/news/canada/north/livestory/prime-minister-mark-carney-north-9.7438167?cmp=rss",
+     "angle": "Details the official announcement by the prime minister placing the highway on the national priority list",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Abigail Bimman",
+     "title": "Mackenzie Valley Highway becomes first major project of national interest in Canada’s North",
+     "link": "https://www.ctvnews.ca/politics/article/mackenzie-valley-highway-becomes-first-major-project-of-national-interest-in-canadas-north/",
+     "angle": "Notes the highway will provide year-round road access to 2,000 residents across three isolated communities",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Aux T.N.-O., la route du Mackenzie devient un projet d’intérêt national",
+     "link": "https://ici.radio-canada.ca/article/info/2303515/route-mackenzie-tno-projet-interet-national",
+     "angle": "Emphasizes the logistical shift to a permanent 800-kilometre all-weather transportation link",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Brittany Hobson The Canadian Press",
+     "title": "'Beyond time': Ottawa lists Mackenzie Valley Highway as project of national interest",
+     "link": "https://www.thestar.com/news/canada/carney-travels-to-yellowknife-for-announcement-on-major-initiative/article_8e7bf97f-d23f-52b3-9129-80f0952dd35d.html",
+     "angle": "Reports the joint announcement with Premier R.J. Simpson celebrating the transformational impact on the North",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Economy & trade",
+   "headline": "Ottawa launches 6.5-billion-dollar national strategy to modernize Canadian forestry",
+   "summary": "The federal government has unveiled a $6.5-billion national forestry strategy intended to revitalize an industry hit by decades of economic challenges and trade barriers. The plan aims to transition producers away from traditional lumber and pulp towards high-value advanced wood products and sustainable technologies by 2050. British Columbia officials and industry stakeholders welcomed the investment as an essential move to restore global competitiveness.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Brett Bundale",
+     "title": "Ottawa outlines $6.5-billion plan to reinvent struggling forestry sector",
+     "link": "https://www.theglobeandmail.com/canada/article-ottawa-forest-industry-strategy-hodgson-november-27/",
+     "angle": "Outlines the goal of shifting mill capacity into advanced, high-value wood and bioproducts",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "The Canadian Press",
+     "title": "Ottawa plots ambitious plan to reshape struggling forestry industry",
+     "link": "https://www.ctvnews.ca/politics/article/ottawa-plots-ambitious-plan-to-reshape-struggling-forest-industry/",
+     "angle": "Frames the package as the country's first comprehensive national strategy for the forestry sector",
+     "also_in": [
+      "CityNews"
+     ]
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "La C.-B. accueille favorablement la stratégie fédérale pour le secteur forestier",
+     "link": "https://ici.radio-canada.ca/article/info/2303733/industrie-foresterie-strategie-financement-ottawa",
+     "angle": "Reports British Columbia's positive reception to the multi-billion-dollar federal funding commitment",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Industrie forestière : le gouvernement fédéral présente sa stratégie de 6,5 milliards $",
+     "link": "https://ici.radio-canada.ca/article/info/2303536/ottawa-strategie-industrie-forestiere-aide",
+     "angle": "Notes the long-term federal objective to make Canada the top global supplier of sustainable forest products by 2050",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Economy & trade",
+   "headline": "CRTC orders Bell, Rogers, and Telus to eliminate prohibited wireless fees",
+   "summary": "The Canadian Radio-television and Telecommunications Commission has ruled that Bell, Rogers, and Telus violated federal regulations by charging customers prohibited fees under the Telecommunications Act. The regulator ordered all three telecom giants to cease billing the disputed charges by December 27. The enforcement action is aimed at cracking down on deceptive junk fees across Canadian mobile plans.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Jeff Lagerquist",
+     "title": "CRTC orders Bell, Rogers, Telus to stop charging prohibited wireless fees by Dec. 27",
+     "link": "https://www.cbc.ca/news/business/bell-rogers-telus-fees-9.7438448?cmp=rss",
+     "angle": "Cites the specific statutory violation under the Telecommunications Act and the December 27 deadline",
+     "also_in": []
+    },
+    {
+     "outlet": "CityNews",
+     "author": "News Staff",
+     "title": "CRTC says Bell, Telus and Rogers violated its ban on junk fees",
+     "link": "https://toronto.citynews.ca/2026/11/27/crtc-says-bell-telus-and-rogers-violated-its-ban-on-junk-fees/",
+     "angle": "Frames the regulatory ruling as an enforcement of consumer protections against hidden junk fees",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Health",
+   "headline": "British Columbia court rules faith-based hospitals can prohibit medical assistance in dying",
+   "summary": "The British Columbia Supreme Court has upheld provincial policies permitting denominational health-care facilities to refuse to provide medical assistance in dying on site. The court ruled that requiring patients to transfer to other institutions does not infringe on their constitutional right to access MAID. The decision, arising from a challenge at Vancouver's St. Paul's Hospital, has prompted grief and anger from affected families and advocates seeking unhindered end-of-life care across Canada.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Ashley Joannou",
+     "title": "B.C. court upholds Catholic hospital’s transfer policies for MAID patients",
+     "link": "https://www.theglobeandmail.com/canada/british-columbia/article-bc-supreme-court-st-pauls-hospital-maid-transfer-policy/",
+     "angle": "Emphasizes the judge's ruling that mandatory patient transfers do not unconstitutionally block access",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Religious hospitals do not have to provide MAID, B.C. court rules",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0VFMVpmdV8tbkQ0VWRCSEZDcTRQRlIyQ0xFZzBuQnJNa2VwcWxTeElhalQ4eGlhWlBqLTMyR0RLb19yQk9vWnRhQkR5c2kxYWhvV2Nmc2J0MVA4SU5WdGlPNUI5SGdPNlBxdGJlNGh0MFFyLUZwT25acXNLbFd1c3BkR3E0YUY1Szc2LTF3YVk?oc=5",
+     "angle": "Focuses on the legal confirmation of institutional religious freedom exemptions for hospitals",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Tara Carman",
+     "title": "Religious health-care facilities can continue to ban MAID on site, B.C. Supreme Court rules",
+     "link": "https://www.cbc.ca/news/canada/british-columbia/court-dismisses-challenge-to-maid-ban-in-religious-health-care-facilities-9.7438902?cmp=rss",
+     "angle": "Details the operational impact allowing St. Paul's Hospital to maintain its transfer requirement",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Ashley Joannou The Canadian Press",
+     "title": "‘The definition of pain’: Parents reeling after B.C. assisted dying decision in court",
+     "link": "https://www.thestar.com/news/canada/british-columbia/cp-newsalert-b-c-court-upholds-catholic-hospital-transfer-policies-over-maid/article_29fa9802-d952-5c15-a3fd-1e9e382aedaf.html",
+     "angle": "Highlights the emotional distress expressed by the family whose daughter's case launched the litigation",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "National",
+   "topic": "Federal politics",
+   "headline": "Federal government shortlists seven design and construction teams to renovate 24 Sussex",
+   "summary": "Public Services and Procurement Canada has selected seven teams of architects and builders for the design competition to rehabilitate 24 Sussex Drive. The historic official residence of the prime minister has been uninhabitable for years due to deteriorating infrastructure and mechanical systems. The federal government anticipates selecting the winning team by July 2027 to restore the residence.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Ian Bailey",
+     "title": "Seven teams of architects and builders shortlisted to renovate 24 Sussex",
+     "link": "https://www.theglobeandmail.com/canada/article-24-sussex-drive-renovation-prime-ministers-residence-short-list/",
+     "angle": "Identifies shortlisted firms that worked on high-profile projects like the Eglinton Crosstown LRT",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "",
+     "title": "Government reveals contractor shortlist for 24 Sussex overhaul",
+     "link": "https://www.cbc.ca/news/politics/contractor-shortlist-24-sussex-renovation-9.7439108?cmp=rss",
+     "angle": "Announces the release of the seven-contractor shortlist to make the residence habitable again",
+     "also_in": []
+    },
+    {
+     "outlet": "Ottawa Citizen",
+     "author": "Ben Andrews",
+     "title": "Government releases shortlist of teams left in bid to rebuild 24 Sussex",
+     "link": "https://ottawacitizen.com/news/shortlist-bid-24-sussex",
+     "angle": "Details the first phase of the national design competition overseen by Ottawa",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Catherine Morrison The Canadian Press",
+     "title": "Seven teams chosen for 24 Sussex Drive design competition",
+     "link": "https://www.thestar.com/politics/federal/seven-teams-chosen-for-24-sussex-drive-design-competition/article_f356bcab-8867-5185-a63c-88bc016bbb1c.html",
+     "angle": "Confirms that Public Services and Procurement Canada expects to announce the final winner by Canada Day next year",
+     "also_in": [
+      "CityNews"
+     ]
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Justice & policing",
+   "headline": "Ontario urges federal government to strengthen Criminal Code protections for home invasion victims",
+   "summary": "Ontario Attorney General Doug Downey and Solicitor General Michael Kerzner have sent a letter urging Ottawa to clarify and strengthen self-defence protections under the Criminal Code for homeowners confronting intruders. The request follows a wave of violent home invasions in the Greater Toronto Area and controversial remarks by Premier Doug Ford suggesting residents defend themselves. Legal experts and critics caution that ambiguous self-defence laws risk dangerous vigilantism while proponents argue victims need greater legal clarity.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Marcus Gee",
+     "title": "Terrible, dangerous advice from the Ontario premier",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-terrible-dangerous-advice-from-the-ontario-premier/",
+     "angle": "Criticizes Doug Ford's public remarks encouraging residents to use weapons against intruders as dangerous",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Kathryn Mannie",
+     "title": "Ontario calls for changes to self-defence laws after Toronto home invasions",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-home-invasions-criminal-code-changes-self-defence-doug-ford/",
+     "angle": "Reports on the formal joint request sent by Ontario's attorney general and solicitor general to Ottawa",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "FIRST READING: Killing someone in a home invasion not all that harshly punished in Canada",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTy1WZ1dwSm4xWVdlR0M0REF0clM2TXcwdWM3LWhnLXE3ZE16TG00QmRaY1hBNG9jNlhJUjhJQ1d6OTl0MDJtaXFIVUJnTk81V3Q0SVVTSWVFMmpma0dtcFhMNUxaaURwTlJUZlJRNTJuZk5wQkFrQ01EVl9Bekw4ckZySVhqNmU5YVJkaW1DcXZULUZqSnJ2U1pWVDJkOEVFSHdfLU9iXzVBN3pIaDlDNkVHV0tvV0w0djhSSXVCOA?oc=5",
+     "angle": "Analyzes Canadian case law regarding sentencing severity and criminal liability for killing home invaders",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Linus Mulherin",
+     "title": "Ontario attorney general urges Ottawa to strengthen self-defence rules around home invasions",
+     "link": "https://www.cbc.ca/news/canada/toronto/attorney-general-self-defence-home-invasion-9.7438545?cmp=rss",
+     "angle": "Links the ministers' appeal to recent violent home invasions across Toronto that resulted in a fatality",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Codi Wilson",
+     "title": "Ontario wants feds to clarify what rights home invasion victims have to defend themselves",
+     "link": "https://www.ctvnews.ca/toronto/politics/queens-park/article/ontario-wants-feds-to-clarify-what-rights-home-invasion-victims-have-to-defend-themselves/",
+     "angle": "Details the specific changes sought by Ontario ministers to remove legal ambiguity for defending homeowners",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Devika Desai",
+     "title": "Criminal lawyer shares how to legally defend yourself during a home invasion",
+     "link": "https://www.ctvnews.ca/canada/article/criminal-lawyer-shares-how-to-legally-defend-yourself-during-a-home-invasion/",
+     "angle": "Features legal analysis from a criminal defence lawyer explaining current parameters of justifiable force",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Entrée par effraction : l’Ontario prie Ottawa de clarifier la loi sur la légitime défense",
+     "link": "https://ici.radio-canada.ca/article/info/2303581/ontario-ottawa-loi-legitime-defense",
+     "angle": "Emphasizes the provincial call for Ottawa to modernize Criminal Code provisions on lawful defence",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Moira Welsh",
+     "title": "Ford government demands Criminal Code changes for home invasions",
+     "link": "https://www.thestar.com/politics/provincial/ford-government-demands-criminal-code-changes-for-home-invasions/article_709795c0-02cb-498b-b0c8-594847c15df0.html",
+     "angle": "Highlights the Ford government's formal pressure on federal counterparts amid public anxiety",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Justice & policing",
+   "headline": "Crown seeks 25 years for Kenneth Law after apology to victims' families",
+   "summary": "At a sentencing hearing in Ontario, prosecutors requested a 25-year prison term for Kenneth Law, who pleaded guilty to 14 counts of aiding suicide after selling lethal sodium nitrite packages online worldwide. Law addressed the court and apologized directly to the victims' families, admitting that his online business was categorically wrong. The defence and Crown presented sharply contrasting sentencing recommendations as the court considers his culpability in dozens of related deaths.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Globe staff",
+     "title": "Here’s what to know about the Kenneth Law case",
+     "link": "https://www.theglobeandmail.com/canada/article-what-to-know-about-the-kenneth-law-case/",
+     "angle": "Summarizes the background of Law's online enterprise and distribution of lethal substances",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Colin Freeze",
+     "title": "Kenneth Law apologizes in court to victims’ families, prosecutors demand 25-year sentence",
+     "link": "https://www.theglobeandmail.com/canada/article-kenneth-law-sentencing-hearing/",
+     "angle": "Details Law's courtroom apology and notes the global distribution of roughly 1,200 poison packages",
+     "also_in": []
+    },
+    {
+     "outlet": "The Globe and Mail",
+     "author": "",
+     "title": "Kenneth Law sentencing hearing set to resume",
+     "link": "https://www.theglobeandmail.com/canada/toronto/article-kenneth-law-sentencing-hearing-resume/",
+     "angle": "Reports on the resumption of the high-profile Ontario sentencing hearing",
+     "also_in": []
+    },
+    {
+     "outlet": "National Post",
+     "author": "",
+     "title": "Prosecutors ask for 25-year sentence for Kenneth Law who sold deadly poison for 14 suicides",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX2ZUTGJaMzFLRmV5OEV4UUdhaFhzRndvY2ExNTJuZk9fUV9ST3NsNDJEWnV1MDVHWjNZWTNWQ3cyVUppWlVJcXlnQWNNdTdTV2hMU0FXZGRvY24wYW9fcVNJS3lid2RIZXBtRnJvR3lDMDQtWkRNQ0l4eDcxNEViMU03MVdiczBPYU00?oc=5",
+     "angle": "Outlines the Crown's formal argument for 25 years in connection with 14 Ontario deaths",
+     "also_in": []
+    },
+    {
+     "outlet": "CBC News",
+     "author": "Paola Loriggio",
+     "title": "Kenneth Law apologizes in court to families of victims",
+     "link": "https://www.cbc.ca/news/canada/toronto/kenneth-law-sentencing-hearing-poison-seller-9.7438391?cmp=rss",
+     "angle": "Describes the emotional testimony and Law's expressions of remorse toward surviving families",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Jon Woodward",
+     "title": "Crown pushes for 25 years for Kenneth Law, who admitted to aiding suicide",
+     "link": "https://www.ctvnews.ca/toronto/article/crown-pushes-for-25-years-for-kenneth-law-who-admitted-to-aiding-suicide/",
+     "angle": "Notes Law's past work as a Toronto-area chef and the Crown's push for a lengthy penitentiary sentence",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Procès de Kenneth Law : la défense et la Couronne demandent des peines radicalement opposées",
+     "link": "https://ici.radio-canada.ca/article/info/2303644/kenneth-law-suicide-plaidoyer-determination-peine",
+     "angle": "Emphasizes the sharp divergence between the sentences proposed by the Crown and defence counsel",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Paola Loriggio The Canadian Press",
+     "title": "Kenneth Law apologizes in court to victims' families as Crown seeks 25-year sentence",
+     "link": "https://www.thestar.com/news/ontario/sentencing-hearing-to-continue-for-kenneth-law-who-admitted-to-aiding-suicide/article_518d6e1d-0ec1-58a6-8d68-0773d75b92ef.html",
+     "angle": "Focuses on the formal guilty plea entered earlier this year across 14 Ontario counts",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Omar Mosleh",
+     "title": "Kenneth Law, convicted for assisting suicides, apologizes to families, calls actions 'categorically wrong'",
+     "link": "https://www.thestar.com/news/gta/kenneth-law-should-serve-25-years-for-reckless-in-the-extreme-conduct-crown-argues/article_21b72ff3-5058-4875-8c98-a4713d888b54.html",
+     "angle": "Quotes Law calling his actions categorically wrong during his courtroom address",
+     "also_in": []
+    },
+    {
+     "outlet": "BBC",
+     "author": "",
+     "title": "'Poison seller' Kenneth Law apologises in court to the families of his victims",
+     "link": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+     "angle": "Highlights the international reach of Law's illicit operations across multiple countries",
+     "also_in": []
+    },
+    {
+     "outlet": "Associated Press",
+     "author": "",
+     "title": "Prosecutors ask for 25 years for Canadian man who sold products used by 93 people to kill themselves",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFlRemwwVjRCSWxINm9PY0lLdUZiZmFNNHloM0VrQTRSRE9qYjFBWmpRNkxBc01EeEtBMzFQYTRWdkxONFNQaXQ2X2F6aEtHZWxVVnl3VFpOSnBGMEt2T21jRVVjX25wd2RZM2hxWE1CbWNMbGZCMElFVnJQRWYyQThJRDdEMkUxUDQxcGRLdVdJUjBfN3NoMHJtSGJKMHY0SUozZ1JZSQ?oc=5",
+     "angle": "Mentions the broader international scope of suicides tied to Law's distributed substances",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Ontario politics",
+   "headline": "Ontario government reviews online gambling regulations amid backlash over aggressive advertising",
+   "summary": "Ontario Gaming Minister Zee Hamid announced that the province is reviewing its online sports betting framework and considering tighter restrictions on advertisements in the new year. The move follows Premier Doug Ford's public criticism that gambling commercials have become out of control across Ontario broadcasts and digital platforms. Hamid confirmed the province is exploring every option to mitigate potential harms and rein in excessive promotional campaigns.",
+   "articles": [
+    {
+     "outlet": "CBC News",
+     "author": "Olivia Piercey",
+     "title": "'I agree with the premier': Ontario gaming minister looks to tighten regulations on gambling ads",
+     "link": "https://www.cbc.ca/news/canada/toronto/ontario-gaming-minister-gambling-ads-9.7438853?cmp=rss",
+     "angle": "Notes Hamid's alignment with Premier Doug Ford's comments labelling gambling ads out of control",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Publicité sur les paris sportifs : l’Ontario pourrait agir en 2027",
+     "link": "https://ici.radio-canada.ca/article/info/2303490/pari-sportif-jeux-ontario-doug-ford-restrictions",
+     "angle": "Reports that regulatory amendments and provincial intervention could be implemented in 2027",
+     "also_in": []
+    },
+    {
+     "outlet": "The Trillium",
+     "author": "Tom Desormeaux",
+     "title": "Gaming minister ‘genuinely concerned’ about Ontario’s online gambling system",
+     "link": "https://www.thetrillium.ca/insider-news/politics/gaming-minister-genuinely-concerned-about-ontarios-online-gambling-system-13069249",
+     "angle": "Details Hamid's statement that the government is examining all potential policy interventions",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Transit & transportation",
+   "headline": "Release of revised Alto high-speed rail corridor delayed until January amid rural concerns",
+   "summary": "The federal Alto high-speed rail project between Toronto and Quebec City has postponed the release of its revised track corridor until January. Rural communities and property owners along the proposed route have organized protests over potential expropriations and disruption to agricultural land. The planned 1,000-kilometre electrified passenger rail line continues to face intense public scrutiny regarding route selection and property rights.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Bill Curry",
+     "title": "Release of Alto’s revised high-speed rail corridor delayed until January",
+     "link": "https://www.theglobeandmail.com/politics/article-alto-revised-high-speed-rail-corridor-release-delayed-until-january/",
+     "angle": "Reports that the announcement of the updated 1,000-kilometre corridor has been pushed to January",
+     "also_in": []
+    },
+    {
+     "outlet": "CTV News",
+     "author": "Abigail Bimman",
+     "title": "‘We would lose our home’: Why Alto high speed rail debate is at a ‘fever pitch’",
+     "link": "https://www.ctvnews.ca/canada/article/we-would-lose-our-home-why-alto-high-speed-rail-debate-is-at-a-fever-pitch/",
+     "angle": "Covers ongoing grassroots protests by rural Ontario landowners fearing the loss of homes and farmland",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Les « pouvoirs royaux » du TGV inquiètent le milieu rural",
+     "link": "https://ici.radio-canada.ca/article/info/2303162/tgv-expropriation-alto-resident-rural",
+     "angle": "Examines rural municipal anxieties concerning expropriation powers granted to developers",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Ontario",
+   "topic": "Education",
+   "headline": "Ontario teachers warn of escalating grade inflation in for-profit private high schools",
+   "summary": "Ontario educators are raising alarms that the province's proliferation of for-profit private schools has created an unmonitored market for inflated grades. Teachers report that students are increasingly obtaining distorted course marks that bypass traditional academic standards to gain competitive university admissions. The trend has intensified calls for the Ministry of Education to strengthen inspection and accreditation oversight of private credit mills.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Grant Robertson",
+     "title": "‘The marks don’t make sense’",
+     "link": "https://www.theglobeandmail.com/canada/article-ontario-for-profit-school-system-online-courses-teachers-education/",
+     "angle": "",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Education",
+   "headline": "Glendon College rejects proposal to move programs to York University's Keele campus",
+   "summary": "The Faculty Council of Glendon College has decisively rejected a proposal to relocate the bilingual liberal arts institution from its midtown Toronto campus to York University's main Keele campus. Faculty voted 61 to 8 against the administration's consolidation plan, demanding that the university instead invest in revitalizing the historic campus. The vote protects the unique standalone identity of southern Ontario's premier bilingual post-secondary institution.",
+   "articles": [
+    {
+     "outlet": "The Globe and Mail",
+     "author": "Kelly Grant",
+     "title": "Glendon College rejects proposal to relocate to York University’s main campus",
+     "link": "https://www.theglobeandmail.com/canada/article-glendon-college-york-university-campus-relocate-rejects-proposal/",
+     "angle": "Reports the overwhelming 61-8 vote count by faculty to preserve the midtown campus location",
+     "also_in": []
+    },
+    {
+     "outlet": "Toronto Star",
+     "author": "Janet Hurley",
+     "title": "Glendon College rejects move to York University's main campus, as supporters call for more investment",
+     "link": "https://www.thestar.com/news/gta/glendon-college-rejects-move-to-york-university-s-main-campus/article_b04d67aa-2713-4f77-b9ec-b81452db3df5.html",
+     "angle": "Highlights calls from faculty and supporters for increased financial investment in the standalone bilingual college",
+     "also_in": []
+    }
+   ]
+  },
+  {
+   "level": "Greater Toronto Area",
+   "topic": "Toronto & GTA politics",
+   "headline": "City of Toronto reviews municipal credit cards following unauthorized staff purchases",
+   "summary": "Scrutiny has emerged at Toronto City Hall over employee credit card expenditures, with records revealing purchases on personal items including dating apps, concert tickets, and sports games. The questionable charges on city-issued corporate cards have raised concerns over spending oversight and internal controls among municipal staff. The city is facing calls to tighten approval processes and recover misspent public funds.",
+   "articles": [
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Des cartes de crédit municipales utilisées à des fins personnelles?",
+     "link": "https://ici.radio-canada.ca/en-bref/1-10820739/cartes-credit-municipales-utilisees-a-fins-personnelles",
+     "angle": "Highlights personal expenses charged to city credit cards including Tinder subscriptions and Blue Jays tickets",
+     "also_in": []
+    },
+    {
+     "outlet": "Radio-Canada",
+     "author": "",
+     "title": "Des Blue Jays à Tinder : des achats « étranges » avec les cartes municipales à Toronto",
+     "link": "https://ici.radio-canada.ca/article/info/2303431/toronto-achats-carte-credit-municipale",
+     "angle": "Questions oversight protocols governing corporate card issuance and spending monitoring at city hall",
+     "also_in": []
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "Hamilton Spectator: https://www.thespec.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)",
+  "Waterloo Region Record: https://www.therecord.com/search/?f=rss&t=article&c=news*&l=100&s=start_time&sd=desc (status 429, <unknown>:2:0: syntax error)"
+ ]
+}
